@@ -1,0 +1,28 @@
+@use './styles/variables' as v;
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap');
+
+html { scroll-behavior: smooth; background: v.$primary-bg; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background: v.$primary-bg;
+  color: v.$text-primary;
+  font-family: 'Sarabun', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+* { box-sizing: border-box; }
+button, input, textarea, select { font: inherit; }
+
+:focus-visible { outline: 2px solid v.$secondary-gold; outline-offset: 2px; border-radius: 4px; }
+
+.p-tag {
+  background: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 22%, transparent);
+  color: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 70%, white);
+  border: 1px solid color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 40%, transparent);
+  border-radius: v.$radius-pill;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: .3rem .7rem;
+}

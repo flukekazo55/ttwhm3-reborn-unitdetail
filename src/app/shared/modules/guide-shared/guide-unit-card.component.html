@@ -1,0 +1,24 @@
+<article class="unit-card" [style.--accent]="accent">
+  <div class="unit-top">
+    <div class="unit-image">
+      <img *ngIf="!imageFailed" [src]="unit.imageUrl" [alt]="unit.name" (error)="onImageError()">
+      <div class="image-fallback" *ngIf="imageFailed">{{ unit.name }}</div>
+    </div>
+    <div class="unit-copy">
+      <span>{{ unit.type }}</span>
+      <h4>{{ unit.name }}</h4>
+      <strong>{{ unit.role }}</strong>
+      <p>{{ unit.description }}</p>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat" *ngFor="let stat of unit.stats; trackBy: trackStat">
+      <span>{{ stat.label }}</span><strong>{{ stat.value }}</strong>
+    </div>
+  </div>
+
+  <div class="traits">
+    <span *ngFor="let trait of unit.traits; trackBy: trackTrait">{{ trait }}</span>
+  </div>
+</article>

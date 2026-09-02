@@ -1,0 +1,1837 @@
+{
+  "message": "ok",
+  "data": {
+    "versionLabel": "Guide data migrated from the latest Khorne + Kislev static guide",
+    "faction": {
+      "id": "khorne",
+      "name": "Khorne",
+      "subtitle": "Blood for the Blood God",
+      "description": "สายประชิดที่เน้น momentum, replenishment และการปิดไฟต์อย่างรวดเร็ว",
+      "theme": {
+        "accent": "#c95443",
+        "soft": "#2b1512",
+        "border": "#6d3029"
+      },
+      "lords": [
+        {
+          "id": "skulltaker",
+          "name": "Skulltaker",
+          "tag": "มือใหม่สุด",
+          "style": "ง่าย จำกองง่าย",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skulltaker_0.png&w=640&output=png",
+          "summary": "เริ่มต้นดีที่สุดถ้าคุณยังไม่รู้ roster มากนัก เพราะ core unit มีหน้าที่ชัดเจนมาก",
+          "bestFor": "ผู้เล่นใหม่ / อยากเล่นแบบเข้าใจเร็ว",
+          "armyGuidance": "เล่น Daemon core: Bloodletters เป็นแกน แล้วเติม Minotaurs กับตัวอ้อม",
+          "skillBuild": {
+            "summary": "Replenishment → Bloodletters → Duel Lord/Hero → Blue-line finish",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "ช่วงต้น",
+                "steps": [
+                  {
+                    "order": "1",
+                    "name": "Route Marcher",
+                    "points": "1 แต้ม",
+                    "reason": "+ระยะเดินแคมเปญ ช่วยไล่ล่าและต่อไฟต์ได้ง่ายขึ้น",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
+                  },
+                  {
+                    "order": "2–4",
+                    "name": "Blood Feast",
+                    "points": "อัปให้เต็มก่อน",
+                    "reason": "Casualty replenishment + ลดผล attrition คือหัวใจของ Khorne",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "5",
+                    "name": "Inspiring Presence",
+                    "points": "1 แต้ม",
+                    "reason": "เปิดทางสาย Red สำหรับกองหลัก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6–8",
+                    "name": "Red: Bloodletters",
+                    "points": "เน้น Bloodletters",
+                    "reason": "อัป node ที่บัฟ Bloodletters / Exalted Bloodletters ก่อน",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "ช่วงกลาง",
+                "steps": [
+                  {
+                    "order": "9",
+                    "name": "Foe-Seeker",
+                    "points": "เมื่อปลด",
+                    "reason": "ช่วย Skulltaker เข้าถึง Lord/Hero เป้าหมายเร็วขึ้น",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
+                  },
+                  {
+                    "order": "10",
+                    "name": "Bloody Onslaught",
+                    "points": "เมื่อปลด",
+                    "reason": "ดีบัฟ Armour และ Melee Defence ของเป้าหมาย เหมาะกับ duel",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_dlc26_character_abilities_bloody_onslaught.png&w=640&output=png"
+                  },
+                  {
+                    "order": "11",
+                    "name": "Deadly Onslaught",
+                    "points": "เมื่อปลด",
+                    "reason": "เพิ่ม burst ตอนเข้าไปปิด Lord/Hero",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_deadly_onslaught.png&w=640&output=png"
+                  },
+                  {
+                    "order": "12–13",
+                    "name": "Sustained by Slaughter",
+                    "points": "ตามทาง Blue",
+                    "reason": "ต่อยอดความอึดและ momentum ของกอง",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "ช่วงท้าย",
+                "steps": [
+                  {
+                    "order": "14+",
+                    "name": "Lightning Strike",
+                    "points": "ตามสถานการณ์",
+                    "reason": "มีค่ามากเวลาเจอหลาย stack",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fsubterfuge.png&w=640&output=png"
+                  },
+                  {
+                    "order": "ต่อ",
+                    "name": "Renowned & Feared",
+                    "points": "ปลาย Blue line",
+                    "reason": "Movement + ลด upkeep ช่วย snowball",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer2%2Fimages%2Fwarhammer2%2Fcampaign_ui%2Fskills%2Fcampaign_agent.png&w=640&output=png"
+                  },
+                  {
+                    "order": "เหลือ",
+                    "name": "Red: Monsters / Fast flank",
+                    "points": "ตามกองจริง",
+                    "reason": "ถ้าใช้ Minotaurs / Hounds / Skullcrushers เยอะ ค่อยเติมสายนี้",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เปิดก่อนสุด เพื่อ movement"
+              },
+              {
+                "level": 3,
+                "skill": "Blood Feast I",
+                "note": "เริ่มสายฟื้นกำลังพล"
+              },
+              {
+                "level": 4,
+                "skill": "Blood Feast II",
+                "note": "เร่ง replenishment"
+              },
+              {
+                "level": 5,
+                "skill": "Blood Feast III",
+                "note": "เอาให้เต็มเร็วสุด"
+              },
+              {
+                "level": 6,
+                "skill": "Inspiring Presence",
+                "note": "เปิดทาง Red line"
+              },
+              {
+                "level": 7,
+                "skill": "Red: Bloodletters I",
+                "note": "บัฟกองหลัก"
+              },
+              {
+                "level": 8,
+                "skill": "Red: Bloodletters II",
+                "note": "บัฟกองหลักต่อ"
+              },
+              {
+                "level": 9,
+                "skill": "Red: Bloodletters III",
+                "note": "ให้ Bloodletters คุ้มสุด"
+              },
+              {
+                "level": 10,
+                "skill": "Foe-Seeker",
+                "note": "ช่วยไล่ล่า Lord/Hero"
+              },
+              {
+                "level": 11,
+                "skill": "Bloody Onslaught I",
+                "note": "เริ่มสาย duel"
+              },
+              {
+                "level": 12,
+                "skill": "Bloody Onslaught II",
+                "note": "เพิ่ม utility ตอนล้วงเป้า"
+              },
+              {
+                "level": 13,
+                "skill": "Bloody Onslaught III",
+                "note": "อัปเต็มเมื่อเปิดได้"
+              },
+              {
+                "level": 14,
+                "skill": "Deadly Onslaught I",
+                "note": "เพิ่ม burst"
+              },
+              {
+                "level": 15,
+                "skill": "Deadly Onslaught II",
+                "note": "ต่อยอด burst"
+              },
+              {
+                "level": 16,
+                "skill": "Deadly Onslaught III",
+                "note": "อัปเต็ม"
+              },
+              {
+                "level": 17,
+                "skill": "Sustained by Slaughter I",
+                "note": "เดินตีต่อเนื่อง"
+              },
+              {
+                "level": 18,
+                "skill": "Sustained by Slaughter II",
+                "note": "เก็บสาย Blue"
+              },
+              {
+                "level": 19,
+                "skill": "Sustained by Slaughter III",
+                "note": "ให้ momentum ลื่น"
+              },
+              {
+                "level": 20,
+                "skill": "Lightning Strike",
+                "note": "เริ่มแยกตีทีละกอง"
+              },
+              {
+                "level": 21,
+                "skill": "Renowned & Feared I",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 22,
+                "skill": "Renowned & Feared II",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 23,
+                "skill": "Renowned & Feared III",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 24,
+                "skill": "Hard to Hit / Defence node",
+                "note": "เพิ่มการเอาตัวรอด"
+              },
+              {
+                "level": 25,
+                "skill": "Weapon Strength node I",
+                "note": "เริ่ม personal DPS"
+              },
+              {
+                "level": 26,
+                "skill": "Weapon Strength node II",
+                "note": "ต่อยอด DPS"
+              },
+              {
+                "level": 27,
+                "skill": "Weapon Strength node III",
+                "note": "เต็มสายตี"
+              },
+              {
+                "level": 28,
+                "skill": "Melee Attack node I",
+                "note": "ตีโดนบ่อยขึ้น"
+              },
+              {
+                "level": 29,
+                "skill": "Melee Attack node II",
+                "note": "ตีโดนบ่อยขึ้น"
+              },
+              {
+                "level": 30,
+                "skill": "Melee Attack node III",
+                "note": "ตีโดนบ่อยขึ้น"
+              },
+              {
+                "level": 31,
+                "skill": "Red: Minotaurs I",
+                "note": "ถ้าใช้ Minotaurs เยอะ"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Minotaurs II",
+                "note": "ถ้าใช้ Minotaurs เยอะ"
+              },
+              {
+                "level": 33,
+                "skill": "Red: Minotaurs III",
+                "note": "ถ้าใช้ Minotaurs เยอะ"
+              },
+              {
+                "level": 34,
+                "skill": "Red: Flesh Hounds I",
+                "note": "ถ้าใช้ตัวเร็วไล่ ranged"
+              },
+              {
+                "level": 35,
+                "skill": "Red: Flesh Hounds II",
+                "note": "ถ้าใช้ตัวเร็วไล่ ranged"
+              },
+              {
+                "level": 36,
+                "skill": "Red: Flesh Hounds III",
+                "note": "ถ้าใช้ตัวเร็วไล่ ranged"
+              },
+              {
+                "level": 37,
+                "skill": "Red: Skullcrushers I",
+                "note": "เริ่มสาย flank"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Skullcrushers II",
+                "note": "เริ่มสาย flank"
+              },
+              {
+                "level": 39,
+                "skill": "Red: Skullcrushers III",
+                "note": "เริ่มสาย flank"
+              },
+              {
+                "level": 40,
+                "skill": "Campaign utility I",
+                "note": "เติมช่องว่าง Blue"
+              },
+              {
+                "level": 41,
+                "skill": "Campaign utility II",
+                "note": "เติมช่องว่าง Blue"
+              },
+              {
+                "level": 42,
+                "skill": "Campaign utility III",
+                "note": "เติมช่องว่าง Blue"
+              },
+              {
+                "level": 43,
+                "skill": "Leadership / Aura node I",
+                "note": "ช่วยกองช่วงยืดไฟต์"
+              },
+              {
+                "level": 44,
+                "skill": "Leadership / Aura node II",
+                "note": "ช่วยกองช่วงยืดไฟต์"
+              },
+              {
+                "level": 45,
+                "skill": "Leadership / Aura node III",
+                "note": "ช่วยกองช่วงยืดไฟต์"
+              },
+              {
+                "level": 46,
+                "skill": "Personal survivability I",
+                "note": "อัปท้าย ๆ"
+              },
+              {
+                "level": 47,
+                "skill": "Personal survivability II",
+                "note": "อัปท้าย ๆ"
+              },
+              {
+                "level": 48,
+                "skill": "Personal survivability III",
+                "note": "อัปท้าย ๆ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เลือกตามไอเท็ม/กองจริง"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "bloodletters",
+            "exalted-bloodletters",
+            "minotaurs-great-weapons",
+            "flesh-hounds",
+            "skullcrushers",
+            "chaos-warriors-halberds"
+          ]
+        },
+        {
+          "id": "skarbrand",
+          "name": "Skarbrand",
+          "tag": "สายบวก",
+          "style": "Lord แบกเกม",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skarbrand_0.png&w=640&output=png",
+          "summary": "เหมาะกับคนที่อยากให้ Lord เข้าไปทุบเอง และมีกองคอย support การเปิดไฟต์",
+          "bestFor": "คนชอบ aggressive / บุกตรง / ตัวใหญ่",
+          "armyGuidance": "ใช้ Skarbrand เป็นตัวเปิด แล้วให้ armour line กับ monster ตามซ้ำ",
+          "skillBuild": {
+            "summary": "Replenishment → Skarbrand combat → Blue-line economy/movement → Army red line",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "ช่วงต้น",
+                "steps": [
+                  {
+                    "order": "1",
+                    "name": "Route Marcher",
+                    "points": "1 แต้ม",
+                    "reason": "Movement สำคัญมากกับ loop เดินตี → raze → เดินต่อ",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
+                  },
+                  {
+                    "order": "2–4",
+                    "name": "Blood Feast",
+                    "points": "อัปเต็มเร็ว",
+                    "reason": "เพิ่ม casualty replenishment เพื่อรักษา momentum",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "5",
+                    "name": "Foe-Seeker / Combat opener",
+                    "points": "เมื่อปลด",
+                    "reason": "ช่วยเข้าถึงเป้าหมายและเริ่มสายต่อสู้",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
+                  },
+                  {
+                    "order": "6–8",
+                    "name": "Brutal Charge → Kill! line",
+                    "points": "เน้น personal combat",
+                    "reason": "เพิ่มพลัง charge / melee เพื่อให้ Skarbrand เป็นหัวหอก",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "ช่วงกลาง",
+                "steps": [
+                  {
+                    "order": "ถ้าปลด",
+                    "name": "Wrathful Reaper",
+                    "points": "Priority สูง",
+                    "reason": "burst weapon damage สูงมาก เหมาะกับการชน Lord/monster",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_main_lord_abilities_slaughter_and_carnage.png&w=640&output=png"
+                  },
+                  {
+                    "order": "ถ้าปลด",
+                    "name": "Rage Embodied / Rage Incarnate",
+                    "points": "Unique line",
+                    "reason": "เพิ่มการควบคุมไฟต์ด้วย Rampage",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_main_lord_abilities_rage_embodied.png&w=640&output=png"
+                  },
+                  {
+                    "order": "ต่อ",
+                    "name": "Bellow of Endless Fury",
+                    "points": "Unique ability",
+                    "reason": "เครื่องมือยิง/เปิดไฟต์จากตัว Skarbrand",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_main_lord_abilities_bellow_of_endless_fury.png&w=640&output=png"
+                  },
+                  {
+                    "order": "หลังนั้น",
+                    "name": "Sustained by Slaughter",
+                    "points": "Blue line",
+                    "reason": "ทำให้ตัวเขาและกองพร้อมบวกต่อเนื่อง",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "ช่วงท้าย",
+                "steps": [
+                  {
+                    "order": "ต่อ",
+                    "name": "Lightning Strike",
+                    "points": "แนะนำ",
+                    "reason": "แยก stack ศัตรูและบังคับไฟต์ที่ได้เปรียบ",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fsubterfuge.png&w=640&output=png"
+                  },
+                  {
+                    "order": "ต่อ",
+                    "name": "Renowned & Feared",
+                    "points": "ปลาย Blue line",
+                    "reason": "Movement + upkeep reduction",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer2%2Fimages%2Fwarhammer2%2Fcampaign_ui%2Fskills%2Fcampaign_agent.png&w=640&output=png"
+                  },
+                  {
+                    "order": "เหลือ",
+                    "name": "Red line ตาม Army",
+                    "points": "เลือก 1 core",
+                    "reason": "ใช้ Slaughterbrute/Minotaurs ก็ลงทุนสายที่บัฟพวกนั้น ไม่ต้องอัปทุกสาย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "movement สำคัญมาก"
+              },
+              {
+                "level": 3,
+                "skill": "Blood Feast I",
+                "note": "Skullbrand ต้องตีต่อเนื่อง"
+              },
+              {
+                "level": 4,
+                "skill": "Blood Feast II",
+                "note": "เร่ง replenishment"
+              },
+              {
+                "level": 5,
+                "skill": "Blood Feast III",
+                "note": "เอาเต็มเร็ว"
+              },
+              {
+                "level": 6,
+                "skill": "Foe-Seeker",
+                "note": "เข้าถึงเป้าไว"
+              },
+              {
+                "level": 7,
+                "skill": "Brutal Charge I",
+                "note": "อัปสายเปิดไฟต์"
+              },
+              {
+                "level": 8,
+                "skill": "Brutal Charge II",
+                "note": "อัปสายเปิดไฟต์"
+              },
+              {
+                "level": 9,
+                "skill": "Brutal Charge III",
+                "note": "อัปสายเปิดไฟต์"
+              },
+              {
+                "level": 10,
+                "skill": "Weapon Strength node I",
+                "note": "เน้นตัว Lord ก่อน"
+              },
+              {
+                "level": 11,
+                "skill": "Weapon Strength node II",
+                "note": "เน้นตัว Lord ก่อน"
+              },
+              {
+                "level": 12,
+                "skill": "Weapon Strength node III",
+                "note": "เน้นตัว Lord ก่อน"
+              },
+              {
+                "level": 13,
+                "skill": "Wrathful Reaper I",
+                "note": "unique สำคัญ"
+              },
+              {
+                "level": 14,
+                "skill": "Wrathful Reaper II",
+                "note": "unique สำคัญ"
+              },
+              {
+                "level": 15,
+                "skill": "Wrathful Reaper III",
+                "note": "unique สำคัญ"
+              },
+              {
+                "level": 16,
+                "skill": "Rage Embodied I",
+                "note": "เพิ่มการปั่นไฟต์"
+              },
+              {
+                "level": 17,
+                "skill": "Rage Embodied II",
+                "note": "เพิ่มการปั่นไฟต์"
+              },
+              {
+                "level": 18,
+                "skill": "Rage Embodied III",
+                "note": "เพิ่มการปั่นไฟต์"
+              },
+              {
+                "level": 19,
+                "skill": "Bellow of Endless Fury I",
+                "note": "เปิดไฟต์ / range poke"
+              },
+              {
+                "level": 20,
+                "skill": "Bellow of Endless Fury II",
+                "note": "เปิดไฟต์ / range poke"
+              },
+              {
+                "level": 21,
+                "skill": "Bellow of Endless Fury III",
+                "note": "เปิดไฟต์ / range poke"
+              },
+              {
+                "level": 22,
+                "skill": "Sustained by Slaughter I",
+                "note": "กลับมาทำ Blue ต่อ"
+              },
+              {
+                "level": 23,
+                "skill": "Sustained by Slaughter II",
+                "note": "กลับมาทำ Blue ต่อ"
+              },
+              {
+                "level": 24,
+                "skill": "Sustained by Slaughter III",
+                "note": "กลับมาทำ Blue ต่อ"
+              },
+              {
+                "level": 25,
+                "skill": "Lightning Strike",
+                "note": "ใช้จริงบ่อย"
+              },
+              {
+                "level": 26,
+                "skill": "Renowned & Feared I",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 27,
+                "skill": "Renowned & Feared II",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 28,
+                "skill": "Renowned & Feared III",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 29,
+                "skill": "Melee Defence node I",
+                "note": "ช่วยไม่ให้โดนฟรี"
+              },
+              {
+                "level": 30,
+                "skill": "Melee Defence node II",
+                "note": "ช่วยไม่ให้โดนฟรี"
+              },
+              {
+                "level": 31,
+                "skill": "Melee Defence node III",
+                "note": "ช่วยไม่ให้โดนฟรี"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Minotaurs I",
+                "note": "ถ้าใช้ Minotaurs"
+              },
+              {
+                "level": 33,
+                "skill": "Red: Minotaurs II",
+                "note": "ถ้าใช้ Minotaurs"
+              },
+              {
+                "level": 34,
+                "skill": "Red: Minotaurs III",
+                "note": "ถ้าใช้ Minotaurs"
+              },
+              {
+                "level": 35,
+                "skill": "Red: Skullcrushers I",
+                "note": "ถ้าใช้ม้าหนัก"
+              },
+              {
+                "level": 36,
+                "skill": "Red: Skullcrushers II",
+                "note": "ถ้าใช้ม้าหนัก"
+              },
+              {
+                "level": 37,
+                "skill": "Red: Skullcrushers III",
+                "note": "ถ้าใช้ม้าหนัก"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Flesh Hounds I",
+                "note": "ใช้ flank ไล่ยิง"
+              },
+              {
+                "level": 39,
+                "skill": "Red: Flesh Hounds II",
+                "note": "ใช้ flank ไล่ยิง"
+              },
+              {
+                "level": 40,
+                "skill": "Red: Flesh Hounds III",
+                "note": "ใช้ flank ไล่ยิง"
+              },
+              {
+                "level": 41,
+                "skill": "Red: Monsters I",
+                "note": "กรณีใช้ Bloodthirster/Slaughterbrute"
+              },
+              {
+                "level": 42,
+                "skill": "Red: Monsters II",
+                "note": "กรณีใช้ Bloodthirster/Slaughterbrute"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Monsters III",
+                "note": "กรณีใช้ Bloodthirster/Slaughterbrute"
+              },
+              {
+                "level": 44,
+                "skill": "Leadership / Aura node I",
+                "note": "เติมท้ายเกม"
+              },
+              {
+                "level": 45,
+                "skill": "Leadership / Aura node II",
+                "note": "เติมท้ายเกม"
+              },
+              {
+                "level": 46,
+                "skill": "Leadership / Aura node III",
+                "note": "เติมท้ายเกม"
+              },
+              {
+                "level": 47,
+                "skill": "Campaign utility I",
+                "note": "เก็บจุดที่ยังขาด"
+              },
+              {
+                "level": 48,
+                "skill": "Campaign utility II",
+                "note": "เก็บจุดที่ยังขาด"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "ปรับตามกองจริง"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปรับตามกองจริง"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "chaos-warriors-halberds",
+            "minotaurs-great-weapons",
+            "skullcrushers",
+            "flesh-hounds",
+            "bloodthirster",
+            "slaughterbrute"
+          ]
+        },
+        {
+          "id": "arbaal",
+          "name": "Arbaal the Undefeated",
+          "tag": "สายทหารเกราะ",
+          "style": "Mortal synergy",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_arbaal_0.png&w=640&output=png",
+          "summary": "เหมาะกับคนที่ชอบกองดูเป็นระเบียบ ใช้ทหารเกราะและ elite infantry เป็นแกน",
+          "bestFor": "คนชอบ Mortal roster / ชอบกองทหารหนัก",
+          "armyGuidance": "ใช้ Chosen เป็นกำแพง แล้วให้ Wrathmongers / Skullreapers / Chariot ปิดไฟต์",
+          "skillBuild": {
+            "summary": "Replenishment → Mortal Red Line → Personal combat → Cavalry/elite finish",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "ช่วงต้น",
+                "steps": [
+                  {
+                    "order": "1",
+                    "name": "Route Marcher",
+                    "points": "1 แต้ม",
+                    "reason": "ช่วยเดินหา Challenge / เป้าหมายได้ไว",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
+                  },
+                  {
+                    "order": "2–4",
+                    "name": "Blood Feast",
+                    "points": "อัปเต็มเร็ว",
+                    "reason": "replenishment ทำให้กองทหารเกราะไม่ต้องหยุดพักนาน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "5",
+                    "name": "Inspiring Presence",
+                    "points": "1 แต้ม",
+                    "reason": "เปิดสายบัฟ army",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6–8",
+                    "name": "Red: Mortal Frontline",
+                    "points": "Priority สูง",
+                    "reason": "เน้น Chaos Warriors / Chosen / Wrathmongers ก่อน",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "ช่วงกลาง",
+                "steps": [
+                  {
+                    "order": "9",
+                    "name": "Foe-Seeker",
+                    "points": "เมื่อปลด",
+                    "reason": "ช่วย Arbaal เข้าหาเป้าหมายเร็ว",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
+                  },
+                  {
+                    "order": "10",
+                    "name": "Fight or Die!",
+                    "points": "เมื่อปลด",
+                    "reason": "เพิ่ม Melee Attack + Leadership รอบตัว",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_dlc08_lord_abilities_fight_or_die.png&w=640&output=png"
+                  },
+                  {
+                    "order": "11",
+                    "name": "Eye of Khorne",
+                    "points": "Unique",
+                    "reason": "สกิลเด่นของ Arbaal ใช้กับเป้าหมายที่กำลังจะตายได้ดี",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_dlc26_lord_abilities_eye_of_khorne.png&w=640&output=png"
+                  },
+                  {
+                    "order": "12",
+                    "name": "Fury of the Blood God",
+                    "points": "Unique",
+                    "reason": "AoE สำหรับเปิด/ป่วน blob รอบตัว",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_dlc26_lord_abilities_gaze_of_khorne.png&w=640&output=png"
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "ช่วงท้าย",
+                "steps": [
+                  {
+                    "order": "ต่อ",
+                    "name": "Sustained by Slaughter",
+                    "points": "Blue line",
+                    "reason": "รักษา momentum",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "ต่อ",
+                    "name": "Lightning Strike",
+                    "points": "ตามสถานการณ์",
+                    "reason": "ช่วยตอนกระโดดไปเจอหลายกอง",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fsubterfuge.png&w=640&output=png"
+                  },
+                  {
+                    "order": "ต่อ",
+                    "name": "Renowned & Feared",
+                    "points": "ปลาย Blue line",
+                    "reason": "Movement + upkeep",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer2%2Fimages%2Fwarhammer2%2Fcampaign_ui%2Fskills%2Fcampaign_agent.png&w=640&output=png"
+                  },
+                  {
+                    "order": "เหลือ",
+                    "name": "Red: Cavalry / Skullcrushers",
+                    "points": "ตาม army",
+                    "reason": "เติมสาย mobility หลัง frontline แน่นแล้ว",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "ออกหา challenge / เป้าหมายไว"
+              },
+              {
+                "level": 3,
+                "skill": "Blood Feast I",
+                "note": "replenishment สำคัญ"
+              },
+              {
+                "level": 4,
+                "skill": "Blood Feast II",
+                "note": "replenishment สำคัญ"
+              },
+              {
+                "level": 5,
+                "skill": "Blood Feast III",
+                "note": "replenishment สำคัญ"
+              },
+              {
+                "level": 6,
+                "skill": "Inspiring Presence",
+                "note": "เปิด Red line"
+              },
+              {
+                "level": 7,
+                "skill": "Red: Chaos Warriors / Chosen I",
+                "note": "กอง Mortal ได้ประโยชน์มาก"
+              },
+              {
+                "level": 8,
+                "skill": "Red: Chaos Warriors / Chosen II",
+                "note": "กอง Mortal ได้ประโยชน์มาก"
+              },
+              {
+                "level": 9,
+                "skill": "Red: Chaos Warriors / Chosen III",
+                "note": "กอง Mortal ได้ประโยชน์มาก"
+              },
+              {
+                "level": 10,
+                "skill": "Red: Wrathmongers / Skullreapers I",
+                "note": "เติม elite infantry"
+              },
+              {
+                "level": 11,
+                "skill": "Red: Wrathmongers / Skullreapers II",
+                "note": "เติม elite infantry"
+              },
+              {
+                "level": 12,
+                "skill": "Red: Wrathmongers / Skullreapers III",
+                "note": "เติม elite infantry"
+              },
+              {
+                "level": 13,
+                "skill": "Foe-Seeker",
+                "note": "เข้าหาเป้าไว"
+              },
+              {
+                "level": 14,
+                "skill": "Fight or Die! I",
+                "note": "บัฟรอบตัวดีมาก"
+              },
+              {
+                "level": 15,
+                "skill": "Fight or Die! II",
+                "note": "บัฟรอบตัวดีมาก"
+              },
+              {
+                "level": 16,
+                "skill": "Fight or Die! III",
+                "note": "บัฟรอบตัวดีมาก"
+              },
+              {
+                "level": 17,
+                "skill": "Eye of Khorne I",
+                "note": "unique ability"
+              },
+              {
+                "level": 18,
+                "skill": "Eye of Khorne II",
+                "note": "unique ability"
+              },
+              {
+                "level": 19,
+                "skill": "Eye of Khorne III",
+                "note": "unique ability"
+              },
+              {
+                "level": 20,
+                "skill": "Fury of the Blood God I",
+                "note": "AoE รอบตัว"
+              },
+              {
+                "level": 21,
+                "skill": "Fury of the Blood God II",
+                "note": "AoE รอบตัว"
+              },
+              {
+                "level": 22,
+                "skill": "Fury of the Blood God III",
+                "note": "AoE รอบตัว"
+              },
+              {
+                "level": 23,
+                "skill": "Sustained by Slaughter I",
+                "note": "กลับไป Blue"
+              },
+              {
+                "level": 24,
+                "skill": "Sustained by Slaughter II",
+                "note": "กลับไป Blue"
+              },
+              {
+                "level": 25,
+                "skill": "Sustained by Slaughter III",
+                "note": "กลับไป Blue"
+              },
+              {
+                "level": 26,
+                "skill": "Lightning Strike",
+                "note": "ไว้รับมือหลาย stack"
+              },
+              {
+                "level": 27,
+                "skill": "Renowned & Feared I",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 28,
+                "skill": "Renowned & Feared II",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 29,
+                "skill": "Renowned & Feared III",
+                "note": "movement / upkeep"
+              },
+              {
+                "level": 30,
+                "skill": "Melee Attack node I",
+                "note": "เพิ่ม personal combat"
+              },
+              {
+                "level": 31,
+                "skill": "Melee Attack node II",
+                "note": "เพิ่ม personal combat"
+              },
+              {
+                "level": 32,
+                "skill": "Melee Attack node III",
+                "note": "เพิ่ม personal combat"
+              },
+              {
+                "level": 33,
+                "skill": "Weapon Strength node I",
+                "note": "เพิ่ม personal damage"
+              },
+              {
+                "level": 34,
+                "skill": "Weapon Strength node II",
+                "note": "เพิ่ม personal damage"
+              },
+              {
+                "level": 35,
+                "skill": "Weapon Strength node III",
+                "note": "เพิ่ม personal damage"
+              },
+              {
+                "level": 36,
+                "skill": "Red: Skullcrushers I",
+                "note": "ถ้าใช้ flank หนัก"
+              },
+              {
+                "level": 37,
+                "skill": "Red: Skullcrushers II",
+                "note": "ถ้าใช้ flank หนัก"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Skullcrushers III",
+                "note": "ถ้าใช้ flank หนัก"
+              },
+              {
+                "level": 39,
+                "skill": "Red: Gorebeast Chariots I",
+                "note": "ถ้าใช้ chariot"
+              },
+              {
+                "level": 40,
+                "skill": "Red: Gorebeast Chariots II",
+                "note": "ถ้าใช้ chariot"
+              },
+              {
+                "level": 41,
+                "skill": "Red: Gorebeast Chariots III",
+                "note": "ถ้าใช้ chariot"
+              },
+              {
+                "level": 42,
+                "skill": "Red: Minotaurs I",
+                "note": "ถ้าใช้ตัวใหญ่ประกบ"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Minotaurs II",
+                "note": "ถ้าใช้ตัวใหญ่ประกบ"
+              },
+              {
+                "level": 44,
+                "skill": "Red: Minotaurs III",
+                "note": "ถ้าใช้ตัวใหญ่ประกบ"
+              },
+              {
+                "level": 45,
+                "skill": "Leadership / Aura node I",
+                "note": "เติมเสถียรภาพท้ายเกม"
+              },
+              {
+                "level": 46,
+                "skill": "Leadership / Aura node II",
+                "note": "เติมเสถียรภาพท้ายเกม"
+              },
+              {
+                "level": 47,
+                "skill": "Leadership / Aura node III",
+                "note": "เติมเสถียรภาพท้ายเกม"
+              },
+              {
+                "level": 48,
+                "skill": "Campaign utility I",
+                "note": "เก็บจุดที่ยังขาด"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "ปรับตามกองจริง"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปรับตามกองจริง"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "chosen-of-khorne",
+            "wrathmongers",
+            "skullreapers",
+            "skullcrushers",
+            "minotaurs-great-weapons",
+            "gorebeast-chariots"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "bloodletters",
+          "name": "Bloodletters",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_bloodletters_0.png&w=640&output=png",
+          "type": "Melee Infantry",
+          "role": "Frontline AP Infantry",
+          "description": "แกน Daemon สายชนหน้า ฆ่า infantry ได้ดี",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "8,000"
+            },
+            {
+              "label": "Armour",
+              "value": "35"
+            },
+            {
+              "label": "Leadership",
+              "value": "75"
+            },
+            {
+              "label": "Speed",
+              "value": "38"
+            },
+            {
+              "label": "Mass",
+              "value": "125"
+            },
+            {
+              "label": "MA",
+              "value": "34"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "34"
+            },
+            {
+              "label": "Charge",
+              "value": "30"
+            },
+            {
+              "label": "Cost",
+              "value": "800"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Frenzy",
+            "Magic attacks",
+            "Spell resistance"
+          ]
+        },
+        {
+          "id": "exalted-bloodletters",
+          "name": "Exalted Bloodletters",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_bloodletters_1.png&w=640&output=png",
+          "type": "Melee Infantry",
+          "role": "Elite AP Infantry",
+          "description": "Bloodletters รุ่นอัปเกรด เก่งขึ้นรอบด้าน",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "9,200"
+            },
+            {
+              "label": "Armour",
+              "value": "40"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "38"
+            },
+            {
+              "label": "Mass",
+              "value": "150"
+            },
+            {
+              "label": "MA",
+              "value": "42"
+            },
+            {
+              "label": "MD",
+              "value": "34"
+            },
+            {
+              "label": "WS",
+              "value": "44"
+            },
+            {
+              "label": "Charge",
+              "value": "36"
+            },
+            {
+              "label": "Cost",
+              "value": "1,200"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Frenzy",
+            "Magic attacks",
+            "Spell resistance"
+          ]
+        },
+        {
+          "id": "minotaurs-great-weapons",
+          "name": "Minotaurs (Great Weapons)",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_mon_khornataurs_1.png&w=640&output=png",
+          "type": "Monstrous Infantry",
+          "role": "AP Anti-Large",
+          "description": "ตัวแก้ monster/cavalry ที่มือใหม่ควรจำ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "16"
+            },
+            {
+              "label": "HP",
+              "value": "8,704"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "56"
+            },
+            {
+              "label": "Mass",
+              "value": "1,600"
+            },
+            {
+              "label": "MA",
+              "value": "34"
+            },
+            {
+              "label": "MD",
+              "value": "27"
+            },
+            {
+              "label": "WS",
+              "value": "110"
+            },
+            {
+              "label": "Charge",
+              "value": "40"
+            },
+            {
+              "label": "Cost",
+              "value": "1,350"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Bloodgreed",
+            "Frenzy",
+            "Woodsman"
+          ]
+        },
+        {
+          "id": "flesh-hounds",
+          "name": "Flesh Hounds",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_pro12_kho_inf_flesh_hounds_of_khorne_summoned.png&w=640&output=png",
+          "type": "War Beasts",
+          "role": "Fast Ranged Hunter",
+          "description": "วิ่งเร็วมาก ใช้ไล่ธนู ปืน ปืนใหญ่",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "32"
+            },
+            {
+              "label": "HP",
+              "value": "6,176"
+            },
+            {
+              "label": "Armour",
+              "value": "30"
+            },
+            {
+              "label": "Leadership",
+              "value": "60"
+            },
+            {
+              "label": "Speed",
+              "value": "95"
+            },
+            {
+              "label": "Mass",
+              "value": "450"
+            },
+            {
+              "label": "MA",
+              "value": "38"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "58"
+            },
+            {
+              "label": "Charge",
+              "value": "46"
+            },
+            {
+              "label": "Cost",
+              "value": "700"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Fast flanker",
+            "Good pursuit"
+          ]
+        },
+        {
+          "id": "skullcrushers",
+          "name": "Skullcrushers",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_cav_skullcrushers_0.png&w=640&output=png",
+          "type": "Monstrous Cavalry",
+          "role": "Heavy Shock Cavalry",
+          "description": "ตัวอ้อมตีข้างระดับท็อป ทั้งเร็วและแข็ง",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "32"
+            },
+            {
+              "label": "HP",
+              "value": "8,352"
+            },
+            {
+              "label": "Armour",
+              "value": "130"
+            },
+            {
+              "label": "Leadership",
+              "value": "75"
+            },
+            {
+              "label": "Speed",
+              "value": "70"
+            },
+            {
+              "label": "Mass",
+              "value": "1,600"
+            },
+            {
+              "label": "MA",
+              "value": "44"
+            },
+            {
+              "label": "MD",
+              "value": "42"
+            },
+            {
+              "label": "WS",
+              "value": "64"
+            },
+            {
+              "label": "Charge",
+              "value": "70"
+            },
+            {
+              "label": "Cost",
+              "value": "1,700"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Strong charge",
+            "Monstrous cavalry"
+          ]
+        },
+        {
+          "id": "chaos-warriors-halberds",
+          "name": "Chaos Warriors (Halberds)",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_chaos_warriors_1.png&w=640&output=png",
+          "type": "Melee Infantry",
+          "role": "Armoured Anti-Large",
+          "description": "ตัวค้ำแนวและรับมือ monster/cavalry",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "9,000"
+            },
+            {
+              "label": "Armour",
+              "value": "110"
+            },
+            {
+              "label": "Leadership",
+              "value": "75"
+            },
+            {
+              "label": "Speed",
+              "value": "28"
+            },
+            {
+              "label": "Mass",
+              "value": "160"
+            },
+            {
+              "label": "MA",
+              "value": "30"
+            },
+            {
+              "label": "MD",
+              "value": "37"
+            },
+            {
+              "label": "WS",
+              "value": "34"
+            },
+            {
+              "label": "Charge",
+              "value": "10"
+            },
+            {
+              "label": "Cost",
+              "value": "900"
+            }
+          ],
+          "traits": [
+            "Charge defence vs large",
+            "Charge reflection",
+            "Frenzy"
+          ]
+        },
+        {
+          "id": "bloodthirster",
+          "name": "Bloodthirster",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_mon_bloodthirster_0.png&w=640&output=png",
+          "type": "Monster",
+          "role": "Flying Terror Monster",
+          "description": "บินได้ ล่า lord, monster และแนวหลัง",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "1"
+            },
+            {
+              "label": "HP",
+              "value": "7,732"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "55"
+            },
+            {
+              "label": "Mass",
+              "value": "4,000"
+            },
+            {
+              "label": "MA",
+              "value": "60"
+            },
+            {
+              "label": "MD",
+              "value": "44"
+            },
+            {
+              "label": "WS",
+              "value": "540"
+            },
+            {
+              "label": "Charge",
+              "value": "55"
+            },
+            {
+              "label": "Cost",
+              "value": "2,000"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Terror",
+            "Fly",
+            "Daemonic"
+          ]
+        },
+        {
+          "id": "slaughterbrute",
+          "name": "Slaughterbrute",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_mon_slaughterbrute.png&w=640&output=png",
+          "type": "Monster",
+          "role": "AP Terror Monster",
+          "description": "สัตว์ประหลาดสายชนแรง ใช้กดดันปลายเกม",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "1"
+            },
+            {
+              "label": "HP",
+              "value": "9,888"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "60"
+            },
+            {
+              "label": "Speed",
+              "value": "66"
+            },
+            {
+              "label": "Mass",
+              "value": "5,500"
+            },
+            {
+              "label": "MA",
+              "value": "65"
+            },
+            {
+              "label": "MD",
+              "value": "45"
+            },
+            {
+              "label": "WS",
+              "value": "600"
+            },
+            {
+              "label": "Charge",
+              "value": "60"
+            },
+            {
+              "label": "Cost",
+              "value": "2,000"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Terror",
+            "Rampage",
+            "Runes of Binding"
+          ]
+        },
+        {
+          "id": "chosen-of-khorne",
+          "name": "Chosen of Khorne",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc20_chs_inf_chosen_mkho.png&w=640&output=png",
+          "type": "Melee Infantry",
+          "role": "Elite Armoured Frontline",
+          "description": "แนวหน้าหนักมากสำหรับกอง Mortal",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "80"
+            },
+            {
+              "label": "HP",
+              "value": "10,480"
+            },
+            {
+              "label": "Armour",
+              "value": "130"
+            },
+            {
+              "label": "Leadership",
+              "value": "85"
+            },
+            {
+              "label": "Speed",
+              "value": "28"
+            },
+            {
+              "label": "Mass",
+              "value": "160"
+            },
+            {
+              "label": "MA",
+              "value": "46"
+            },
+            {
+              "label": "MD",
+              "value": "55"
+            },
+            {
+              "label": "WS",
+              "value": "48"
+            },
+            {
+              "label": "Charge",
+              "value": "26"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Frenzy",
+            "Mark of Khorne",
+            "Heavy armour"
+          ]
+        },
+        {
+          "id": "wrathmongers",
+          "name": "Wrathmongers",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_inf_wrathmongers.png&w=640&output=png",
+          "type": "Melee Infantry",
+          "role": "Elite Shock Infantry",
+          "description": "ดาเมจแรงมาก เหมาะส่งเข้าซ้ำ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "32"
+            },
+            {
+              "label": "HP",
+              "value": "10,080"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "85"
+            },
+            {
+              "label": "Speed",
+              "value": "40"
+            },
+            {
+              "label": "Mass",
+              "value": "400"
+            },
+            {
+              "label": "MA",
+              "value": "60"
+            },
+            {
+              "label": "MD",
+              "value": "46"
+            },
+            {
+              "label": "WS",
+              "value": "80"
+            },
+            {
+              "label": "Charge",
+              "value": "44"
+            },
+            {
+              "label": "Cost",
+              "value": "1,500"
+            }
+          ],
+          "traits": [
+            "Frenzy",
+            "Immune to flanking",
+            "Anti-infantry"
+          ]
+        },
+        {
+          "id": "skullreapers",
+          "name": "Skullreapers",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_inf_skullreapers.png&w=640&output=png",
+          "type": "Melee Infantry",
+          "role": "Elite Anti-Infantry",
+          "description": "elite infantry ตี infantry ได้แรงและตรงจุด",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "60"
+            },
+            {
+              "label": "HP",
+              "value": "9,480"
+            },
+            {
+              "label": "Armour",
+              "value": "60"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "35"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "54"
+            },
+            {
+              "label": "MD",
+              "value": "42"
+            },
+            {
+              "label": "WS",
+              "value": "64"
+            },
+            {
+              "label": "Charge",
+              "value": "40"
+            },
+            {
+              "label": "Cost",
+              "value": "1,100"
+            }
+          ],
+          "traits": [
+            "Frenzy",
+            "Anti-infantry",
+            "Mark of Khorne"
+          ]
+        },
+        {
+          "id": "gorebeast-chariots",
+          "name": "Gorebeast Chariots",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_cav_gorebeast_chariot.png&w=640&output=png",
+          "type": "Chariots",
+          "role": "Heavy Chariot",
+          "description": "ใช้บด infantry ที่รวมกลุ่มและชนซ้ำ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "6,560"
+            },
+            {
+              "label": "Armour",
+              "value": "130"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "66"
+            },
+            {
+              "label": "Mass",
+              "value": "4,130"
+            },
+            {
+              "label": "MA",
+              "value": "35"
+            },
+            {
+              "label": "MD",
+              "value": "27"
+            },
+            {
+              "label": "WS",
+              "value": "70"
+            },
+            {
+              "label": "Charge",
+              "value": "80"
+            },
+            {
+              "label": "Cost",
+              "value": "1,250"
+            }
+          ],
+          "traits": [
+            "Fear",
+            "Frenzy",
+            "Very high charge",
+            "Armoured"
+          ]
+        }
+      ]
+    }
+  }
+}

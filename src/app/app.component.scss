@@ -1,0 +1,19 @@
+@use '../styles/variables' as v;
+
+:host { display:block; min-height:100vh; }
+
+.app-faction-nav {
+  position:sticky; top:0; z-index:1030;
+  background:color-mix(in srgb, v.$primary-bg 88%, transparent);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid v.$primary-border;
+}
+.faction-link {
+  flex:1; padding:.7rem 1rem; border-radius:v.$radius-sm;
+  border:1px solid transparent; text-align:center; text-decoration:none;
+  color:v.$text-muted; font-weight:800; letter-spacing:.08em;
+  transition: color .16s ease, background .16s ease, border-color .16s ease;
+}
+.faction-link:hover { color:v.$text-secondary; background: v.$primary-surface; }
+.faction-link.khorne.active { color:#f3cabf; background:color-mix(in srgb, #c95443 20%, transparent); border-color:color-mix(in srgb, #c95443 55%, transparent); }
+.faction-link.kislev.active { color:#c6def4; background:color-mix(in srgb, #4f8fc0 20%, transparent); border-color:color-mix(in srgb, #4f8fc0 55%, transparent); }

@@ -1,0 +1,52 @@
+<section class="skill-section" [style.--accent]="accent">
+  <div class="skill-head">
+    <div>
+      <div class="kicker">SKILL TREE BUILD</div>
+      <h3>ลำดับลงสกิล Lv 2 → 50</h3>
+    </div>
+    <div class="summary">{{ build.summary }}</div>
+  </div>
+
+  <div class="rank-note">
+    <span class="rank-note-icon">i</span>
+    ลำดับนี้เป็น priority ที่แนะนำ — ถ้า node ยังล็อกตาม Rank ให้ลงจุดถัดไปที่เปิดอยู่ก่อน แล้วค่อยกลับมาเมื่อปลด
+  </div>
+
+  <div class="skill-stage" *ngFor="let stage of build.stages; trackBy: trackStage">
+    <div class="stage-head">
+      <span class="stage-key">{{ stage.key }}</span>
+      <strong>{{ stage.title }}</strong>
+    </div>
+    <div class="step-grid">
+      <article class="skill-step" *ngFor="let step of stage.steps; trackBy: trackStep">
+        <div class="order">{{ step.order }}</div>
+        <div class="skill-icon" *ngIf="step.iconUrl && !hasIconFailed(step); else iconFallback">
+          <img [src]="step.iconUrl" [alt]="step.name" (error)="onIconError(step)">
+        </div>
+        <ng-template #iconFallback><div class="skill-icon fallback">{{ step.name.slice(0, 2) }}</div></ng-template>
+        <div class="step-copy">
+          <strong>{{ step.name }}</strong>
+          <small *ngIf="step.points">{{ step.points }}</small>
+          <p>{{ step.reason }}</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <details class="level-plan">
+    <summary>
+      <span>ตารางลงสกิลแบบเต็ม (Lv → Skill)</span>
+      <span class="chevron">▾</span>
+    </summary>
+    <div class="level-table-wrap table-responsive">
+      <table class="table level-table mb-0">
+        <thead><tr><th>Lv</th><th>Skill / Branch</th><th>เหตุผล / หมายเหตุ</th></tr></thead>
+        <tbody>
+          <tr *ngFor="let row of build.levelPlan; trackBy: trackLevel">
+            <td>{{ row.level }}</td><td>{{ row.skill }}</td><td>{{ row.note }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+</section>

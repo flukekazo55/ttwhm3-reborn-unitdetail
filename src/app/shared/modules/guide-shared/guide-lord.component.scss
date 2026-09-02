@@ -1,0 +1,56 @@
+@use '../../../../styles/variables' as v;
+
+.lord-section { --accent:#aaa; --soft:#151515; --border:#333; padding: .5rem 0 2rem; }
+
+.lord-profile {
+  display: grid; grid-template-columns: 280px 1fr;
+  border-radius: v.$radius-lg; overflow: hidden;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, v.$primary-surface), v.$primary-surface);
+  border: 1px solid v.$primary-border;
+  box-shadow: v.$shadow-card;
+}
+.lord-portrait-box {
+  min-height: 340px; position: relative;
+  background: #100e0c; display: flex; align-items: stretch;
+}
+.lord-portrait-box img { width: 100%; object-fit: cover; object-position: top center; }
+.lord-portrait-box::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent 60%, color-mix(in srgb, v.$primary-surface 55%, transparent));
+  pointer-events: none;
+}
+.portrait-fallback {
+  width: 100%; display:flex; align-items:center; justify-content:center; padding:1rem;
+  text-align:center; color:v.$text-muted; font-weight:800;
+}
+.lord-copy { padding: clamp(1.35rem, 3vw, 2.25rem); }
+.kicker { color: var(--accent); font-size: .74rem; letter-spacing: .16em; font-weight: 800; }
+.lord-copy h2 { margin: .3rem 0 .85rem; font-size: clamp(2.1rem, 5vw, 3.4rem); font-weight: 900; line-height: 1; }
+.style-chip {
+  border: 1px solid v.$primary-border-strong; border-radius: v.$radius-pill;
+  padding: .35rem .75rem; font-size: .82rem; color: v.$text-secondary;
+  display: inline-flex; align-items: center;
+}
+.lead-copy { color: v.$text-secondary; line-height: 1.7; font-size: 1rem; }
+
+.info-box {
+  margin-top: .75rem; display: flex; gap: .5rem;
+  border-radius: v.$radius-sm; padding: .8rem 1rem;
+  background: color-mix(in srgb, var(--accent) 8%, rgba(0,0,0,.22));
+  border-left: 3px solid color-mix(in srgb, var(--accent) 60%, transparent);
+  color: v.$text-secondary; font-size: .92rem; line-height: 1.55;
+}
+.info-box strong { color: v.$text-primary; white-space: nowrap; }
+
+.units-heading { margin: 2rem 0 1rem; }
+.units-heading .kicker { color: var(--accent); }
+.units-heading h3 { margin: .3rem 0 0; font-size: 1.4rem; font-weight: 800; }
+
+.unit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+
+@media (max-width: 900px) {
+  .lord-profile { grid-template-columns: 1fr; }
+  .lord-portrait-box { min-height: 300px; }
+  .lord-portrait-box::after { background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, v.$primary-surface 70%, transparent)); }
+}
+@media (max-width: 780px) { .unit-grid { grid-template-columns: 1fr; } }

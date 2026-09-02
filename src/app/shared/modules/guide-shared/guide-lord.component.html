@@ -1,0 +1,38 @@
+<section
+  class="lord-section"
+  [id]="'lord-' + lord.id"
+  [style.--accent]="accent"
+  [style.--soft]="soft"
+  [style.--border]="border">
+  <div class="lord-profile">
+    <div class="lord-portrait-box">
+      <img *ngIf="!imageFailed" [src]="lord.portraitUrl" [alt]="lord.name" (error)="onImageError()">
+      <div class="portrait-fallback" *ngIf="imageFailed">{{ lord.name }}</div>
+    </div>
+    <div class="lord-copy">
+      <div class="kicker">LORD PROFILE</div>
+      <h2>{{ lord.name }}</h2>
+      <div class="d-flex gap-2 flex-wrap mb-3">
+        <p-tag [value]="lord.tag"></p-tag>
+        <span class="style-chip">{{ lord.style }}</span>
+      </div>
+      <p class="lead-copy">{{ lord.summary }}</p>
+      <div class="info-box"><strong>เหมาะกับ:</strong> {{ lord.bestFor }}</div>
+      <div class="info-box"><strong>แนวจัดกอง:</strong> {{ lord.armyGuidance }}</div>
+    </div>
+  </div>
+
+  <app-guide-skill-build [build]="lord.skillBuild" [accent]="accent"></app-guide-skill-build>
+
+  <div class="units-heading">
+    <div class="kicker">CORE UNITS</div>
+    <h3>Unit ที่เข้ากับ {{ lord.name }}</h3>
+  </div>
+  <div class="unit-grid">
+    <app-guide-unit-card
+      *ngFor="let unit of lord.coreUnits; trackBy: trackUnit"
+      [unit]="unit"
+      [accent]="accent">
+    </app-guide-unit-card>
+  </div>
+</section>

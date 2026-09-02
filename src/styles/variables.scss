@@ -1,0 +1,26 @@
+// --- Base surfaces (warm dark, softer than pure black) ---
+$primary-bg: #15120f;
+$primary-surface: #1e1a16;
+$primary-surface-soft: #272119;
+$primary-surface-raised: #2f2820;
+
+// --- Borders: soft hairlines instead of hard grey lines ---
+$primary-border: rgba(255, 255, 255, 0.08);
+$primary-border-strong: rgba(255, 255, 255, 0.14);
+
+// --- Accent / text ---
+$secondary-gold: #e3ba68;
+$text-primary: #f4ece0;
+$text-secondary: #d6c8b6;
+$text-muted: #a89b8b;
+
+// --- Shape ---
+$radius-sm: 0.7rem;
+$radius: 1rem;
+$radius-lg: 1.5rem;
+$radius-pill: 999px;
+
+// --- Depth (soft shadows, not hard borders) ---
+$shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.35);
+$shadow-card: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+$shadow-pop: 0 18px 45px -18px rgba(0, 0, 0, 0.75);

@@ -1,0 +1,4267 @@
+{
+  "message": "Warhammer III guide data loaded",
+  "data": {
+    "versionLabel": "Guide data migrated from the latest Khorne + Kislev static guide",
+    "factions": [
+      {
+        "id": "khorne",
+        "name": "Khorne",
+        "subtitle": "Blood for the Blood God",
+        "description": "สายประชิดที่เน้น momentum, replenishment และการปิดไฟต์อย่างรวดเร็ว",
+        "theme": {
+          "accent": "#c95443",
+          "soft": "#2b1512",
+          "border": "#6d3029"
+        },
+        "lords": [
+          {
+            "id": "skulltaker",
+            "name": "Skulltaker",
+            "tag": "มือใหม่สุด",
+            "style": "ง่าย จำกองง่าย",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skulltaker_0.png&w=640&output=png",
+            "summary": "เริ่มต้นดีที่สุดถ้าคุณยังไม่รู้ roster มากนัก เพราะ core unit มีหน้าที่ชัดเจนมาก",
+            "bestFor": "ผู้เล่นใหม่ / อยากเล่นแบบเข้าใจเร็ว",
+            "armyGuidance": "เล่น Daemon core: Bloodletters เป็นแกน แล้วเติม Minotaurs กับตัวอ้อม",
+            "skillBuild": {
+              "summary": "Replenishment → Bloodletters → Duel Lord/Hero → Blue-line finish",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "ช่วงต้น",
+                  "steps": [
+                    {
+                      "order": "1",
+                      "name": "Route Marcher",
+                      "points": "1 แต้ม",
+                      "reason": "+ระยะเดินแคมเปญ ช่วยไล่ล่าและต่อไฟต์ได้ง่ายขึ้น",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
+                    },
+                    {
+                      "order": "2–4",
+                      "name": "Blood Feast",
+                      "points": "อัปให้เต็มก่อน",
+                      "reason": "Casualty replenishment + ลดผล attrition คือหัวใจของ Khorne",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "5",
+                      "name": "Inspiring Presence",
+                      "points": "1 แต้ม",
+                      "reason": "เปิดทางสาย Red สำหรับกองหลัก",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "6–8",
+                      "name": "Red: Bloodletters",
+                      "points": "เน้น Bloodletters",
+                      "reason": "อัป node ที่บัฟ Bloodletters / Exalted Bloodletters ก่อน",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "ช่วงกลาง",
+                  "steps": [
+                    {
+                      "order": "9",
+                      "name": "Foe-Seeker",
+                      "points": "เมื่อปลด",
+                      "reason": "ช่วย Skulltaker เข้าถึง Lord/Hero เป้าหมายเร็วขึ้น",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
+                    },
+                    {
+                      "order": "10",
+                      "name": "Bloody Onslaught",
+                      "points": "เมื่อปลด",
+                      "reason": "ดีบัฟ Armour และ Melee Defence ของเป้าหมาย เหมาะกับ duel",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_dlc26_character_abilities_bloody_onslaught.png&w=640&output=png"
+                    },
+                    {
+                      "order": "11",
+                      "name": "Deadly Onslaught",
+                      "points": "เมื่อปลด",
+                      "reason": "เพิ่ม burst ตอนเข้าไปปิด Lord/Hero",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_deadly_onslaught.png&w=640&output=png"
+                    },
+                    {
+                      "order": "12–13",
+                      "name": "Sustained by Slaughter",
+                      "points": "ตามทาง Blue",
+                      "reason": "ต่อยอดความอึดและ momentum ของกอง",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "ช่วงท้าย",
+                  "steps": [
+                    {
+                      "order": "14+",
+                      "name": "Lightning Strike",
+                      "points": "ตามสถานการณ์",
+                      "reason": "มีค่ามากเวลาเจอหลาย stack",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fsubterfuge.png&w=640&output=png"
+                    },
+                    {
+                      "order": "ต่อ",
+                      "name": "Renowned & Feared",
+                      "points": "ปลาย Blue line",
+                      "reason": "Movement + ลด upkeep ช่วย snowball",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer2%2Fimages%2Fwarhammer2%2Fcampaign_ui%2Fskills%2Fcampaign_agent.png&w=640&output=png"
+                    },
+                    {
+                      "order": "เหลือ",
+                      "name": "Red: Monsters / Fast flank",
+                      "points": "ตามกองจริง",
+                      "reason": "ถ้าใช้ Minotaurs / Hounds / Skullcrushers เยอะ ค่อยเติมสายนี้",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "เปิดก่อนสุด เพื่อ movement"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blood Feast I",
+                  "note": "เริ่มสายฟื้นกำลังพล"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blood Feast II",
+                  "note": "เร่ง replenishment"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blood Feast III",
+                  "note": "เอาให้เต็มเร็วสุด"
+                },
+                {
+                  "level": 6,
+                  "skill": "Inspiring Presence",
+                  "note": "เปิดทาง Red line"
+                },
+                {
+                  "level": 7,
+                  "skill": "Red: Bloodletters I",
+                  "note": "บัฟกองหลัก"
+                },
+                {
+                  "level": 8,
+                  "skill": "Red: Bloodletters II",
+                  "note": "บัฟกองหลักต่อ"
+                },
+                {
+                  "level": 9,
+                  "skill": "Red: Bloodletters III",
+                  "note": "ให้ Bloodletters คุ้มสุด"
+                },
+                {
+                  "level": 10,
+                  "skill": "Foe-Seeker",
+                  "note": "ช่วยไล่ล่า Lord/Hero"
+                },
+                {
+                  "level": 11,
+                  "skill": "Bloody Onslaught I",
+                  "note": "เริ่มสาย duel"
+                },
+                {
+                  "level": 12,
+                  "skill": "Bloody Onslaught II",
+                  "note": "เพิ่ม utility ตอนล้วงเป้า"
+                },
+                {
+                  "level": 13,
+                  "skill": "Bloody Onslaught III",
+                  "note": "อัปเต็มเมื่อเปิดได้"
+                },
+                {
+                  "level": 14,
+                  "skill": "Deadly Onslaught I",
+                  "note": "เพิ่ม burst"
+                },
+                {
+                  "level": 15,
+                  "skill": "Deadly Onslaught II",
+                  "note": "ต่อยอด burst"
+                },
+                {
+                  "level": 16,
+                  "skill": "Deadly Onslaught III",
+                  "note": "อัปเต็ม"
+                },
+                {
+                  "level": 17,
+                  "skill": "Sustained by Slaughter I",
+                  "note": "เดินตีต่อเนื่อง"
+                },
+                {
+                  "level": 18,
+                  "skill": "Sustained by Slaughter II",
+                  "note": "เก็บสาย Blue"
+                },
+                {
+                  "level": 19,
+                  "skill": "Sustained by Slaughter III",
+                  "note": "ให้ momentum ลื่น"
+                },
+                {
+                  "level": 20,
+                  "skill": "Lightning Strike",
+                  "note": "เริ่มแยกตีทีละกอง"
+                },
+                {
+                  "level": 21,
+                  "skill": "Renowned & Feared I",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 22,
+                  "skill": "Renowned & Feared II",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 23,
+                  "skill": "Renowned & Feared III",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 24,
+                  "skill": "Hard to Hit / Defence node",
+                  "note": "เพิ่มการเอาตัวรอด"
+                },
+                {
+                  "level": 25,
+                  "skill": "Weapon Strength node I",
+                  "note": "เริ่ม personal DPS"
+                },
+                {
+                  "level": 26,
+                  "skill": "Weapon Strength node II",
+                  "note": "ต่อยอด DPS"
+                },
+                {
+                  "level": 27,
+                  "skill": "Weapon Strength node III",
+                  "note": "เต็มสายตี"
+                },
+                {
+                  "level": 28,
+                  "skill": "Melee Attack node I",
+                  "note": "ตีโดนบ่อยขึ้น"
+                },
+                {
+                  "level": 29,
+                  "skill": "Melee Attack node II",
+                  "note": "ตีโดนบ่อยขึ้น"
+                },
+                {
+                  "level": 30,
+                  "skill": "Melee Attack node III",
+                  "note": "ตีโดนบ่อยขึ้น"
+                },
+                {
+                  "level": 31,
+                  "skill": "Red: Minotaurs I",
+                  "note": "ถ้าใช้ Minotaurs เยอะ"
+                },
+                {
+                  "level": 32,
+                  "skill": "Red: Minotaurs II",
+                  "note": "ถ้าใช้ Minotaurs เยอะ"
+                },
+                {
+                  "level": 33,
+                  "skill": "Red: Minotaurs III",
+                  "note": "ถ้าใช้ Minotaurs เยอะ"
+                },
+                {
+                  "level": 34,
+                  "skill": "Red: Flesh Hounds I",
+                  "note": "ถ้าใช้ตัวเร็วไล่ ranged"
+                },
+                {
+                  "level": 35,
+                  "skill": "Red: Flesh Hounds II",
+                  "note": "ถ้าใช้ตัวเร็วไล่ ranged"
+                },
+                {
+                  "level": 36,
+                  "skill": "Red: Flesh Hounds III",
+                  "note": "ถ้าใช้ตัวเร็วไล่ ranged"
+                },
+                {
+                  "level": 37,
+                  "skill": "Red: Skullcrushers I",
+                  "note": "เริ่มสาย flank"
+                },
+                {
+                  "level": 38,
+                  "skill": "Red: Skullcrushers II",
+                  "note": "เริ่มสาย flank"
+                },
+                {
+                  "level": 39,
+                  "skill": "Red: Skullcrushers III",
+                  "note": "เริ่มสาย flank"
+                },
+                {
+                  "level": 40,
+                  "skill": "Campaign utility I",
+                  "note": "เติมช่องว่าง Blue"
+                },
+                {
+                  "level": 41,
+                  "skill": "Campaign utility II",
+                  "note": "เติมช่องว่าง Blue"
+                },
+                {
+                  "level": 42,
+                  "skill": "Campaign utility III",
+                  "note": "เติมช่องว่าง Blue"
+                },
+                {
+                  "level": 43,
+                  "skill": "Leadership / Aura node I",
+                  "note": "ช่วยกองช่วงยืดไฟต์"
+                },
+                {
+                  "level": 44,
+                  "skill": "Leadership / Aura node II",
+                  "note": "ช่วยกองช่วงยืดไฟต์"
+                },
+                {
+                  "level": 45,
+                  "skill": "Leadership / Aura node III",
+                  "note": "ช่วยกองช่วงยืดไฟต์"
+                },
+                {
+                  "level": 46,
+                  "skill": "Personal survivability I",
+                  "note": "อัปท้าย ๆ"
+                },
+                {
+                  "level": 47,
+                  "skill": "Personal survivability II",
+                  "note": "อัปท้าย ๆ"
+                },
+                {
+                  "level": 48,
+                  "skill": "Personal survivability III",
+                  "note": "อัปท้าย ๆ"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex point",
+                  "note": "เลือกตามไอเท็ม/กองจริง"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex point",
+                  "note": "เก็บ node ที่ยังขาด"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "bloodletters",
+              "exalted-bloodletters",
+              "minotaurs-great-weapons",
+              "flesh-hounds",
+              "skullcrushers",
+              "chaos-warriors-halberds"
+            ]
+          },
+          {
+            "id": "skarbrand",
+            "name": "Skarbrand",
+            "tag": "สายบวก",
+            "style": "Lord แบกเกม",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skarbrand_0.png&w=640&output=png",
+            "summary": "เหมาะกับคนที่อยากให้ Lord เข้าไปทุบเอง และมีกองคอย support การเปิดไฟต์",
+            "bestFor": "คนชอบ aggressive / บุกตรง / ตัวใหญ่",
+            "armyGuidance": "ใช้ Skarbrand เป็นตัวเปิด แล้วให้ armour line กับ monster ตามซ้ำ",
+            "skillBuild": {
+              "summary": "Replenishment → Skarbrand combat → Blue-line economy/movement → Army red line",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "ช่วงต้น",
+                  "steps": [
+                    {
+                      "order": "1",
+                      "name": "Route Marcher",
+                      "points": "1 แต้ม",
+                      "reason": "Movement สำคัญมากกับ loop เดินตี → raze → เดินต่อ",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
+                    },
+                    {
+                      "order": "2–4",
+                      "name": "Blood Feast",
+                      "points": "อัปเต็มเร็ว",
+                      "reason": "เพิ่ม casualty replenishment เพื่อรักษา momentum",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "5",
+                      "name": "Foe-Seeker / Combat opener",
+                      "points": "เมื่อปลด",
+                      "reason": "ช่วยเข้าถึงเป้าหมายและเริ่มสายต่อสู้",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
+                    },
+                    {
+                      "order": "6–8",
+                      "name": "Brutal Charge → Kill! line",
+                      "points": "เน้น personal combat",
+                      "reason": "เพิ่มพลัง charge / melee เพื่อให้ Skarbrand เป็นหัวหอก",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "ช่วงกลาง",
+                  "steps": [
+                    {
+                      "order": "ถ้าปลด",
+                      "name": "Wrathful Reaper",
+                      "points": "Priority สูง",
+                      "reason": "burst weapon damage สูงมาก เหมาะกับการชน Lord/monster",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_main_lord_abilities_slaughter_and_carnage.png&w=640&output=png"
+                    },
+                    {
+                      "order": "ถ้าปลด",
+                      "name": "Rage Embodied / Rage Incarnate",
+                      "points": "Unique line",
+                      "reason": "เพิ่มการควบคุมไฟต์ด้วย Rampage",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_main_lord_abilities_rage_embodied.png&w=640&output=png"
+                    },
+                    {
+                      "order": "ต่อ",
+                      "name": "Bellow of Endless Fury",
+                      "points": "Unique ability",
+                      "reason": "เครื่องมือยิง/เปิดไฟต์จากตัว Skarbrand",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_main_lord_abilities_bellow_of_endless_fury.png&w=640&output=png"
+                    },
+                    {
+                      "order": "หลังนั้น",
+                      "name": "Sustained by Slaughter",
+                      "points": "Blue line",
+                      "reason": "ทำให้ตัวเขาและกองพร้อมบวกต่อเนื่อง",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "ช่วงท้าย",
+                  "steps": [
+                    {
+                      "order": "ต่อ",
+                      "name": "Lightning Strike",
+                      "points": "แนะนำ",
+                      "reason": "แยก stack ศัตรูและบังคับไฟต์ที่ได้เปรียบ",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fsubterfuge.png&w=640&output=png"
+                    },
+                    {
+                      "order": "ต่อ",
+                      "name": "Renowned & Feared",
+                      "points": "ปลาย Blue line",
+                      "reason": "Movement + upkeep reduction",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer2%2Fimages%2Fwarhammer2%2Fcampaign_ui%2Fskills%2Fcampaign_agent.png&w=640&output=png"
+                    },
+                    {
+                      "order": "เหลือ",
+                      "name": "Red line ตาม Army",
+                      "points": "เลือก 1 core",
+                      "reason": "ใช้ Slaughterbrute/Minotaurs ก็ลงทุนสายที่บัฟพวกนั้น ไม่ต้องอัปทุกสาย",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "movement สำคัญมาก"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blood Feast I",
+                  "note": "Skullbrand ต้องตีต่อเนื่อง"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blood Feast II",
+                  "note": "เร่ง replenishment"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blood Feast III",
+                  "note": "เอาเต็มเร็ว"
+                },
+                {
+                  "level": 6,
+                  "skill": "Foe-Seeker",
+                  "note": "เข้าถึงเป้าไว"
+                },
+                {
+                  "level": 7,
+                  "skill": "Brutal Charge I",
+                  "note": "อัปสายเปิดไฟต์"
+                },
+                {
+                  "level": 8,
+                  "skill": "Brutal Charge II",
+                  "note": "อัปสายเปิดไฟต์"
+                },
+                {
+                  "level": 9,
+                  "skill": "Brutal Charge III",
+                  "note": "อัปสายเปิดไฟต์"
+                },
+                {
+                  "level": 10,
+                  "skill": "Weapon Strength node I",
+                  "note": "เน้นตัว Lord ก่อน"
+                },
+                {
+                  "level": 11,
+                  "skill": "Weapon Strength node II",
+                  "note": "เน้นตัว Lord ก่อน"
+                },
+                {
+                  "level": 12,
+                  "skill": "Weapon Strength node III",
+                  "note": "เน้นตัว Lord ก่อน"
+                },
+                {
+                  "level": 13,
+                  "skill": "Wrathful Reaper I",
+                  "note": "unique สำคัญ"
+                },
+                {
+                  "level": 14,
+                  "skill": "Wrathful Reaper II",
+                  "note": "unique สำคัญ"
+                },
+                {
+                  "level": 15,
+                  "skill": "Wrathful Reaper III",
+                  "note": "unique สำคัญ"
+                },
+                {
+                  "level": 16,
+                  "skill": "Rage Embodied I",
+                  "note": "เพิ่มการปั่นไฟต์"
+                },
+                {
+                  "level": 17,
+                  "skill": "Rage Embodied II",
+                  "note": "เพิ่มการปั่นไฟต์"
+                },
+                {
+                  "level": 18,
+                  "skill": "Rage Embodied III",
+                  "note": "เพิ่มการปั่นไฟต์"
+                },
+                {
+                  "level": 19,
+                  "skill": "Bellow of Endless Fury I",
+                  "note": "เปิดไฟต์ / range poke"
+                },
+                {
+                  "level": 20,
+                  "skill": "Bellow of Endless Fury II",
+                  "note": "เปิดไฟต์ / range poke"
+                },
+                {
+                  "level": 21,
+                  "skill": "Bellow of Endless Fury III",
+                  "note": "เปิดไฟต์ / range poke"
+                },
+                {
+                  "level": 22,
+                  "skill": "Sustained by Slaughter I",
+                  "note": "กลับมาทำ Blue ต่อ"
+                },
+                {
+                  "level": 23,
+                  "skill": "Sustained by Slaughter II",
+                  "note": "กลับมาทำ Blue ต่อ"
+                },
+                {
+                  "level": 24,
+                  "skill": "Sustained by Slaughter III",
+                  "note": "กลับมาทำ Blue ต่อ"
+                },
+                {
+                  "level": 25,
+                  "skill": "Lightning Strike",
+                  "note": "ใช้จริงบ่อย"
+                },
+                {
+                  "level": 26,
+                  "skill": "Renowned & Feared I",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 27,
+                  "skill": "Renowned & Feared II",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 28,
+                  "skill": "Renowned & Feared III",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 29,
+                  "skill": "Melee Defence node I",
+                  "note": "ช่วยไม่ให้โดนฟรี"
+                },
+                {
+                  "level": 30,
+                  "skill": "Melee Defence node II",
+                  "note": "ช่วยไม่ให้โดนฟรี"
+                },
+                {
+                  "level": 31,
+                  "skill": "Melee Defence node III",
+                  "note": "ช่วยไม่ให้โดนฟรี"
+                },
+                {
+                  "level": 32,
+                  "skill": "Red: Minotaurs I",
+                  "note": "ถ้าใช้ Minotaurs"
+                },
+                {
+                  "level": 33,
+                  "skill": "Red: Minotaurs II",
+                  "note": "ถ้าใช้ Minotaurs"
+                },
+                {
+                  "level": 34,
+                  "skill": "Red: Minotaurs III",
+                  "note": "ถ้าใช้ Minotaurs"
+                },
+                {
+                  "level": 35,
+                  "skill": "Red: Skullcrushers I",
+                  "note": "ถ้าใช้ม้าหนัก"
+                },
+                {
+                  "level": 36,
+                  "skill": "Red: Skullcrushers II",
+                  "note": "ถ้าใช้ม้าหนัก"
+                },
+                {
+                  "level": 37,
+                  "skill": "Red: Skullcrushers III",
+                  "note": "ถ้าใช้ม้าหนัก"
+                },
+                {
+                  "level": 38,
+                  "skill": "Red: Flesh Hounds I",
+                  "note": "ใช้ flank ไล่ยิง"
+                },
+                {
+                  "level": 39,
+                  "skill": "Red: Flesh Hounds II",
+                  "note": "ใช้ flank ไล่ยิง"
+                },
+                {
+                  "level": 40,
+                  "skill": "Red: Flesh Hounds III",
+                  "note": "ใช้ flank ไล่ยิง"
+                },
+                {
+                  "level": 41,
+                  "skill": "Red: Monsters I",
+                  "note": "กรณีใช้ Bloodthirster/Slaughterbrute"
+                },
+                {
+                  "level": 42,
+                  "skill": "Red: Monsters II",
+                  "note": "กรณีใช้ Bloodthirster/Slaughterbrute"
+                },
+                {
+                  "level": 43,
+                  "skill": "Red: Monsters III",
+                  "note": "กรณีใช้ Bloodthirster/Slaughterbrute"
+                },
+                {
+                  "level": 44,
+                  "skill": "Leadership / Aura node I",
+                  "note": "เติมท้ายเกม"
+                },
+                {
+                  "level": 45,
+                  "skill": "Leadership / Aura node II",
+                  "note": "เติมท้ายเกม"
+                },
+                {
+                  "level": 46,
+                  "skill": "Leadership / Aura node III",
+                  "note": "เติมท้ายเกม"
+                },
+                {
+                  "level": 47,
+                  "skill": "Campaign utility I",
+                  "note": "เก็บจุดที่ยังขาด"
+                },
+                {
+                  "level": 48,
+                  "skill": "Campaign utility II",
+                  "note": "เก็บจุดที่ยังขาด"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex point",
+                  "note": "ปรับตามกองจริง"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex point",
+                  "note": "ปรับตามกองจริง"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "chaos-warriors-halberds",
+              "minotaurs-great-weapons",
+              "skullcrushers",
+              "flesh-hounds",
+              "bloodthirster",
+              "slaughterbrute"
+            ]
+          },
+          {
+            "id": "arbaal",
+            "name": "Arbaal the Undefeated",
+            "tag": "สายทหารเกราะ",
+            "style": "Mortal synergy",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_arbaal_0.png&w=640&output=png",
+            "summary": "เหมาะกับคนที่ชอบกองดูเป็นระเบียบ ใช้ทหารเกราะและ elite infantry เป็นแกน",
+            "bestFor": "คนชอบ Mortal roster / ชอบกองทหารหนัก",
+            "armyGuidance": "ใช้ Chosen เป็นกำแพง แล้วให้ Wrathmongers / Skullreapers / Chariot ปิดไฟต์",
+            "skillBuild": {
+              "summary": "Replenishment → Mortal Red Line → Personal combat → Cavalry/elite finish",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "ช่วงต้น",
+                  "steps": [
+                    {
+                      "order": "1",
+                      "name": "Route Marcher",
+                      "points": "1 แต้ม",
+                      "reason": "ช่วยเดินหา Challenge / เป้าหมายได้ไว",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
+                    },
+                    {
+                      "order": "2–4",
+                      "name": "Blood Feast",
+                      "points": "อัปเต็มเร็ว",
+                      "reason": "replenishment ทำให้กองทหารเกราะไม่ต้องหยุดพักนาน",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "5",
+                      "name": "Inspiring Presence",
+                      "points": "1 แต้ม",
+                      "reason": "เปิดสายบัฟ army",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "6–8",
+                      "name": "Red: Mortal Frontline",
+                      "points": "Priority สูง",
+                      "reason": "เน้น Chaos Warriors / Chosen / Wrathmongers ก่อน",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "ช่วงกลาง",
+                  "steps": [
+                    {
+                      "order": "9",
+                      "name": "Foe-Seeker",
+                      "points": "เมื่อปลด",
+                      "reason": "ช่วย Arbaal เข้าหาเป้าหมายเร็ว",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
+                    },
+                    {
+                      "order": "10",
+                      "name": "Fight or Die!",
+                      "points": "เมื่อปลด",
+                      "reason": "เพิ่ม Melee Attack + Leadership รอบตัว",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh_dlc08_lord_abilities_fight_or_die.png&w=640&output=png"
+                    },
+                    {
+                      "order": "11",
+                      "name": "Eye of Khorne",
+                      "points": "Unique",
+                      "reason": "สกิลเด่นของ Arbaal ใช้กับเป้าหมายที่กำลังจะตายได้ดี",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_dlc26_lord_abilities_eye_of_khorne.png&w=640&output=png"
+                    },
+                    {
+                      "order": "12",
+                      "name": "Fury of the Blood God",
+                      "points": "Unique",
+                      "reason": "AoE สำหรับเปิด/ป่วน blob รอบตัว",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fbattle_ui%2Fability_icons%2Fwh3_dlc26_lord_abilities_gaze_of_khorne.png&w=640&output=png"
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "ช่วงท้าย",
+                  "steps": [
+                    {
+                      "order": "ต่อ",
+                      "name": "Sustained by Slaughter",
+                      "points": "Blue line",
+                      "reason": "รักษา momentum",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "ต่อ",
+                      "name": "Lightning Strike",
+                      "points": "ตามสถานการณ์",
+                      "reason": "ช่วยตอนกระโดดไปเจอหลายกอง",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fsubterfuge.png&w=640&output=png"
+                    },
+                    {
+                      "order": "ต่อ",
+                      "name": "Renowned & Feared",
+                      "points": "ปลาย Blue line",
+                      "reason": "Movement + upkeep",
+                      "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer2%2Fimages%2Fwarhammer2%2Fcampaign_ui%2Fskills%2Fcampaign_agent.png&w=640&output=png"
+                    },
+                    {
+                      "order": "เหลือ",
+                      "name": "Red: Cavalry / Skullcrushers",
+                      "points": "ตาม army",
+                      "reason": "เติมสาย mobility หลัง frontline แน่นแล้ว",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "ออกหา challenge / เป้าหมายไว"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blood Feast I",
+                  "note": "replenishment สำคัญ"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blood Feast II",
+                  "note": "replenishment สำคัญ"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blood Feast III",
+                  "note": "replenishment สำคัญ"
+                },
+                {
+                  "level": 6,
+                  "skill": "Inspiring Presence",
+                  "note": "เปิด Red line"
+                },
+                {
+                  "level": 7,
+                  "skill": "Red: Chaos Warriors / Chosen I",
+                  "note": "กอง Mortal ได้ประโยชน์มาก"
+                },
+                {
+                  "level": 8,
+                  "skill": "Red: Chaos Warriors / Chosen II",
+                  "note": "กอง Mortal ได้ประโยชน์มาก"
+                },
+                {
+                  "level": 9,
+                  "skill": "Red: Chaos Warriors / Chosen III",
+                  "note": "กอง Mortal ได้ประโยชน์มาก"
+                },
+                {
+                  "level": 10,
+                  "skill": "Red: Wrathmongers / Skullreapers I",
+                  "note": "เติม elite infantry"
+                },
+                {
+                  "level": 11,
+                  "skill": "Red: Wrathmongers / Skullreapers II",
+                  "note": "เติม elite infantry"
+                },
+                {
+                  "level": 12,
+                  "skill": "Red: Wrathmongers / Skullreapers III",
+                  "note": "เติม elite infantry"
+                },
+                {
+                  "level": 13,
+                  "skill": "Foe-Seeker",
+                  "note": "เข้าหาเป้าไว"
+                },
+                {
+                  "level": 14,
+                  "skill": "Fight or Die! I",
+                  "note": "บัฟรอบตัวดีมาก"
+                },
+                {
+                  "level": 15,
+                  "skill": "Fight or Die! II",
+                  "note": "บัฟรอบตัวดีมาก"
+                },
+                {
+                  "level": 16,
+                  "skill": "Fight or Die! III",
+                  "note": "บัฟรอบตัวดีมาก"
+                },
+                {
+                  "level": 17,
+                  "skill": "Eye of Khorne I",
+                  "note": "unique ability"
+                },
+                {
+                  "level": 18,
+                  "skill": "Eye of Khorne II",
+                  "note": "unique ability"
+                },
+                {
+                  "level": 19,
+                  "skill": "Eye of Khorne III",
+                  "note": "unique ability"
+                },
+                {
+                  "level": 20,
+                  "skill": "Fury of the Blood God I",
+                  "note": "AoE รอบตัว"
+                },
+                {
+                  "level": 21,
+                  "skill": "Fury of the Blood God II",
+                  "note": "AoE รอบตัว"
+                },
+                {
+                  "level": 22,
+                  "skill": "Fury of the Blood God III",
+                  "note": "AoE รอบตัว"
+                },
+                {
+                  "level": 23,
+                  "skill": "Sustained by Slaughter I",
+                  "note": "กลับไป Blue"
+                },
+                {
+                  "level": 24,
+                  "skill": "Sustained by Slaughter II",
+                  "note": "กลับไป Blue"
+                },
+                {
+                  "level": 25,
+                  "skill": "Sustained by Slaughter III",
+                  "note": "กลับไป Blue"
+                },
+                {
+                  "level": 26,
+                  "skill": "Lightning Strike",
+                  "note": "ไว้รับมือหลาย stack"
+                },
+                {
+                  "level": 27,
+                  "skill": "Renowned & Feared I",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 28,
+                  "skill": "Renowned & Feared II",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 29,
+                  "skill": "Renowned & Feared III",
+                  "note": "movement / upkeep"
+                },
+                {
+                  "level": 30,
+                  "skill": "Melee Attack node I",
+                  "note": "เพิ่ม personal combat"
+                },
+                {
+                  "level": 31,
+                  "skill": "Melee Attack node II",
+                  "note": "เพิ่ม personal combat"
+                },
+                {
+                  "level": 32,
+                  "skill": "Melee Attack node III",
+                  "note": "เพิ่ม personal combat"
+                },
+                {
+                  "level": 33,
+                  "skill": "Weapon Strength node I",
+                  "note": "เพิ่ม personal damage"
+                },
+                {
+                  "level": 34,
+                  "skill": "Weapon Strength node II",
+                  "note": "เพิ่ม personal damage"
+                },
+                {
+                  "level": 35,
+                  "skill": "Weapon Strength node III",
+                  "note": "เพิ่ม personal damage"
+                },
+                {
+                  "level": 36,
+                  "skill": "Red: Skullcrushers I",
+                  "note": "ถ้าใช้ flank หนัก"
+                },
+                {
+                  "level": 37,
+                  "skill": "Red: Skullcrushers II",
+                  "note": "ถ้าใช้ flank หนัก"
+                },
+                {
+                  "level": 38,
+                  "skill": "Red: Skullcrushers III",
+                  "note": "ถ้าใช้ flank หนัก"
+                },
+                {
+                  "level": 39,
+                  "skill": "Red: Gorebeast Chariots I",
+                  "note": "ถ้าใช้ chariot"
+                },
+                {
+                  "level": 40,
+                  "skill": "Red: Gorebeast Chariots II",
+                  "note": "ถ้าใช้ chariot"
+                },
+                {
+                  "level": 41,
+                  "skill": "Red: Gorebeast Chariots III",
+                  "note": "ถ้าใช้ chariot"
+                },
+                {
+                  "level": 42,
+                  "skill": "Red: Minotaurs I",
+                  "note": "ถ้าใช้ตัวใหญ่ประกบ"
+                },
+                {
+                  "level": 43,
+                  "skill": "Red: Minotaurs II",
+                  "note": "ถ้าใช้ตัวใหญ่ประกบ"
+                },
+                {
+                  "level": 44,
+                  "skill": "Red: Minotaurs III",
+                  "note": "ถ้าใช้ตัวใหญ่ประกบ"
+                },
+                {
+                  "level": 45,
+                  "skill": "Leadership / Aura node I",
+                  "note": "เติมเสถียรภาพท้ายเกม"
+                },
+                {
+                  "level": 46,
+                  "skill": "Leadership / Aura node II",
+                  "note": "เติมเสถียรภาพท้ายเกม"
+                },
+                {
+                  "level": 47,
+                  "skill": "Leadership / Aura node III",
+                  "note": "เติมเสถียรภาพท้ายเกม"
+                },
+                {
+                  "level": 48,
+                  "skill": "Campaign utility I",
+                  "note": "เก็บจุดที่ยังขาด"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex point",
+                  "note": "ปรับตามกองจริง"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex point",
+                  "note": "ปรับตามกองจริง"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "chosen-of-khorne",
+              "wrathmongers",
+              "skullreapers",
+              "skullcrushers",
+              "minotaurs-great-weapons",
+              "gorebeast-chariots"
+            ]
+          }
+        ],
+        "units": [
+          {
+            "id": "bloodletters",
+            "name": "Bloodletters",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_bloodletters_0.png&w=640&output=png",
+            "type": "Melee Infantry",
+            "role": "Frontline AP Infantry",
+            "description": "แกน Daemon สายชนหน้า ฆ่า infantry ได้ดี",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "100"
+              },
+              {
+                "label": "HP",
+                "value": "8,000"
+              },
+              {
+                "label": "Armour",
+                "value": "35"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "38"
+              },
+              {
+                "label": "Mass",
+                "value": "125"
+              },
+              {
+                "label": "MA",
+                "value": "34"
+              },
+              {
+                "label": "MD",
+                "value": "26"
+              },
+              {
+                "label": "WS",
+                "value": "34"
+              },
+              {
+                "label": "Charge",
+                "value": "30"
+              },
+              {
+                "label": "Cost",
+                "value": "800"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Frenzy",
+              "Magic attacks",
+              "Spell resistance"
+            ]
+          },
+          {
+            "id": "exalted-bloodletters",
+            "name": "Exalted Bloodletters",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_bloodletters_1.png&w=640&output=png",
+            "type": "Melee Infantry",
+            "role": "Elite AP Infantry",
+            "description": "Bloodletters รุ่นอัปเกรด เก่งขึ้นรอบด้าน",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "100"
+              },
+              {
+                "label": "HP",
+                "value": "9,200"
+              },
+              {
+                "label": "Armour",
+                "value": "40"
+              },
+              {
+                "label": "Leadership",
+                "value": "80"
+              },
+              {
+                "label": "Speed",
+                "value": "38"
+              },
+              {
+                "label": "Mass",
+                "value": "150"
+              },
+              {
+                "label": "MA",
+                "value": "42"
+              },
+              {
+                "label": "MD",
+                "value": "34"
+              },
+              {
+                "label": "WS",
+                "value": "44"
+              },
+              {
+                "label": "Charge",
+                "value": "36"
+              },
+              {
+                "label": "Cost",
+                "value": "1,200"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Frenzy",
+              "Magic attacks",
+              "Spell resistance"
+            ]
+          },
+          {
+            "id": "minotaurs-great-weapons",
+            "name": "Minotaurs (Great Weapons)",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_mon_khornataurs_1.png&w=640&output=png",
+            "type": "Monstrous Infantry",
+            "role": "AP Anti-Large",
+            "description": "ตัวแก้ monster/cavalry ที่มือใหม่ควรจำ",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "16"
+              },
+              {
+                "label": "HP",
+                "value": "8,704"
+              },
+              {
+                "label": "Armour",
+                "value": "70"
+              },
+              {
+                "label": "Leadership",
+                "value": "70"
+              },
+              {
+                "label": "Speed",
+                "value": "56"
+              },
+              {
+                "label": "Mass",
+                "value": "1,600"
+              },
+              {
+                "label": "MA",
+                "value": "34"
+              },
+              {
+                "label": "MD",
+                "value": "27"
+              },
+              {
+                "label": "WS",
+                "value": "110"
+              },
+              {
+                "label": "Charge",
+                "value": "40"
+              },
+              {
+                "label": "Cost",
+                "value": "1,350"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Bloodgreed",
+              "Frenzy",
+              "Woodsman"
+            ]
+          },
+          {
+            "id": "flesh-hounds",
+            "name": "Flesh Hounds",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_pro12_kho_inf_flesh_hounds_of_khorne_summoned.png&w=640&output=png",
+            "type": "War Beasts",
+            "role": "Fast Ranged Hunter",
+            "description": "วิ่งเร็วมาก ใช้ไล่ธนู ปืน ปืนใหญ่",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "32"
+              },
+              {
+                "label": "HP",
+                "value": "6,176"
+              },
+              {
+                "label": "Armour",
+                "value": "30"
+              },
+              {
+                "label": "Leadership",
+                "value": "60"
+              },
+              {
+                "label": "Speed",
+                "value": "95"
+              },
+              {
+                "label": "Mass",
+                "value": "450"
+              },
+              {
+                "label": "MA",
+                "value": "38"
+              },
+              {
+                "label": "MD",
+                "value": "26"
+              },
+              {
+                "label": "WS",
+                "value": "58"
+              },
+              {
+                "label": "Charge",
+                "value": "46"
+              },
+              {
+                "label": "Cost",
+                "value": "700"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Fast flanker",
+              "Good pursuit"
+            ]
+          },
+          {
+            "id": "skullcrushers",
+            "name": "Skullcrushers",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_cav_skullcrushers_0.png&w=640&output=png",
+            "type": "Monstrous Cavalry",
+            "role": "Heavy Shock Cavalry",
+            "description": "ตัวอ้อมตีข้างระดับท็อป ทั้งเร็วและแข็ง",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "32"
+              },
+              {
+                "label": "HP",
+                "value": "8,352"
+              },
+              {
+                "label": "Armour",
+                "value": "130"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "70"
+              },
+              {
+                "label": "Mass",
+                "value": "1,600"
+              },
+              {
+                "label": "MA",
+                "value": "44"
+              },
+              {
+                "label": "MD",
+                "value": "42"
+              },
+              {
+                "label": "WS",
+                "value": "64"
+              },
+              {
+                "label": "Charge",
+                "value": "70"
+              },
+              {
+                "label": "Cost",
+                "value": "1,700"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Strong charge",
+              "Monstrous cavalry"
+            ]
+          },
+          {
+            "id": "chaos-warriors-halberds",
+            "name": "Chaos Warriors (Halberds)",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_chaos_warriors_1.png&w=640&output=png",
+            "type": "Melee Infantry",
+            "role": "Armoured Anti-Large",
+            "description": "ตัวค้ำแนวและรับมือ monster/cavalry",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "100"
+              },
+              {
+                "label": "HP",
+                "value": "9,000"
+              },
+              {
+                "label": "Armour",
+                "value": "110"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "28"
+              },
+              {
+                "label": "Mass",
+                "value": "160"
+              },
+              {
+                "label": "MA",
+                "value": "30"
+              },
+              {
+                "label": "MD",
+                "value": "37"
+              },
+              {
+                "label": "WS",
+                "value": "34"
+              },
+              {
+                "label": "Charge",
+                "value": "10"
+              },
+              {
+                "label": "Cost",
+                "value": "900"
+              }
+            ],
+            "traits": [
+              "Charge defence vs large",
+              "Charge reflection",
+              "Frenzy"
+            ]
+          },
+          {
+            "id": "bloodthirster",
+            "name": "Bloodthirster",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_mon_bloodthirster_0.png&w=640&output=png",
+            "type": "Monster",
+            "role": "Flying Terror Monster",
+            "description": "บินได้ ล่า lord, monster และแนวหลัง",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "1"
+              },
+              {
+                "label": "HP",
+                "value": "7,732"
+              },
+              {
+                "label": "Armour",
+                "value": "70"
+              },
+              {
+                "label": "Leadership",
+                "value": "80"
+              },
+              {
+                "label": "Speed",
+                "value": "55"
+              },
+              {
+                "label": "Mass",
+                "value": "4,000"
+              },
+              {
+                "label": "MA",
+                "value": "60"
+              },
+              {
+                "label": "MD",
+                "value": "44"
+              },
+              {
+                "label": "WS",
+                "value": "540"
+              },
+              {
+                "label": "Charge",
+                "value": "55"
+              },
+              {
+                "label": "Cost",
+                "value": "2,000"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Terror",
+              "Fly",
+              "Daemonic"
+            ]
+          },
+          {
+            "id": "slaughterbrute",
+            "name": "Slaughterbrute",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_mon_slaughterbrute.png&w=640&output=png",
+            "type": "Monster",
+            "role": "AP Terror Monster",
+            "description": "สัตว์ประหลาดสายชนแรง ใช้กดดันปลายเกม",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "1"
+              },
+              {
+                "label": "HP",
+                "value": "9,888"
+              },
+              {
+                "label": "Armour",
+                "value": "70"
+              },
+              {
+                "label": "Leadership",
+                "value": "60"
+              },
+              {
+                "label": "Speed",
+                "value": "66"
+              },
+              {
+                "label": "Mass",
+                "value": "5,500"
+              },
+              {
+                "label": "MA",
+                "value": "65"
+              },
+              {
+                "label": "MD",
+                "value": "45"
+              },
+              {
+                "label": "WS",
+                "value": "600"
+              },
+              {
+                "label": "Charge",
+                "value": "60"
+              },
+              {
+                "label": "Cost",
+                "value": "2,000"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Terror",
+              "Rampage",
+              "Runes of Binding"
+            ]
+          },
+          {
+            "id": "chosen-of-khorne",
+            "name": "Chosen of Khorne",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc20_chs_inf_chosen_mkho.png&w=640&output=png",
+            "type": "Melee Infantry",
+            "role": "Elite Armoured Frontline",
+            "description": "แนวหน้าหนักมากสำหรับกอง Mortal",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "80"
+              },
+              {
+                "label": "HP",
+                "value": "10,480"
+              },
+              {
+                "label": "Armour",
+                "value": "130"
+              },
+              {
+                "label": "Leadership",
+                "value": "85"
+              },
+              {
+                "label": "Speed",
+                "value": "28"
+              },
+              {
+                "label": "Mass",
+                "value": "160"
+              },
+              {
+                "label": "MA",
+                "value": "46"
+              },
+              {
+                "label": "MD",
+                "value": "55"
+              },
+              {
+                "label": "WS",
+                "value": "48"
+              },
+              {
+                "label": "Charge",
+                "value": "26"
+              },
+              {
+                "label": "Cost",
+                "value": "1,300"
+              }
+            ],
+            "traits": [
+              "Frenzy",
+              "Mark of Khorne",
+              "Heavy armour"
+            ]
+          },
+          {
+            "id": "wrathmongers",
+            "name": "Wrathmongers",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_inf_wrathmongers.png&w=640&output=png",
+            "type": "Melee Infantry",
+            "role": "Elite Shock Infantry",
+            "description": "ดาเมจแรงมาก เหมาะส่งเข้าซ้ำ",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "32"
+              },
+              {
+                "label": "HP",
+                "value": "10,080"
+              },
+              {
+                "label": "Armour",
+                "value": "70"
+              },
+              {
+                "label": "Leadership",
+                "value": "85"
+              },
+              {
+                "label": "Speed",
+                "value": "40"
+              },
+              {
+                "label": "Mass",
+                "value": "400"
+              },
+              {
+                "label": "MA",
+                "value": "60"
+              },
+              {
+                "label": "MD",
+                "value": "46"
+              },
+              {
+                "label": "WS",
+                "value": "80"
+              },
+              {
+                "label": "Charge",
+                "value": "44"
+              },
+              {
+                "label": "Cost",
+                "value": "1,500"
+              }
+            ],
+            "traits": [
+              "Frenzy",
+              "Immune to flanking",
+              "Anti-infantry"
+            ]
+          },
+          {
+            "id": "skullreapers",
+            "name": "Skullreapers",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_inf_skullreapers.png&w=640&output=png",
+            "type": "Melee Infantry",
+            "role": "Elite Anti-Infantry",
+            "description": "elite infantry ตี infantry ได้แรงและตรงจุด",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "60"
+              },
+              {
+                "label": "HP",
+                "value": "9,480"
+              },
+              {
+                "label": "Armour",
+                "value": "60"
+              },
+              {
+                "label": "Leadership",
+                "value": "80"
+              },
+              {
+                "label": "Speed",
+                "value": "35"
+              },
+              {
+                "label": "Mass",
+                "value": "200"
+              },
+              {
+                "label": "MA",
+                "value": "54"
+              },
+              {
+                "label": "MD",
+                "value": "42"
+              },
+              {
+                "label": "WS",
+                "value": "64"
+              },
+              {
+                "label": "Charge",
+                "value": "40"
+              },
+              {
+                "label": "Cost",
+                "value": "1,100"
+              }
+            ],
+            "traits": [
+              "Frenzy",
+              "Anti-infantry",
+              "Mark of Khorne"
+            ]
+          },
+          {
+            "id": "gorebeast-chariots",
+            "name": "Gorebeast Chariots",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_cav_gorebeast_chariot.png&w=640&output=png",
+            "type": "Chariots",
+            "role": "Heavy Chariot",
+            "description": "ใช้บด infantry ที่รวมกลุ่มและชนซ้ำ",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "4"
+              },
+              {
+                "label": "HP",
+                "value": "6,560"
+              },
+              {
+                "label": "Armour",
+                "value": "130"
+              },
+              {
+                "label": "Leadership",
+                "value": "70"
+              },
+              {
+                "label": "Speed",
+                "value": "66"
+              },
+              {
+                "label": "Mass",
+                "value": "4,130"
+              },
+              {
+                "label": "MA",
+                "value": "35"
+              },
+              {
+                "label": "MD",
+                "value": "27"
+              },
+              {
+                "label": "WS",
+                "value": "70"
+              },
+              {
+                "label": "Charge",
+                "value": "80"
+              },
+              {
+                "label": "Cost",
+                "value": "1,250"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Frenzy",
+              "Very high charge",
+              "Armoured"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kislev",
+        "name": "Kislev",
+        "subtitle": "The Motherland Endures",
+        "description": "กองทัพ hybrid ที่ผสมแนวยิง แนวรับ เวทมนตร์ cavalry และ monsters ได้ยืดหยุ่น",
+        "theme": {
+          "accent": "#79b9ef",
+          "soft": "#11243a",
+          "border": "#31557d"
+        },
+        "lords": [
+          {
+            "id": "katarin",
+            "name": "Tzarina Katarin",
+            "tag": "มือใหม่สาย Hybrid / Magic",
+            "style": "Ice Magic + Ice Guard",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fksl_katarin_0.png&w=420&output=png",
+            "summary": "ตัวเลือกที่บาลานซ์ที่สุดของ Kislev: ใช้ Ice Guard เป็นแกน, Tzar Guard ค้ำ, War Bear Riders ปิดปีก และ Katarin ใช้ Lore of Ice คุมความเร็ว/สร้าง burst.",
+            "bestFor": "คนอยากได้กองยิง+ชนที่เล่นง่าย และมีเวทช่วยคุมสนาม",
+            "armyGuidance": "Ice Guard (Glaives), Tzar Guard, War Bear Riders, Streltsi",
+            "skillBuild": {
+              "summary": "Blue sustain → Lore of Ice → Ice Guard Red line → campaign finish",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "Lv 2–10",
+                  "steps": [
+                    {
+                      "order": "2",
+                      "name": "Route Marcher",
+                      "points": "",
+                      "reason": "เดินไว",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "3–5",
+                      "name": "Blue: Replenishment / Attrition",
+                      "points": "",
+                      "reason": "ลด downtime",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "6",
+                      "name": "Ice Sheet",
+                      "points": "",
+                      "reason": "slow",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "7",
+                      "name": "Ice Maiden's Kiss",
+                      "points": "",
+                      "reason": "cheap vortex",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "8",
+                      "name": "Frost Blades",
+                      "points": "",
+                      "reason": "buff melee",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "9",
+                      "name": "Death Frost",
+                      "points": "",
+                      "reason": "single target",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "10",
+                      "name": "Crystal Sanctuary",
+                      "points": "",
+                      "reason": "ป้องกัน unit สำคัญ",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "Lv 11–25",
+                  "steps": [
+                    {
+                      "order": "11",
+                      "name": "Heart of Winter",
+                      "points": "",
+                      "reason": "signature spell",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "12",
+                      "name": "Arcane Conduit",
+                      "points": "",
+                      "reason": "WoM",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "13–15",
+                      "name": "Red: Ice Guard",
+                      "points": "",
+                      "reason": "core",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "16–18",
+                      "name": "Red: Tzar Guard",
+                      "points": "",
+                      "reason": "frontline",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "19–21",
+                      "name": "Red: War Bear Riders",
+                      "points": "",
+                      "reason": "finisher",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "22",
+                      "name": "Lightning Strike",
+                      "points": "",
+                      "reason": "หลาย stack",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "23–25",
+                      "name": "Blue: upkeep / movement",
+                      "points": "",
+                      "reason": "campaign",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "Lv 26–50",
+                  "steps": [
+                    {
+                      "order": "26–30",
+                      "name": "Unique / Ice Court",
+                      "points": "",
+                      "reason": "unique",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "31–34",
+                      "name": "Red: Streltsi / Little Grom",
+                      "points": "",
+                      "reason": "AP support",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "35–38",
+                      "name": "Personal defence / magic",
+                      "points": "",
+                      "reason": "survive",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "39–42",
+                      "name": "Leadership / Aura",
+                      "points": "",
+                      "reason": "army",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "43–46",
+                      "name": "Campaign utility",
+                      "points": "",
+                      "reason": "blue",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "47–50",
+                      "name": "Flex",
+                      "points": "",
+                      "reason": "ตามกอง",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blue: Replenishment I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blue: Replenishment II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blue: Attrition",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 6,
+                  "skill": "Ice Sheet",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 7,
+                  "skill": "Ice Maiden's Kiss",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 8,
+                  "skill": "Frost Blades",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 9,
+                  "skill": "Death Frost",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 10,
+                  "skill": "Crystal Sanctuary",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 11,
+                  "skill": "Heart of Winter",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 12,
+                  "skill": "Arcane Conduit",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 13,
+                  "skill": "Red: Ice Guard I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 14,
+                  "skill": "Red: Ice Guard II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 15,
+                  "skill": "Red: Ice Guard III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 16,
+                  "skill": "Red: Tzar Guard I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 17,
+                  "skill": "Red: Tzar Guard II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 18,
+                  "skill": "Red: Tzar Guard III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 19,
+                  "skill": "Red: War Bear Riders I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 20,
+                  "skill": "Red: War Bear Riders II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 21,
+                  "skill": "Red: War Bear Riders III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 22,
+                  "skill": "Lightning Strike",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 23,
+                  "skill": "Blue: Upkeep I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 24,
+                  "skill": "Blue: Upkeep II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 25,
+                  "skill": "Blue: Movement",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 26,
+                  "skill": "Unique Katarin I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 27,
+                  "skill": "Unique Katarin II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 28,
+                  "skill": "Unique Katarin III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 29,
+                  "skill": "Ice Court I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 30,
+                  "skill": "Ice Court II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 31,
+                  "skill": "Red: Streltsi I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 32,
+                  "skill": "Red: Streltsi II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 33,
+                  "skill": "Red: Little Grom I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 34,
+                  "skill": "Red: Little Grom II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 35,
+                  "skill": "Personal Defence I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 36,
+                  "skill": "Personal Defence II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 37,
+                  "skill": "Personal Defence III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 38,
+                  "skill": "Magic Passive",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 39,
+                  "skill": "Leadership/Aura I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 40,
+                  "skill": "Leadership/Aura II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 41,
+                  "skill": "Leadership/Aura III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 42,
+                  "skill": "Campaign Utility I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 43,
+                  "skill": "Campaign Utility II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 44,
+                  "skill": "Campaign Utility III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 45,
+                  "skill": "Red Flex I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 46,
+                  "skill": "Red Flex II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 47,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 48,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "ice-guard-glaives",
+              "tzar-guard",
+              "war-bear-riders",
+              "streltsi",
+              "little-grom",
+              "armoured-kossars"
+            ]
+          },
+          {
+            "id": "kostaltyn",
+            "name": "Kostaltyn",
+            "tag": "สาย Support / Faith",
+            "style": "Kossars + Prayers",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fksl_kostaltyn_0.png&w=420&output=png",
+            "summary": "เด่นกับยูนิตพื้นฐานและการยืนไฟต์นาน ๆ จาก Battle Prayers/ออร่า เหมาะกับกอง Kossars → Armoured Kossars → Streltsi และมี War Bear Riders เป็นตัวจบ.",
+            "bestFor": "คนชอบกองราคาคุ้ม เล่นเป็นก้อน และใช้บัฟ/ฮีลประคองแนวหน้า",
+            "armyGuidance": "Kossars, Armoured Kossars, Streltsi, Tzar Guard",
+            "skillBuild": {
+              "summary": "Blue sustain → Prayers → Kossars/Hybrid Red line → defence/support",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "Lv 2–10",
+                  "steps": [
+                    {
+                      "order": "2",
+                      "name": "Route Marcher",
+                      "points": "",
+                      "reason": "movement",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "3–5",
+                      "name": "Blue: Replenishment / Attrition",
+                      "points": "",
+                      "reason": "sustain",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "6",
+                      "name": "Salyak's Lullaby",
+                      "points": "",
+                      "reason": "support",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "7",
+                      "name": "Tor's Battle Hymn",
+                      "points": "",
+                      "reason": "MA +40",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "8",
+                      "name": "Dazh's Song of Winter Sunlight",
+                      "points": "",
+                      "reason": "utility",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "9",
+                      "name": "Stand Your Ground!",
+                      "points": "",
+                      "reason": "defence",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "10",
+                      "name": "Rally!",
+                      "points": "",
+                      "reason": "leadership",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "Lv 11–25",
+                  "steps": [
+                    {
+                      "order": "11–13",
+                      "name": "Red: Kossars",
+                      "points": "",
+                      "reason": "faction synergy",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "14–16",
+                      "name": "Red: Armoured Kossars / Streltsi",
+                      "points": "",
+                      "reason": "midgame",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "17",
+                      "name": "Arcane Vassal",
+                      "points": "",
+                      "reason": "Fireball unlock",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "18–20",
+                      "name": "Unique Devotion",
+                      "points": "",
+                      "reason": "unique",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "21–23",
+                      "name": "Red: Bears / Cavalry",
+                      "points": "",
+                      "reason": "finisher",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "24",
+                      "name": "Lightning Strike",
+                      "points": "",
+                      "reason": "stacks",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "25",
+                      "name": "Blue: movement",
+                      "points": "",
+                      "reason": "campaign",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "Lv 26–50",
+                  "steps": [
+                    {
+                      "order": "26–30",
+                      "name": "Ursun's Ward / defence",
+                      "points": "",
+                      "reason": "tank",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "31–34",
+                      "name": "Blaze of Devotion / aura",
+                      "points": "",
+                      "reason": "support",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "35–38",
+                      "name": "Red: Tzar Guard",
+                      "points": "",
+                      "reason": "late frontline",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "39–42",
+                      "name": "Red: Gryphon / Bears",
+                      "points": "",
+                      "reason": "cavalry",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "43–46",
+                      "name": "Campaign utility",
+                      "points": "",
+                      "reason": "blue",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "47–50",
+                      "name": "Flex",
+                      "points": "",
+                      "reason": "ตามกอง",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blue: Replenishment I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blue: Replenishment II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blue: Attrition",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 6,
+                  "skill": "Salyak's Lullaby",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 7,
+                  "skill": "Tor's Battle Hymn",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 8,
+                  "skill": "Dazh's Song of Winter Sunlight",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 9,
+                  "skill": "Stand Your Ground!",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 10,
+                  "skill": "Rally!",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 11,
+                  "skill": "Red: Kossars I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 12,
+                  "skill": "Red: Kossars II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 13,
+                  "skill": "Red: Kossars III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 14,
+                  "skill": "Red: Armoured Kossars I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 15,
+                  "skill": "Red: Armoured Kossars II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 16,
+                  "skill": "Red: Streltsi",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 17,
+                  "skill": "Arcane Vassal",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 18,
+                  "skill": "Unique Devotion I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 19,
+                  "skill": "Unique Devotion II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 20,
+                  "skill": "Unique Devotion III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 21,
+                  "skill": "Red: War Bear Riders I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 22,
+                  "skill": "Red: War Bear Riders II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 23,
+                  "skill": "Red: Cavalry III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 24,
+                  "skill": "Lightning Strike",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 25,
+                  "skill": "Blue: Movement",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 26,
+                  "skill": "Ursun's Ward I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 27,
+                  "skill": "Ursun's Ward II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 28,
+                  "skill": "Personal Defence",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 29,
+                  "skill": "Blaze of Devotion I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 30,
+                  "skill": "Blaze of Devotion II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 31,
+                  "skill": "Aura/Support I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 32,
+                  "skill": "Aura/Support II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 33,
+                  "skill": "Red: Tzar Guard I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 34,
+                  "skill": "Red: Tzar Guard II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 35,
+                  "skill": "Red: Tzar Guard III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 36,
+                  "skill": "Red: Gryphon Legion I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 37,
+                  "skill": "Red: Gryphon Legion II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 38,
+                  "skill": "Blue: Upkeep I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 39,
+                  "skill": "Blue: Upkeep II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 40,
+                  "skill": "Campaign Utility I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 41,
+                  "skill": "Campaign Utility II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 42,
+                  "skill": "Campaign Utility III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 43,
+                  "skill": "Prayer Flex I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 44,
+                  "skill": "Prayer Flex II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 45,
+                  "skill": "Red Flex I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 46,
+                  "skill": "Red Flex II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 47,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 48,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "kossars",
+              "armoured-kossars",
+              "streltsi",
+              "tzar-guard",
+              "war-bear-riders",
+              "gryphon-legion"
+            ]
+          },
+          {
+            "id": "boris",
+            "name": "Boris Ursus",
+            "tag": "สายบวก / War Bears",
+            "style": "War Bear Riders + Heavy Frontline",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fksl_cha_boris_campaign_0.png&w=420&output=png",
+            "summary": "Boris เป็น melee Lord ที่ตรงไปตรงมาที่สุดของ Kislev และ faction effect ปัจจุบันยังให้ Recruit Rank +2 กับ War Bear Riders จึงเหมาะกับกองม้าหมีหนักมาก.",
+            "bestFor": "คนชอบเล่น Lord บวกเองและอยากใช้ War Bear Riders เป็นแกน",
+            "armyGuidance": "War Bear Riders, Tzar Guard, Tzar Guard (Great Weapons), Little Grom",
+            "skillBuild": {
+              "summary": "Blue sustain → War Bear Red line → personal combat → heavy army finish",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "Lv 2–10",
+                  "steps": [
+                    {
+                      "order": "2",
+                      "name": "Route Marcher",
+                      "points": "",
+                      "reason": "movement",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "3–5",
+                      "name": "Blue: Replenishment / Attrition",
+                      "points": "",
+                      "reason": "Chaos Wastes",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "6",
+                      "name": "Resettler / unique campaign",
+                      "points": "",
+                      "reason": "utility",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "7–9",
+                      "name": "Red: War Bear Riders",
+                      "points": "",
+                      "reason": "core",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "10",
+                      "name": "Foe-Seeker",
+                      "points": "",
+                      "reason": "chase",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "Lv 11–25",
+                  "steps": [
+                    {
+                      "order": "11",
+                      "name": "Fury of Ursun",
+                      "points": "",
+                      "reason": "burst",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "12",
+                      "name": "Colossal Strike",
+                      "points": "",
+                      "reason": "anti-large",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "13–15",
+                      "name": "Personal combat",
+                      "points": "",
+                      "reason": "duel",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "16–18",
+                      "name": "Red: Tzar Guard",
+                      "points": "",
+                      "reason": "frontline",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "19–21",
+                      "name": "Red: Streltsi / Little Grom",
+                      "points": "",
+                      "reason": "support",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "22",
+                      "name": "Lightning Strike",
+                      "points": "",
+                      "reason": "stacks",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "23–25",
+                      "name": "Blue: movement / upkeep",
+                      "points": "",
+                      "reason": "campaign",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "Lv 26–50",
+                  "steps": [
+                    {
+                      "order": "26–30",
+                      "name": "Unique Boris / Urskin",
+                      "points": "",
+                      "reason": "unique",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "31–34",
+                      "name": "Red: Bears finish",
+                      "points": "",
+                      "reason": "doomstack",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "35–38",
+                      "name": "Leadership / Aura",
+                      "points": "",
+                      "reason": "army",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "39–42",
+                      "name": "Personal survivability",
+                      "points": "",
+                      "reason": "tank",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "43–46",
+                      "name": "Campaign utility",
+                      "points": "",
+                      "reason": "blue",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "47–50",
+                      "name": "Flex",
+                      "points": "",
+                      "reason": "ตามกอง",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blue: Replenishment I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blue: Replenishment II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blue: Attrition",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 6,
+                  "skill": "Resettler / Unique Campaign",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 7,
+                  "skill": "Red: War Bear Riders I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 8,
+                  "skill": "Red: War Bear Riders II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 9,
+                  "skill": "Red: War Bear Riders III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 10,
+                  "skill": "Foe-Seeker",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 11,
+                  "skill": "Fury of Ursun",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 12,
+                  "skill": "Colossal Strike",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 13,
+                  "skill": "Personal Combat I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 14,
+                  "skill": "Personal Combat II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 15,
+                  "skill": "Personal Combat III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 16,
+                  "skill": "Red: Tzar Guard I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 17,
+                  "skill": "Red: Tzar Guard II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 18,
+                  "skill": "Red: Tzar Guard III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 19,
+                  "skill": "Red: Streltsi I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 20,
+                  "skill": "Red: Little Grom I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 21,
+                  "skill": "Red: Ranged Support",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 22,
+                  "skill": "Lightning Strike",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 23,
+                  "skill": "Blue: Movement",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 24,
+                  "skill": "Blue: Upkeep I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 25,
+                  "skill": "Blue: Upkeep II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 26,
+                  "skill": "Unique Boris I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 27,
+                  "skill": "Unique Boris II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 28,
+                  "skill": "Unique Boris III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 29,
+                  "skill": "Urskin I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 30,
+                  "skill": "Urskin II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 31,
+                  "skill": "Red: Bears Finish I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 32,
+                  "skill": "Red: Bears Finish II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 33,
+                  "skill": "Red: Bears Finish III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 34,
+                  "skill": "Leadership/Aura I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 35,
+                  "skill": "Leadership/Aura II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 36,
+                  "skill": "Leadership/Aura III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 37,
+                  "skill": "Personal Defence I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 38,
+                  "skill": "Personal Defence II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 39,
+                  "skill": "Personal Defence III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 40,
+                  "skill": "Campaign Utility I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 41,
+                  "skill": "Campaign Utility II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 42,
+                  "skill": "Campaign Utility III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 43,
+                  "skill": "Red Flex I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 44,
+                  "skill": "Red Flex II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 45,
+                  "skill": "Red Flex III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 46,
+                  "skill": "Blue Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 47,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 48,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "war-bear-riders",
+              "tzar-guard",
+              "tzar-guard-great-weapons",
+              "little-grom",
+              "streltsi",
+              "armoured-kossars"
+            ]
+          },
+          {
+            "id": "ostankya",
+            "name": "Mother Ostankya",
+            "tag": "สาย Monster / Hex",
+            "style": "Hag Magic + Forest Monsters",
+            "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fksl_ostankya_0.png&w=420&output=png",
+            "summary": "เล่นต่างจาก Kislev ปกติที่สุด: ใช้ The Things in the Woods กับ Incarnate Elemental เป็นตัวชน/ล้วง แล้วใช้ Hag Magic ลด armour, speed และ damage ของศัตรู.",
+            "bestFor": "คนชอบคุมสนามด้วย debuff, ambush และ monster แปลก ๆ",
+            "armyGuidance": "The Things in the Woods, Incarnate Elemental of Beasts, War Bear Riders, Streltsi",
+            "skillBuild": {
+              "summary": "Blue sustain → Hag Magic → Forest Monsters Red line → campaign/ambush",
+              "stages": [
+                {
+                  "key": "EARLY",
+                  "title": "Lv 2–10",
+                  "steps": [
+                    {
+                      "order": "2",
+                      "name": "Route Marcher",
+                      "points": "",
+                      "reason": "movement",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "3–5",
+                      "name": "Blue: Replenishment / Attrition",
+                      "points": "",
+                      "reason": "sustain",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "6",
+                      "name": "The Forbidden Fens",
+                      "points": "",
+                      "reason": "slow",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "7",
+                      "name": "Witchbrew",
+                      "points": "",
+                      "reason": "vortex",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "8",
+                      "name": "Curse of the Ancient Witch",
+                      "points": "",
+                      "reason": "Armour -60",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "9",
+                      "name": "Vengeance of Spirits",
+                      "points": "",
+                      "reason": "silence",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "10",
+                      "name": "Malediction of Madness",
+                      "points": "",
+                      "reason": "damage debuff",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "MID",
+                  "title": "Lv 11–25",
+                  "steps": [
+                    {
+                      "order": "11",
+                      "name": "Cursed Cauldron",
+                      "points": "",
+                      "reason": "AoE",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "12",
+                      "name": "Arcane Conduit",
+                      "points": "",
+                      "reason": "WoM",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "13–15",
+                      "name": "Red: Things in the Woods",
+                      "points": "",
+                      "reason": "core",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "16–18",
+                      "name": "Red: Incarnate / Monsters",
+                      "points": "",
+                      "reason": "finisher",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "19–21",
+                      "name": "Ambush / Forest utility",
+                      "points": "",
+                      "reason": "style",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "22",
+                      "name": "Lightning Strike",
+                      "points": "",
+                      "reason": "stacks",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "23–25",
+                      "name": "Blue: movement / upkeep",
+                      "points": "",
+                      "reason": "campaign",
+                      "iconUrl": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "LATE",
+                  "title": "Lv 26–50",
+                  "steps": [
+                    {
+                      "order": "26–30",
+                      "name": "Folklore / Boszorka's Wrath",
+                      "points": "",
+                      "reason": "unique",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "31–34",
+                      "name": "Red: Bears / heavy support",
+                      "points": "",
+                      "reason": "hybrid",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "35–38",
+                      "name": "Personal / ranged defence",
+                      "points": "",
+                      "reason": "survive",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "39–42",
+                      "name": "Leadership / Aura",
+                      "points": "",
+                      "reason": "army",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "43–46",
+                      "name": "Campaign utility",
+                      "points": "",
+                      "reason": "blue",
+                      "iconUrl": ""
+                    },
+                    {
+                      "order": "47–50",
+                      "name": "Flex",
+                      "points": "",
+                      "reason": "ตามกอง",
+                      "iconUrl": ""
+                    }
+                  ]
+                }
+              ],
+              "levelPlan": [
+                {
+                  "level": 2,
+                  "skill": "Route Marcher",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 3,
+                  "skill": "Blue: Replenishment I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 4,
+                  "skill": "Blue: Replenishment II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 5,
+                  "skill": "Blue: Attrition",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 6,
+                  "skill": "The Forbidden Fens",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 7,
+                  "skill": "Witchbrew",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 8,
+                  "skill": "Curse of the Ancient Witch",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 9,
+                  "skill": "Vengeance of Spirits",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 10,
+                  "skill": "Malediction of Madness",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 11,
+                  "skill": "Cursed Cauldron",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 12,
+                  "skill": "Arcane Conduit",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 13,
+                  "skill": "Red: Things in the Woods I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 14,
+                  "skill": "Red: Things in the Woods II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 15,
+                  "skill": "Red: Things in the Woods III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 16,
+                  "skill": "Red: Incarnate/Monsters I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 17,
+                  "skill": "Red: Incarnate/Monsters II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 18,
+                  "skill": "Red: Incarnate/Monsters III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 19,
+                  "skill": "Ambush/Forest I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 20,
+                  "skill": "Ambush/Forest II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 21,
+                  "skill": "Ambush/Forest III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 22,
+                  "skill": "Lightning Strike",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 23,
+                  "skill": "Blue: Movement",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 24,
+                  "skill": "Blue: Upkeep I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 25,
+                  "skill": "Blue: Upkeep II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 26,
+                  "skill": "Folklore I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 27,
+                  "skill": "Folklore II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 28,
+                  "skill": "Boszorka's Wrath I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 29,
+                  "skill": "Boszorka's Wrath II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 30,
+                  "skill": "Unique Ostankya",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 31,
+                  "skill": "Red: War Bear Riders I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 32,
+                  "skill": "Red: War Bear Riders II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 33,
+                  "skill": "Red: Tzar Guard I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 34,
+                  "skill": "Red: Tzar Guard II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 35,
+                  "skill": "Personal Defence I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 36,
+                  "skill": "Personal Defence II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 37,
+                  "skill": "Personal Defence III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 38,
+                  "skill": "Leadership/Aura I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 39,
+                  "skill": "Leadership/Aura II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 40,
+                  "skill": "Leadership/Aura III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 41,
+                  "skill": "Campaign Utility I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 42,
+                  "skill": "Campaign Utility II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 43,
+                  "skill": "Campaign Utility III",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 44,
+                  "skill": "Spell Flex I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 45,
+                  "skill": "Spell Flex II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 46,
+                  "skill": "Red Flex I",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 47,
+                  "skill": "Red Flex II",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 48,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 49,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                },
+                {
+                  "level": 50,
+                  "skill": "Flex",
+                  "note": "Recommended priority; ถ้ายังล็อกตาม Rank ให้ลง node ถัดไปก่อนแล้วค่อยย้อนกลับ"
+                }
+              ]
+            },
+            "coreUnitIds": [
+              "the-things-in-the-woods",
+              "incarnate-elemental-of-beasts",
+              "war-bear-riders",
+              "streltsi",
+              "tzar-guard",
+              "little-grom"
+            ]
+          }
+        ],
+        "units": [
+          {
+            "id": "ice-guard-glaives",
+            "name": "Ice Guard (Glaives)",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_inf_ice_guard_1.png&w=520&output=png",
+            "type": "Missile Infantry",
+            "role": "Elite Hybrid / Anti-Large",
+            "description": "แนวยิงหลักของ Katarin ยิงไกลและถือ glaive ไว้รับตัวใหญ่",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "80"
+              },
+              {
+                "label": "HP",
+                "value": "7,040"
+              },
+              {
+                "label": "Armour",
+                "value": "50"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "36"
+              },
+              {
+                "label": "Mass",
+                "value": "100"
+              },
+              {
+                "label": "MA",
+                "value": "32"
+              },
+              {
+                "label": "MD",
+                "value": "40"
+              },
+              {
+                "label": "WS",
+                "value": "28"
+              },
+              {
+                "label": "Charge",
+                "value": "10"
+              },
+              {
+                "label": "Range",
+                "value": "160"
+              },
+              {
+                "label": "Missile",
+                "value": "24"
+              },
+              {
+                "label": "Cost",
+                "value": "1,250"
+              }
+            ],
+            "traits": [
+              "Hybrid",
+              "Armour-Piercing",
+              "Anti-Large",
+              "Frostbite"
+            ]
+          },
+          {
+            "id": "tzar-guard",
+            "name": "Tzar Guard",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_inf_tsar_guard_0.png&w=520&output=png",
+            "type": "Melee Infantry",
+            "role": "Armoured Defensive Frontline",
+            "description": "แนวหน้าหนัก เอาไว้ยืนค้ำให้แนวยิงทำงาน",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "80"
+              },
+              {
+                "label": "HP",
+                "value": "8,800"
+              },
+              {
+                "label": "Armour",
+                "value": "90"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "30"
+              },
+              {
+                "label": "Mass",
+                "value": "150"
+              },
+              {
+                "label": "MA",
+                "value": "36"
+              },
+              {
+                "label": "MD",
+                "value": "50"
+              },
+              {
+                "label": "WS",
+                "value": "42"
+              },
+              {
+                "label": "Charge",
+                "value": "18"
+              },
+              {
+                "label": "Cost",
+                "value": "1,000"
+              }
+            ],
+            "traits": [
+              "Armoured",
+              "Shielded",
+              "By Our Blood"
+            ]
+          },
+          {
+            "id": "war-bear-riders",
+            "name": "War Bear Riders",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_cav_war_bear_riders_1.png&w=520&output=png",
+            "type": "Monstrous Cavalry",
+            "role": "Heavy AP Cavalry",
+            "description": "ตัวปิดไฟต์ที่แข็งมาก เหมาะชน cavalry/monster และ rear charge",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "16"
+              },
+              {
+                "label": "HP",
+                "value": "8,256"
+              },
+              {
+                "label": "Armour",
+                "value": "100"
+              },
+              {
+                "label": "Leadership",
+                "value": "70"
+              },
+              {
+                "label": "Speed",
+                "value": "75"
+              },
+              {
+                "label": "Mass",
+                "value": "1,700"
+              },
+              {
+                "label": "MA",
+                "value": "46"
+              },
+              {
+                "label": "MD",
+                "value": "34"
+              },
+              {
+                "label": "WS",
+                "value": "110"
+              },
+              {
+                "label": "Charge",
+                "value": "44"
+              },
+              {
+                "label": "Cost",
+                "value": "1,600"
+              }
+            ],
+            "traits": [
+              "Armoured",
+              "Armour-Piercing",
+              "Fear",
+              "By Our Blood"
+            ]
+          },
+          {
+            "id": "streltsi",
+            "name": "Streltsi",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_inf_streltsi_0.png&w=520&output=png",
+            "type": "Missile Infantry",
+            "role": "AP Gun Hybrid",
+            "description": "ปืนเจาะเกราะที่ยังตี melee ได้ ใช้แก้ armour หนัก",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "90"
+              },
+              {
+                "label": "HP",
+                "value": "7,470"
+              },
+              {
+                "label": "Armour",
+                "value": "70"
+              },
+              {
+                "label": "Leadership",
+                "value": "70"
+              },
+              {
+                "label": "Speed",
+                "value": "30"
+              },
+              {
+                "label": "Mass",
+                "value": "125"
+              },
+              {
+                "label": "MA",
+                "value": "28"
+              },
+              {
+                "label": "MD",
+                "value": "28"
+              },
+              {
+                "label": "WS",
+                "value": "34"
+              },
+              {
+                "label": "Charge",
+                "value": "12"
+              },
+              {
+                "label": "Ammo",
+                "value": "20"
+              },
+              {
+                "label": "Range",
+                "value": "145"
+              },
+              {
+                "label": "Missile",
+                "value": "17"
+              },
+              {
+                "label": "Cost",
+                "value": "850"
+              }
+            ],
+            "traits": [
+              "Hybrid",
+              "Armoured",
+              "Armour-Piercing",
+              "By Our Blood"
+            ]
+          },
+          {
+            "id": "little-grom",
+            "name": "Little Grom",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_veh_little_grom_0.png&w=520&output=png",
+            "type": "Artillery",
+            "role": "Long-Range AP Artillery",
+            "description": "ปืนใหญ่ระยะไกล 420 ใช้บังคับศัตรูให้เดินเข้าหาเรา",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "1"
+              },
+              {
+                "label": "HP",
+                "value": "5,228"
+              },
+              {
+                "label": "Armour",
+                "value": "105"
+              },
+              {
+                "label": "Leadership",
+                "value": "70"
+              },
+              {
+                "label": "Speed",
+                "value": "35"
+              },
+              {
+                "label": "Mass",
+                "value": "4,100"
+              },
+              {
+                "label": "MA",
+                "value": "40"
+              },
+              {
+                "label": "MD",
+                "value": "28"
+              },
+              {
+                "label": "WS",
+                "value": "110"
+              },
+              {
+                "label": "Charge",
+                "value": "25"
+              },
+              {
+                "label": "Ammo",
+                "value": "22"
+              },
+              {
+                "label": "Range",
+                "value": "420"
+              },
+              {
+                "label": "Missile",
+                "value": "543"
+              },
+              {
+                "label": "Cost",
+                "value": "1,400"
+              }
+            ],
+            "traits": [
+              "Armoured",
+              "Armour-Piercing",
+              "Fear",
+              "Collision Attacks"
+            ]
+          },
+          {
+            "id": "armoured-kossars",
+            "name": "Armoured Kossars",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_inf_armoured_kossars_0.png&w=520&output=png",
+            "type": "Missile Infantry",
+            "role": "Armoured Hybrid Frontline",
+            "description": "แนวหน้าช่วงกลางเกม มีปืนสั้นก่อนเข้าชน",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "100"
+              },
+              {
+                "label": "HP",
+                "value": "8,200"
+              },
+              {
+                "label": "Armour",
+                "value": "80"
+              },
+              {
+                "label": "Leadership",
+                "value": "65"
+              },
+              {
+                "label": "Speed",
+                "value": "30"
+              },
+              {
+                "label": "Mass",
+                "value": "125"
+              },
+              {
+                "label": "MA",
+                "value": "32"
+              },
+              {
+                "label": "MD",
+                "value": "40"
+              },
+              {
+                "label": "WS",
+                "value": "32"
+              },
+              {
+                "label": "Charge",
+                "value": "12"
+              },
+              {
+                "label": "Ammo",
+                "value": "6"
+              },
+              {
+                "label": "Range",
+                "value": "90"
+              },
+              {
+                "label": "Missile",
+                "value": "18"
+              },
+              {
+                "label": "Cost",
+                "value": "700"
+              }
+            ],
+            "traits": [
+              "Armoured",
+              "Shielded",
+              "Hybrid",
+              "By Our Blood"
+            ]
+          },
+          {
+            "id": "kossars",
+            "name": "Kossars",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_inf_kossars_0.png&w=520&output=png",
+            "type": "Missile Infantry",
+            "role": "Cheap Hybrid Core",
+            "description": "ต้นเกมคุ้มมาก ยิงธนูแล้วรับ melee ต่อได้",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "90"
+              },
+              {
+                "label": "HP",
+                "value": "6,390"
+              },
+              {
+                "label": "Armour",
+                "value": "15"
+              },
+              {
+                "label": "Leadership",
+                "value": "60"
+              },
+              {
+                "label": "Speed",
+                "value": "33"
+              },
+              {
+                "label": "Mass",
+                "value": "100"
+              },
+              {
+                "label": "MA",
+                "value": "28"
+              },
+              {
+                "label": "MD",
+                "value": "26"
+              },
+              {
+                "label": "WS",
+                "value": "28"
+              },
+              {
+                "label": "Charge",
+                "value": "12"
+              },
+              {
+                "label": "Ammo",
+                "value": "20"
+              },
+              {
+                "label": "Range",
+                "value": "140"
+              },
+              {
+                "label": "Missile",
+                "value": "17"
+              },
+              {
+                "label": "Cost",
+                "value": "450"
+              }
+            ],
+            "traits": [
+              "Hybrid",
+              "Cheap",
+              "By Our Blood",
+              "Weak vs Armour"
+            ]
+          },
+          {
+            "id": "gryphon-legion",
+            "name": "Gryphon Legion",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_cav_gryphon_legion_0.png&w=520&output=png",
+            "type": "Melee Cavalry",
+            "role": "Heavy Shock Cavalry",
+            "description": "ม้าหนัก charge สูง ใช้กับกอง Kostaltyn ได้ดี",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "60"
+              },
+              {
+                "label": "HP",
+                "value": "6,960"
+              },
+              {
+                "label": "Armour",
+                "value": "110"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "75"
+              },
+              {
+                "label": "Mass",
+                "value": "1,300"
+              },
+              {
+                "label": "MA",
+                "value": "34"
+              },
+              {
+                "label": "MD",
+                "value": "32"
+              },
+              {
+                "label": "WS",
+                "value": "40"
+              },
+              {
+                "label": "Charge",
+                "value": "72"
+              },
+              {
+                "label": "Cost",
+                "value": "1,250"
+              }
+            ],
+            "traits": [
+              "Armoured",
+              "Shielded",
+              "Glorious Charge",
+              "Anti-Infantry"
+            ]
+          },
+          {
+            "id": "tzar-guard-great-weapons",
+            "name": "Tzar Guard (Great Weapons)",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_ksl_inf_tsar_guard_1.png&w=520&output=png",
+            "type": "Melee Infantry",
+            "role": "Armoured AP / Anti-Infantry",
+            "description": "Tzar Guard สายดาเมจ ใช้เจาะเกราะและบด infantry",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "80"
+              },
+              {
+                "label": "HP",
+                "value": "8,800"
+              },
+              {
+                "label": "Armour",
+                "value": "90"
+              },
+              {
+                "label": "Leadership",
+                "value": "75"
+              },
+              {
+                "label": "Speed",
+                "value": "30"
+              },
+              {
+                "label": "Mass",
+                "value": "150"
+              },
+              {
+                "label": "MA",
+                "value": "40"
+              },
+              {
+                "label": "MD",
+                "value": "36"
+              },
+              {
+                "label": "WS",
+                "value": "42"
+              },
+              {
+                "label": "Charge",
+                "value": "22"
+              },
+              {
+                "label": "Cost",
+                "value": "1,100"
+              }
+            ],
+            "traits": [
+              "Armoured",
+              "Armour-Piercing",
+              "Anti-Infantry",
+              "By Our Blood"
+            ]
+          },
+          {
+            "id": "the-things-in-the-woods",
+            "name": "The Things in the Woods",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_dlc24_ksl_mon_the_things_in_the_woods.png&w=520&output=png",
+            "type": "Monstrous Beast",
+            "role": "Fast Forest Hunter",
+            "description": "เร็ว มี Vanguard และเดินป่าเก่ง เหมาะอ้อมล้วงแนวหลัง",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "24"
+              },
+              {
+                "label": "HP",
+                "value": "6,168"
+              },
+              {
+                "label": "Armour",
+                "value": "35"
+              },
+              {
+                "label": "Leadership",
+                "value": "60"
+              },
+              {
+                "label": "Speed",
+                "value": "70"
+              },
+              {
+                "label": "Mass",
+                "value": "1,500"
+              },
+              {
+                "label": "MA",
+                "value": "38"
+              },
+              {
+                "label": "MD",
+                "value": "32"
+              },
+              {
+                "label": "WS",
+                "value": "62"
+              },
+              {
+                "label": "Charge",
+                "value": "46"
+              },
+              {
+                "label": "Cost",
+                "value": "875"
+              }
+            ],
+            "traits": [
+              "Fear",
+              "Vanguard",
+              "Woodsman",
+              "Anti-Infantry"
+            ]
+          },
+          {
+            "id": "incarnate-elemental-of-beasts",
+            "name": "Incarnate Elemental of Beasts",
+            "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_dlc24_ksl_mon_incarnate_elemental_of_beasts.png&w=520&output=png",
+            "type": "Monster",
+            "role": "AP Terror Monster",
+            "description": "ตัวใหญ่สำหรับพัง blob และสร้าง Terror; เหมาะมากกับ Ostankya",
+            "stats": [
+              {
+                "label": "Models",
+                "value": "1"
+              },
+              {
+                "label": "HP",
+                "value": "9,008"
+              },
+              {
+                "label": "Armour",
+                "value": "50"
+              },
+              {
+                "label": "Leadership",
+                "value": "80"
+              },
+              {
+                "label": "Speed",
+                "value": "60"
+              },
+              {
+                "label": "Mass",
+                "value": "9,000"
+              },
+              {
+                "label": "MA",
+                "value": "62"
+              },
+              {
+                "label": "MD",
+                "value": "30"
+              },
+              {
+                "label": "WS",
+                "value": "650"
+              },
+              {
+                "label": "Charge",
+                "value": "64"
+              },
+              {
+                "label": "Cost",
+                "value": "1,900"
+              }
+            ],
+            "traits": [
+              "Armour-Piercing",
+              "Anti-Infantry",
+              "Terror",
+              "Howl of the Great Beast"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
