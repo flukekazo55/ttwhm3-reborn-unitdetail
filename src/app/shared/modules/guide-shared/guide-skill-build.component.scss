@@ -1,69 +1,73 @@
 @use '../../../../styles/variables' as v;
 
 .skill-section {
-  --accent:#aaa; margin-top: 1.5rem;
+  --accent:#ccc; margin-top: 1.5rem;
   border-radius: v.$radius-lg; padding: clamp(1.1rem, 3vw, 1.75rem);
   background: v.$primary-surface;
-  border: 1px solid v.$primary-border;
+  border: 2px solid color-mix(in srgb, var(--accent) 18%, transparent);
+  box-shadow: v.$shadow-soft;
 }
 .skill-head { display:flex; justify-content:space-between; gap:1.25rem; align-items:flex-end; flex-wrap: wrap; }
-.kicker { color:var(--accent); font-size:.72rem; letter-spacing:.16em; font-weight:800; }
-.skill-head h3 { margin:.25rem 0 0; font-size: 1.35rem; font-weight: 800; }
+.kicker { color:color-mix(in srgb, var(--accent) 55%, #4a3722); font-size:.72rem; letter-spacing:.16em; font-weight:800; }
+.skill-head h3 { margin:.25rem 0 0; font-size: 1.4rem; font-weight: 700; color: v.$text-primary; }
 .summary {
   flex: 1 1 320px; max-width: 460px;
   border-radius:v.$radius-sm; padding:.75rem 1rem;
-  background: color-mix(in srgb, var(--accent) 8%, rgba(0,0,0,.2));
+  background: color-mix(in srgb, var(--accent) 10%, white);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
   color:v.$text-secondary; font-size:.9rem; line-height: 1.55;
 }
 
 .rank-note {
   margin-top:1rem; display:flex; gap:.6rem; align-items:flex-start;
   padding:.8rem 1rem; border-radius:v.$radius-sm;
-  background: color-mix(in srgb, v.$secondary-gold 8%, rgba(0,0,0,.15));
-  border: 1px solid color-mix(in srgb, v.$secondary-gold 22%, transparent);
+  background: color-mix(in srgb, v.$secondary-gold 12%, white);
+  border: 1px solid color-mix(in srgb, v.$secondary-gold 30%, transparent);
   color:v.$text-secondary; font-size:.9rem; line-height: 1.55;
 }
 .rank-note-icon {
   flex-shrink: 0; width: 1.3rem; height: 1.3rem; border-radius: 50%;
   display: grid; place-items: center; font-size: .8rem; font-weight: 800; font-style: italic;
-  background: color-mix(in srgb, v.$secondary-gold 30%, transparent); color: v.$secondary-gold;
+  background: color-mix(in srgb, v.$secondary-gold 85%, white); color: #fff;
 }
 
 .skill-stage { margin-top:1.75rem; }
 .stage-head { display:flex; gap:.7rem; align-items:center; margin-bottom:.9rem; }
 .stage-key {
-  color:var(--accent); font-size:.72rem; font-weight:800; letter-spacing: .1em;
-  padding: .2rem .6rem; border-radius: v.$radius-pill;
-  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color:color-mix(in srgb, var(--accent) 50%, #4a3722); font-size:.72rem; font-weight:800; letter-spacing: .1em;
+  padding: .2rem .7rem; border-radius: v.$radius-pill;
+  background: color-mix(in srgb, var(--accent) 16%, white);
 }
-.stage-head strong { font-size:1.05rem; }
+.stage-head strong { font-size:1.05rem; color: v.$text-primary; }
 
 .step-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.75rem; }
 .skill-step {
   position:relative; display:grid; grid-template-columns:52px 1fr; gap:.7rem;
-  border-radius:v.$radius; padding:.9rem .9rem .9rem 1.1rem;
+  border-radius:v.$radius; padding:.95rem .9rem .9rem 1.1rem;
   background:v.$primary-surface-soft;
   border: 1px solid v.$primary-border;
   border-top:3px solid color-mix(in srgb, var(--accent) 70%, transparent);
-  transition: border-color .16s ease, background .16s ease;
+  transition: border-color .16s ease, background .16s ease, transform .16s ease;
 }
-.skill-step:hover { background: v.$primary-surface-raised; border-color: v.$primary-border-strong; }
+.skill-step:hover { background: v.$primary-surface-raised; border-color: color-mix(in srgb, var(--accent) 40%, transparent); transform: translateY(-2px); }
 .order {
   position:absolute; top:-9px; left:1.1rem; min-width:22px; height:22px; padding: 0 .35rem;
-  border-radius:v.$radius-pill; background:color-mix(in srgb, var(--accent) 88%, black); color: #120d09;
+  border-radius:v.$radius-pill; background:color-mix(in srgb, var(--accent) 90%, white); color: #fff;
   display:flex; align-items:center; justify-content:center; font-size:.68rem; font-weight:900;
+  box-shadow: v.$shadow-soft;
 }
 .skill-icon {
   width:52px; height:52px; border-radius:v.$radius-sm; overflow:hidden;
-  display:flex; align-items:center; justify-content:center; background:#0d0b09;
+  display:flex; align-items:center; justify-content:center;
+  background:color-mix(in srgb, var(--accent) 10%, white);
   border: 1px solid v.$primary-border;
 }
 .skill-icon img { width:100%; height:100%; object-fit:cover; }
-.skill-icon.fallback { color:var(--accent); font-size:.85rem; font-weight:900; }
+.skill-icon.fallback { color:color-mix(in srgb, var(--accent) 50%, #4a3722); font-size:.85rem; font-weight:900; }
 .step-copy { min-width:0; align-self: center; }
-.step-copy strong { display:block; font-size:.9rem; }
+.step-copy strong { display:block; font-size:.9rem; color: v.$text-primary; }
 .step-copy small {
-  display: inline-block; margin-top: .15rem; color:v.$secondary-gold; font-size:.72rem; font-weight: 600;
+  display: inline-block; margin-top: .15rem; color:v.$secondary-gold; font-size:.72rem; font-weight: 700;
 }
 .step-copy p { margin:.35rem 0 0; color:v.$text-muted; font-size:.82rem; line-height:1.5; }
 
@@ -74,6 +78,7 @@
   cursor: pointer; list-style: none; padding: .85rem 1.1rem;
   border-radius: v.$radius; background: v.$primary-surface-soft;
   border: 1px solid v.$primary-border; font-weight: 700; font-size: .95rem;
+  color: v.$text-primary;
   transition: background .16s ease;
 }
 .level-plan summary:hover { background: v.$primary-surface-raised; }
@@ -92,12 +97,12 @@
 }
 .level-table th {
   position:sticky; top:0; z-index:2;
-  background:v.$primary-surface-raised; color:var(--accent); font-size:.8rem; padding: .7rem .9rem;
+  background:v.$primary-surface-raised; color:color-mix(in srgb, var(--accent) 50%, #4a3722); font-size:.8rem; padding: .7rem .9rem;
   border-bottom: 1px solid v.$primary-border-strong;
 }
 .level-table td { font-size:.85rem; padding: .6rem .9rem; vertical-align: middle; }
 .level-table td:first-child { font-weight:900; width:55px; color: v.$text-primary; }
-.level-table tbody tr:hover td { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.level-table tbody tr:hover td { background: color-mix(in srgb, var(--accent) 8%, transparent); }
 
 @media (max-width:1000px) { .step-grid { grid-template-columns:repeat(2,1fr); } }
 @media (max-width:650px) {

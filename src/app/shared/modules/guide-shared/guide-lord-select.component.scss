@@ -1,0 +1,108 @@
+@use '../../../../styles/variables' as v;
+
+:host { display: block; }
+
+/* ---- Faction hero ---- */
+.faction-hero {
+  --accent: #ccc; --soft: #fff;
+  position: relative;
+  border-radius: v.$radius-lg;
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  background:
+    radial-gradient(120% 140% at 92% -10%, color-mix(in srgb, var(--accent) 28%, transparent), transparent 48%),
+    linear-gradient(180deg, var(--soft), v.$primary-surface);
+  border: 2px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  box-shadow: v.$shadow-card;
+  overflow: hidden;
+}
+.crumbs {
+  display: flex; align-items: center; gap: .5rem;
+  font-size: .85rem; color: v.$text-muted; margin-bottom: 1rem;
+}
+.crumbs a { color: color-mix(in srgb, var(--accent) 55%, #4a3722); text-decoration: none; font-weight: 600; }
+.crumbs a:hover { text-decoration: underline; }
+.crumbs b { color: v.$text-secondary; }
+.faction-label {
+  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  font-size: .78rem; letter-spacing: .18em; font-weight: 800;
+}
+.faction-hero h2 {
+  margin: .3rem 0 0; font-size: clamp(2.4rem, 7vw, 4.4rem); line-height: 1; font-weight: 700;
+  color: color-mix(in srgb, var(--accent) 42%, v.$text-primary);
+}
+.faction-hero strong { display: block; margin-top: .7rem; color: v.$secondary-gold; font-size: 1.05rem; }
+.faction-hero p { margin-top: .6rem; color: v.$text-secondary; max-width: 58rem; font-size: 1rem; }
+
+/* ---- Lord pick ---- */
+.lord-pick { --accent: #ccc; margin-top: 2.25rem; }
+.step-pill {
+  display: inline-block; margin-bottom: .7rem;
+  padding: .35rem .9rem; border-radius: v.$radius-pill;
+  background: color-mix(in srgb, var(--accent) 16%, white);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  font-size: .76rem; font-weight: 700; letter-spacing: .04em;
+}
+.section-heading h3 { margin: 0 0 .25rem; font-size: 1.7rem; font-weight: 700; color: v.$text-primary; }
+.section-sub { margin: 0 0 1.4rem; color: v.$text-muted; font-size: .98rem; }
+
+.lord-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.15rem;
+}
+.lord-card {
+  display: flex; flex-direction: column; overflow: hidden;
+  text-decoration: none; color: inherit;
+  border-radius: v.$radius-lg;
+  background: v.$primary-surface;
+  border: 2px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  box-shadow: v.$shadow-soft;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.lord-card:hover {
+  transform: translateY(-5px);
+  border-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  box-shadow: v.$shadow-card;
+}
+.lord-art {
+  position: relative; min-height: 220px;
+  display: flex; align-items: center; justify-content: center; padding: 1rem;
+  background:
+    radial-gradient(72% 66% at 50% 40%, color-mix(in srgb, var(--accent) 26%, transparent), transparent 72%),
+    var(--soft);
+}
+.lord-art img {
+  max-height: 200px; width: auto; object-fit: contain;
+  filter: drop-shadow(0 12px 15px rgba(120, 80, 40, .26));
+}
+.art-fallback { color: v.$text-muted; font-weight: 800; text-align: center; }
+.lord-tag {
+  position: absolute; top: .8rem; right: .8rem;
+  padding: .28rem .7rem; border-radius: v.$radius-pill;
+  background: color-mix(in srgb, var(--accent) 88%, white);
+  color: #fff; font-size: .72rem; font-weight: 700;
+  box-shadow: v.$shadow-soft;
+}
+
+.lord-info { padding: 1.1rem 1.2rem 1.25rem; display: flex; flex-direction: column; gap: .7rem; }
+.lord-info h4 {
+  margin: 0; font-size: 1.35rem; font-weight: 700;
+  color: color-mix(in srgb, var(--accent) 42%, v.$text-primary);
+}
+.lord-meta { margin: 0; display: grid; gap: .5rem; }
+.lord-meta > div { display: grid; gap: .1rem; }
+.lord-meta dt {
+  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; font-weight: 700;
+}
+.lord-meta dd { margin: 0; color: v.$text-secondary; font-size: .9rem; line-height: 1.45; }
+.lord-cta {
+  margin-top: auto; display: inline-flex; align-items: center; gap: .35rem;
+  align-self: flex-start;
+  padding: .5rem 1rem; border-radius: v.$radius-pill;
+  background: color-mix(in srgb, var(--accent) 16%, white);
+  border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
+  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  font-weight: 700; font-size: .9rem;
+  transition: background .18s ease, gap .18s ease;
+}
+.lord-card:hover .lord-cta { background: color-mix(in srgb, var(--accent) 26%, white); gap: .6rem; }

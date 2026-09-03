@@ -8,9 +8,9 @@
       "subtitle": "The Motherland Endures",
       "description": "กองทัพ hybrid ที่ผสมแนวยิง แนวรับ เวทมนตร์ cavalry และ monsters ได้ยืดหยุ่น",
       "theme": {
-        "accent": "#79b9ef",
-        "soft": "#11243a",
-        "border": "#31557d"
+        "accent": "#3f9be0",
+        "soft": "#e4f1fc",
+        "border": "#a9d5f4"
       },
       "lords": [
         {

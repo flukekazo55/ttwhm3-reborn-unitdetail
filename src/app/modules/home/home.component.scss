@@ -1,0 +1,87 @@
+@use '../../../styles/variables' as v;
+
+:host { display: block; }
+
+.home { padding: clamp(1.5rem, 5vw, 3.5rem) 0 4rem; }
+
+.home-hero {
+  text-align: center;
+  margin-bottom: clamp(1.75rem, 4vw, 3rem);
+}
+.step-pill {
+  display: inline-block; margin-bottom: 1rem;
+  padding: .4rem 1rem; border-radius: v.$radius-pill;
+  background: color-mix(in srgb, v.$secondary-gold 18%, white);
+  border: 1px solid color-mix(in srgb, v.$secondary-gold 40%, transparent);
+  color: color-mix(in srgb, v.$secondary-gold 55%, #4a3722);
+  font-size: .8rem; font-weight: 700; letter-spacing: .04em;
+}
+.home-hero h1 {
+  margin: 0; font-size: clamp(2.1rem, 6vw, 3.6rem); font-weight: 700;
+  color: v.$text-primary; line-height: 1.15;
+}
+.home-hero p {
+  margin: .9rem auto 0; max-width: 40rem;
+  color: v.$text-secondary; font-size: 1.05rem;
+}
+
+.faction-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: clamp(1rem, 3vw, 1.75rem);
+}
+
+.faction-card {
+  --accent: #ccc; --soft: #fff;
+  display: flex; flex-direction: column; overflow: hidden;
+  text-decoration: none; color: inherit;
+  border-radius: v.$radius-lg;
+  background: v.$primary-surface;
+  border: 2px solid color-mix(in srgb, var(--accent) 26%, transparent);
+  box-shadow: v.$shadow-card;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.faction-card:hover {
+  transform: translateY(-6px);
+  border-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  box-shadow: v.$shadow-pop;
+}
+
+.card-art {
+  position: relative;
+  min-height: 260px; display: flex; align-items: center; justify-content: center;
+  padding: 1.25rem;
+  background:
+    radial-gradient(75% 70% at 50% 40%, color-mix(in srgb, var(--accent) 26%, transparent), transparent 72%),
+    var(--soft);
+}
+.card-art img {
+  max-height: 240px; width: auto; object-fit: contain;
+  filter: drop-shadow(0 14px 18px rgba(120, 80, 40, .28));
+}
+.card-emoji {
+  position: absolute; top: 1rem; left: 1rem; font-size: 1.8rem;
+  filter: drop-shadow(0 3px 4px rgba(0,0,0,.2));
+}
+
+.card-body { padding: 1.4rem 1.5rem 1.6rem; }
+.card-eyebrow {
+  color: color-mix(in srgb, var(--accent) 62%, #4a3722);
+  font-size: .8rem; font-weight: 700; letter-spacing: .04em;
+}
+.card-body h2 {
+  margin: .25rem 0 .5rem; font-size: 2.1rem; font-weight: 700;
+  color: color-mix(in srgb, var(--accent) 45%, v.$text-primary);
+}
+.card-body p { margin: 0; color: v.$text-secondary; font-size: .98rem; line-height: 1.55; }
+.card-cta {
+  display: inline-flex; align-items: center; gap: .35rem; margin-top: 1.1rem;
+  padding: .55rem 1.1rem; border-radius: v.$radius-pill;
+  background: color-mix(in srgb, var(--accent) 16%, white);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  font-weight: 700; font-size: .95rem;
+  transition: background .18s ease, gap .18s ease;
+}
+.faction-card:hover .card-cta {
+  background: color-mix(in srgb, var(--accent) 26%, white); gap: .65rem;
+}

@@ -1,0 +1,27 @@
+<main class="home">
+  <section class="home-hero container-xl">
+    <div class="step-pill">STEP 1 / 3 · เลือก Faction</div>
+    <h1>วันนี้อยากเล่นเผ่าไหนดี? 🎮</h1>
+    <p>เลือก Faction ที่ชอบก่อน เดี๋ยวเราพาไปเลือก Lord แล้วดูคู่มือแบบละเอียดกันต่อ</p>
+  </section>
+
+  <section class="faction-grid container-xl">
+    <a
+      *ngFor="let faction of factions; trackBy: trackFaction"
+      class="faction-card"
+      [routerLink]="['/', faction.id]"
+      [style.--accent]="faction.accent"
+      [style.--soft]="faction.soft">
+      <div class="card-art">
+        <span class="card-emoji">{{ faction.emoji }}</span>
+        <img [src]="faction.art" [alt]="faction.name" loading="lazy">
+      </div>
+      <div class="card-body">
+        <span class="card-eyebrow">{{ faction.subtitle }}</span>
+        <h2>{{ faction.name }}</h2>
+        <p>{{ faction.blurb }}</p>
+        <span class="card-cta">เลือกเผ่านี้ <b>→</b></span>
+      </div>
+    </a>
+  </section>
+</main>

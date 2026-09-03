@@ -1,26 +1,29 @@
-// --- Base surfaces (warm dark, softer than pure black) ---
-$primary-bg: #15120f;
-$primary-surface: #1e1a16;
-$primary-surface-soft: #272119;
-$primary-surface-raised: #2f2820;
+// --- Base surfaces (cream storybook, warm & bright) ---
+$primary-bg: #fbf1df;
+$primary-surface: #ffffff;
+$primary-surface-soft: #fdf6ea;
+$primary-surface-raised: #fffaf1;
 
-// --- Borders: soft hairlines instead of hard grey lines ---
-$primary-border: rgba(255, 255, 255, 0.08);
-$primary-border-strong: rgba(255, 255, 255, 0.14);
+// Pastel panel behind chibi art (transparent PNGs sit on this)
+$panel-tint: #fff4e2;
+
+// --- Borders: soft warm hairlines ---
+$primary-border: rgba(150, 105, 60, 0.16);
+$primary-border-strong: rgba(150, 105, 60, 0.28);
 
 // --- Accent / text ---
-$secondary-gold: #e3ba68;
-$text-primary: #f4ece0;
-$text-secondary: #d6c8b6;
-$text-muted: #a89b8b;
+$secondary-gold: #e2952a;
+$text-primary: #4b3a29;
+$text-secondary: #6d5a44;
+$text-muted: #9c8770;
 
-// --- Shape ---
-$radius-sm: 0.7rem;
-$radius: 1rem;
-$radius-lg: 1.5rem;
+// --- Shape (chunky, rounded, storybook) ---
+$radius-sm: 0.85rem;
+$radius: 1.15rem;
+$radius-lg: 1.75rem;
 $radius-pill: 999px;
 
-// --- Depth (soft shadows, not hard borders) ---
-$shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.35);
-$shadow-card: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
-$shadow-pop: 0 18px 45px -18px rgba(0, 0, 0, 0.75);
+// --- Depth (soft warm shadows) ---
+$shadow-soft: 0 2px 6px rgba(150, 100, 50, 0.12);
+$shadow-card: 0 14px 30px -14px rgba(150, 100, 50, 0.32);
+$shadow-pop: 0 22px 48px -18px rgba(150, 100, 50, 0.4);

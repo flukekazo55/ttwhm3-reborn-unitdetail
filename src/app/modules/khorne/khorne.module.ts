@@ -9,7 +9,10 @@ import { KhorneEffects } from '../../shared/stores/khorne/khorne.effect';
 import { KHORNE_FEATURE_KEY, khorneReducer } from '../../shared/stores/khorne/khorne.reducer';
 import { KhorneComponent } from './khorne.component';
 
-const routes: Routes = [{ path: '', component: KhorneComponent }];
+const routes: Routes = [
+  { path: '', component: KhorneComponent },
+  { path: ':lordId', component: KhorneComponent },
+];
 
 @NgModule({
   declarations: [KhorneComponent],

@@ -1,11 +1,15 @@
 @use './styles/variables' as v;
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500;600;700&family=Sarabun:wght@400;500;600;700;800&display=swap');
 
 html { scroll-behavior: smooth; background: v.$primary-bg; }
 body {
   margin: 0;
   min-width: 320px;
-  background: v.$primary-bg;
+  background:
+    radial-gradient(115% 90% at 100% 0%, #fff6e6 0%, transparent 55%),
+    radial-gradient(120% 90% at 0% 100%, #fdeede 0%, transparent 55%),
+    v.$primary-bg;
+  background-attachment: fixed;
   color: v.$text-primary;
   font-family: 'Sarabun', system-ui, sans-serif;
   font-size: 16px;
@@ -15,14 +19,20 @@ body {
 * { box-sizing: border-box; }
 button, input, textarea, select { font: inherit; }
 
-:focus-visible { outline: 2px solid v.$secondary-gold; outline-offset: 2px; border-radius: 4px; }
+// Cheerful rounded display font for headings & brand
+h1, h2, h3, h4, .display-font {
+  font-family: 'Mali', 'Sarabun', system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
+:focus-visible { outline: 3px solid v.$secondary-gold; outline-offset: 2px; border-radius: 6px; }
 
 .p-tag {
-  background: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 22%, transparent);
-  color: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 70%, white);
+  background: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 18%, white);
+  color: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 62%, #3a2c1c);
   border: 1px solid color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 40%, transparent);
   border-radius: v.$radius-pill;
   font-size: .78rem;
   font-weight: 700;
-  padding: .3rem .7rem;
+  padding: .3rem .75rem;
 }

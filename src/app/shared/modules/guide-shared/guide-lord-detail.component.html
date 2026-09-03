@@ -1,0 +1,30 @@
+<div class="detail-top" [style.--accent]="faction.theme.accent">
+  <nav class="crumbs">
+    <a routerLink="/">หน้าแรก</a>
+    <span>›</span>
+    <a [routerLink]="['/', faction.id]">{{ faction.name }}</a>
+    <span>›</span>
+    <b>{{ selectedLord?.name }}</b>
+  </nav>
+
+  <a class="back-btn" [routerLink]="['/', faction.id]">← เปลี่ยน Lord</a>
+</div>
+
+<nav class="lord-switch" [style.--accent]="faction.theme.accent" aria-label="สลับ Lord">
+  <a
+    class="switch-tab"
+    *ngFor="let lord of faction.lords; trackBy: trackLord"
+    [class.active]="lord.id === selectedLord?.id"
+    [routerLink]="['/', faction.id, lord.id]">
+    <span class="switch-name">{{ lord.name }}</span>
+    <span class="switch-tag">{{ lord.tag }}</span>
+  </a>
+</nav>
+
+<app-guide-lord
+  *ngIf="selectedLord as lord"
+  [lord]="lord"
+  [accent]="faction.theme.accent"
+  [soft]="faction.theme.soft"
+  [border]="faction.theme.border">
+</app-guide-lord>

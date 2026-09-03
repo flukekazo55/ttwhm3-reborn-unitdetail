@@ -9,7 +9,10 @@ import { KislevEffects } from '../../shared/stores/kislev/kislev.effect';
 import { KISLEV_FEATURE_KEY, kislevReducer } from '../../shared/stores/kislev/kislev.reducer';
 import { KislevComponent } from './kislev.component';
 
-const routes: Routes = [{ path: '', component: KislevComponent }];
+const routes: Routes = [
+  { path: '', component: KislevComponent },
+  { path: ':lordId', component: KislevComponent },
+];
 
 @NgModule({
   declarations: [KislevComponent],

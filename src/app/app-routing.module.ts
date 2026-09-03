@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './modules/home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'khorne', pathMatch: 'full' },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
   {
     path: 'khorne',
     loadChildren: () => import('./modules/khorne/khorne.module').then((module) => module.KhorneModule),
@@ -11,7 +12,7 @@ const routes: Routes = [
     path: 'kislev',
     loadChildren: () => import('./modules/kislev/kislev.module').then((module) => module.KislevModule),
   },
-  { path: '**', redirectTo: 'khorne' },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({

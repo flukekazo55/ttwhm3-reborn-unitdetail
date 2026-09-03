@@ -1,0 +1,49 @@
+<section
+  class="faction-hero"
+  [style.--accent]="faction.theme.accent"
+  [style.--soft]="faction.theme.soft">
+  <nav class="crumbs">
+    <a routerLink="/">หน้าแรก</a>
+    <span>›</span>
+    <b>{{ faction.name }}</b>
+  </nav>
+  <div class="faction-label">FACTION GUIDE</div>
+  <h2>{{ faction.name }}</h2>
+  <strong>{{ faction.subtitle }}</strong>
+  <p>{{ faction.description }}</p>
+</section>
+
+<section class="lord-pick" [style.--accent]="faction.theme.accent" [style.--soft]="faction.theme.soft">
+  <div class="section-heading">
+    <span class="step-pill">STEP 2 / 3 · เลือก Lord</span>
+    <h3>เลือก Lord ตัวไหนดี?</h3>
+    <p class="section-sub">แตะที่การ์ดเพื่อดูคู่มือแบบละเอียดของ Lord ตัวนั้น</p>
+  </div>
+
+  <div class="lord-grid">
+    <a
+      class="lord-card"
+      *ngFor="let lord of faction.lords; trackBy: trackLord"
+      [routerLink]="['/', faction.id, lord.id]">
+      <div class="lord-art">
+        <img
+          *ngIf="!failedPortraits.has(lord.id)"
+          [src]="lord.portraitUrl"
+          [alt]="lord.name"
+          loading="lazy"
+          (error)="onPortraitError(lord.id)">
+        <div class="art-fallback" *ngIf="failedPortraits.has(lord.id)">{{ lord.name }}</div>
+        <span class="lord-tag">{{ lord.tag }}</span>
+      </div>
+      <div class="lord-info">
+        <h4>{{ lord.name }}</h4>
+        <dl class="lord-meta">
+          <div><dt>เหมาะกับ</dt><dd>{{ lord.bestFor }}</dd></div>
+          <div><dt>สไตล์</dt><dd>{{ lord.style }}</dd></div>
+          <div><dt>Core unit</dt><dd>{{ getCoreUnitNames(lord) }}</dd></div>
+        </dl>
+        <span class="lord-cta">ดูคู่มือ <b>→</b></span>
+      </div>
+    </a>
+  </div>
+</section>

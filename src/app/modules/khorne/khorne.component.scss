@@ -1,9 +1,8 @@
 @use '../../../styles/variables' as v;
 
-:host { display:block; min-height:100vh; }
-.faction-page { min-height:100vh; background:v.$primary-bg; color:v.$text-primary; }
-.page-header { border-bottom:1px solid v.$primary-border; background: radial-gradient(circle at 12% -30%, rgba(201,84,67,.28), transparent 42%), v.$primary-bg; }
-.eyebrow { color:v.$secondary-gold; font-size:.78rem; font-weight:800; letter-spacing:.16em; }
-h1 { margin:.5rem 0; font-size:clamp(2.35rem,6vw,4.6rem); font-weight:900; line-height:.95; }
-.page-header p { color:v.$text-secondary; margin:.4rem 0 0; font-size: 1.02rem; }
-.loading-box { min-height:55vh; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1rem; color: v.$text-muted; }
+:host { display: block; min-height: 100vh; }
+.faction-page { min-height: 80vh; }
+.loading-box {
+  min-height: 55vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 1rem; color: v.$text-muted;
+}
