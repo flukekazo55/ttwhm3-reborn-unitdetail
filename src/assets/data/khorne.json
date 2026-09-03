@@ -18,7 +18,7 @@
           "name": "Skulltaker",
           "tag": "มือใหม่สุด",
           "style": "ง่าย จำกองง่าย",
-          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skulltaker_0.png&w=640&output=png",
+          "portraitUrl": "assets/lords/khorne/chibi/skulltaker-lord.png",
           "summary": "เริ่มต้นดีที่สุดถ้าคุณยังไม่รู้ roster มากนัก เพราะ core unit มีหน้าที่ชัดเจนมาก",
           "bestFor": "ผู้เล่นใหม่ / อยากเล่นแบบเข้าใจเร็ว",
           "armyGuidance": "เล่น Daemon core: Bloodletters เป็นแกน แล้วเติม Minotaurs กับตัวอ้อม",
@@ -383,7 +383,7 @@
           "name": "Skarbrand",
           "tag": "สายบวก",
           "style": "Lord แบกเกม",
-          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skarbrand_0.png&w=640&output=png",
+          "portraitUrl": "assets/lords/khorne/chibi/skarbrand-lord.png",
           "summary": "เหมาะกับคนที่อยากให้ Lord เข้าไปทุบเอง และมีกองคอย support การเปิดไฟต์",
           "bestFor": "คนชอบ aggressive / บุกตรง / ตัวใหญ่",
           "armyGuidance": "ใช้ Skarbrand เป็นตัวเปิด แล้วให้ armour line กับ monster ตามซ้ำ",
@@ -748,7 +748,7 @@
           "name": "Arbaal the Undefeated",
           "tag": "สายทหารเกราะ",
           "style": "Mortal synergy",
-          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_arbaal_0.png&w=640&output=png",
+          "portraitUrl": "assets/lords/khorne/chibi/arbaal-lord.png",
           "summary": "เหมาะกับคนที่ชอบกองดูเป็นระเบียบ ใช้ทหารเกราะและ elite infantry เป็นแกน",
           "bestFor": "คนชอบ Mortal roster / ชอบกองทหารหนัก",
           "armyGuidance": "ใช้ Chosen เป็นกำแพง แล้วให้ Wrathmongers / Skullreapers / Chariot ปิดไฟต์",
@@ -1120,7 +1120,7 @@
         {
           "id": "bloodletters",
           "name": "Bloodletters",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_bloodletters_0.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/bloodletters.png",
           "type": "Melee Infantry",
           "role": "Frontline AP Infantry",
           "description": "แกน Daemon สายชนหน้า ฆ่า infantry ได้ดี",
@@ -1180,7 +1180,7 @@
         {
           "id": "exalted-bloodletters",
           "name": "Exalted Bloodletters",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_bloodletters_1.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/exalted-bloodletters.png",
           "type": "Melee Infantry",
           "role": "Elite AP Infantry",
           "description": "Bloodletters รุ่นอัปเกรด เก่งขึ้นรอบด้าน",
@@ -1240,7 +1240,7 @@
         {
           "id": "minotaurs-great-weapons",
           "name": "Minotaurs (Great Weapons)",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_mon_khornataurs_1.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/minotaurs-great-weapons.png",
           "type": "Monstrous Infantry",
           "role": "AP Anti-Large",
           "description": "ตัวแก้ monster/cavalry ที่มือใหม่ควรจำ",
@@ -1300,7 +1300,7 @@
         {
           "id": "flesh-hounds",
           "name": "Flesh Hounds",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_pro12_kho_inf_flesh_hounds_of_khorne_summoned.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/flesh-hounds.png",
           "type": "War Beasts",
           "role": "Fast Ranged Hunter",
           "description": "วิ่งเร็วมาก ใช้ไล่ธนู ปืน ปืนใหญ่",
@@ -1359,7 +1359,7 @@
         {
           "id": "skullcrushers",
           "name": "Skullcrushers",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_cav_skullcrushers_0.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/skullcrushers.png",
           "type": "Monstrous Cavalry",
           "role": "Heavy Shock Cavalry",
           "description": "ตัวอ้อมตีข้างระดับท็อป ทั้งเร็วและแข็ง",
@@ -1418,7 +1418,7 @@
         {
           "id": "chaos-warriors-halberds",
           "name": "Chaos Warriors (Halberds)",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_inf_chaos_warriors_1.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/chaos-warriors-halberds.png",
           "type": "Melee Infantry",
           "role": "Armoured Anti-Large",
           "description": "ตัวค้ำแนวและรับมือ monster/cavalry",
@@ -1477,7 +1477,7 @@
         {
           "id": "bloodthirster",
           "name": "Bloodthirster",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_mon_bloodthirster_0.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/bloodthirster.png",
           "type": "Monster",
           "role": "Flying Terror Monster",
           "description": "บินได้ ล่า lord, monster และแนวหลัง",
@@ -1537,7 +1537,7 @@
         {
           "id": "slaughterbrute",
           "name": "Slaughterbrute",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_mon_slaughterbrute.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/slaughterbrute.png",
           "type": "Monster",
           "role": "AP Terror Monster",
           "description": "สัตว์ประหลาดสายชนแรง ใช้กดดันปลายเกม",
@@ -1597,7 +1597,7 @@
         {
           "id": "chosen-of-khorne",
           "name": "Chosen of Khorne",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc20_chs_inf_chosen_mkho.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/chosen-of-khorne.png",
           "type": "Melee Infantry",
           "role": "Elite Armoured Frontline",
           "description": "แนวหน้าหนักมากสำหรับกอง Mortal",
@@ -1656,7 +1656,7 @@
         {
           "id": "wrathmongers",
           "name": "Wrathmongers",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_inf_wrathmongers.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/wrathmongers.png",
           "type": "Melee Infantry",
           "role": "Elite Shock Infantry",
           "description": "ดาเมจแรงมาก เหมาะส่งเข้าซ้ำ",
@@ -1715,7 +1715,7 @@
         {
           "id": "skullreapers",
           "name": "Skullreapers",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_dlc26_kho_inf_skullreapers.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/skullreapers.png",
           "type": "Melee Infantry",
           "role": "Elite Anti-Infantry",
           "description": "elite infantry ตี infantry ได้แรงและตรงจุด",
@@ -1774,7 +1774,7 @@
         {
           "id": "gorebeast-chariots",
           "name": "Gorebeast Chariots",
-          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Finfopics%2Fwh3_main_kho_cav_gorebeast_chariot.png&w=640&output=png",
+          "imageUrl": "assets/units/khorne/chibi/gorebeast-chariots.png",
           "type": "Chariots",
           "role": "Heavy Chariot",
           "description": "ใช้บด infantry ที่รวมกลุ่มและชนซ้ำ",
