@@ -26,7 +26,7 @@ export class HomeComponent {
       emoji: '🔥',
       accent: '#ef6a48',
       soft: '#ffe7df',
-      art: 'assets/lords/khorne/chibi/skarbrand-lord.png',
+      art: 'assets/lords/khorne/chibi/skarbrand-lord.svg',
     },
     {
       id: 'kislev',
@@ -36,7 +36,7 @@ export class HomeComponent {
       emoji: '❄️',
       accent: '#3f9be0',
       soft: '#e4f1fc',
-      art: 'assets/lords/kislev/chibi/katarin-lord.png',
+      art: 'assets/lords/kislev/chibi/katarin-lord.svg',
     },
     {
       id: 'cathay',

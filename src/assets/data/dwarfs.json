@@ -23,7 +23,7 @@
           "bestFor": "คนเพิ่งเริ่มเล่น Dwarfs อยากได้กองบาลานซ์และเศรษฐกิจดี",
           "armyGuidance": "Dwarf Warriors, Longbeards, Thunderers, Grudge Thrower, Cannon, Ironbreakers",
           "skillBuild": {
-            "summary": "Blue sustain + grudge ก่อน → Red line แนวหน้า/แนวยิง → Yellow ยืนไฟต์ → ปิดด้วย elite",
+            "summary": "สาย Grudge + ขวัญกำลังใจก่อน → Rune-Warded Armour/Full Plate ให้ยืนไหว → สายบัฟแนวยิงกับปืนใหญ่ → ปิดด้วยสายชนของ Thorgrim เอง",
             "stages": [
               {
                 "key": "EARLY",
@@ -31,52 +31,52 @@
                 "steps": [
                   {
                     "order": "2",
-                    "name": "Route Marcher",
+                    "name": "Right the Wrongs",
                     "points": "",
-                    "reason": "เดินไว ตามเก็บ grudge",
+                    "reason": "Replenishes 20% campaign movement range after winning a battle",
                     "iconUrl": ""
                   },
                   {
-                    "order": "3–4",
-                    "name": "Blue: Replenishment I-II",
+                    "order": "3",
+                    "name": "Iron-Willed",
                     "points": "",
-                    "reason": "ลด downtime หลังไฟต์",
+                    "reason": "Casualty replenishment rate: +30% for this Lord",
                     "iconUrl": ""
                   },
                   {
                     "order": "5",
-                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "name": "Route Marcher",
                     "points": "",
-                    "reason": "แนวหน้าราคาถูกยืนนานขึ้น",
-                    "iconUrl": ""
+                    "reason": "Campaign movement range: +5%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
                   },
                   {
                     "order": "6",
-                    "name": "Blue: Grudge Settling",
+                    "name": "Grudge Against the Foul",
                     "points": "",
-                    "reason": "ผลตอบแทนจากการปลด grudge",
-                    "iconUrl": ""
+                    "reason": "Leadership: +4 when fighting against Greenskins, Ogres and Skaven",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Ficon_stat_morale_vs_greenskins.png&w=640&output=png"
                   },
                   {
                     "order": "7",
-                    "name": "Red: Quarrellers – Reload",
+                    "name": "Grudge Against Chaos",
                     "points": "",
-                    "reason": "แนวยิงต้นเกมถี่ขึ้น",
-                    "iconUrl": ""
+                    "reason": "Leadership: +4 when fighting against Norsca, Warriors of Chaos, Chaos Dwarfs, Daemons of Chaos and…",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Ficon_stat_morale_vs_chaos.png&w=640&output=png"
                   },
                   {
-                    "order": "8",
-                    "name": "Blue: Public Order",
+                    "order": "9",
+                    "name": "Grudge Against the Elves",
                     "points": "",
-                    "reason": "กันกบฏช่วงขยาย karak",
-                    "iconUrl": ""
+                    "reason": "Leadership: +4 when fighting against Elves",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Ficon_stat_morale_vs_elves.png&w=640&output=png"
                   },
                   {
-                    "order": "9–10",
-                    "name": "Red: Warriors + Yellow: Melee Defence",
+                    "order": "10",
+                    "name": "Grudge Against Mankind",
                     "points": "",
-                    "reason": "ไลน์หน้าและตัว Thorgrim เอง",
-                    "iconUrl": ""
+                    "reason": "Leadership: +4 when fighting against Humans",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Ficon_stat_morale_vs_human.png&w=640&output=png"
                   }
                 ]
               },
@@ -86,51 +86,51 @@
                 "steps": [
                   {
                     "order": "11",
-                    "name": "Red: Longbeards – Leadership Aura",
-                    "points": "",
-                    "reason": "ล็อกไลน์กลาง กันกองแตก",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "12",
-                    "name": "Blue: Army Upkeep",
-                    "points": "",
-                    "reason": "เอางบไปเพิ่มปืนใหญ่",
+                    "name": "Rune-Warded Armour",
+                    "points": "Rank 8+",
+                    "reason": "Missile block chance: +10%",
                     "iconUrl": ""
                   },
                   {
                     "order": "13",
-                    "name": "Red: Grudge Thrower – Reload",
+                    "name": "Ancestral Grudge",
                     "points": "",
-                    "reason": "กดก่อนปะทะได้ถี่ขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "15–17",
-                    "name": "Red: Thunderers",
-                    "points": "",
-                    "reason": "เปลี่ยนแนวยิงหลักเป็นดินปืน AP",
+                    "reason": "Weapon strength: +5%",
                     "iconUrl": ""
                   },
                   {
                     "order": "16",
-                    "name": "Ancestral Grudge (Ability)",
+                    "name": "Enquiring Mind",
                     "points": "",
-                    "reason": "สกิลประจำตัว buff ตอนปะทะ",
+                    "reason": "Research rate: +10",
                     "iconUrl": ""
+                  },
+                  {
+                    "order": "18",
+                    "name": "Foe-Seeker",
+                    "points": "",
+                    "reason": "Ability: \"Foe-Seeker\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
                   },
                   {
                     "order": "20",
-                    "name": "Red: Ironbreakers – Melee Defence",
+                    "name": "Wound-Maker",
                     "points": "",
-                    "reason": "เริ่มวางแกน elite",
+                    "reason": "Weapon strength: +10%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "21",
-                    "name": "Red: Cannon – Accuracy",
+                    "order": "23",
+                    "name": "Deadly Onslaught",
                     "points": "",
-                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "reason": "Ability: \"Deadly Onslaught\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_deadly_onslaught.png&w=640&output=png"
+                  },
+                  {
+                    "order": "25",
+                    "name": "Thunderer",
+                    "points": "",
+                    "reason": "Ammunition: +10% for Quarrellers, Thunderers, and Rangers units",
                     "iconUrl": ""
                   }
                 ]
@@ -141,44 +141,51 @@
                 "steps": [
                   {
                     "order": "26",
-                    "name": "Yellow: Leadership Aura",
+                    "name": "Tactician",
                     "points": "",
-                    "reason": "กองรอบตัวไม่แตกง่าย",
+                    "reason": "Missile strength: +6% for Bolt Throwers, Grudge Thrower, Cannon, Goblin Hewer and Organ Gun units",
                     "iconUrl": ""
                   },
                   {
-                    "order": "29",
-                    "name": "Red: Ironbreakers – Armour",
+                    "order": "30",
+                    "name": "Grimnir's Heirs",
                     "points": "",
-                    "reason": "แนวหน้าทนสุดในเกม",
+                    "reason": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "31",
-                    "name": "Red: Irondrakes – Missile Damage",
+                    "order": "34",
+                    "name": "Blessed by Grungni",
                     "points": "",
-                    "reason": "ก้อน AP ระยะสั้น",
+                    "reason": "Armour: +12 for Miners, Dwarf Warriors, and Longbeards units (Rank 7 and above)",
                     "iconUrl": ""
                   },
                   {
-                    "order": "37",
-                    "name": "Red: Gyrocopter",
+                    "order": "38",
+                    "name": "Wall Breaker",
                     "points": "",
-                    "reason": "มีปีกไล่ปืนใหญ่ศัตรู",
+                    "reason": "Attrition: +5% when under siege",
                     "iconUrl": ""
                   },
                   {
-                    "order": "41",
-                    "name": "Red: Slayers – Anti-Large",
+                    "order": "42",
+                    "name": "Reassuring Presence",
                     "points": "",
-                    "reason": "ก้อนตอบมอนสเตอร์",
+                    "reason": "Attrition: -10% casualties suffered from all attrition",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
-                    "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "order": "46",
+                    "name": "Lord of the Deeps",
+                    "points": "Rank 8+",
+                    "reason": "Leadership: +6 when fighting against Skaven",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "50",
+                    "name": "Obstinacy",
+                    "points": "Rank 10+",
+                    "reason": "Vigour loss reduction: -15%",
                     "iconUrl": ""
                   }
                 ]
@@ -187,248 +194,248 @@
             "levelPlan": [
               {
                 "level": 2,
-                "skill": "Route Marcher",
-                "note": "เดินไกลขึ้น ตามไปปลด grudge ได้ไว"
+                "skill": "Right the Wrongs",
+                "note": "Replenishes 20% campaign movement range after winning a battle"
               },
               {
                 "level": 3,
-                "skill": "Blue: Replenishment I",
-                "note": "ลด downtime หลังไฟต์"
+                "skill": "Iron-Willed",
+                "note": "Casualty replenishment rate: +30% for this Lord"
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Inspirational Leader",
+                "note": "Casualty replenishment rate: +2%"
               },
               {
                 "level": 5,
-                "skill": "Red: Dwarf Warriors – Melee Defence",
-                "note": "แนวหน้าราคาถูกยืนได้นานขึ้น"
+                "skill": "Route Marcher",
+                "note": "Campaign movement range: +5%"
               },
               {
                 "level": 6,
-                "skill": "Blue: Grudge Settling",
-                "note": "ได้ผลตอบแทนจากการปลด grudge มากขึ้น"
+                "skill": "Grudge Against the Foul",
+                "note": "Leadership: +4 when fighting against Greenskins, Ogres and Skaven"
               },
               {
                 "level": 7,
-                "skill": "Red: Quarrellers – Reload",
-                "note": "แนวยิงต้นเกมถี่ขึ้น"
+                "skill": "Grudge Against Chaos",
+                "note": "Leadership: +4 when fighting against Norsca, Warriors of Chaos, Chaos Dwarfs, Daemons of Chaos and…"
               },
               {
                 "level": 8,
-                "skill": "Blue: Public Order",
-                "note": "กันกบฏช่วงขยาย karak"
+                "skill": "Grudge Against Undead",
+                "note": "Leadership: +4 when fighting against Vampire Counts, Vampire Coast and Tomb Kings"
               },
               {
                 "level": 9,
-                "skill": "Red: Dwarf Warriors – Melee Attack",
-                "note": "แนวหน้าตีเจ็บขึ้น"
+                "skill": "Grudge Against the Elves",
+                "note": "Leadership: +4 when fighting against Elves"
               },
               {
                 "level": 10,
-                "skill": "Yellow: Melee Defence I",
-                "note": "ให้ Thorgrim ยืนแนวหน้าได้จริง"
+                "skill": "Grudge Against Mankind",
+                "note": "Leadership: +4 when fighting against Humans"
               },
               {
                 "level": 11,
-                "skill": "Red: Longbeards – Leadership Aura",
-                "note": "ล็อกไลน์กลาง กันกองแตก"
+                "skill": "Rune-Warded Armour",
+                "note": "Missile block chance: +10%"
               },
               {
                 "level": 12,
-                "skill": "Blue: Army Upkeep",
-                "note": "ลดค่าดูแล เอางบไปเพิ่มปืนใหญ่"
+                "skill": "Full Plate Armour",
+                "note": "Armour: +6"
               },
               {
                 "level": 13,
-                "skill": "Red: Grudge Thrower – Reload",
-                "note": "เครื่องยิงหินยิงถี่ขึ้น"
+                "skill": "Ancestral Grudge",
+                "note": "Weapon strength: +5%"
               },
               {
                 "level": 14,
-                "skill": "Yellow: Melee Attack I",
-                "note": "เริ่มให้ Thorgrim เก็บก้อนได้"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 15,
-                "skill": "Red: Thunderers – Reload",
-                "note": "เปลี่ยนแนวยิงหลักเป็นดินปืน"
+                "skill": "Hard to Hit",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 16,
-                "skill": "Ancestral Grudge (Ability)",
-                "note": "ปลดสกิลประจำตัว ใช้ buff ตอนปะทะ"
+                "skill": "Enquiring Mind",
+                "note": "Research rate: +10"
               },
               {
                 "level": 17,
-                "skill": "Red: Thunderers – Missile Damage",
-                "note": "ดัน damage ต่อชุดยิง"
+                "skill": "Resolute",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 18,
-                "skill": "Blue: Replenishment III",
-                "note": "sustain สำหรับแคมเปญยาว"
+                "skill": "Foe-Seeker",
+                "note": "Ability: \"Foe-Seeker\""
               },
               {
                 "level": 19,
-                "skill": "Yellow: Armour",
-                "note": "ทนยิงและทนชนขึ้นชัดเจน"
+                "skill": "Blade Shield",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 20,
-                "skill": "Red: Ironbreakers – Melee Defence",
-                "note": "เริ่มวางแกน elite แนวหน้า"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 21,
-                "skill": "Red: Cannon – Accuracy",
-                "note": "ลบมอนสเตอร์ตั้งแต่ก่อนปะทะ"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 22,
-                "skill": "Yellow: Melee Defence II",
-                "note": "ยืนกลางกองได้โดยไม่ต้องถอย"
+                "skill": "Relentless",
+                "note": "Speed: +7%"
               },
               {
                 "level": 23,
-                "skill": "Red: Hammerers – Melee Attack",
-                "note": "ก้อน AP ไว้เจาะเกราะศัตรู"
+                "skill": "Deadly Onslaught",
+                "note": "Ability: \"Deadly Onslaught\""
               },
               {
                 "level": 24,
-                "skill": "Blue: Income / Mining",
-                "note": "ดันเศรษฐกิจใต้ภูเขา"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 25,
-                "skill": "Red: Longbeards – Melee Attack",
-                "note": "ไลน์กลางชนะการปะทะ"
+                "skill": "Thunderer",
+                "note": "Ammunition: +10% for Quarrellers, Thunderers, and Rangers units"
               },
               {
                 "level": 26,
-                "skill": "Yellow: Leadership Aura",
-                "note": "กองรอบตัวไม่แตกง่าย"
+                "skill": "Tactician",
+                "note": "Missile strength: +6% for Bolt Throwers, Grudge Thrower, Cannon, Goblin Hewer and Organ Gun units"
               },
               {
                 "level": 27,
-                "skill": "Red: Organ Gun – Reload",
-                "note": "กดกองราบใหญ่ ๆ ได้ถี่ขึ้น"
+                "skill": "Axe Lord",
+                "note": "Melee defence: +4 for Miners, Dwarf Warriors, and Longbeards units"
               },
               {
                 "level": 28,
-                "skill": "Yellow: Ward Save",
-                "note": "กัน magic / missile"
+                "skill": "Fire & Fury",
+                "note": "Fire & Fury"
               },
               {
                 "level": 29,
-                "skill": "Red: Ironbreakers – Armour",
-                "note": "แนวหน้า elite ทนสุดในเกม"
+                "skill": "Tradition & Innovation",
+                "note": "Tradition & Innovation"
               },
               {
                 "level": 30,
-                "skill": "Blue: Underway Movement",
-                "note": "ย้ายกองข้ามภูเขาได้ไว"
+                "skill": "Grimnir's Heirs",
+                "note": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 31,
-                "skill": "Red: Irondrakes – Missile Damage",
-                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+                "skill": "Rally!",
+                "note": "Ability: \"Rally!\""
               },
               {
                 "level": 32,
-                "skill": "Yellow: Melee Attack II",
-                "note": "ต่อสายชน"
+                "skill": "Morgrim’s Favoured",
+                "note": "Ammunition: +20% for Bolt Thrower, Grudge Thrower, Goblin Hewer, Cannon, Organ Gun and Flame Cannon…"
               },
               {
                 "level": 33,
-                "skill": "Red: Grudge Thrower – Range",
-                "note": "ตั้งไกลขึ้น ปลอดภัยจากม้าศัตรู"
+                "skill": "Dawi Firepower",
+                "note": "Missile strength: +12% for Quarrellers, Thunderers, Rangers, Irondrakes, Gyrocopters, Gyrobombers and…"
               },
               {
                 "level": 34,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Blessed by Grungni",
+                "note": "Armour: +12 for Miners, Dwarf Warriors, and Longbeards units (Rank 7 and above)"
               },
               {
                 "level": 35,
-                "skill": "Red: Hammerers – Armour",
-                "note": "ก้อน AP ยืนได้นานขึ้น"
+                "skill": "Honoured by Grimnir",
+                "note": "Melee attack: +5 for Slayers, Giant Slayers, Doomseekers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 36,
-                "skill": "Yellow: Physical Resistance",
-                "note": "ลด damage กายภาพ"
+                "skill": "Stand Your Ground!",
+                "note": "Ability: \"Stand Your Ground!\""
               },
               {
                 "level": 37,
-                "skill": "Red: Gyrocopter – Missile Damage",
-                "note": "มีปีกไว้ไล่ปืนใหญ่ศัตรู"
+                "skill": "Miner's Instinct",
+                "note": "Chance of intercepting an army using Tunnelling, beast-paths or Worldroots: +6%"
               },
               {
                 "level": 38,
-                "skill": "Blue: Diplomacy / Grudges",
-                "note": "ปิดสายแคมเปญ"
+                "skill": "Wall Breaker",
+                "note": "Attrition: +5% when under siege"
               },
               {
                 "level": 39,
-                "skill": "Red: Cannon – Reload",
-                "note": "ยิงถี่ขึ้นช่วง late"
+                "skill": "Pure-Beard",
+                "note": "Corruption: -1"
               },
               {
                 "level": 40,
-                "skill": "Yellow: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "Mason",
+                "note": "Construction cost: -2% for Province Capital/Settlement buildings"
               },
               {
                 "level": 41,
-                "skill": "Red: Slayers – Anti-Large",
-                "note": "มีก้อนตอบมอนสเตอร์"
+                "skill": "Lightning Strike",
+                "note": "Enemy battle reinforcement time: +25%"
               },
               {
                 "level": 42,
-                "skill": "Yellow: Missile Resistance",
-                "note": "กันกองยิงของศัตรู"
+                "skill": "Reassuring Presence",
+                "note": "Attrition: -10% casualties suffered from all attrition"
               },
               {
                 "level": 43,
-                "skill": "Red: Irondrakes – Reload",
-                "note": "เทกระสุนใส่แนวหน้าได้ถี่ขึ้น"
+                "skill": "Alert",
+                "note": "Ambush defence chance: +6%"
               },
               {
                 "level": 44,
-                "skill": "Red: Miners – Ambush",
-                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+                "skill": "Brass-Lunged",
+                "note": "Leadership aura size: +25%"
               },
               {
                 "level": 45,
-                "skill": "Yellow: Melee Defence III",
-                "note": "ปิดสายยืนไฟต์"
+                "skill": "Obdurate",
+                "note": "Leadership: +9"
               },
               {
                 "level": 46,
-                "skill": "Red: Ironbreakers – Melee Attack",
-                "note": "elite แนวหน้าตีเจ็บขึ้น"
+                "skill": "Lord of the Deeps",
+                "note": "Leadership: +6 when fighting against Skaven"
               },
               {
                 "level": 47,
-                "skill": "Blue: Upkeep II",
-                "note": "ปิดสายประหยัดงบ"
+                "skill": "Rune of Grimnir",
+                "note": "Missile resistance: 10%"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Mastercrafted Weapon",
+                "note": "Melee attack: +5"
               },
               {
                 "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node ที่ยังขาด"
+                "skill": "Aura of Endurance",
+                "note": "Passive ability: \"Aura of Endurance\""
               },
               {
                 "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "skill": "Obstinacy",
+                "note": "Vigour loss reduction: -15%"
               }
             ]
           },
@@ -451,7 +458,7 @@
           "bestFor": "คนเบื่อ Dwarfs สายตั้งรับ อยากเดินเข้าไปชนเลย",
           "armyGuidance": "Slayers, Giant Slayers, Hammerers, Miners (Blasting Charges), Quarrellers",
           "skillBuild": {
-            "summary": "Red: Slayers ก่อนทุกอย่าง → Yellow สายชน → Blue sustain → ปิดด้วย Giant Slayers และ Hammerers",
+            "summary": "เปิดสาย Slayer กับ Weapon Strength ก่อน → เก็บ vigour/hit points ให้ยืนไฟต์ยาว → ปิดด้วยสายชนตัวต่อตัวของ Ungrim",
             "stages": [
               {
                 "key": "EARLY",
@@ -459,51 +466,51 @@
                 "steps": [
                   {
                     "order": "2",
-                    "name": "Route Marcher",
+                    "name": "Slayer King",
                     "points": "",
-                    "reason": "เดินไว ไล่ปะทะได้เร็ว",
+                    "reason": "Ward save: 10%",
                     "iconUrl": ""
                   },
                   {
                     "order": "3",
-                    "name": "Red: Slayers – Melee Attack",
+                    "name": "Iron-Willed",
                     "points": "",
-                    "reason": "แกนหลักของสายนี้",
+                    "reason": "Casualty replenishment rate: +30% for this Lord",
                     "iconUrl": ""
                   },
                   {
-                    "order": "4–5",
-                    "name": "Blue: Replenishment I-II",
+                    "order": "5",
+                    "name": "Route Marcher",
                     "points": "",
-                    "reason": "ลด downtime",
-                    "iconUrl": ""
+                    "reason": "Campaign movement range: +5%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
                   },
                   {
                     "order": "6",
-                    "name": "Yellow: Melee Attack I",
-                    "points": "",
-                    "reason": "Ungrim ต้องเข้าไปชนเอง",
+                    "name": "Tapestry of Oaths",
+                    "points": "Rank 6+",
+                    "reason": "Weapon strength: +10% for Slayers, Giant Slayers, Slayer Pirates, Goblin Hewer and Doomseekers units",
                     "iconUrl": ""
                   },
                   {
                     "order": "7",
-                    "name": "Red: Slayers – Anti-Large",
+                    "name": "Great Green Nemesis",
                     "points": "",
-                    "reason": "ตอบ cavalry / monster ตั้งแต่ต้น",
+                    "reason": "Weapon strength: +15% when fighting against Greenskins",
                     "iconUrl": ""
                   },
                   {
-                    "order": "8",
-                    "name": "Blue: Slayer Upkeep",
+                    "order": "9",
+                    "name": "Ruinous Rival",
                     "points": "",
-                    "reason": "Slayers ถูกลง กองแน่นขึ้น",
+                    "reason": "Weapon strength: +15% when fighting against Warriors of Chaos, Daemons of Chaos, Chaos Dwarfs and Norsca",
                     "iconUrl": ""
                   },
                   {
-                    "order": "9–10",
-                    "name": "Yellow: Melee Defence + Red: Warriors",
-                    "points": "",
-                    "reason": "กันตัวและมีก้อนค้ำปีก",
+                    "order": "10",
+                    "name": "Ritualistic Scarring",
+                    "points": "Rank 10+",
+                    "reason": "Missile resistance: 15% for Slayers, Giant Slayers, Slayer Pirates, Goblin Hewer and Doomseekers units",
                     "iconUrl": ""
                   }
                 ]
@@ -514,52 +521,52 @@
                 "steps": [
                   {
                     "order": "11",
-                    "name": "Red: Giant Slayers – Melee Attack",
-                    "points": "",
-                    "reason": "อัปก้อนหลักขึ้นชั้น elite",
+                    "name": "Obstinacy",
+                    "points": "Rank 10+",
+                    "reason": "Vigour loss reduction: -15%",
                     "iconUrl": ""
                   },
                   {
                     "order": "13",
-                    "name": "Yellow: Melee Attack II",
+                    "name": "Doomseekers",
                     "points": "",
-                    "reason": "ต่อสายชน",
+                    "reason": "Hit points: +10%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "14",
-                    "name": "Slayer's Wrath (Ability)",
+                    "order": "16",
+                    "name": "Army of One, Slayer of Many",
                     "points": "",
-                    "reason": "สกิลประจำตัว buff ตอนปะทะ",
-                    "iconUrl": ""
+                    "reason": "Passive ability: \"Worthy Foe\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcauses_terror.png&w=640&output=png"
                   },
                   {
-                    "order": "17",
-                    "name": "Red: Giant Slayers – Anti-Large",
+                    "order": "18",
+                    "name": "Deathblow",
                     "points": "",
-                    "reason": "ตอบมอนสเตอร์ปลายเกม",
-                    "iconUrl": ""
+                    "reason": "Passive ability: \"Deathblow\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fwh_main_lord_abilities_deathblow.png&w=640&output=png"
                   },
                   {
-                    "order": "19",
-                    "name": "Red: Hammerers – Melee Attack",
+                    "order": "20",
+                    "name": "Ancestral Grudge",
                     "points": "",
-                    "reason": "ก้อน AP ไว้เจาะเกราะ",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "21",
-                    "name": "Red: Miners – Ambush",
-                    "points": "",
-                    "reason": "เปิดทางเก็บปืนใหญ่ศัตรู",
+                    "reason": "Weapon strength: +5%",
                     "iconUrl": ""
                   },
                   {
                     "order": "23",
-                    "name": "Red: Slayers – Physical Resistance",
+                    "name": "Enquiring Mind",
                     "points": "",
-                    "reason": "อึดขึ้นทั้งที่ไม่มีเกราะ",
+                    "reason": "Research rate: +10",
                     "iconUrl": ""
+                  },
+                  {
+                    "order": "25",
+                    "name": "Extremely Daring Deathblow",
+                    "points": "",
+                    "reason": "Automatically unlocks at rank 10",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fwh_main_lord_abilities_deathblow.png&w=640&output=png"
                   }
                 ]
               },
@@ -569,44 +576,51 @@
                 "steps": [
                   {
                     "order": "26",
-                    "name": "Yellow: Ward Save",
+                    "name": "Hard to Hit",
                     "points": "",
-                    "reason": "กัน magic / missile",
+                    "reason": "Melee defence: +6",
                     "iconUrl": ""
                   },
                   {
-                    "order": "29",
-                    "name": "Yellow: Melee Attack III",
+                    "order": "30",
+                    "name": "Blade Shield",
                     "points": "",
-                    "reason": "เก็บ lord ศัตรูได้",
+                    "reason": "Melee defence: +6",
                     "iconUrl": ""
                   },
                   {
-                    "order": "31",
-                    "name": "Yellow: Physical Resistance",
+                    "order": "34",
+                    "name": "Grimnir's Heirs",
                     "points": "",
-                    "reason": "ลด damage กายภาพ",
+                    "reason": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "35",
-                    "name": "Yellow: Missile Resistance",
+                    "order": "38",
+                    "name": "Fire & Fury",
                     "points": "",
-                    "reason": "กันกองยิงตอนเดินเข้า",
+                    "reason": "Fire & Fury",
                     "iconUrl": ""
                   },
                   {
-                    "order": "43",
-                    "name": "Red: Slayers – Charge Bonus",
+                    "order": "42",
+                    "name": "Blessed by Grungni",
                     "points": "",
-                    "reason": "เข้าชนแรงขึ้น",
+                    "reason": "Armour: +12 for Miners, Dwarf Warriors, and Longbeards units (Rank 7 and above)",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
+                    "order": "46",
+                    "name": "Miner's Instinct",
                     "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "reason": "Chance of intercepting an army using Tunnelling, beast-paths or Worldroots: +6%",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "50",
+                    "name": "Lightning Strike",
+                    "points": "",
+                    "reason": "Enemy battle reinforcement time: +25%",
                     "iconUrl": ""
                   }
                 ]
@@ -615,248 +629,248 @@
             "levelPlan": [
               {
                 "level": 2,
-                "skill": "Route Marcher",
-                "note": "เดินไว ไล่เข้าปะทะได้เร็วขึ้น"
+                "skill": "Slayer King",
+                "note": "Ward save: 10%"
               },
               {
                 "level": 3,
-                "skill": "Red: Slayers – Melee Attack",
-                "note": "แกนหลักของสายนี้ ลงตั้งแต่ต้น"
+                "skill": "Iron-Willed",
+                "note": "Casualty replenishment rate: +30% for this Lord"
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment I",
-                "note": "ลด downtime หลังไฟต์"
+                "skill": "Inspirational Leader",
+                "note": "Casualty replenishment rate: +2%"
               },
               {
                 "level": 5,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Route Marcher",
+                "note": "Campaign movement range: +5%"
               },
               {
                 "level": 6,
-                "skill": "Yellow: Melee Attack I",
-                "note": "Ungrim ต้องเข้าไปชนเองเป็นหลัก"
+                "skill": "Tapestry of Oaths",
+                "note": "Weapon strength: +10% for Slayers, Giant Slayers, Slayer Pirates, Goblin Hewer and Doomseekers units"
               },
               {
                 "level": 7,
-                "skill": "Red: Slayers – Anti-Large",
-                "note": "ตอบ cavalry / monster ตั้งแต่ต้นเกม"
+                "skill": "Great Green Nemesis",
+                "note": "Weapon strength: +15% when fighting against Greenskins"
               },
               {
                 "level": 8,
-                "skill": "Blue: Slayer Upkeep",
-                "note": "Slayers ถูกลง จัดกองได้แน่นขึ้น"
+                "skill": "Unliving Antagonist",
+                "note": "Weapon strength: +15% when fighting against Vampire Counts"
               },
               {
                 "level": 9,
-                "skill": "Yellow: Melee Defence I",
-                "note": "กันตัวตอนโดนรุม"
+                "skill": "Ruinous Rival",
+                "note": "Weapon strength: +15% when fighting against Warriors of Chaos, Daemons of Chaos, Chaos Dwarfs and Norsca"
               },
               {
                 "level": 10,
-                "skill": "Red: Dwarf Warriors – Melee Defence",
-                "note": "มีก้อนราคาถูกไว้ค้ำปีก"
+                "skill": "Ritualistic Scarring",
+                "note": "Missile resistance: 15% for Slayers, Giant Slayers, Slayer Pirates, Goblin Hewer and Doomseekers units"
               },
               {
                 "level": 11,
-                "skill": "Red: Giant Slayers – Melee Attack",
-                "note": "อัปก้อนหลักขึ้นชั้น elite"
+                "skill": "Obstinacy",
+                "note": "Vigour loss reduction: -15%"
               },
               {
                 "level": 12,
-                "skill": "Blue: Army Upkeep",
-                "note": "ลดค่าดูแลทั้งกอง"
+                "skill": "Slayer",
+                "note": "Melee attack: +10"
               },
               {
                 "level": 13,
-                "skill": "Yellow: Melee Attack II",
-                "note": "ต่อสายชนให้ Ungrim เก็บก้อนได้"
+                "skill": "Doomseekers",
+                "note": "Hit points: +10%"
               },
               {
                 "level": 14,
-                "skill": "Slayer's Wrath (Ability)",
-                "note": "ปลดสกิลประจำตัว buff ตอนปะทะ"
+                "skill": "Daemon Slayer",
+                "note": "Ward save: 5% when fighting against Warriors of Chaos, Norsca and Daemons"
               },
               {
                 "level": 15,
-                "skill": "Red: Quarrellers – Reload",
-                "note": "มีแนวยิงกดก่อนเข้าชน"
+                "skill": "Slayers... to Me!",
+                "note": "Casualty replenishment rate: +10% for Slayers, Giant Slayers, Slayer Pirates, Goblin Hewer and…"
               },
               {
                 "level": 16,
-                "skill": "Yellow: Armour",
-                "note": "ทนขึ้นตอนยืนกลางกอง"
+                "skill": "Army of One, Slayer of Many",
+                "note": "Passive ability: \"Worthy Foe\""
               },
               {
                 "level": 17,
-                "skill": "Red: Giant Slayers – Anti-Large",
-                "note": "ก้อนตอบมอนสเตอร์ปลายเกม"
+                "skill": "Dragon Slayer",
+                "note": "Bonus vs Large: +10 for Slayers, Slayer Pirates and Giant Slayers units"
               },
               {
                 "level": 18,
-                "skill": "Blue: Replenishment III",
-                "note": "sustain สำหรับแคมเปญยาว"
+                "skill": "Deathblow",
+                "note": "Passive ability: \"Deathblow\""
               },
               {
                 "level": 19,
-                "skill": "Red: Hammerers – Melee Attack",
-                "note": "ก้อน AP ไว้เจาะเกราะ"
+                "skill": "Full Plate Armour",
+                "note": "Armour: +6"
               },
               {
                 "level": 20,
-                "skill": "Yellow: Leadership Aura",
-                "note": "Slayers ไม่แตกอยู่แล้ว แต่ก้อนอื่นได้ประโยชน์"
+                "skill": "Ancestral Grudge",
+                "note": "Weapon strength: +5%"
               },
               {
                 "level": 21,
-                "skill": "Red: Miners – Ambush",
-                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+                "skill": "Resolute",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 22,
-                "skill": "Yellow: Melee Defence II",
-                "note": "ยืนกลางกองได้จริง"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 23,
-                "skill": "Red: Slayers – Physical Resistance",
-                "note": "ก้อนหลักอึดขึ้นมาก แม้ไม่มีเกราะ"
+                "skill": "Enquiring Mind",
+                "note": "Research rate: +10"
               },
               {
                 "level": 24,
-                "skill": "Blue: Public Order",
-                "note": "กันกบฏช่วงขยายดินแดน"
+                "skill": "Determined Deathblow",
+                "note": "Automatically unlocks at rank 5"
               },
               {
                 "level": 25,
-                "skill": "Red: Grudge Thrower – Reload",
-                "note": "มีปืนกดก่อนปะทะ"
+                "skill": "Extremely Daring Deathblow",
+                "note": "Automatically unlocks at rank 10"
               },
               {
                 "level": 26,
-                "skill": "Yellow: Ward Save",
-                "note": "กัน magic / missile"
+                "skill": "Hard to Hit",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 27,
-                "skill": "Red: Hammerers – Armour",
-                "note": "ก้อน AP ยืนได้นานขึ้น"
+                "skill": "Foe-Seeker",
+                "note": "Ability: \"Foe-Seeker\""
               },
               {
                 "level": 28,
-                "skill": "Blue: Income / Mining",
-                "note": "ดันเศรษฐกิจใต้ภูเขา"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 29,
-                "skill": "Yellow: Melee Attack III",
-                "note": "ให้ Ungrim เก็บ lord ศัตรูได้"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 30,
-                "skill": "Red: Irondrakes – Missile Damage",
-                "note": "ก้อน AP ระยะสั้นช่วยเปิดไลน์"
+                "skill": "Blade Shield",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 31,
-                "skill": "Yellow: Physical Resistance",
-                "note": "ลด damage กายภาพ"
+                "skill": "Relentless",
+                "note": "Speed: +7%"
               },
               {
                 "level": 32,
-                "skill": "Red: Thunderers – Reload",
-                "note": "แนวยิงดินปืนถี่ขึ้น"
+                "skill": "Heroic Killing Blow",
+                "note": "Ability: \"Heroic Killing Blow\""
               },
               {
                 "level": 33,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 34,
-                "skill": "Red: Giant Slayers – Armour",
-                "note": "elite ทนขึ้นเล็กน้อย"
+                "skill": "Grimnir's Heirs",
+                "note": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 35,
-                "skill": "Yellow: Missile Resistance",
-                "note": "กันกองยิงศัตรูตอนเดินเข้า"
+                "skill": "Axe Lord",
+                "note": "Melee defence: +4 for Miners, Dwarf Warriors, and Longbeards units"
               },
               {
                 "level": 36,
-                "skill": "Red: Cannon – Accuracy",
-                "note": "ลบมอนสเตอร์ก่อนถึงตัว"
+                "skill": "Thunderer",
+                "note": "Ammunition: +10% for Quarrellers, Thunderers, and Rangers units"
               },
               {
                 "level": 37,
-                "skill": "Yellow: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "Tradition & Innovation",
+                "note": "Tradition & Innovation"
               },
               {
                 "level": 38,
-                "skill": "Red: Gyrocopter – Missile Damage",
-                "note": "มีปีกไล่ปืนใหญ่ศัตรู"
+                "skill": "Fire & Fury",
+                "note": "Fire & Fury"
               },
               {
                 "level": 39,
-                "skill": "Blue: Upkeep II",
-                "note": "ปิดสายประหยัดงบ"
+                "skill": "Tactician",
+                "note": "Missile strength: +6% for Bolt Throwers, Grudge Thrower, Cannon, Goblin Hewer and Organ Gun units"
               },
               {
                 "level": 40,
-                "skill": "Red: Longbeards – Leadership Aura",
-                "note": "ค้ำก้อนที่ไม่ใช่ Slayers"
+                "skill": "Rally!",
+                "note": "Ability: \"Rally!\""
               },
               {
                 "level": 41,
-                "skill": "Yellow: Melee Defence III",
-                "note": "ปิดสายยืนไฟต์"
+                "skill": "Honoured by Grimnir",
+                "note": "Melee attack: +5 for Slayers, Giant Slayers, Doomseekers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 42,
-                "skill": "Red: Organ Gun – Reload",
-                "note": "กดกองราบใหญ่ ๆ"
+                "skill": "Blessed by Grungni",
+                "note": "Armour: +12 for Miners, Dwarf Warriors, and Longbeards units (Rank 7 and above)"
               },
               {
                 "level": 43,
-                "skill": "Red: Slayers – Charge Bonus",
-                "note": "เข้าชนแรงขึ้น"
+                "skill": "Dawi Firepower",
+                "note": "Missile strength: +12% for Quarrellers, Thunderers, Rangers, Irondrakes, Gyrocopters, Gyrobombers and…"
               },
               {
                 "level": 44,
-                "skill": "Yellow: Leadership II",
-                "note": "กันกองแตกตอนไฟต์ยืด"
+                "skill": "Morgrim’s Favoured",
+                "note": "Ammunition: +20% for Bolt Thrower, Grudge Thrower, Goblin Hewer, Cannon, Organ Gun and Flame Cannon…"
               },
               {
                 "level": 45,
-                "skill": "Red: Irondrakes – Reload",
-                "note": "เทกระสุนถี่ขึ้น"
+                "skill": "Stand Your Ground!",
+                "note": "Ability: \"Stand Your Ground!\""
               },
               {
                 "level": 46,
-                "skill": "Blue: Diplomacy / Grudges",
-                "note": "ปิดสายแคมเปญ"
+                "skill": "Miner's Instinct",
+                "note": "Chance of intercepting an army using Tunnelling, beast-paths or Worldroots: +6%"
               },
               {
                 "level": 47,
-                "skill": "Red: Dwarf Warriors – Armour",
-                "note": "ก้อนราคาถูกทนยิงขึ้น"
+                "skill": "Wall Breaker",
+                "note": "Attrition: +5% when under siege"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Pure-Beard",
+                "note": "Corruption: -1"
               },
               {
                 "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node ที่ยังขาด"
+                "skill": "Mason",
+                "note": "Construction cost: -2% for Province Capital/Settlement buildings"
               },
               {
                 "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "skill": "Lightning Strike",
+                "note": "Enemy battle reinforcement time: +25%"
               }
             ]
           },
@@ -879,7 +893,7 @@
           "bestFor": "คนชอบเล่นตั้งรับล้วน ๆ และไม่กลัวแคมเปญเปิดยาก",
           "armyGuidance": "Ironbreakers, Irondrakes, Irondrakes (Trollhammer Torpedo), Thunderers, Cannon",
           "skillBuild": {
-            "summary": "Blue sustain ก่อน (ต้องตีซ้ำเยอะ) → Red: Ironbreakers + Irondrakes → Yellow ยืนไฟต์ → ปิดด้วย Trollhammer",
+            "summary": "Replenishment + สาย Ironbreaker/Irondrake ก่อน → armour กับ melee defence → ปิดด้วยสายยิงและ siege สำหรับตี Karak คืน",
             "stages": [
               {
                 "key": "EARLY",
@@ -887,51 +901,51 @@
                 "steps": [
                   {
                     "order": "2",
-                    "name": "Route Marcher",
+                    "name": "Age of Reconquest",
                     "points": "",
-                    "reason": "เดินไว ตั้งหลักรอบ Eight Peaks",
-                    "iconUrl": ""
+                    "reason": "Campaign movement range: +10%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_mount_passive_bloodroar.png&w=640&output=png"
                   },
                   {
-                    "order": "3–4",
-                    "name": "Blue: Replenishment I-II",
+                    "order": "3",
+                    "name": "Iron-Willed",
                     "points": "",
-                    "reason": "Belegar ต้องตีซ้ำหลายรอบ",
+                    "reason": "Casualty replenishment rate: +30% for this Lord",
                     "iconUrl": ""
                   },
                   {
                     "order": "5",
-                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "name": "Route Marcher",
                     "points": "",
-                    "reason": "แนวหน้าค้ำแนวยิง",
-                    "iconUrl": ""
+                    "reason": "Campaign movement range: +5%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
                   },
                   {
                     "order": "6",
-                    "name": "Red: Quarrellers – Reload",
+                    "name": "Full Plate Armour",
                     "points": "",
-                    "reason": "แนวยิงต้นเกมถี่ขึ้น",
+                    "reason": "Armour: +6",
                     "iconUrl": ""
                   },
                   {
                     "order": "7",
-                    "name": "Blue: Public Order",
+                    "name": "Hard to Hit",
                     "points": "",
-                    "reason": "กันกบฏในดินแดนที่เพิ่งยึด",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "8",
-                    "name": "Yellow: Melee Defence I",
-                    "points": "",
-                    "reason": "ให้ Belegar ยืนแนวหน้าได้",
+                    "reason": "Melee defence: +6",
                     "iconUrl": ""
                   },
                   {
                     "order": "9",
-                    "name": "Red: Thunderers – Missile Damage",
+                    "name": "Wall Master",
                     "points": "",
-                    "reason": "เปลี่ยนเป็นแนวยิง AP",
+                    "reason": "Attrition: +5% when under siege",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "10",
+                    "name": "Lord of the Deeps",
+                    "points": "Rank 8+",
+                    "reason": "Leadership: +6 when fighting against Skaven",
                     "iconUrl": ""
                   }
                 ]
@@ -941,53 +955,53 @@
                 "title": "Lv 11–25",
                 "steps": [
                   {
-                    "order": "11–12",
-                    "name": "Red: Ironbreakers",
+                    "order": "11",
+                    "name": "Scarred Veteran",
                     "points": "",
-                    "reason": "แกน elite ที่ทนที่สุดในเกม",
+                    "reason": "Hit points: +7%",
                     "iconUrl": ""
                   },
                   {
                     "order": "13",
-                    "name": "Yellow: Armour",
-                    "points": "",
-                    "reason": "ทนยิงและทนชนขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "14",
-                    "name": "Red: Grudge Thrower – Reload",
-                    "points": "",
-                    "reason": "มีปืนกดก่อนปะทะ",
+                    "name": "Rally the Holds",
+                    "points": "Rank 12+",
+                    "reason": "Diplomatic relations: +15 with Dwarfs",
                     "iconUrl": ""
                   },
                   {
                     "order": "16",
-                    "name": "Shield of Defiance (Ability)",
+                    "name": "Ancestral Guidance",
                     "points": "",
-                    "reason": "ค้ำแนวตอนโดนรุม",
+                    "reason": "Unlocks Hero recruitment: Thane",
                     "iconUrl": ""
                   },
                   {
-                    "order": "17–19",
-                    "name": "Red: Irondrakes",
+                    "order": "18",
+                    "name": "Resolute",
                     "points": "",
-                    "reason": "ก้อน AP ระยะสั้นเจ็บมาก",
+                    "reason": "Charge bonus: +15",
                     "iconUrl": ""
                   },
                   {
-                    "order": "21",
-                    "name": "Blue: Underway Movement",
+                    "order": "20",
+                    "name": "Foe-Seeker",
                     "points": "",
-                    "reason": "ย้ายกองข้ามภูเขาได้ไว",
-                    "iconUrl": ""
+                    "reason": "Ability: \"Foe-Seeker\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_foe_seeker.png&w=640&output=png"
                   },
                   {
                     "order": "23",
-                    "name": "Red: Cannon – Accuracy",
+                    "name": "Blade Master",
                     "points": "",
-                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "reason": "Melee attack: +6",
                     "iconUrl": ""
+                  },
+                  {
+                    "order": "25",
+                    "name": "Deadly Onslaught",
+                    "points": "",
+                    "reason": "Ability: \"Deadly Onslaught\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_deadly_onslaught.png&w=640&output=png"
                   }
                 ]
               },
@@ -996,45 +1010,52 @@
                 "title": "Lv 26–50",
                 "steps": [
                   {
-                    "order": "27",
-                    "name": "Red: Irondrakes (Trollhammer) – Anti-Large",
+                    "order": "26",
+                    "name": "Inspiring Presence",
                     "points": "",
-                    "reason": "คำตอบหลักต่อมอนสเตอร์",
+                    "reason": "Unit experience gain per turn: +75",
                     "iconUrl": ""
                   },
                   {
                     "order": "30",
-                    "name": "Yellow: Missile Resistance",
+                    "name": "Axe Lord",
                     "points": "",
-                    "reason": "กันกองยิงของศัตรู",
+                    "reason": "Melee defence: +4 for Miners, Dwarf Warriors, and Longbeards units",
                     "iconUrl": ""
                   },
                   {
-                    "order": "32",
-                    "name": "Yellow: Leadership Aura",
+                    "order": "34",
+                    "name": "Dawi Firepower",
                     "points": "",
-                    "reason": "กันกองแตกตอนไฟต์ยืด",
+                    "reason": "Missile strength: +12% for Quarrellers, Thunderers, Rangers, Irondrakes, Gyrocopters, Gyrobombers and…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "37",
-                    "name": "Red: Gyrocopter",
+                    "order": "38",
+                    "name": "Stand Your Ground!",
                     "points": "",
-                    "reason": "มีปีกไล่ปืนใหญ่ศัตรู",
+                    "reason": "Ability: \"Stand Your Ground!\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_stand_your_ground.png&w=640&output=png"
+                  },
+                  {
+                    "order": "42",
+                    "name": "Lightning Strike",
+                    "points": "",
+                    "reason": "Enemy battle reinforcement time: +25%",
                     "iconUrl": ""
                   },
                   {
                     "order": "46",
-                    "name": "Red: Thunderers – Range",
-                    "points": "",
-                    "reason": "ยิงก่อนเข้าระยะศัตรู",
+                    "name": "Bane of Destruction",
+                    "points": "Rank 7+",
+                    "reason": "Melee attack: +9 when fighting against Greenskins",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
-                    "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "order": "50",
+                    "name": "Obstinacy",
+                    "points": "Rank 10+",
+                    "reason": "Vigour loss reduction: -15%",
                     "iconUrl": ""
                   }
                 ]
@@ -1043,248 +1064,248 @@
             "levelPlan": [
               {
                 "level": 2,
-                "skill": "Route Marcher",
-                "note": "เดินไว ตั้งหลักรอบ Eight Peaks"
+                "skill": "Age of Reconquest",
+                "note": "Campaign movement range: +10%"
               },
               {
                 "level": 3,
-                "skill": "Blue: Replenishment I",
-                "note": "Belegar ต้องตีซ้ำหลายรอบ ลด downtime ก่อน"
+                "skill": "Iron-Willed",
+                "note": "Casualty replenishment rate: +30% for this Lord"
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Inspirational Leader",
+                "note": "Casualty replenishment rate: +2%"
               },
               {
                 "level": 5,
-                "skill": "Red: Dwarf Warriors – Melee Defence",
-                "note": "แนวหน้าราคาถูกค้ำแนวยิง"
+                "skill": "Route Marcher",
+                "note": "Campaign movement range: +5%"
               },
               {
                 "level": 6,
-                "skill": "Red: Quarrellers – Reload",
-                "note": "แนวยิงต้นเกมถี่ขึ้น"
+                "skill": "Full Plate Armour",
+                "note": "Armour: +6"
               },
               {
                 "level": 7,
-                "skill": "Blue: Public Order",
-                "note": "กันกบฏในดินแดนที่เพิ่งยึด"
+                "skill": "Hard to Hit",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 8,
-                "skill": "Yellow: Melee Defence I",
-                "note": "ให้ Belegar ยืนแนวหน้าได้"
+                "skill": "Rune-Warded Armour",
+                "note": "Missile block chance: +10%"
               },
               {
                 "level": 9,
-                "skill": "Red: Thunderers – Missile Damage",
-                "note": "เปลี่ยนเป็นแนวยิงดินปืนเจาะเกราะ"
+                "skill": "Wall Master",
+                "note": "Attrition: +5% when under siege"
               },
               {
                 "level": 10,
-                "skill": "Blue: Army Upkeep",
-                "note": "ลดค่าดูแล เอางบไปเพิ่ม elite"
+                "skill": "Lord of the Deeps",
+                "note": "Leadership: +6 when fighting against Skaven"
               },
               {
                 "level": 11,
-                "skill": "Red: Ironbreakers – Melee Defence",
-                "note": "เริ่มวางแกน elite แนวหน้า"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 12,
-                "skill": "Red: Ironbreakers – Armour",
-                "note": "แนวหน้าทนที่สุดในเกม"
+                "skill": "Enquiring Mind",
+                "note": "Research rate: +10"
               },
               {
                 "level": 13,
-                "skill": "Yellow: Armour",
-                "note": "ทนยิงและทนชนขึ้น"
+                "skill": "Rally the Holds",
+                "note": "Diplomatic relations: +15 with Dwarfs"
               },
               {
                 "level": 14,
-                "skill": "Red: Grudge Thrower – Reload",
-                "note": "มีปืนกดก่อนปะทะ"
+                "skill": "Tunnel Warfare",
+                "note": "Ammunition: +200% Miners units"
               },
               {
                 "level": 15,
-                "skill": "Blue: Replenishment III",
-                "note": "sustain สำหรับแคมเปญยาว"
+                "skill": "Gather the Old Clans",
+                "note": "Recruit rank: +2 for all units"
               },
               {
                 "level": 16,
-                "skill": "Shield of Defiance (Ability)",
-                "note": "ปลดสกิลประจำตัว ค้ำแนวตอนโดนรุม"
+                "skill": "Ancestral Guidance",
+                "note": "Unlocks Hero recruitment: Thane"
               },
               {
                 "level": 17,
-                "skill": "Red: Irondrakes – Missile Damage",
-                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+                "skill": "Oaths of Reclamation",
+                "note": "Oathgold from buildings: +50%"
               },
               {
                 "level": 18,
-                "skill": "Yellow: Melee Defence II",
-                "note": "ยืนกลางกองได้จริง"
+                "skill": "Resolute",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 19,
-                "skill": "Red: Irondrakes – Reload",
-                "note": "เทกระสุนใส่แนวหน้าถี่ขึ้น"
+                "skill": "Ancestral Grudge",
+                "note": "Weapon strength: +5%"
               },
               {
                 "level": 20,
-                "skill": "Red: Thunderers – Reload",
-                "note": "แนวยิงหลักถี่ขึ้น"
+                "skill": "Foe-Seeker",
+                "note": "Ability: \"Foe-Seeker\""
               },
               {
                 "level": 21,
-                "skill": "Blue: Underway Movement",
-                "note": "ย้ายกองข้ามภูเขาได้ไว"
+                "skill": "Blade Shield",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 22,
-                "skill": "Yellow: Melee Attack I",
-                "note": "ให้ Belegar เก็บก้อนได้บ้าง"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 23,
-                "skill": "Red: Cannon – Accuracy",
-                "note": "ลบมอนสเตอร์ก่อนถึงแนว"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 24,
-                "skill": "Blue: Income / Mining",
-                "note": "ดันเศรษฐกิจใต้ภูเขา"
+                "skill": "Relentless",
+                "note": "Speed: +7%"
               },
               {
                 "level": 25,
-                "skill": "Red: Hammerers – Melee Attack",
-                "note": "ก้อน AP ไว้เจาะเกราะ"
+                "skill": "Deadly Onslaught",
+                "note": "Ability: \"Deadly Onslaught\""
               },
               {
                 "level": 26,
-                "skill": "Yellow: Ward Save",
-                "note": "กัน magic / missile"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 27,
-                "skill": "Red: Irondrakes (Trollhammer) – Anti-Large",
-                "note": "คำตอบหลักต่อมอนสเตอร์ปลายเกม"
+                "skill": "Thunderer",
+                "note": "Ammunition: +10% for Quarrellers, Thunderers, and Rangers units"
               },
               {
                 "level": 28,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Grimnir's Heirs",
+                "note": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 29,
-                "skill": "Red: Organ Gun – Reload",
-                "note": "กดกองราบใหญ่ ๆ"
+                "skill": "Fire & Fury",
+                "note": "Fire & Fury"
               },
               {
                 "level": 30,
-                "skill": "Yellow: Missile Resistance",
-                "note": "กันกองยิงของศัตรู"
+                "skill": "Axe Lord",
+                "note": "Melee defence: +4 for Miners, Dwarf Warriors, and Longbeards units"
               },
               {
                 "level": 31,
-                "skill": "Red: Ironbreakers – Melee Attack",
-                "note": "elite แนวหน้าตีเจ็บขึ้น"
+                "skill": "Tradition & Innovation",
+                "note": "Tradition & Innovation"
               },
               {
                 "level": 32,
-                "skill": "Yellow: Leadership Aura",
-                "note": "กันกองแตกตอนไฟต์ยืด"
+                "skill": "Tactician",
+                "note": "Missile strength: +6% for Bolt Throwers, Grudge Thrower, Cannon, Goblin Hewer and Organ Gun units"
               },
               {
                 "level": 33,
-                "skill": "Red: Longbeards – Leadership Aura",
-                "note": "ค้ำไลน์กลางอีกชั้น"
+                "skill": "Rally!",
+                "note": "Ability: \"Rally!\""
               },
               {
                 "level": 34,
-                "skill": "Blue: Upkeep II",
-                "note": "ปิดสายประหยัดงบ"
+                "skill": "Dawi Firepower",
+                "note": "Missile strength: +12% for Quarrellers, Thunderers, Rangers, Irondrakes, Gyrocopters, Gyrobombers and…"
               },
               {
                 "level": 35,
-                "skill": "Red: Grudge Thrower – Range",
-                "note": "ตั้งไกลขึ้น ปลอดภัยขึ้น"
+                "skill": "Blessed by Grungni",
+                "note": "Armour: +12 for Miners, Dwarf Warriors, and Longbeards units (Rank 7 and above)"
               },
               {
                 "level": 36,
-                "skill": "Yellow: Physical Resistance",
-                "note": "ลด damage กายภาพ"
+                "skill": "Honoured by Grimnir",
+                "note": "Melee attack: +5 for Slayers, Giant Slayers, Doomseekers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 37,
-                "skill": "Red: Gyrocopter – Missile Damage",
-                "note": "มีปีกไล่ปืนใหญ่ศัตรู"
+                "skill": "Morgrim’s Favoured",
+                "note": "Ammunition: +20% for Bolt Thrower, Grudge Thrower, Goblin Hewer, Cannon, Organ Gun and Flame Cannon…"
               },
               {
                 "level": 38,
-                "skill": "Yellow: Melee Attack II",
-                "note": "ต่อสายชน"
+                "skill": "Stand Your Ground!",
+                "note": "Ability: \"Stand Your Ground!\""
               },
               {
                 "level": 39,
-                "skill": "Red: Miners – Ambush",
-                "note": "เปิดทางไปเก็บหลังกองศัตรู"
+                "skill": "Miner's Instinct",
+                "note": "Chance of intercepting an army using Tunnelling, beast-paths or Worldroots: +6%"
               },
               {
                 "level": 40,
-                "skill": "Blue: Diplomacy / Grudges",
-                "note": "ปิดสายแคมเปญ"
+                "skill": "Pure-Beard",
+                "note": "Corruption: -1"
               },
               {
                 "level": 41,
-                "skill": "Red: Cannon – Reload",
-                "note": "ยิงถี่ขึ้นช่วง late"
+                "skill": "Mason",
+                "note": "Construction cost: -2% for Province Capital/Settlement buildings"
               },
               {
                 "level": 42,
-                "skill": "Yellow: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "Lightning Strike",
+                "note": "Enemy battle reinforcement time: +25%"
               },
               {
                 "level": 43,
-                "skill": "Red: Slayers – Anti-Large",
-                "note": "ก้อนสำรองตอบตัวใหญ่"
+                "skill": "Reassuring Presence",
+                "note": "Attrition: -10% casualties suffered from all attrition"
               },
               {
                 "level": 44,
-                "skill": "Yellow: Melee Defence III",
-                "note": "ปิดสายยืนไฟต์"
+                "skill": "Unflappable",
+                "note": "Ambush defence chance: +20%"
               },
               {
                 "level": 45,
-                "skill": "Red: Hammerers – Armour",
-                "note": "ก้อน AP ยืนนานขึ้น"
+                "skill": "Brass-Lunged",
+                "note": "Leadership aura size: +25%"
               },
               {
                 "level": 46,
-                "skill": "Red: Thunderers – Range",
-                "note": "ยิงก่อนเข้าระยะศัตรู"
+                "skill": "Bane of Destruction",
+                "note": "Melee attack: +9 when fighting against Greenskins"
               },
               {
                 "level": 47,
-                "skill": "Blue: Public Order II",
-                "note": "ปิดสายคุมดินแดน"
+                "skill": "Rune of Grimnir",
+                "note": "Missile resistance: 10%"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Mastercrafted Weapon",
+                "note": "Melee attack: +5"
               },
               {
                 "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node ที่ยังขาด"
+                "skill": "Aura of Endurance",
+                "note": "Passive ability: \"Aura of Endurance\""
               },
               {
                 "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "skill": "Obstinacy",
+                "note": "Vigour loss reduction: -15%"
               }
             ]
           },
@@ -1735,7 +1756,7 @@
           "bestFor": "คนอยากได้ lord ที่เข้าไฟต์เองได้และค้ำกองไปพร้อมกัน โดยไม่ต้องจัดกองแบบเฉพาะทาง",
           "armyGuidance": "Longbeards, Hammerers, Thunderers, Ironbreakers, Slayers, Gyrocopter",
           "skillBuild": {
-            "summary": "Yellow สายตัวเองก่อน → ปลด aura ที่ Lv 10 → Blue sustain → Red line ของ elite แนวหน้ากับแนวยิง",
+            "summary": "เก็บสายตัวเอง (melee, armour, ward) คู่กับ aura ค้ำกอง → แล้วค่อยลงสายบัฟยูนิต node ของ Grombrindal มีน้อยกว่าแต้ม จึงเหลือแต้มไปเติมแรงค์",
             "stages": [
               {
                 "key": "EARLY",
@@ -1743,51 +1764,51 @@
                 "steps": [
                   {
                     "order": "2",
-                    "name": "Route Marcher",
+                    "name": "Full Plate Armour",
                     "points": "",
-                    "reason": "เดินไว ไปช่วยแนวรบได้ทัน",
+                    "reason": "Armour: +6",
                     "iconUrl": ""
                   },
                   {
                     "order": "3",
-                    "name": "Yellow: Melee Attack I",
+                    "name": "Hard to Hit",
                     "points": "",
-                    "reason": "เข้าไฟต์เองได้ตั้งแต่ต้นเกม",
+                    "reason": "Melee defence: +6",
                     "iconUrl": ""
                   },
                   {
-                    "order": "4–5",
-                    "name": "Blue: Replenishment I–II",
+                    "order": "5",
+                    "name": "Inspiring Presence",
                     "points": "",
-                    "reason": "ลด downtime หลังไฟต์",
+                    "reason": "Unit experience gain per turn: +75",
                     "iconUrl": ""
                   },
                   {
                     "order": "6",
-                    "name": "Yellow: Melee Defence I",
+                    "name": "Axe Lord",
                     "points": "",
-                    "reason": "ยืนแนวหน้าไม่ตายง่าย",
+                    "reason": "Melee defence: +4 for Miners, Dwarf Warriors, and Longbeards units",
                     "iconUrl": ""
                   },
                   {
                     "order": "7",
-                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "name": "Grimnir's Heirs",
                     "points": "",
-                    "reason": "แนวหน้าราคาถูกยืนนานขึ้น",
+                    "reason": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…",
                     "iconUrl": ""
                   },
                   {
                     "order": "9",
-                    "name": "Yellow: Armour",
-                    "points": "",
-                    "reason": "ทนยิงและทนชนขึ้น",
+                    "name": "Mastercrafted Weapon",
+                    "points": "Rank 8+",
+                    "reason": "Melee attack: +5",
                     "iconUrl": ""
                   },
                   {
                     "order": "10",
-                    "name": "White Dwarf Aura (Ability)",
-                    "points": "",
-                    "reason": "ปลด aura ประจำตัว ค้ำกองรอบตัว",
+                    "name": "Brass-Lunged",
+                    "points": "Rank 4+",
+                    "reason": "Leadership aura size: +25%",
                     "iconUrl": ""
                   }
                 ]
@@ -1798,51 +1819,51 @@
                 "steps": [
                   {
                     "order": "11",
-                    "name": "Red: Longbeards – Leadership Aura",
-                    "points": "",
-                    "reason": "ซ้อน aura ล็อกไลน์กลาง",
+                    "name": "Aura of Endurance",
+                    "points": "Rank 8+",
+                    "reason": "Passive ability: \"Aura of Endurance\"",
                     "iconUrl": ""
                   },
                   {
                     "order": "13",
-                    "name": "Yellow: Melee Attack II",
+                    "name": "Rouse the Engineers!",
                     "points": "",
-                    "reason": "ต่อสายชน เก็บก้อนที่จะแตกได้",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "14–15",
-                    "name": "Red: Thunderers",
-                    "points": "",
-                    "reason": "เปลี่ยนแนวยิงหลักเป็นดินปืน AP",
+                    "reason": "Ammunition: +33% for Irondrakes and War Machine units",
                     "iconUrl": ""
                   },
                   {
                     "order": "16",
-                    "name": "Yellow: Ward Save",
+                    "name": "Tradition & Innovation",
                     "points": "",
-                    "reason": "กัน magic / missile ตอนยืนกลางกอง",
+                    "reason": "Tradition & Innovation",
                     "iconUrl": ""
                   },
                   {
-                    "order": "17",
-                    "name": "Red: Hammerers – Melee Attack",
+                    "order": "18",
+                    "name": "Mythical Longevity",
                     "points": "",
-                    "reason": "ก้อน AP ไว้เจาะเกราะ",
+                    "reason": "Wound recovery time: -3 turns",
                     "iconUrl": ""
                   },
                   {
                     "order": "20",
-                    "name": "Red: Ironbreakers – Melee Defence",
+                    "name": "Resolute",
                     "points": "",
-                    "reason": "เริ่มวางแกน elite แนวหน้า",
+                    "reason": "Charge bonus: +15",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "23",
+                    "name": "Blade Master",
+                    "points": "",
+                    "reason": "Melee attack: +6",
                     "iconUrl": ""
                   },
                   {
                     "order": "25",
-                    "name": "Red: Cannon – Accuracy",
+                    "name": "Wound-Maker",
                     "points": "",
-                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "reason": "Weapon strength: +10%",
                     "iconUrl": ""
                   }
                 ]
@@ -1853,44 +1874,51 @@
                 "steps": [
                   {
                     "order": "26",
-                    "name": "Yellow: Leadership Aura",
+                    "name": "Relentless",
                     "points": "",
-                    "reason": "ซ้อนกับ aura ประจำตัว กองแทบไม่แตก",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "27",
-                    "name": "Red: Ironbreakers – Armour",
-                    "points": "",
-                    "reason": "แนวหน้าทนสุดในเกม",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "29",
-                    "name": "Yellow: Melee Attack III",
-                    "points": "",
-                    "reason": "ปิดสายดวล เก็บ lord ศัตรูได้",
+                    "reason": "Speed: +7%",
                     "iconUrl": ""
                   },
                   {
                     "order": "30",
-                    "name": "Red: Slayers – Anti-Large",
+                    "name": "Rally!",
                     "points": "",
-                    "reason": "ก้อนตอบมอนสเตอร์",
+                    "reason": "Ability: \"Rally!\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_character_abilities_rally.png&w=640&output=png"
+                  },
+                  {
+                    "order": "33",
+                    "name": "Morgrim’s Favoured",
+                    "points": "",
+                    "reason": "Ammunition: +20% for Bolt Thrower, Grudge Thrower, Goblin Hewer, Cannon, Organ Gun and Flame Cannon…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "35",
-                    "name": "Red: Gyrocopter",
+                    "order": "37",
+                    "name": "Ancient Acumen",
                     "points": "",
-                    "reason": "มีปีกไล่ปืนใหญ่ศัตรู",
+                    "reason": "เก็บ node ตามสายหลักของ lord ตัวนี้",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
+                    "order": "41",
+                    "name": "The White Dwarf’s Call",
                     "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "reason": "เก็บ node ตามสายหลักของ lord ตัวนี้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "44",
+                    "name": "Lord of the Deeps",
+                    "points": "Rank 8+",
+                    "reason": "Leadership: +6 when fighting against Skaven",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48",
+                    "name": "Mentor",
+                    "points": "Rank 30+",
+                    "reason": "Character will share +15% of experience earned between all other active Lords",
                     "iconUrl": ""
                   }
                 ]
@@ -1899,248 +1927,248 @@
             "levelPlan": [
               {
                 "level": 2,
-                "skill": "Route Marcher",
-                "note": "เดินไกลขึ้น ไปช่วยแนวรบได้ทัน"
+                "skill": "Full Plate Armour",
+                "note": "Armour: +6"
               },
               {
                 "level": 3,
-                "skill": "Yellow: Melee Attack I",
-                "note": "Grombrindal เข้าไฟต์เองได้ตั้งแต่ต้นเกม"
+                "skill": "Hard to Hit",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment I",
-                "note": "ลด downtime หลังไฟต์"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 5,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 6,
-                "skill": "Yellow: Melee Defence I",
-                "note": "ยืนแนวหน้าได้โดยไม่ตายง่าย"
+                "skill": "Axe Lord",
+                "note": "Melee defence: +4 for Miners, Dwarf Warriors, and Longbeards units"
               },
               {
                 "level": 7,
-                "skill": "Red: Dwarf Warriors – Melee Defence",
-                "note": "แนวหน้าราคาถูกยืนได้นานขึ้น"
+                "skill": "Grimnir's Heirs",
+                "note": "Melee attack: +4 for Slayers, Doomseekers, Giant Slayers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 8,
-                "skill": "Red: Quarrellers – Reload",
-                "note": "แนวยิงต้นเกมถี่ขึ้น"
+                "skill": "Rune-Warded Armour",
+                "note": "Missile block chance: +10%"
               },
               {
                 "level": 9,
-                "skill": "Yellow: Armour",
-                "note": "ทนยิงและทนชนขึ้นชัดเจน"
+                "skill": "Mastercrafted Weapon",
+                "note": "Melee attack: +5"
               },
               {
                 "level": 10,
-                "skill": "White Dwarf Aura (Ability)",
-                "note": "ปลด aura ประจำตัว ค้ำกองรอบตัว"
+                "skill": "Brass-Lunged",
+                "note": "Leadership aura size: +25%"
               },
               {
                 "level": 11,
-                "skill": "Red: Longbeards – Leadership Aura",
-                "note": "ซ้อน aura ล็อกไลน์กลางให้แน่น"
+                "skill": "Aura of Endurance",
+                "note": "Passive ability: \"Aura of Endurance\""
               },
               {
                 "level": 12,
-                "skill": "Blue: Army Upkeep",
-                "note": "ลดค่าดูแล เอางบไปเพิ่ม elite"
+                "skill": "Mountainstrider",
+                "note": "Campaign movement range: +15%"
               },
               {
                 "level": 13,
-                "skill": "Yellow: Melee Attack II",
-                "note": "ต่อสายชน เก็บก้อนที่กำลังจะแตกได้"
+                "skill": "Rouse the Engineers!",
+                "note": "Ammunition: +33% for Irondrakes and War Machine units"
               },
               {
                 "level": 14,
-                "skill": "Red: Thunderers – Reload",
-                "note": "เปลี่ยนแนวยิงหลักเป็นดินปืน"
+                "skill": "Age of Vengeance",
+                "note": "Speed: +35%"
               },
               {
                 "level": 15,
-                "skill": "Red: Thunderers – Missile Damage",
-                "note": "ดัน damage ต่อชุดยิง"
+                "skill": "Thunderer",
+                "note": "Ammunition: +10% for Quarrellers, Thunderers, and Rangers units"
               },
               {
                 "level": 16,
-                "skill": "Yellow: Ward Save",
-                "note": "กัน magic / missile ตอนยืนกลางกอง"
+                "skill": "Tradition & Innovation",
+                "note": "Tradition & Innovation"
               },
               {
                 "level": 17,
-                "skill": "Red: Hammerers – Melee Attack",
-                "note": "ก้อน AP ไว้เจาะเกราะศัตรู"
+                "skill": "Mighty Beard of Defence",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 18,
-                "skill": "Blue: Replenishment III",
-                "note": "sustain สำหรับแคมเปญยาว"
+                "skill": "Mythical Longevity",
+                "note": "Wound recovery time: -3 turns"
               },
               {
                 "level": 19,
-                "skill": "Yellow: Melee Defence II",
-                "note": "ยืนกลางกองได้โดยไม่ต้องถอย"
+                "skill": "Grimnir's Resolve",
+                "note": "Cooldown: -50% to \"Grombrindal has no Fear\""
               },
               {
                 "level": 20,
-                "skill": "Red: Ironbreakers – Melee Defence",
-                "note": "เริ่มวางแกน elite แนวหน้า"
+                "skill": "Resolute",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 21,
-                "skill": "Red: Grudge Thrower – Reload",
-                "note": "มีปืนกดก่อนปะทะ"
+                "skill": "Ancestral Grudge",
+                "note": "Weapon strength: +5%"
               },
               {
                 "level": 22,
-                "skill": "Blue: Public Order",
-                "note": "กันกบฏช่วงขยายดินแดน"
+                "skill": "Foe-Seeker",
+                "note": "Ability: \"Foe-Seeker\""
               },
               {
                 "level": 23,
-                "skill": "Yellow: Physical Resistance",
-                "note": "ลด damage กายภาพ"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 24,
-                "skill": "Red: Hammerers – Armour",
-                "note": "ก้อน AP ยืนได้นานขึ้น"
+                "skill": "Blade Shield",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 25,
-                "skill": "Red: Cannon – Accuracy",
-                "note": "ลบมอนสเตอร์ก่อนถึงแนว"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 26,
-                "skill": "Yellow: Leadership Aura",
-                "note": "ซ้อนกับ aura ประจำตัว กองแทบไม่แตก"
+                "skill": "Relentless",
+                "note": "Speed: +7%"
               },
               {
                 "level": 27,
-                "skill": "Red: Ironbreakers – Armour",
-                "note": "แนวหน้าทนที่สุดในเกม"
+                "skill": "Colossal Strike",
+                "note": "Ability: \"Colossal Strike\""
               },
               {
                 "level": 28,
-                "skill": "Blue: Income / Mining",
-                "note": "ดันเศรษฐกิจใต้ภูเขา"
+                "skill": "Fire & Fury",
+                "note": "Fire & Fury"
               },
               {
                 "level": 29,
-                "skill": "Yellow: Melee Attack III",
-                "note": "ปิดสายดวลตัวต่อตัว เก็บ lord ศัตรูได้"
+                "skill": "Tactician",
+                "note": "Missile strength: +6% for Bolt Throwers, Grudge Thrower, Cannon, Goblin Hewer and Organ Gun units"
               },
               {
                 "level": 30,
-                "skill": "Red: Slayers – Anti-Large",
-                "note": "มีก้อนตอบมอนสเตอร์"
+                "skill": "Rally!",
+                "note": "Ability: \"Rally!\""
               },
               {
                 "level": 31,
-                "skill": "Blue: Underway Movement",
-                "note": "ย้ายกองข้ามภูเขาได้ไว"
+                "skill": "Blessed by Grungni",
+                "note": "Armour: +12 for Miners, Dwarf Warriors, and Longbeards units (Rank 7 and above)"
               },
               {
                 "level": 32,
-                "skill": "Red: Irondrakes – Missile Damage",
-                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+                "skill": "Honoured by Grimnir",
+                "note": "Melee attack: +5 for Slayers, Giant Slayers, Doomseekers, Slayer Pirates, Hammerers and Ironbreakers…"
               },
               {
                 "level": 33,
-                "skill": "Yellow: Missile Resistance",
-                "note": "กันกองยิงของศัตรู"
+                "skill": "Morgrim’s Favoured",
+                "note": "Ammunition: +20% for Bolt Thrower, Grudge Thrower, Goblin Hewer, Cannon, Organ Gun and Flame Cannon…"
               },
               {
                 "level": 34,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Dawi Firepower",
+                "note": "Missile strength: +12% for Quarrellers, Thunderers, Rangers, Irondrakes, Gyrocopters, Gyrobombers and…"
               },
               {
                 "level": 35,
-                "skill": "Red: Gyrocopter – Missile Damage",
-                "note": "มีปีกไว้ไล่ปืนใหญ่ศัตรู"
+                "skill": "Stand Your Ground!",
+                "note": "Ability: \"Stand Your Ground!\""
               },
               {
                 "level": 36,
-                "skill": "Red: Longbeards – Melee Attack",
-                "note": "ไลน์กลางชนะการปะทะ"
+                "skill": "Legendary Commerce",
+                "note": "Income from trade tariffs: +20%"
               },
               {
                 "level": 37,
-                "skill": "Yellow: Melee Defence III",
-                "note": "ปิดสายยืนไฟต์"
+                "skill": "Ancient Acumen",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 38,
-                "skill": "Red: Organ Gun – Reload",
-                "note": "กดกองราบใหญ่ ๆ ได้ถี่ขึ้น"
+                "skill": "Eager Kin",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 39,
-                "skill": "Blue: Upkeep II",
-                "note": "ปิดสายประหยัดงบ"
+                "skill": "Absolutely Relentless",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 40,
-                "skill": "Red: Irondrakes – Reload",
-                "note": "เทกระสุนถี่ขึ้น"
+                "skill": "Get Up!",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 41,
-                "skill": "Yellow: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "The White Dwarf’s Call",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 42,
-                "skill": "Red: Ironbreakers – Melee Attack",
-                "note": "elite แนวหน้าตีเจ็บขึ้น"
+                "skill": "Lightning Strike",
+                "note": "Enemy battle reinforcement time: +25%"
               },
               {
                 "level": 43,
-                "skill": "Red: Miners – Ambush",
-                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+                "skill": "Oath of Forging",
+                "note": "Oathgold from buildings: +10%"
               },
               {
                 "level": 44,
-                "skill": "Blue: Diplomacy / Grudges",
-                "note": "ปิดสายแคมเปญ"
+                "skill": "Lord of the Deeps",
+                "note": "Leadership: +6 when fighting against Skaven"
               },
               {
                 "level": 45,
-                "skill": "Red: Thunderers – Range",
-                "note": "ยิงก่อนเข้าระยะศัตรู"
+                "skill": "Rune of Grimnir",
+                "note": "Missile resistance: 10%"
               },
               {
                 "level": 46,
-                "skill": "Red: Giant Slayers – Anti-Large",
-                "note": "ก้อนตอบตัวใหญ่ปลายเกม"
+                "skill": "Time of the Ancestors",
+                "note": "Turn time: -10 between each passing of the Living Ancestor event"
               },
               {
                 "level": 47,
-                "skill": "Yellow: Leadership II",
-                "note": "กันกองแตกตอนไฟต์ยืด"
+                "skill": "Obstinacy",
+                "note": "Vigour loss reduction: -15%"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Mentor",
+                "note": "Character will share +15% of experience earned between all other active Lords"
               },
               {
                 "level": 49,
                 "skill": "Flex point",
-                "note": "เก็บ node ที่ยังขาด"
+                "note": "node หมดแล้ว - ลงแต้มเพิ่มใน skill ที่ยังไม่เต็มแรงค์"
               },
               {
                 "level": 50,
                 "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "note": "node หมดแล้ว - ลงแต้มเพิ่มใน skill ที่ยังไม่เต็มแรงค์"
               }
             ]
           },

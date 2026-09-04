@@ -81,21 +81,58 @@ npm install
 npm start
 ```
 
+## Skill plans
+
+Cathay and Dwarfs skill plans are built from the real in-game skill trees,
+scraped from totalwarhammerplanner.com with headless Chrome (the site is a JS
+app, so a plain fetch returns an empty shell).
+
+```bash
+python tools/fetch-skills.py       <workdir>   # render + parse the trees
+python tools/build-skill-plans.py  <workdir>   # order them into Lv 2-50
+python tools/apply-skill-plans.py  <workdir>   # write into src/assets/data
+```
+
+What comes from the game: skill names, prerequisites, rank gates and effect
+text. What is this guide's opinion: the *order*. The builder scores each node
+against a per-lord keyword focus, then picks greedily, and asserts the result is
+legal — a skill is never listed before its prerequisite or before its rank
+unlocks.
+
+Known limits:
+
+- The table lists one skill per level. In game several skills take more than one
+  point, so treat it as a priority order, not a literal point-by-point script.
+- Malakai Makaisson and Valkia the Bloody have no page on the planner under any
+  URL tried, so their plans are still hand-written and unverified.
+- Khorne's and Kislev's original three/four lords keep their existing
+  hand-written plans; nothing in this pipeline touches them.
+
 ## Chibi artwork
 
-Cathay, Dwarfs and Valkia use flat-vector chibi SVGs generated from a single
-parameterised script — each figure is assembled from shared parts (head, beard,
-helmet, torso, weapon, shield, mount, ...) so adding a unit only needs one row
+Every lord and unit across all four factions uses a flat-vector chibi SVG
+generated from a single parameterised script, so the whole guide reads as one
+art set. Each figure is assembled from shared parts — head, face, beard, helmet,
+torso, arms, weapon, shield, mount, wings — and adding a unit only needs one row
 in `SPECS`.
 
 ```bash
-python tools/gen-chibi.py
+python tools/gen-chibi.py     # writes all 74 SVGs
 ```
 
 Writes `src/assets/units/<faction>/chibi/<unit-id>.svg` and
-`src/assets/lords/<faction>/chibi/<lord-id>-lord.svg`. Khorne and Kislev keep
-their existing hand-made PNGs; `imageUrl` / `portraitUrl` in the JSON just point
-at whichever file exists.
+`src/assets/lords/<faction>/chibi/<lord-id>-lord.svg`.
+
+Templates: `humanoid`, `cavalry`, `beast`, `chariot`, `monster`, `artillery`,
+`aircraft`, `airship`. Parts library: 20 helmets, 19 weapons, 3 beard shapes,
+3 mount styles.
+
+The original Khorne/Kislev PNGs are still on disk but no longer referenced by
+any JSON — delete them with:
+
+```bash
+find src/assets -name '*.png' -delete
+```
 
 ## Why this is lighter
 

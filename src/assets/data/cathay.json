@@ -17,13 +17,13 @@
           "id": "miao-ying",
           "name": "Miao Ying, the Storm Dragon",
           "tag": "มือใหม่สาย Hybrid / Magic",
-          "style": "Lore of Heavens + Jade Line",
+          "style": "Lore of Life + Yin",
           "portraitUrl": "assets/lords/cathay/chibi/miao-ying-lord.svg",
-          "summary": "ตัวเริ่มต้นที่ง่ายที่สุดของ Cathay: ตั้งแนว Jade Warriors ค้ำหน้า, Crossbowmen ยิงหลัง แล้ว Miao Ying ใช้ Lore of Heavens ทั้งกด chaff และ snipe ตัวสำคัญ พอ late ค่อยแปลงร่างมังกรเข้าไปปิดไฟต์เอง",
+          "summary": "ตัวเริ่มต้นที่ง่ายที่สุดของ Cathay: ตั้งแนว Jade Warriors ค้ำหน้า, Crossbowmen ยิงหลัง แล้ว Miao Ying ใช้สเปลสาย Lore of Life กับ Yin (Earth Blood, Flesh to Stone, Talons of Night) ทั้งฟื้นกำลังพลและกดกองศัตรู พอ late ค่อยแปลงร่างมังกรเข้าไปปิดไฟต์เอง",
           "bestFor": "คนอยากได้กองตั้งรับ ยิง + เวท ที่เล่นง่ายและพลาดยาก",
           "armyGuidance": "Jade Warriors, Jade Warrior Crossbowmen, Jade Lancers, Sky-Junk, Grand Cannon",
           "skillBuild": {
-            "summary": "Blue sustain → Lore of Heavens ครบชุด → Red line ของ Jade/Crossbow → ปิดท้ายด้วยสายมังกร",
+            "summary": "Replenishment + movement ก่อน → เปิดสเปล Lore of Life กับ Yin ให้ครบ → Aura of Majesty แล้วต่อสายบัฟ Jade/แนวยิง → ปิดด้วยสายมังกร",
             "stages": [
               {
                 "key": "EARLY",
@@ -33,50 +33,50 @@
                     "order": "2",
                     "name": "Route Marcher",
                     "points": "",
-                    "reason": "เดินไว เก็บดินแดนต้นเกม",
-                    "iconUrl": ""
+                    "reason": "Campaign movement range: +5%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
                   },
                   {
                     "order": "3",
-                    "name": "Wind Blast",
+                    "name": "Irrepressible",
                     "points": "",
-                    "reason": "spell ถูก เบรกชาร์จได้",
+                    "reason": "Casualty replenishment rate: +30% for this Lord",
                     "iconUrl": ""
                   },
                   {
-                    "order": "4–5",
-                    "name": "Blue: Replenishment I–II",
+                    "order": "5",
+                    "name": "Earth Blood",
                     "points": "",
-                    "reason": "ลด downtime หลังไฟต์",
-                    "iconUrl": ""
+                    "reason": "Spell: \"Earth Blood\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_dlc05_spell_life_earth_blood.png&w=640&output=png"
                   },
                   {
                     "order": "6",
-                    "name": "Chain Lightning",
+                    "name": "Missile Mirror",
                     "points": "",
-                    "reason": "เคลียร์ chaff / แนวยิง",
+                    "reason": "Spell: \"Missile Mirror\"",
                     "iconUrl": ""
                   },
                   {
                     "order": "7",
-                    "name": "Harmony Adept",
-                    "points": "",
-                    "reason": "ลด upkeep + ดัน Yin/Yang",
+                    "name": "Wind Harmony",
+                    "points": "Rank 7+",
+                    "reason": "Spell resistance: 10%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "8",
-                    "name": "Uranon's Thunderbolt",
+                    "order": "9",
+                    "name": "Storm of Shadows",
                     "points": "",
-                    "reason": "snipe hero และ monster",
+                    "reason": "Overcast spell: \"Storm of Shadows Upgraded\"",
                     "iconUrl": ""
                   },
                   {
-                    "order": "9–10",
-                    "name": "Comet of Casandora + Iceshard Blizzard",
+                    "order": "10",
+                    "name": "Flesh to Stone",
                     "points": "",
-                    "reason": "burst และ debuff ทั้งแนว",
-                    "iconUrl": ""
+                    "reason": "Spell: \"Flesh to Stone\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_dlc05_spell_life_flesh_to_stone.png&w=640&output=png"
                   }
                 ]
               },
@@ -86,51 +86,51 @@
                 "steps": [
                   {
                     "order": "11",
-                    "name": "Arcane Conduit",
+                    "name": "Eye of the Storm",
                     "points": "",
-                    "reason": "WoM เพิ่ม ร่ายต่อเนื่อง",
+                    "reason": "Ability: \"Eye of the Storm\"",
                     "iconUrl": ""
                   },
                   {
-                    "order": "12–13",
-                    "name": "Red: Jade Warriors",
+                    "order": "13",
+                    "name": "Master of Storms",
                     "points": "",
-                    "reason": "แนวหน้ายืนนานและตีเจ็บขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "14",
-                    "name": "Harmonic Convergence",
-                    "points": "",
-                    "reason": "buff ก้อนที่กำลังปะทะ",
-                    "iconUrl": ""
+                    "reason": "Cooldown: -25% to Lore of Life spells",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_dlc05_spell_life_awakening_of_the_wood.png&w=640&output=png"
                   },
                   {
                     "order": "16",
-                    "name": "Storm Dragon Form",
+                    "name": "Opposer of Chaos",
                     "points": "",
-                    "reason": "ปลดร่างมังกร",
+                    "reason": "Melee defence: +10 when fighting against Norsca, Warriors of Chaos, Chaos Dwarfs and Daemons of Chaos",
                     "iconUrl": ""
                   },
                   {
-                    "order": "17–18",
-                    "name": "Lord: Melee Attack / Defence",
+                    "order": "18",
+                    "name": "Rage of the Dragon",
                     "points": "",
-                    "reason": "ให้ร่างมังกรเข้าไฟต์ได้จริง",
+                    "reason": "Melee attack: +6",
                     "iconUrl": ""
                   },
                   {
-                    "order": "19–20",
-                    "name": "Red: Crossbowmen",
+                    "order": "20",
+                    "name": "Scarred Veteran",
                     "points": "",
-                    "reason": "แนวยิงหลักถี่และเจ็บขึ้น",
+                    "reason": "Hit points: +7%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "21",
-                    "name": "Curse of the Midnight Wind",
+                    "order": "23",
+                    "name": "The Great Bastion",
                     "points": "",
-                    "reason": "กัน cavalry / monster",
+                    "reason": "Upkeep: -6%",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "25",
+                    "name": "Reinforced Bastion",
+                    "points": "",
+                    "reason": "Construction cost: -40% for Great Bastion buildings",
                     "iconUrl": ""
                   }
                 ]
@@ -140,45 +140,52 @@
                 "title": "Lv 26–50",
                 "steps": [
                   {
-                    "order": "26–27",
-                    "name": "อัปสเปลหลัก (Wind Blast, Comet)",
+                    "order": "26",
+                    "name": "Devastating Charge",
                     "points": "",
-                    "reason": "damage และ utility เพิ่ม",
+                    "reason": "Charge bonus: +15",
                     "iconUrl": ""
                   },
                   {
-                    "order": "29",
-                    "name": "Red: Jade Lancers – Charge",
+                    "order": "30",
+                    "name": "Blade Master",
                     "points": "",
-                    "reason": "ปิดปีกแรงขึ้น",
+                    "reason": "Melee attack: +6",
                     "iconUrl": ""
                   },
                   {
-                    "order": "32",
-                    "name": "Red: Dragon Guard",
+                    "order": "34",
+                    "name": "Life Bloom",
                     "points": "",
-                    "reason": "elite แนวหน้าใน late",
+                    "reason": "Passive ability: \"Life Bloom\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fwh_dlc05_spell_life_life_bloom.png&w=640&output=png"
+                  },
+                  {
+                    "order": "38",
+                    "name": "Talons of Night",
+                    "points": "",
+                    "reason": "Spell: \"Talons of Night\"",
                     "iconUrl": ""
                   },
                   {
-                    "order": "33",
-                    "name": "Lord: Ward Save",
+                    "order": "42",
+                    "name": "Sure Aim",
                     "points": "",
-                    "reason": "กัน magic / missile ตอนเป็นมังกร",
+                    "reason": "Missile strength: +6% for Peasant Archers, Celestial Dragon Crossbows, and Jade Warrior Crossbows units",
                     "iconUrl": ""
                   },
                   {
-                    "order": "35",
-                    "name": "Red: Terracotta Sentinel",
+                    "order": "46",
+                    "name": "Eastern Fires",
                     "points": "",
-                    "reason": "ตัวใหญ่ค้ำแนวกลาง",
+                    "reason": "Ammunition: +5% for Iron Hail Gunners, Crane Gunners, Nan-Gau Grenadiers, Grand Cannon and Fire Rain…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
+                    "order": "50",
+                    "name": "Blades of the Bastion",
                     "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "reason": "เก็บ node ตามสายหลักของ lord ตัวนี้",
                     "iconUrl": ""
                   }
                 ]
@@ -188,247 +195,247 @@
               {
                 "level": 2,
                 "skill": "Route Marcher",
-                "note": "เดินไกลขึ้น เก็บ settlement ต้นเกมได้ไว"
+                "note": "Campaign movement range: +5%"
               },
               {
                 "level": 3,
-                "skill": "Wind Blast",
-                "note": "spell ราคาถูก ใช้ผลักแนวหน้าและเบรกชาร์จ"
+                "skill": "Irrepressible",
+                "note": "Casualty replenishment rate: +30% for this Lord"
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment I",
-                "note": "ลด downtime หลังไฟต์"
+                "skill": "Logistician",
+                "note": "Casualty replenishment rate: +2%"
               },
               {
                 "level": 5,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Earth Blood",
+                "note": "Spell: \"Earth Blood\""
               },
               {
                 "level": 6,
-                "skill": "Chain Lightning",
-                "note": "เคลียร์แนวยิงและ chaff ได้คุ้มมานา"
+                "skill": "Missile Mirror",
+                "note": "Spell: \"Missile Mirror\""
               },
               {
                 "level": 7,
-                "skill": "Harmony Adept",
-                "note": "ลด upkeep และดัน bonus Yin/Yang"
+                "skill": "Wind Harmony",
+                "note": "Spell resistance: 10%"
               },
               {
                 "level": 8,
-                "skill": "Uranon's Thunderbolt",
-                "note": "sniper ใส่ hero และ monster"
+                "skill": "Ranged Discipline",
+                "note": "Missile resistance: 10%"
               },
               {
                 "level": 9,
-                "skill": "Comet of Casandora",
-                "note": "burst ใส่ artillery และก้อนที่ยืนนิ่ง"
+                "skill": "Storm of Shadows",
+                "note": "Overcast spell: \"Storm of Shadows Upgraded\""
               },
               {
                 "level": 10,
-                "skill": "Iceshard Blizzard",
-                "note": "debuff ยิง + melee ทั้งแนวศัตรู"
+                "skill": "Flesh to Stone",
+                "note": "Spell: \"Flesh to Stone\""
               },
               {
                 "level": 11,
-                "skill": "Arcane Conduit",
-                "note": "Winds of Magic เพิ่ม ร่ายได้ต่อเนื่อง"
+                "skill": "Eye of the Storm",
+                "note": "Ability: \"Eye of the Storm\""
               },
               {
                 "level": 12,
-                "skill": "Red: Jade Warriors – Melee Defence",
-                "note": "แนวหน้ายืนได้นานขึ้นชัดเจน"
+                "skill": "Aura of Majesty",
+                "note": "Passive ability: \"Aura of Majesty\""
               },
               {
                 "level": 13,
-                "skill": "Red: Jade Warriors – Melee Attack",
-                "note": "เพิ่ม damage ให้แนวหน้า"
+                "skill": "Master of Storms",
+                "note": "Cooldown: -25% to Lore of Life spells"
               },
               {
                 "level": 14,
-                "skill": "Harmonic Convergence",
-                "note": "buff ก้อนที่กำลังปะทะให้ชนะไลน์"
+                "skill": "Imposing Range",
+                "note": "Range: +10% for Missile units"
               },
               {
                 "level": 15,
-                "skill": "Blue: Army Upkeep",
-                "note": "ลดค่าดูแล เอางบไปเพิ่ม unit ดี ๆ"
+                "skill": "Persistent Fire",
+                "note": "Reload time reduction: +20%"
               },
               {
                 "level": 16,
-                "skill": "Storm Dragon Form",
-                "note": "ปลดร่างมังกร เปลี่ยน Miao Ying เป็นตัวถือไฟต์"
+                "skill": "Opposer of Chaos",
+                "note": "Melee defence: +10 when fighting against Norsca, Warriors of Chaos, Chaos Dwarfs and Daemons of Chaos"
               },
               {
                 "level": 17,
-                "skill": "Lord: Melee Attack I",
-                "note": "ให้ร่างมังกรเข้าชนได้คุ้ม"
+                "skill": "Hard to Hit",
+                "note": "Melee defence: +5"
               },
               {
                 "level": 18,
-                "skill": "Lord: Melee Defence I",
-                "note": "กันตัวตอนโดนรุมในร่างมังกร"
+                "skill": "Rage of the Dragon",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 19,
-                "skill": "Red: Crossbowmen – Reload",
-                "note": "แนวยิงหลักถี่ขึ้น"
+                "skill": "Storm Scale",
+                "note": "Armour: +7"
               },
               {
                 "level": 20,
-                "skill": "Red: Crossbowmen – Missile Damage",
-                "note": "ดัน damage ต่อชุดยิง"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 21,
-                "skill": "Curse of the Midnight Wind",
-                "note": "กัน cavalry / monster ก่อนเข้าปะทะ"
+                "skill": "Inspiring Recruitment",
+                "note": "Recruitment cost: -5%"
               },
               {
                 "level": 22,
-                "skill": "Blue: Replenishment III",
-                "note": "ดัน sustain สำหรับแคมเปญยาว"
+                "skill": "Quartermaster",
+                "note": "Upkeep: -3%"
               },
               {
                 "level": 23,
-                "skill": "Lord: Melee Attack II",
-                "note": "ต่อสายชนให้ร่างมังกรเก็บก้อนได้"
+                "skill": "The Great Bastion",
+                "note": "Upkeep: -6%"
               },
               {
                 "level": 24,
-                "skill": "Harmony Master",
-                "note": "ดัน bonus Yin/Yang เต็มระบบ"
+                "skill": "Harmonious",
+                "note": "Diplomatic relations: +40 with Grand Cathay"
               },
               {
                 "level": 25,
-                "skill": "Red: Sky-Junk – Reload",
-                "note": "ปืนบนฟ้ายิงถี่ขึ้น"
+                "skill": "Reinforced Bastion",
+                "note": "Construction cost: -40% for Great Bastion buildings"
               },
               {
                 "level": 26,
-                "skill": "Wind Blast (Upgrade)",
-                "note": "overcast ผลักแรงขึ้น เบรกชาร์จได้จริง"
+                "skill": "Devastating Charge",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 27,
-                "skill": "Comet of Casandora (Upgrade)",
-                "note": "damage เพิ่มชัดเจนในช่วง late"
+                "skill": "Foe-Seeker",
+                "note": "Ability: \"Foe-Seeker\""
               },
               {
                 "level": 28,
-                "skill": "Lord: Melee Defence II",
-                "note": "ยืนกลางกองได้โดยไม่ต้องถอย"
+                "skill": "Staunch Defender",
+                "note": "Melee defence: +12"
               },
               {
                 "level": 29,
-                "skill": "Red: Jade Lancers – Charge Bonus",
-                "note": "ปิดปีกแรงขึ้น"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 30,
-                "skill": "Blue: Public Order / Growth",
-                "note": "ดันเศรษฐกิจฝั่งเหนือ"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 31,
-                "skill": "Chain Lightning (Upgrade)",
-                "note": "เคลียร์กองใหญ่ได้ในร่างเดียว"
+                "skill": "Draconic Speed",
+                "note": "Speed: +10%"
               },
               {
                 "level": 32,
-                "skill": "Red: Dragon Guard – Melee Attack",
-                "note": "elite แนวหน้าเริ่มเป็นแกนหลัก"
+                "skill": "Deadly Onslaught",
+                "note": "Ability: \"Deadly Onslaught\""
               },
               {
                 "level": 33,
-                "skill": "Lord: Ward Save",
-                "note": "กัน magic / missile ตอนเป็นมังกร"
+                "skill": "Power of Yin",
+                "note": "Passive ability: \"Power of Yin\""
               },
               {
                 "level": 34,
-                "skill": "Iceshard Blizzard (Upgrade)",
-                "note": "debuff กว้างขึ้น กดกองยิงศัตรู"
+                "skill": "Life Bloom",
+                "note": "Passive ability: \"Life Bloom\""
               },
               {
                 "level": 35,
-                "skill": "Red: Terracotta Sentinel – Health",
-                "note": "ตัวใหญ่ยืนทนกลางแนว"
+                "skill": "Evasion",
+                "note": "Passive ability: \"Evasion\""
               },
               {
                 "level": 36,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Magical Reserves",
+                "note": "Winds of Magic power reserve capacity: +5"
               },
               {
                 "level": 37,
-                "skill": "Uranon's Thunderbolt (Upgrade)",
-                "note": "ลบ hero ศัตรูได้ในร่างเดียว"
+                "skill": "Regrowth",
+                "note": "Spell: \"Regrowth\""
               },
               {
                 "level": 38,
-                "skill": "Lord: Physical Resistance",
-                "note": "ลด damage กายภาพ ยืนไฟต์นานขึ้น"
+                "skill": "Talons of Night",
+                "note": "Spell: \"Talons of Night\""
               },
               {
                 "level": 39,
-                "skill": "Red: Crossbowmen – Range",
-                "note": "ยิงก่อนเข้าระยะศัตรู"
+                "skill": "Earthing",
+                "note": "Miscast base chance: -15%"
               },
               {
                 "level": 40,
-                "skill": "Harmonic Convergence (Upgrade)",
-                "note": "buff แรงขึ้น กินไลน์ง่ายขึ้น"
+                "skill": "Arcane Conduit",
+                "note": "Passive ability: \"Arcane Conduit\""
               },
               {
                 "level": 41,
-                "skill": "Lord: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 42,
-                "skill": "Red: Sky Lantern – Missile Damage",
-                "note": "กดดันจากฟ้าแรงขึ้น"
+                "skill": "Sure Aim",
+                "note": "Missile strength: +6% for Peasant Archers, Celestial Dragon Crossbows, and Jade Warrior Crossbows units"
               },
               {
                 "level": 43,
-                "skill": "Lord: Winds of Magic Reserve",
-                "note": "ร่ายชุดใหญ่ได้ตอนปลายไฟต์"
+                "skill": "Mighty Charge",
+                "note": "Charge bonus: +12% for Peasant Horsemen, Jade Lancers and Great Longma Riders units"
               },
               {
                 "level": 44,
-                "skill": "Red: Jade Warriors – Armour",
-                "note": "แนวหน้าทนยิงมากขึ้น"
+                "skill": "Stone Gaze",
+                "note": "Weapon strength: +4% for Wu Xing War Compass, Zhangu War Drum, Jade Lion, Jet Lion and Terracotta…"
               },
               {
                 "level": 45,
-                "skill": "Curse of the Midnight Wind (Upgrade)",
-                "note": "debuff ครอบคลุมทั้งกองศัตรู"
+                "skill": "Unyielding",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 46,
-                "skill": "Lord: Leadership Aura",
-                "note": "กันกองแตกตอนไฟต์ยืด"
+                "skill": "Eastern Fires",
+                "note": "Ammunition: +5% for Iron Hail Gunners, Crane Gunners, Nan-Gau Grenadiers, Grand Cannon and Fire Rain…"
               },
               {
                 "level": 47,
-                "skill": "Red: Dragon Guard – Armour",
-                "note": "แนวหน้า elite ทนขึ้นอีกชั้น"
+                "skill": "Sky Fire",
+                "note": "Speed: +5% for Sky Lantern, Sky-junk, Onyx Crowmen, Celestial Lion and Great Moon Bird units"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Rally!",
+                "note": "Enables: \"Rally!\""
               },
               {
                 "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node สายเวทที่ยังขาด"
+                "skill": "Looming Lanterns",
+                "note": "Leadership: +6 for Sky Lantern, Sky-junk, Onyx Crowmen and Great Moon Bird units (Rank 7 and above)"
               },
               {
                 "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "skill": "Blades of the Bastion",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               }
             ]
           },
@@ -451,7 +458,7 @@
           "bestFor": "คนชอบตั้งรับ ยิงจากไกล และเล่นแคมเปญเน้นเงินจาก caravan",
           "armyGuidance": "Grand Cannon, Fire Rain Rocket, Jade Warrior Crossbowmen, Jade Warriors, Terracotta Sentinel",
           "skillBuild": {
-            "summary": "Enchanted Blades ก่อนทุกอย่าง → Blue sustain → Red line ของปืน → Lore of Metal ครบชุด",
+            "summary": "Replenishment ก่อน → Lore of Metal ครบชุด (Glittering Robe, Final Transmutation) → สายบัฟปืนใหญ่กับแนวยิง → ปิดด้วยสายคาราวานและสายชน",
             "stages": [
               {
                 "key": "EARLY",
@@ -461,49 +468,49 @@
                     "order": "2",
                     "name": "Route Marcher",
                     "points": "",
-                    "reason": "เดินไว คุมชายแดนตะวันตก",
-                    "iconUrl": ""
+                    "reason": "Campaign movement range: +5%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fcampaign_movement.png&w=640&output=png"
                   },
                   {
                     "order": "3",
-                    "name": "Enchanted Blades of Aiban",
+                    "name": "Warding Iron",
                     "points": "",
-                    "reason": "buff AP ให้แนวยิง คุ้มสุดต้นเกม",
+                    "reason": "Passive ability: \"Warding Iron\"",
                     "iconUrl": ""
                   },
                   {
-                    "order": "4–5",
-                    "name": "Blue: Replenishment I–II",
+                    "order": "5",
+                    "name": "Logistician",
                     "points": "",
-                    "reason": "ลด downtime",
+                    "reason": "Casualty replenishment rate: +2%",
                     "iconUrl": ""
                   },
                   {
                     "order": "6",
-                    "name": "Searing Doom",
+                    "name": "Plague of Rust",
                     "points": "",
-                    "reason": "ลบ cavalry / เกราะหนัก",
-                    "iconUrl": ""
+                    "reason": "Overcast spell: \"Plague of Rust Upgraded\"",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_spell_metal_plague_of_rust.png&w=640&output=png"
                   },
                   {
                     "order": "7",
-                    "name": "Harmony Adept",
-                    "points": "",
-                    "reason": "ลด upkeep กองผสม",
+                    "name": "Ranged Discipline",
+                    "points": "Rank 7+",
+                    "reason": "Missile resistance: 10%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "8–9",
-                    "name": "Red: Crossbowmen + Glittering Robe",
-                    "points": "",
-                    "reason": "ยิงถี่ขึ้นและกันยิงสวน",
-                    "iconUrl": ""
+                    "order": "9",
+                    "name": "Master of Metal",
+                    "points": "Rank 9+",
+                    "reason": "Cooldown: -25% to Lore of Metal spells",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_spell_metal_final_transmutation.png&w=640&output=png"
                   },
                   {
                     "order": "10",
-                    "name": "Red: Grand Cannon – Reload",
+                    "name": "Strange Alchemy",
                     "points": "",
-                    "reason": "ปืนใหญ่ยิงถี่ขึ้น",
+                    "reason": "Hero capacity: +1 for Alchemists",
                     "iconUrl": ""
                   }
                 ]
@@ -514,51 +521,51 @@
                 "steps": [
                   {
                     "order": "11",
-                    "name": "Arcane Conduit",
+                    "name": "Metalshifting",
                     "points": "",
-                    "reason": "WoM เพิ่ม",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "12",
-                    "name": "Plague of Rust",
-                    "points": "",
-                    "reason": "ลด armour ให้ปืนเจาะง่าย",
+                    "reason": "Passive ability: \"Metalshifting\"",
                     "iconUrl": ""
                   },
                   {
                     "order": "13",
-                    "name": "Red: Jade Warriors – Melee Defence",
+                    "name": "Wall of Wind & Fire",
                     "points": "",
-                    "reason": "แนวหน้าค้ำปืน",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "15",
-                    "name": "Red: Iron Hail Gunners",
-                    "points": "",
-                    "reason": "ก้อน AP ระยะสั้นเจ็บขึ้น",
+                    "reason": "Wall of Wind & Fire",
                     "iconUrl": ""
                   },
                   {
                     "order": "16",
-                    "name": "Iron Dragon Form",
+                    "name": "Desert Armour",
                     "points": "",
-                    "reason": "ปลดร่างมังกรเหล็ก",
+                    "reason": "Armour: +10",
                     "iconUrl": ""
                   },
                   {
                     "order": "18",
-                    "name": "Transmutation of Lead",
+                    "name": "Hard to Hit",
                     "points": "",
-                    "reason": "debuff ก้อนหลักศัตรู",
+                    "reason": "Melee defence: +5",
                     "iconUrl": ""
                   },
                   {
-                    "order": "23–24",
-                    "name": "Red: Grand Cannon – Accuracy + Harmony Master",
+                    "order": "20",
+                    "name": "Scarred Veteran",
                     "points": "",
-                    "reason": "ปืนแม่นขึ้น + bonus เต็มระบบ",
+                    "reason": "Hit points: +7%",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "23",
+                    "name": "The Great Bastion",
+                    "points": "",
+                    "reason": "Upkeep: -6%",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "25",
+                    "name": "Iron Strength",
+                    "points": "",
+                    "reason": "Melee attack: +10% for melee units",
                     "iconUrl": ""
                   }
                 ]
@@ -569,44 +576,51 @@
                 "steps": [
                   {
                     "order": "26",
-                    "name": "Red: Fire Rain Rocket – Reload",
+                    "name": "Devastating Charge",
                     "points": "",
-                    "reason": "พรมพื้นที่ถี่ขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "28",
-                    "name": "Blue: Trade / Caravan Income",
-                    "points": "",
-                    "reason": "ดันเงินจาก caravan",
+                    "reason": "Charge bonus: +15",
                     "iconUrl": ""
                   },
                   {
                     "order": "30",
-                    "name": "Final Transmutation",
+                    "name": "Wound-Maker",
                     "points": "",
-                    "reason": "ลบก้อน elite ปลายไฟต์",
+                    "reason": "Weapon strength: +10%",
                     "iconUrl": ""
                   },
                   {
                     "order": "34",
-                    "name": "Red: Dragon Guard",
+                    "name": "Strength of Yang",
                     "points": "",
-                    "reason": "elite แนวหน้า late game",
+                    "reason": "Passive ability: \"Strength of Yang\"",
                     "iconUrl": ""
                   },
                   {
                     "order": "38",
-                    "name": "Red: Grand Cannon – Range",
+                    "name": "Earthing",
                     "points": "",
-                    "reason": "ตั้งไกลขึ้น ปลอดภัยขึ้น",
+                    "reason": "Miscast base chance: -15%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
+                    "order": "42",
+                    "name": "Sure Aim",
                     "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "reason": "Missile strength: +6% for Peasant Archers, Celestial Dragon Crossbows, and Jade Warrior Crossbows units",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "46",
+                    "name": "Unyielding",
+                    "points": "",
+                    "reason": "เก็บ node ตามสายหลักของ lord ตัวนี้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "50",
+                    "name": "Blades of the Bastion",
+                    "points": "",
+                    "reason": "เก็บ node ตามสายหลักของ lord ตัวนี้",
                     "iconUrl": ""
                   }
                 ]
@@ -616,247 +630,247 @@
               {
                 "level": 2,
                 "skill": "Route Marcher",
-                "note": "เดินไกลขึ้น คุมชายแดนตะวันตกได้กว้าง"
+                "note": "Campaign movement range: +5%"
               },
               {
                 "level": 3,
-                "skill": "Enchanted Blades of Aiban",
-                "note": "buff AP ให้แนวยิง คุ้มที่สุดของต้นเกม"
+                "skill": "Warding Iron",
+                "note": "Passive ability: \"Warding Iron\""
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment I",
-                "note": "ลด downtime หลังไฟต์"
+                "skill": "Irrepressible",
+                "note": "Casualty replenishment rate: +30% for this Lord"
               },
               {
                 "level": 5,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Logistician",
+                "note": "Casualty replenishment rate: +2%"
               },
               {
                 "level": 6,
-                "skill": "Searing Doom",
-                "note": "ลบ cavalry และก้อนเกราะหนา"
+                "skill": "Plague of Rust",
+                "note": "Overcast spell: \"Plague of Rust Upgraded\""
               },
               {
                 "level": 7,
-                "skill": "Harmony Adept",
-                "note": "ลด upkeep ให้กองผสมปืน + แนวหน้า"
+                "skill": "Ranged Discipline",
+                "note": "Missile resistance: 10%"
               },
               {
                 "level": 8,
-                "skill": "Red: Crossbowmen – Reload",
-                "note": "แนวยิงหลักถี่ขึ้น"
+                "skill": "Wind Harmony",
+                "note": "Spell resistance: 10%"
               },
               {
                 "level": 9,
-                "skill": "Glittering Robe",
-                "note": "กันยิงให้ก้อนแนวหน้าที่กำลังเดินเข้า"
+                "skill": "Master of Metal",
+                "note": "Cooldown: -25% to Lore of Metal spells"
               },
               {
                 "level": 10,
-                "skill": "Red: Grand Cannon – Reload",
-                "note": "ปืนใหญ่ยิงถี่ขึ้น"
+                "skill": "Strange Alchemy",
+                "note": "Hero capacity: +1 for Alchemists"
               },
               {
                 "level": 11,
-                "skill": "Arcane Conduit",
-                "note": "Winds of Magic เพิ่ม"
+                "skill": "Metalshifting",
+                "note": "Passive ability: \"Metalshifting\""
               },
               {
                 "level": 12,
-                "skill": "Plague of Rust",
-                "note": "ลด armour ศัตรูให้ปืนเจาะง่าย"
+                "skill": "Dragon's Breath",
+                "note": "Overcast spell: \"Dragon's Breath Upgraded\""
               },
               {
                 "level": 13,
-                "skill": "Red: Jade Warriors – Melee Defence",
-                "note": "แนวหน้าค้ำปืนได้นานขึ้น"
+                "skill": "Wall of Wind & Fire",
+                "note": "Wall of Wind & Fire"
               },
               {
                 "level": 14,
-                "skill": "Blue: Army Upkeep",
-                "note": "เอาที่ประหยัดไปเพิ่มปืนใหญ่"
+                "skill": "Glittering Robe",
+                "note": "Spell: \"Glittering Robe\""
               },
               {
                 "level": 15,
-                "skill": "Red: Iron Hail Gunners – Missile Damage",
-                "note": "ก้อน AP ระยะสั้นเจ็บขึ้น"
+                "skill": "Lord of Shang-Yang",
+                "note": "Weapon Strength and Missile Strength: +20% for All Ogre Kingdoms units (including mercenaries)"
               },
               {
                 "level": 16,
-                "skill": "Iron Dragon Form",
-                "note": "ปลดร่างมังกรเหล็ก"
+                "skill": "Desert Armour",
+                "note": "Armour: +10"
               },
               {
                 "level": 17,
-                "skill": "Lord: Melee Attack I",
-                "note": "ให้ร่างมังกรเข้าชนคุ้ม"
+                "skill": "Iron Scale",
+                "note": "Armour-piercing weapon damage: +30"
               },
               {
                 "level": 18,
-                "skill": "Transmutation of Lead",
-                "note": "debuff ก้อนหลักของศัตรูก่อนปะทะ"
+                "skill": "Hard to Hit",
+                "note": "Melee defence: +5"
               },
               {
                 "level": 19,
-                "skill": "Red: Terracotta Sentinel – Health",
-                "note": "ตัวทนไว้ค้ำแนวแทนแนวหน้า"
+                "skill": "Full Plate Armour",
+                "note": "Armour: +7"
               },
               {
                 "level": 20,
-                "skill": "Enchanted Blades of Aiban (Upgrade)",
-                "note": "buff ครอบคลุมหลายก้อนขึ้น"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 21,
-                "skill": "Lord: Melee Defence I",
-                "note": "กันตัวตอนโดนรุม"
+                "skill": "Inspiring Recruitment",
+                "note": "Recruitment cost: -5%"
               },
               {
                 "level": 22,
-                "skill": "Blue: Replenishment III",
-                "note": "sustain สำหรับแคมเปญยาว"
+                "skill": "Quartermaster",
+                "note": "Upkeep: -3%"
               },
               {
                 "level": 23,
-                "skill": "Red: Grand Cannon – Accuracy",
-                "note": "ยิงเข้าเป้ามากขึ้น ไม่เสียกระสุน"
+                "skill": "The Great Bastion",
+                "note": "Upkeep: -6%"
               },
               {
                 "level": 24,
-                "skill": "Harmony Master",
-                "note": "ดัน bonus Yin/Yang เต็มระบบ"
+                "skill": "Desert Weapons",
+                "note": "Weapon strength: +15% for melee units"
               },
               {
                 "level": 25,
-                "skill": "Searing Doom (Upgrade)",
-                "note": "ลบก้อนเกราะหนักได้ในร่างเดียว"
+                "skill": "Iron Strength",
+                "note": "Melee attack: +10% for melee units"
               },
               {
                 "level": 26,
-                "skill": "Red: Fire Rain Rocket – Reload",
-                "note": "ยิงพรมถี่ขึ้น"
+                "skill": "Devastating Charge",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 27,
-                "skill": "Lord: Melee Attack II",
-                "note": "ต่อสายชนให้เก็บก้อนได้"
+                "skill": "Deadly Blade",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 28,
-                "skill": "Blue: Trade / Caravan Income",
-                "note": "ดันเงินจากกองคาราวาน"
+                "skill": "Foe-Seeker",
+                "note": "Ability: \"Foe-Seeker\""
               },
               {
                 "level": 29,
-                "skill": "Red: Jade Lancers – Charge Bonus",
-                "note": "ปีกไว้ไล่ปืนใหญ่ศัตรู"
+                "skill": "Blade Shield",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 30,
-                "skill": "Final Transmutation",
-                "note": "ลบก้อน elite ปลายไฟต์"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 31,
-                "skill": "Lord: Ward Save",
-                "note": "กัน magic / missile"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 32,
-                "skill": "Red: Crossbowmen – Missile Damage",
-                "note": "ดัน damage ต่อชุดยิง"
+                "skill": "Indomitable",
+                "note": "Leadership: +6"
               },
               {
                 "level": 33,
-                "skill": "Plague of Rust (Upgrade)",
-                "note": "ลด armour ได้กว้างขึ้น"
+                "skill": "Deadly Onslaught",
+                "note": "Ability: \"Deadly Onslaught\""
               },
               {
                 "level": 34,
-                "skill": "Red: Dragon Guard – Melee Attack",
-                "note": "elite แนวหน้าสำหรับ late game"
+                "skill": "Strength of Yang",
+                "note": "Passive ability: \"Strength of Yang\""
               },
               {
                 "level": 35,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Evasion",
+                "note": "Passive ability: \"Evasion\""
               },
               {
                 "level": 36,
-                "skill": "Lord: Physical Resistance",
-                "note": "ลด damage กายภาพ"
+                "skill": "Constellation of the Dragon",
+                "note": "Spell: \"Constellation of the Dragon\""
               },
               {
                 "level": 37,
-                "skill": "Glittering Robe (Upgrade)",
-                "note": "กันยิงได้หลายก้อนพร้อมกัน"
+                "skill": "Final Transmutation",
+                "note": "Spell: \"Final Transmutation\""
               },
               {
                 "level": 38,
-                "skill": "Red: Grand Cannon – Range",
-                "note": "ตั้งไกลขึ้น ปลอดภัยจากม้าศัตรู"
+                "skill": "Earthing",
+                "note": "Miscast base chance: -15%"
               },
               {
                 "level": 39,
-                "skill": "Lord: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "Magical Reserves",
+                "note": "Winds of Magic power reserve capacity: +5"
               },
               {
                 "level": 40,
-                "skill": "Red: Terracotta Sentinel – Melee",
-                "note": "ตัวใหญ่ตีเจ็บขึ้น"
+                "skill": "Arcane Conduit",
+                "note": "Passive ability: \"Arcane Conduit\""
               },
               {
                 "level": 41,
-                "skill": "Transmutation of Lead (Upgrade)",
-                "note": "กดก้อนหลักศัตรูแรงขึ้น"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 42,
-                "skill": "Lord: Winds of Magic Reserve",
-                "note": "ร่ายชุดใหญ่ได้ตอนปลายไฟต์"
+                "skill": "Sure Aim",
+                "note": "Missile strength: +6% for Peasant Archers, Celestial Dragon Crossbows, and Jade Warrior Crossbows units"
               },
               {
                 "level": 43,
-                "skill": "Red: Iron Hail Gunners – Reload",
-                "note": "เทกระสุนใส่ก้อนที่ปะทะได้ถี่ขึ้น"
+                "skill": "Eastern Fires",
+                "note": "Ammunition: +5% for Iron Hail Gunners, Crane Gunners, Nan-Gau Grenadiers, Grand Cannon and Fire Rain…"
               },
               {
                 "level": 44,
-                "skill": "Lord: Leadership Aura",
-                "note": "กันกองแตกตอนไฟต์ยืด"
+                "skill": "Mighty Charge",
+                "note": "Charge bonus: +12% for Peasant Horsemen, Jade Lancers and Great Longma Riders units"
               },
               {
                 "level": 45,
-                "skill": "Final Transmutation (Upgrade)",
-                "note": "เพิ่มโอกาสลบก้อน elite"
+                "skill": "Stone Gaze",
+                "note": "Weapon strength: +4% for Wu Xing War Compass, Zhangu War Drum, Jade Lion, Jet Lion and Terracotta…"
               },
               {
                 "level": 46,
-                "skill": "Red: Jade Warriors – Armour",
-                "note": "แนวหน้าทนยิงมากขึ้น"
+                "skill": "Unyielding",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 47,
-                "skill": "Blue: Public Order",
-                "note": "กันกบฏช่วงขยายดินแดน"
+                "skill": "Sky Fire",
+                "note": "Speed: +5% for Sky Lantern, Sky-junk, Onyx Crowmen, Celestial Lion and Great Moon Bird units"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Rally!",
+                "note": "Enables: \"Rally!\""
               },
               {
                 "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node สายปืน/เวทที่ยังขาด"
+                "skill": "Looming Lanterns",
+                "note": "Leadership: +6 for Sky Lantern, Sky-junk, Onyx Crowmen and Great Moon Bird units (Rank 7 and above)"
               },
               {
                 "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "skill": "Blades of the Bastion",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               }
             ]
           },
@@ -873,13 +887,13 @@
           "id": "yuan-bo",
           "name": "Yuan Bo, the Jade Dragon",
           "tag": "สาย Support / Compass",
-          "style": "Lore of Yang + Wu Xing War Compass",
+          "style": "Wu Xing War Compass + Support Magic",
           "portraitUrl": "assets/lords/cathay/chibi/yuan-bo-lord.svg",
-          "summary": "สายค้ำแนวรอบ Wu Xing War Compass: ลากรถศึกไปกลางสนาม ตั้ง Jade Warriors กับ Dragon Guard รอบ ๆ แล้วใช้ buff จาก compass บวก Lore of Yang ทำให้ทั้งกองแข็งกว่าศัตรูทุกก้อน",
+          "summary": "สายค้ำแนวรอบ Wu Xing War Compass: ลากรถศึกไปกลางสนาม ตั้ง Jade Warriors กับ Dragon Guard รอบ ๆ แล้วใช้ buff จาก compass บวกสเปลซัพพอร์ต (Net of Amyntok, Blossom Wind, Comet of Casandora) ทำให้ทั้งกองแข็งกว่าศัตรูทุกก้อน",
           "bestFor": "คนชอบไฟต์ยืด คุมตำแหน่ง และเล่นกองที่ buff กันเองทั้งกอง",
           "armyGuidance": "Celestial Dragon Guard, Jade Warriors, Jade Warrior Crossbowmen, Terracotta Sentinel, Longma Riders",
           "skillBuild": {
-            "summary": "ปลด Compass ก่อน → Blue sustain → Lore of Yang ตามบทบาท → Red line ของ elite แนวหน้า",
+            "summary": "เปิด Wu Xing War Compass กับ Harmony ก่อน → สเปลสายซัพพอร์ต → บัฟ Jade/Dragon Guard รอบ compass → ปิดด้วยสายตัวเอง",
             "stages": [
               {
                 "key": "EARLY",
@@ -887,51 +901,51 @@
                 "steps": [
                   {
                     "order": "2",
-                    "name": "Route Marcher",
+                    "name": "Irrepressible",
                     "points": "",
-                    "reason": "เดินไว คุมพื้นที่เมืองหลวง",
+                    "reason": "Casualty replenishment rate: +30% for this Lord",
                     "iconUrl": ""
                   },
                   {
                     "order": "3",
-                    "name": "Wu Xing War Compass: Deployment",
+                    "name": "Logistician",
                     "points": "",
-                    "reason": "ปลด compass ให้ไวที่สุด",
+                    "reason": "Casualty replenishment rate: +2%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "4–5",
-                    "name": "Blue: Replenishment I–II",
+                    "order": "5",
+                    "name": "Closest to the Heavens",
                     "points": "",
-                    "reason": "ลด downtime",
-                    "iconUrl": ""
+                    "reason": "Spell intensity: +20%",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fcampaign_ui%2Fskills%2Fwh_main_spell_heavens_comet_of_casandora.png&w=640&output=png"
                   },
                   {
                     "order": "6",
-                    "name": "Lore of Yang – นุกแนวเส้น",
+                    "name": "Shem's Burning Gaze",
                     "points": "",
-                    "reason": "เคลียร์ chaff และแนวยิง",
-                    "iconUrl": ""
+                    "reason": "Overcast spell: \"Shem's Burning Gaze Upgraded\" (when in human form)",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_spell_light_shems_burning_gaze.png&w=640&output=png"
                   },
                   {
                     "order": "7",
-                    "name": "Harmony Adept",
-                    "points": "",
-                    "reason": "ลด upkeep + ดัน Yin/Yang",
+                    "name": "Wind Harmony",
+                    "points": "Rank 7+",
+                    "reason": "Spell resistance: 10%",
                     "iconUrl": ""
                   },
                   {
-                    "order": "8–9",
-                    "name": "Red: Jade Warriors + Yang buff",
-                    "points": "",
-                    "reason": "แนวหน้ารอบ compass แข็งขึ้น",
-                    "iconUrl": ""
+                    "order": "9",
+                    "name": "Armies of the Celestial Court",
+                    "points": "Rank 9+",
+                    "reason": "Enables \"Flammable\" attacks for Great Moon Bird units, reducing fire resistance",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_spell_heavens_urannons_thunderbolt.png&w=640&output=png"
                   },
                   {
                     "order": "10",
-                    "name": "Wu Xing War Compass: Aura I",
-                    "points": "",
-                    "reason": "ขยายรัศมี buff",
+                    "name": "Lord of Wei-Jin",
+                    "points": "Rank 8+",
+                    "reason": "Diplomatic relations: +15 with Grand Cathay",
                     "iconUrl": ""
                   }
                 ]
@@ -942,51 +956,51 @@
                 "steps": [
                   {
                     "order": "11",
-                    "name": "Arcane Conduit",
+                    "name": "Net of Amyntok",
                     "points": "",
-                    "reason": "WoM เพิ่ม",
-                    "iconUrl": ""
+                    "reason": "Spell: \"Net of Amyntok\" (when in human form)",
+                    "iconUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer%2Fimages%2Fwarhammer%2Fbattle_ui%2Fability_icons%2Fwh_main_spell_light_net_of_amyntok.png&w=640&output=png"
                   },
                   {
-                    "order": "12",
-                    "name": "Lore of Yang – debuff ทั้งกอง",
+                    "order": "13",
+                    "name": "Heart of Order",
                     "points": "",
-                    "reason": "กดกองใหญ่ก่อนปะทะ",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "15",
-                    "name": "Wu Xing War Compass: Health",
-                    "points": "",
-                    "reason": "compass ไม่ตายกลางไฟต์",
+                    "reason": "Upkeep: -30%",
                     "iconUrl": ""
                   },
                   {
                     "order": "16",
-                    "name": "Jade Dragon Form",
+                    "name": "Blossom Wind",
                     "points": "",
-                    "reason": "ปลดร่างมังกรหยก",
+                    "reason": "Spell: \"Blossom Wind\" (when in human form)",
                     "iconUrl": ""
                   },
                   {
                     "order": "18",
-                    "name": "Red: Terracotta Sentinel – Health",
+                    "name": "Stone Gaze",
                     "points": "",
-                    "reason": "ตัวใหญ่ค้ำแนวกลาง",
+                    "reason": "Weapon strength: +4% for Wu Xing War Compass, Zhangu War Drum, Jade Lion, Jet Lion and Terracotta…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "19",
-                    "name": "Lore of Yang – สเปลฟื้น",
+                    "order": "20",
+                    "name": "Mighty Charge",
                     "points": "",
-                    "reason": "ยืดไลน์ให้ชนะไฟต์ยืด",
+                    "reason": "Charge bonus: +12% for Peasant Horsemen, Jade Lancers and Great Longma Riders units",
                     "iconUrl": ""
                   },
                   {
-                    "order": "23–24",
-                    "name": "Compass Aura II + Harmony Master",
+                    "order": "23",
+                    "name": "Inspiring Recruitment",
                     "points": "",
-                    "reason": "buff ทั้งกองเต็มระบบ",
+                    "reason": "Recruitment cost: -5%",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "25",
+                    "name": "The Great Bastion",
+                    "points": "",
+                    "reason": "Upkeep: -6%",
                     "iconUrl": ""
                   }
                 ]
@@ -997,44 +1011,51 @@
                 "steps": [
                   {
                     "order": "26",
-                    "name": "Red: Jade Lancers – Charge",
+                    "name": "Bureaucrat of the Highest Order",
                     "points": "",
-                    "reason": "ปีกไว้ปิดงาน",
+                    "reason": "Control: +5",
                     "iconUrl": ""
                   },
                   {
-                    "order": "29",
-                    "name": "Lord: Ward Save",
+                    "order": "30",
+                    "name": "Devastating Charge",
                     "points": "",
-                    "reason": "กัน magic / missile",
+                    "reason": "Charge bonus: +15",
                     "iconUrl": ""
                   },
                   {
-                    "order": "32",
-                    "name": "Red: Dragon Guard – Armour",
+                    "order": "34",
+                    "name": "Full Plate Armour",
                     "points": "",
-                    "reason": "elite ทนยิงขึ้น",
+                    "reason": "Armour: +7",
                     "iconUrl": ""
                   },
                   {
-                    "order": "39",
-                    "name": "Wu Xing War Compass: Reload",
+                    "order": "38",
+                    "name": "Power of Yin",
                     "points": "",
-                    "reason": "ปืนบน compass ถี่ขึ้น",
+                    "reason": "Passive ability: \"Power of Yin\"",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "42",
+                    "name": "Magical Reserves",
+                    "points": "",
+                    "reason": "Winds of Magic power reserve capacity: +5",
                     "iconUrl": ""
                   },
                   {
                     "order": "46",
-                    "name": "Red: Dragon Guard (Halberds)",
+                    "name": "Eastern Fires",
                     "points": "",
-                    "reason": "กันมอนสเตอร์ปลายเกม",
+                    "reason": "Ammunition: +5% for Iron Hail Gunners, Crane Gunners, Nan-Gau Grenadiers, Grand Cannon and Fire Rain…",
                     "iconUrl": ""
                   },
                   {
-                    "order": "48–50",
-                    "name": "Flex point",
+                    "order": "50",
+                    "name": "Blades of the Bastion",
                     "points": "",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "reason": "เก็บ node ตามสายหลักของ lord ตัวนี้",
                     "iconUrl": ""
                   }
                 ]
@@ -1043,248 +1064,248 @@
             "levelPlan": [
               {
                 "level": 2,
-                "skill": "Route Marcher",
-                "note": "เดินไกลขึ้น คุมพื้นที่รอบเมืองหลวง"
+                "skill": "Irrepressible",
+                "note": "Casualty replenishment rate: +30% for this Lord"
               },
               {
                 "level": 3,
-                "skill": "Wu Xing War Compass: Deployment",
-                "note": "ปลด compass ให้ไว ใช้ค้ำแนวกลาง"
+                "skill": "Logistician",
+                "note": "Casualty replenishment rate: +2%"
               },
               {
                 "level": 4,
-                "skill": "Blue: Replenishment I",
-                "note": "ลด downtime หลังไฟต์"
+                "skill": "Route Marcher",
+                "note": "Campaign movement range: +5%"
               },
               {
                 "level": 5,
-                "skill": "Blue: Replenishment II",
-                "note": "ต่อสายฟื้นกำลังพล"
+                "skill": "Closest to the Heavens",
+                "note": "Spell intensity: +20%"
               },
               {
                 "level": 6,
-                "skill": "Lore of Yang – สเปลนุกแนวเส้น",
-                "note": "เคลียร์ chaff และแนวยิงศัตรู"
+                "skill": "Shem's Burning Gaze",
+                "note": "Overcast spell: \"Shem's Burning Gaze Upgraded\" (when in human form)"
               },
               {
                 "level": 7,
-                "skill": "Harmony Adept",
-                "note": "ลด upkeep และดัน bonus Yin/Yang"
+                "skill": "Wind Harmony",
+                "note": "Spell resistance: 10%"
               },
               {
                 "level": 8,
-                "skill": "Red: Jade Warriors – Melee Defence",
-                "note": "แนวหน้าค้ำรอบ compass"
+                "skill": "Jade Shield",
+                "note": "Overcast spell: \"Jade Shield Upgraded\" (when in human form)"
               },
               {
                 "level": 9,
-                "skill": "Lore of Yang – สเปล buff ก้อนแนวหน้า",
-                "note": "ดันไลน์ที่กำลังปะทะให้ชนะ"
+                "skill": "Armies of the Celestial Court",
+                "note": "Enables \"Flammable\" attacks for Great Moon Bird units, reducing fire resistance"
               },
               {
                 "level": 10,
-                "skill": "Wu Xing War Compass: Aura I",
-                "note": "ขยายรัศมี buff ให้ทั้งกอง"
+                "skill": "Lord of Wei-Jin",
+                "note": "Diplomatic relations: +15 with Grand Cathay"
               },
               {
                 "level": 11,
-                "skill": "Arcane Conduit",
-                "note": "Winds of Magic เพิ่ม ร่ายได้ต่อเนื่อง"
+                "skill": "Net of Amyntok",
+                "note": "Spell: \"Net of Amyntok\" (when in human form)"
               },
               {
                 "level": 12,
-                "skill": "Lore of Yang – สเปล debuff ทั้งกอง",
-                "note": "กดกองใหญ่ศัตรูก่อนปะทะ"
+                "skill": "Celestial Administration",
+                "note": "Lord recruit rank: +5 for Dragon-blooded Shugengan"
               },
               {
                 "level": 13,
-                "skill": "Red: Crossbowmen – Reload",
-                "note": "ยิงคุ้มขึ้นระหว่างยืนรับ"
+                "skill": "Heart of Order",
+                "note": "Upkeep: -30%"
               },
               {
                 "level": 14,
-                "skill": "Blue: Army Upkeep",
-                "note": "ลดค่าดูแล เอางบไปเพิ่ม elite"
+                "skill": "Mask of Jade",
+                "note": "Diplomatic relations: +25 with Humans and High Elves"
               },
               {
                 "level": 15,
-                "skill": "Wu Xing War Compass: Health",
-                "note": "compass ไม่ตายกลางไฟต์"
+                "skill": "Celestial Court Overseer",
+                "note": "Hero action success chance: +15% for Astromancers"
               },
               {
                 "level": 16,
-                "skill": "Jade Dragon Form",
-                "note": "ปลดร่างมังกรหยก"
+                "skill": "Blossom Wind",
+                "note": "Spell: \"Blossom Wind\" (when in human form)"
               },
               {
                 "level": 17,
-                "skill": "Lord: Melee Attack I",
-                "note": "ให้ร่างมังกรเข้าชนคุ้ม"
+                "skill": "Inspiring Presence",
+                "note": "Unit experience gain per turn: +75"
               },
               {
                 "level": 18,
-                "skill": "Red: Terracotta Sentinel – Health",
-                "note": "ตัวใหญ่ค้ำแนวกลางแทนแนวหน้า"
+                "skill": "Stone Gaze",
+                "note": "Weapon strength: +4% for Wu Xing War Compass, Zhangu War Drum, Jade Lion, Jet Lion and Terracotta…"
               },
               {
                 "level": 19,
-                "skill": "Lore of Yang – สเปลฟื้น / sustain",
-                "note": "ยืดไลน์แนวหน้าให้ชนะไฟต์ยืด"
+                "skill": "Sure Aim",
+                "note": "Missile strength: +6% for Peasant Archers, Celestial Dragon Crossbows, and Jade Warrior Crossbows units"
               },
               {
                 "level": 20,
-                "skill": "Lord: Melee Defence I",
-                "note": "กันตัวตอนโดนรุม"
+                "skill": "Mighty Charge",
+                "note": "Charge bonus: +12% for Peasant Horsemen, Jade Lancers and Great Longma Riders units"
               },
               {
                 "level": 21,
-                "skill": "Red: Dragon Guard – Melee Attack",
-                "note": "elite แนวหน้าเริ่มมีบทบาท"
+                "skill": "Executioner",
+                "note": "Increases model scale"
               },
               {
                 "level": 22,
-                "skill": "Blue: Replenishment III",
-                "note": "sustain สำหรับแคมเปญยาว"
+                "skill": "Ranged Discipline",
+                "note": "Missile resistance: 10%"
               },
               {
                 "level": 23,
-                "skill": "Wu Xing War Compass: Aura II",
-                "note": "buff แรงขึ้นทั้งกอง"
+                "skill": "Inspiring Recruitment",
+                "note": "Recruitment cost: -5%"
               },
               {
                 "level": 24,
-                "skill": "Harmony Master",
-                "note": "ดัน bonus Yin/Yang เต็มระบบ"
+                "skill": "Quartermaster",
+                "note": "Upkeep: -3%"
               },
               {
                 "level": 25,
-                "skill": "Lore of Yang – นุกแนวเส้น (Upgrade)",
-                "note": "damage เพิ่มชัดเจนช่วง late"
+                "skill": "The Great Bastion",
+                "note": "Upkeep: -6%"
               },
               {
                 "level": 26,
-                "skill": "Red: Jade Lancers – Charge Bonus",
-                "note": "ปีกไว้ปิดงานหลังศัตรูเสียไลน์"
+                "skill": "Bureaucrat of the Highest Order",
+                "note": "Control: +5"
               },
               {
                 "level": 27,
-                "skill": "Lord: Melee Attack II",
-                "note": "ต่อสายชน"
+                "skill": "Judge",
+                "note": "Increases model scale"
               },
               {
                 "level": 28,
-                "skill": "Red: Sky Lantern – Missile Damage",
-                "note": "กดดันจากฟ้าแรงขึ้น"
+                "skill": "Thick-Skinned",
+                "note": "Armour: +7"
               },
               {
                 "level": 29,
-                "skill": "Lord: Ward Save",
-                "note": "กัน magic / missile"
+                "skill": "Scarred Veteran",
+                "note": "Hit points: +7%"
               },
               {
                 "level": 30,
-                "skill": "Lore of Yang – buff แนวหน้า (Upgrade)",
-                "note": "buff ครอบคลุมหลายก้อนขึ้น"
+                "skill": "Devastating Charge",
+                "note": "Charge bonus: +15"
               },
               {
                 "level": 31,
-                "skill": "Blue: Public Order / Growth",
-                "note": "ดันเศรษฐกิจเมืองหลวง"
+                "skill": "Fleet-Footed",
+                "note": "Speed: +7%"
               },
               {
                 "level": 32,
-                "skill": "Red: Dragon Guard – Armour",
-                "note": "elite ทนยิงขึ้น"
+                "skill": "Jury",
+                "note": "Increases model scale"
               },
               {
                 "level": 33,
-                "skill": "Lord: Melee Defence II",
-                "note": "ยืนกลางกองได้จริง"
+                "skill": "Blade Shield",
+                "note": "Melee defence: +6"
               },
               {
                 "level": 34,
-                "skill": "Red: Terracotta Sentinel – Melee",
-                "note": "ตัวใหญ่ตีเจ็บขึ้น"
+                "skill": "Full Plate Armour",
+                "note": "Armour: +7"
               },
               {
                 "level": 35,
-                "skill": "Lore of Yang – debuff ทั้งกอง (Upgrade)",
-                "note": "กดก้อน elite ของศัตรู"
+                "skill": "Wound-Maker",
+                "note": "Weapon strength: +10%"
               },
               {
                 "level": 36,
-                "skill": "Blue: Replenishment IV",
-                "note": "ปิดสาย sustain"
+                "skill": "Blade Master",
+                "note": "Melee attack: +6"
               },
               {
                 "level": 37,
-                "skill": "Lord: Physical Resistance",
-                "note": "ลด damage กายภาพ"
+                "skill": "Roiling Skies",
+                "note": "Passive ability: \"Roiling Skies\""
               },
               {
                 "level": 38,
-                "skill": "Red: Crossbowmen – Range",
-                "note": "ยิงก่อนเข้าระยะศัตรู"
+                "skill": "Power of Yin",
+                "note": "Passive ability: \"Power of Yin\""
               },
               {
                 "level": 39,
-                "skill": "Wu Xing War Compass: Reload",
-                "note": "ปืนบน compass ยิงถี่ขึ้น"
+                "skill": "Evasion",
+                "note": "Passive ability: \"Evasion\""
               },
               {
                 "level": 40,
-                "skill": "Lord: Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
+                "skill": "Comet of Casandora",
+                "note": "Spell: \"Comet of Casandora\""
               },
               {
                 "level": 41,
-                "skill": "Red: Jade Warriors – Armour",
-                "note": "แนวหน้าทนยิงมากขึ้น"
+                "skill": "Talons of Night",
+                "note": "Spell: \"Talons of Night\" (when in human form)"
               },
               {
                 "level": 42,
-                "skill": "Lord: Winds of Magic Reserve",
-                "note": "ร่ายชุดใหญ่ได้ตอนปลายไฟต์"
+                "skill": "Magical Reserves",
+                "note": "Winds of Magic power reserve capacity: +5"
               },
               {
                 "level": 43,
-                "skill": "Lore of Yang – สเปลฟื้น (Upgrade)",
-                "note": "ฟื้นกำลังพลได้เยอะขึ้น"
+                "skill": "Earthing",
+                "note": "Miscast base chance: -15%"
               },
               {
                 "level": 44,
-                "skill": "Lord: Leadership Aura",
-                "note": "กันกองแตกตอนไฟต์ยืด"
+                "skill": "Greater Arcane Conduit",
+                "note": "Passive ability: \"Greater Arcane Conduit\""
               },
               {
                 "level": 45,
-                "skill": "Red: Grand Cannon – Accuracy",
-                "note": "ถ้าพกปืนใหญ่คู่กับ compass"
+                "skill": "Unyielding",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               },
               {
                 "level": 46,
-                "skill": "Red: Dragon Guard (Halberds) – Anti-Large",
-                "note": "กันมอนสเตอร์ปลายเกม"
+                "skill": "Eastern Fires",
+                "note": "Ammunition: +5% for Iron Hail Gunners, Crane Gunners, Nan-Gau Grenadiers, Grand Cannon and Fire Rain…"
               },
               {
                 "level": 47,
-                "skill": "Blue: Diplomacy / Income",
-                "note": "ปิดสายแคมเปญ"
+                "skill": "Sky Fire",
+                "note": "Speed: +5% for Sky Lantern, Sky-junk, Onyx Crowmen, Celestial Lion and Great Moon Bird units"
               },
               {
                 "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+                "skill": "Rally!",
+                "note": "Enables: \"Rally!\""
               },
               {
                 "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node ที่ยังขาด"
+                "skill": "Looming Lanterns",
+                "note": "Leadership: +6 for Sky Lantern, Sky-junk, Onyx Crowmen and Great Moon Bird units (Rank 7 and above)"
               },
               {
                 "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+                "skill": "Blades of the Bastion",
+                "note": "เก็บ node ตามสายหลักของ lord ตัวนี้"
               }
             ]
           },
