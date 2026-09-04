@@ -1,0 +1,3441 @@
+{
+  "message": "ok",
+  "data": {
+    "versionLabel": "Dwarfs guide data (chibi guide format)",
+    "faction": {
+      "id": "dwarfs",
+      "name": "Dwarfs",
+      "subtitle": "Grudges Are Never Forgotten",
+      "description": "กองทัพตั้งรับล้วน ไม่มีเวทมนตร์เลย แลกด้วยเกราะหนาสุด ปืนแม่นสุด และ leadership ที่แทบไม่แตก จุดอ่อนเดียวคือช้า",
+      "theme": {
+        "accent": "#b8762b",
+        "soft": "#f7ecd9",
+        "border": "#e0c08a"
+      },
+      "lords": [
+        {
+          "id": "thorgrim",
+          "name": "Thorgrim Grudgebearer",
+          "tag": "มือใหม่สาย Balanced",
+          "style": "Grudge Economy + Infantry Line",
+          "portraitUrl": "assets/lords/dwarfs/chibi/thorgrim-lord.svg",
+          "summary": "High King ที่เล่นง่ายและพลาดยากที่สุดของ Dwarfs: ตั้ง Dwarf Warriors กับ Longbeards ค้ำไลน์, Thunderers ยิงจากหลัง, ปืนใหญ่กดก่อนปะทะ แล้วค่อยอัปเป็น Ironbreakers กับ Hammerers ตอน late",
+          "bestFor": "คนเพิ่งเริ่มเล่น Dwarfs อยากได้กองบาลานซ์และเศรษฐกิจดี",
+          "armyGuidance": "Dwarf Warriors, Longbeards, Thunderers, Grudge Thrower, Cannon, Ironbreakers",
+          "skillBuild": {
+            "summary": "Blue sustain + grudge ก่อน → Red line แนวหน้า/แนวยิง → Yellow ยืนไฟต์ → ปิดด้วย elite",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว ตามเก็บ grudge",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3–4",
+                    "name": "Blue: Replenishment I-II",
+                    "points": "",
+                    "reason": "ลด downtime หลังไฟต์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "5",
+                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "points": "",
+                    "reason": "แนวหน้าราคาถูกยืนนานขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Blue: Grudge Settling",
+                    "points": "",
+                    "reason": "ผลตอบแทนจากการปลด grudge",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Red: Quarrellers – Reload",
+                    "points": "",
+                    "reason": "แนวยิงต้นเกมถี่ขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8",
+                    "name": "Blue: Public Order",
+                    "points": "",
+                    "reason": "กันกบฏช่วงขยาย karak",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "9–10",
+                    "name": "Red: Warriors + Yellow: Melee Defence",
+                    "points": "",
+                    "reason": "ไลน์หน้าและตัว Thorgrim เอง",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Red: Longbeards – Leadership Aura",
+                    "points": "",
+                    "reason": "ล็อกไลน์กลาง กันกองแตก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "12",
+                    "name": "Blue: Army Upkeep",
+                    "points": "",
+                    "reason": "เอางบไปเพิ่มปืนใหญ่",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Red: Grudge Thrower – Reload",
+                    "points": "",
+                    "reason": "กดก่อนปะทะได้ถี่ขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "15–17",
+                    "name": "Red: Thunderers",
+                    "points": "",
+                    "reason": "เปลี่ยนแนวยิงหลักเป็นดินปืน AP",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Ancestral Grudge (Ability)",
+                    "points": "",
+                    "reason": "สกิลประจำตัว buff ตอนปะทะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "20",
+                    "name": "Red: Ironbreakers – Melee Defence",
+                    "points": "",
+                    "reason": "เริ่มวางแกน elite",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "21",
+                    "name": "Red: Cannon – Accuracy",
+                    "points": "",
+                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Yellow: Leadership Aura",
+                    "points": "",
+                    "reason": "กองรอบตัวไม่แตกง่าย",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "29",
+                    "name": "Red: Ironbreakers – Armour",
+                    "points": "",
+                    "reason": "แนวหน้าทนสุดในเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "31",
+                    "name": "Red: Irondrakes – Missile Damage",
+                    "points": "",
+                    "reason": "ก้อน AP ระยะสั้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "37",
+                    "name": "Red: Gyrocopter",
+                    "points": "",
+                    "reason": "มีปีกไล่ปืนใหญ่ศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "41",
+                    "name": "Red: Slayers – Anti-Large",
+                    "points": "",
+                    "reason": "ก้อนตอบมอนสเตอร์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไกลขึ้น ตามไปปลด grudge ได้ไว"
+              },
+              {
+                "level": 3,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 5,
+                "skill": "Red: Dwarf Warriors – Melee Defence",
+                "note": "แนวหน้าราคาถูกยืนได้นานขึ้น"
+              },
+              {
+                "level": 6,
+                "skill": "Blue: Grudge Settling",
+                "note": "ได้ผลตอบแทนจากการปลด grudge มากขึ้น"
+              },
+              {
+                "level": 7,
+                "skill": "Red: Quarrellers – Reload",
+                "note": "แนวยิงต้นเกมถี่ขึ้น"
+              },
+              {
+                "level": 8,
+                "skill": "Blue: Public Order",
+                "note": "กันกบฏช่วงขยาย karak"
+              },
+              {
+                "level": 9,
+                "skill": "Red: Dwarf Warriors – Melee Attack",
+                "note": "แนวหน้าตีเจ็บขึ้น"
+              },
+              {
+                "level": 10,
+                "skill": "Yellow: Melee Defence I",
+                "note": "ให้ Thorgrim ยืนแนวหน้าได้จริง"
+              },
+              {
+                "level": 11,
+                "skill": "Red: Longbeards – Leadership Aura",
+                "note": "ล็อกไลน์กลาง กันกองแตก"
+              },
+              {
+                "level": 12,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแล เอางบไปเพิ่มปืนใหญ่"
+              },
+              {
+                "level": 13,
+                "skill": "Red: Grudge Thrower – Reload",
+                "note": "เครื่องยิงหินยิงถี่ขึ้น"
+              },
+              {
+                "level": 14,
+                "skill": "Yellow: Melee Attack I",
+                "note": "เริ่มให้ Thorgrim เก็บก้อนได้"
+              },
+              {
+                "level": 15,
+                "skill": "Red: Thunderers – Reload",
+                "note": "เปลี่ยนแนวยิงหลักเป็นดินปืน"
+              },
+              {
+                "level": 16,
+                "skill": "Ancestral Grudge (Ability)",
+                "note": "ปลดสกิลประจำตัว ใช้ buff ตอนปะทะ"
+              },
+              {
+                "level": 17,
+                "skill": "Red: Thunderers – Missile Damage",
+                "note": "ดัน damage ต่อชุดยิง"
+              },
+              {
+                "level": 18,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 19,
+                "skill": "Yellow: Armour",
+                "note": "ทนยิงและทนชนขึ้นชัดเจน"
+              },
+              {
+                "level": 20,
+                "skill": "Red: Ironbreakers – Melee Defence",
+                "note": "เริ่มวางแกน elite แนวหน้า"
+              },
+              {
+                "level": 21,
+                "skill": "Red: Cannon – Accuracy",
+                "note": "ลบมอนสเตอร์ตั้งแต่ก่อนปะทะ"
+              },
+              {
+                "level": 22,
+                "skill": "Yellow: Melee Defence II",
+                "note": "ยืนกลางกองได้โดยไม่ต้องถอย"
+              },
+              {
+                "level": 23,
+                "skill": "Red: Hammerers – Melee Attack",
+                "note": "ก้อน AP ไว้เจาะเกราะศัตรู"
+              },
+              {
+                "level": 24,
+                "skill": "Blue: Income / Mining",
+                "note": "ดันเศรษฐกิจใต้ภูเขา"
+              },
+              {
+                "level": 25,
+                "skill": "Red: Longbeards – Melee Attack",
+                "note": "ไลน์กลางชนะการปะทะ"
+              },
+              {
+                "level": 26,
+                "skill": "Yellow: Leadership Aura",
+                "note": "กองรอบตัวไม่แตกง่าย"
+              },
+              {
+                "level": 27,
+                "skill": "Red: Organ Gun – Reload",
+                "note": "กดกองราบใหญ่ ๆ ได้ถี่ขึ้น"
+              },
+              {
+                "level": 28,
+                "skill": "Yellow: Ward Save",
+                "note": "กัน magic / missile"
+              },
+              {
+                "level": 29,
+                "skill": "Red: Ironbreakers – Armour",
+                "note": "แนวหน้า elite ทนสุดในเกม"
+              },
+              {
+                "level": 30,
+                "skill": "Blue: Underway Movement",
+                "note": "ย้ายกองข้ามภูเขาได้ไว"
+              },
+              {
+                "level": 31,
+                "skill": "Red: Irondrakes – Missile Damage",
+                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+              },
+              {
+                "level": 32,
+                "skill": "Yellow: Melee Attack II",
+                "note": "ต่อสายชน"
+              },
+              {
+                "level": 33,
+                "skill": "Red: Grudge Thrower – Range",
+                "note": "ตั้งไกลขึ้น ปลอดภัยจากม้าศัตรู"
+              },
+              {
+                "level": 34,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 35,
+                "skill": "Red: Hammerers – Armour",
+                "note": "ก้อน AP ยืนได้นานขึ้น"
+              },
+              {
+                "level": 36,
+                "skill": "Yellow: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 37,
+                "skill": "Red: Gyrocopter – Missile Damage",
+                "note": "มีปีกไว้ไล่ปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 38,
+                "skill": "Blue: Diplomacy / Grudges",
+                "note": "ปิดสายแคมเปญ"
+              },
+              {
+                "level": 39,
+                "skill": "Red: Cannon – Reload",
+                "note": "ยิงถี่ขึ้นช่วง late"
+              },
+              {
+                "level": 40,
+                "skill": "Yellow: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 41,
+                "skill": "Red: Slayers – Anti-Large",
+                "note": "มีก้อนตอบมอนสเตอร์"
+              },
+              {
+                "level": 42,
+                "skill": "Yellow: Missile Resistance",
+                "note": "กันกองยิงของศัตรู"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Irondrakes – Reload",
+                "note": "เทกระสุนใส่แนวหน้าได้ถี่ขึ้น"
+              },
+              {
+                "level": 44,
+                "skill": "Red: Miners – Ambush",
+                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 45,
+                "skill": "Yellow: Melee Defence III",
+                "note": "ปิดสายยืนไฟต์"
+              },
+              {
+                "level": 46,
+                "skill": "Red: Ironbreakers – Melee Attack",
+                "note": "elite แนวหน้าตีเจ็บขึ้น"
+              },
+              {
+                "level": 47,
+                "skill": "Blue: Upkeep II",
+                "note": "ปิดสายประหยัดงบ"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "dwarf-warriors",
+            "longbeards",
+            "thunderers",
+            "grudge-thrower",
+            "cannon",
+            "ironbreakers"
+          ]
+        },
+        {
+          "id": "ungrim",
+          "name": "Ungrim Ironfist, the Slayer King",
+          "tag": "สายบุก / Melee",
+          "style": "Slayers + Melee Brawl",
+          "portraitUrl": "assets/lords/dwarfs/chibi/ungrim-lord.svg",
+          "summary": "สายเดียวของ Dwarfs ที่เล่นบุกได้จริง: Slayers กับ Giant Slayers เป็นก้อนหลัก ไม่มีเกราะแต่ไม่มีวันแตก ใช้กอดมอนสเตอร์ไว้แล้วให้ Ungrim กับ Hammerers ตามเก็บ",
+          "bestFor": "คนเบื่อ Dwarfs สายตั้งรับ อยากเดินเข้าไปชนเลย",
+          "armyGuidance": "Slayers, Giant Slayers, Hammerers, Miners (Blasting Charges), Quarrellers",
+          "skillBuild": {
+            "summary": "Red: Slayers ก่อนทุกอย่าง → Yellow สายชน → Blue sustain → ปิดด้วย Giant Slayers และ Hammerers",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว ไล่ปะทะได้เร็ว",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3",
+                    "name": "Red: Slayers – Melee Attack",
+                    "points": "",
+                    "reason": "แกนหลักของสายนี้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "4–5",
+                    "name": "Blue: Replenishment I-II",
+                    "points": "",
+                    "reason": "ลด downtime",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Yellow: Melee Attack I",
+                    "points": "",
+                    "reason": "Ungrim ต้องเข้าไปชนเอง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Red: Slayers – Anti-Large",
+                    "points": "",
+                    "reason": "ตอบ cavalry / monster ตั้งแต่ต้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8",
+                    "name": "Blue: Slayer Upkeep",
+                    "points": "",
+                    "reason": "Slayers ถูกลง กองแน่นขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "9–10",
+                    "name": "Yellow: Melee Defence + Red: Warriors",
+                    "points": "",
+                    "reason": "กันตัวและมีก้อนค้ำปีก",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Red: Giant Slayers – Melee Attack",
+                    "points": "",
+                    "reason": "อัปก้อนหลักขึ้นชั้น elite",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Yellow: Melee Attack II",
+                    "points": "",
+                    "reason": "ต่อสายชน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "14",
+                    "name": "Slayer's Wrath (Ability)",
+                    "points": "",
+                    "reason": "สกิลประจำตัว buff ตอนปะทะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "17",
+                    "name": "Red: Giant Slayers – Anti-Large",
+                    "points": "",
+                    "reason": "ตอบมอนสเตอร์ปลายเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "19",
+                    "name": "Red: Hammerers – Melee Attack",
+                    "points": "",
+                    "reason": "ก้อน AP ไว้เจาะเกราะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "21",
+                    "name": "Red: Miners – Ambush",
+                    "points": "",
+                    "reason": "เปิดทางเก็บปืนใหญ่ศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "23",
+                    "name": "Red: Slayers – Physical Resistance",
+                    "points": "",
+                    "reason": "อึดขึ้นทั้งที่ไม่มีเกราะ",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Yellow: Ward Save",
+                    "points": "",
+                    "reason": "กัน magic / missile",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "29",
+                    "name": "Yellow: Melee Attack III",
+                    "points": "",
+                    "reason": "เก็บ lord ศัตรูได้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "31",
+                    "name": "Yellow: Physical Resistance",
+                    "points": "",
+                    "reason": "ลด damage กายภาพ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "35",
+                    "name": "Yellow: Missile Resistance",
+                    "points": "",
+                    "reason": "กันกองยิงตอนเดินเข้า",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "43",
+                    "name": "Red: Slayers – Charge Bonus",
+                    "points": "",
+                    "reason": "เข้าชนแรงขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไว ไล่เข้าปะทะได้เร็วขึ้น"
+              },
+              {
+                "level": 3,
+                "skill": "Red: Slayers – Melee Attack",
+                "note": "แกนหลักของสายนี้ ลงตั้งแต่ต้น"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 5,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 6,
+                "skill": "Yellow: Melee Attack I",
+                "note": "Ungrim ต้องเข้าไปชนเองเป็นหลัก"
+              },
+              {
+                "level": 7,
+                "skill": "Red: Slayers – Anti-Large",
+                "note": "ตอบ cavalry / monster ตั้งแต่ต้นเกม"
+              },
+              {
+                "level": 8,
+                "skill": "Blue: Slayer Upkeep",
+                "note": "Slayers ถูกลง จัดกองได้แน่นขึ้น"
+              },
+              {
+                "level": 9,
+                "skill": "Yellow: Melee Defence I",
+                "note": "กันตัวตอนโดนรุม"
+              },
+              {
+                "level": 10,
+                "skill": "Red: Dwarf Warriors – Melee Defence",
+                "note": "มีก้อนราคาถูกไว้ค้ำปีก"
+              },
+              {
+                "level": 11,
+                "skill": "Red: Giant Slayers – Melee Attack",
+                "note": "อัปก้อนหลักขึ้นชั้น elite"
+              },
+              {
+                "level": 12,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแลทั้งกอง"
+              },
+              {
+                "level": 13,
+                "skill": "Yellow: Melee Attack II",
+                "note": "ต่อสายชนให้ Ungrim เก็บก้อนได้"
+              },
+              {
+                "level": 14,
+                "skill": "Slayer's Wrath (Ability)",
+                "note": "ปลดสกิลประจำตัว buff ตอนปะทะ"
+              },
+              {
+                "level": 15,
+                "skill": "Red: Quarrellers – Reload",
+                "note": "มีแนวยิงกดก่อนเข้าชน"
+              },
+              {
+                "level": 16,
+                "skill": "Yellow: Armour",
+                "note": "ทนขึ้นตอนยืนกลางกอง"
+              },
+              {
+                "level": 17,
+                "skill": "Red: Giant Slayers – Anti-Large",
+                "note": "ก้อนตอบมอนสเตอร์ปลายเกม"
+              },
+              {
+                "level": 18,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 19,
+                "skill": "Red: Hammerers – Melee Attack",
+                "note": "ก้อน AP ไว้เจาะเกราะ"
+              },
+              {
+                "level": 20,
+                "skill": "Yellow: Leadership Aura",
+                "note": "Slayers ไม่แตกอยู่แล้ว แต่ก้อนอื่นได้ประโยชน์"
+              },
+              {
+                "level": 21,
+                "skill": "Red: Miners – Ambush",
+                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 22,
+                "skill": "Yellow: Melee Defence II",
+                "note": "ยืนกลางกองได้จริง"
+              },
+              {
+                "level": 23,
+                "skill": "Red: Slayers – Physical Resistance",
+                "note": "ก้อนหลักอึดขึ้นมาก แม้ไม่มีเกราะ"
+              },
+              {
+                "level": 24,
+                "skill": "Blue: Public Order",
+                "note": "กันกบฏช่วงขยายดินแดน"
+              },
+              {
+                "level": 25,
+                "skill": "Red: Grudge Thrower – Reload",
+                "note": "มีปืนกดก่อนปะทะ"
+              },
+              {
+                "level": 26,
+                "skill": "Yellow: Ward Save",
+                "note": "กัน magic / missile"
+              },
+              {
+                "level": 27,
+                "skill": "Red: Hammerers – Armour",
+                "note": "ก้อน AP ยืนได้นานขึ้น"
+              },
+              {
+                "level": 28,
+                "skill": "Blue: Income / Mining",
+                "note": "ดันเศรษฐกิจใต้ภูเขา"
+              },
+              {
+                "level": 29,
+                "skill": "Yellow: Melee Attack III",
+                "note": "ให้ Ungrim เก็บ lord ศัตรูได้"
+              },
+              {
+                "level": 30,
+                "skill": "Red: Irondrakes – Missile Damage",
+                "note": "ก้อน AP ระยะสั้นช่วยเปิดไลน์"
+              },
+              {
+                "level": 31,
+                "skill": "Yellow: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Thunderers – Reload",
+                "note": "แนวยิงดินปืนถี่ขึ้น"
+              },
+              {
+                "level": 33,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 34,
+                "skill": "Red: Giant Slayers – Armour",
+                "note": "elite ทนขึ้นเล็กน้อย"
+              },
+              {
+                "level": 35,
+                "skill": "Yellow: Missile Resistance",
+                "note": "กันกองยิงศัตรูตอนเดินเข้า"
+              },
+              {
+                "level": 36,
+                "skill": "Red: Cannon – Accuracy",
+                "note": "ลบมอนสเตอร์ก่อนถึงตัว"
+              },
+              {
+                "level": 37,
+                "skill": "Yellow: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Gyrocopter – Missile Damage",
+                "note": "มีปีกไล่ปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 39,
+                "skill": "Blue: Upkeep II",
+                "note": "ปิดสายประหยัดงบ"
+              },
+              {
+                "level": 40,
+                "skill": "Red: Longbeards – Leadership Aura",
+                "note": "ค้ำก้อนที่ไม่ใช่ Slayers"
+              },
+              {
+                "level": 41,
+                "skill": "Yellow: Melee Defence III",
+                "note": "ปิดสายยืนไฟต์"
+              },
+              {
+                "level": 42,
+                "skill": "Red: Organ Gun – Reload",
+                "note": "กดกองราบใหญ่ ๆ"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Slayers – Charge Bonus",
+                "note": "เข้าชนแรงขึ้น"
+              },
+              {
+                "level": 44,
+                "skill": "Yellow: Leadership II",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 45,
+                "skill": "Red: Irondrakes – Reload",
+                "note": "เทกระสุนถี่ขึ้น"
+              },
+              {
+                "level": 46,
+                "skill": "Blue: Diplomacy / Grudges",
+                "note": "ปิดสายแคมเปญ"
+              },
+              {
+                "level": 47,
+                "skill": "Red: Dwarf Warriors – Armour",
+                "note": "ก้อนราคาถูกทนยิงขึ้น"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "slayers",
+            "giant-slayers",
+            "hammerers",
+            "miners-blasting-charges",
+            "quarrellers",
+            "dwarf-warriors-great-weapons"
+          ]
+        },
+        {
+          "id": "belegar",
+          "name": "Belegar Ironhammer",
+          "tag": "สายตั้งรับจัดหนัก",
+          "style": "Ironbreakers + Irondrakes Gunline",
+          "portraitUrl": "assets/lords/dwarfs/chibi/belegar-lord.svg",
+          "summary": "แคมเปญที่ยากที่สุดของ Dwarfs แต่กองแข็งที่สุด: Ironbreakers ยืนล็อกไลน์ Irondrakes เผาทุกอย่างที่เดินเข้ามา แล้วปืนใหญ่เก็บของใหญ่จากหลัง ถ้าตั้งแนวถูกแทบไม่มีอะไรเจาะเข้าได้",
+          "bestFor": "คนชอบเล่นตั้งรับล้วน ๆ และไม่กลัวแคมเปญเปิดยาก",
+          "armyGuidance": "Ironbreakers, Irondrakes, Irondrakes (Trollhammer Torpedo), Thunderers, Cannon",
+          "skillBuild": {
+            "summary": "Blue sustain ก่อน (ต้องตีซ้ำเยอะ) → Red: Ironbreakers + Irondrakes → Yellow ยืนไฟต์ → ปิดด้วย Trollhammer",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว ตั้งหลักรอบ Eight Peaks",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3–4",
+                    "name": "Blue: Replenishment I-II",
+                    "points": "",
+                    "reason": "Belegar ต้องตีซ้ำหลายรอบ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "5",
+                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "points": "",
+                    "reason": "แนวหน้าค้ำแนวยิง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Red: Quarrellers – Reload",
+                    "points": "",
+                    "reason": "แนวยิงต้นเกมถี่ขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Blue: Public Order",
+                    "points": "",
+                    "reason": "กันกบฏในดินแดนที่เพิ่งยึด",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8",
+                    "name": "Yellow: Melee Defence I",
+                    "points": "",
+                    "reason": "ให้ Belegar ยืนแนวหน้าได้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "9",
+                    "name": "Red: Thunderers – Missile Damage",
+                    "points": "",
+                    "reason": "เปลี่ยนเป็นแนวยิง AP",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11–12",
+                    "name": "Red: Ironbreakers",
+                    "points": "",
+                    "reason": "แกน elite ที่ทนที่สุดในเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Yellow: Armour",
+                    "points": "",
+                    "reason": "ทนยิงและทนชนขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "14",
+                    "name": "Red: Grudge Thrower – Reload",
+                    "points": "",
+                    "reason": "มีปืนกดก่อนปะทะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Shield of Defiance (Ability)",
+                    "points": "",
+                    "reason": "ค้ำแนวตอนโดนรุม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "17–19",
+                    "name": "Red: Irondrakes",
+                    "points": "",
+                    "reason": "ก้อน AP ระยะสั้นเจ็บมาก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "21",
+                    "name": "Blue: Underway Movement",
+                    "points": "",
+                    "reason": "ย้ายกองข้ามภูเขาได้ไว",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "23",
+                    "name": "Red: Cannon – Accuracy",
+                    "points": "",
+                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "27",
+                    "name": "Red: Irondrakes (Trollhammer) – Anti-Large",
+                    "points": "",
+                    "reason": "คำตอบหลักต่อมอนสเตอร์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "30",
+                    "name": "Yellow: Missile Resistance",
+                    "points": "",
+                    "reason": "กันกองยิงของศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "32",
+                    "name": "Yellow: Leadership Aura",
+                    "points": "",
+                    "reason": "กันกองแตกตอนไฟต์ยืด",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "37",
+                    "name": "Red: Gyrocopter",
+                    "points": "",
+                    "reason": "มีปีกไล่ปืนใหญ่ศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "46",
+                    "name": "Red: Thunderers – Range",
+                    "points": "",
+                    "reason": "ยิงก่อนเข้าระยะศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไว ตั้งหลักรอบ Eight Peaks"
+              },
+              {
+                "level": 3,
+                "skill": "Blue: Replenishment I",
+                "note": "Belegar ต้องตีซ้ำหลายรอบ ลด downtime ก่อน"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 5,
+                "skill": "Red: Dwarf Warriors – Melee Defence",
+                "note": "แนวหน้าราคาถูกค้ำแนวยิง"
+              },
+              {
+                "level": 6,
+                "skill": "Red: Quarrellers – Reload",
+                "note": "แนวยิงต้นเกมถี่ขึ้น"
+              },
+              {
+                "level": 7,
+                "skill": "Blue: Public Order",
+                "note": "กันกบฏในดินแดนที่เพิ่งยึด"
+              },
+              {
+                "level": 8,
+                "skill": "Yellow: Melee Defence I",
+                "note": "ให้ Belegar ยืนแนวหน้าได้"
+              },
+              {
+                "level": 9,
+                "skill": "Red: Thunderers – Missile Damage",
+                "note": "เปลี่ยนเป็นแนวยิงดินปืนเจาะเกราะ"
+              },
+              {
+                "level": 10,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแล เอางบไปเพิ่ม elite"
+              },
+              {
+                "level": 11,
+                "skill": "Red: Ironbreakers – Melee Defence",
+                "note": "เริ่มวางแกน elite แนวหน้า"
+              },
+              {
+                "level": 12,
+                "skill": "Red: Ironbreakers – Armour",
+                "note": "แนวหน้าทนที่สุดในเกม"
+              },
+              {
+                "level": 13,
+                "skill": "Yellow: Armour",
+                "note": "ทนยิงและทนชนขึ้น"
+              },
+              {
+                "level": 14,
+                "skill": "Red: Grudge Thrower – Reload",
+                "note": "มีปืนกดก่อนปะทะ"
+              },
+              {
+                "level": 15,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 16,
+                "skill": "Shield of Defiance (Ability)",
+                "note": "ปลดสกิลประจำตัว ค้ำแนวตอนโดนรุม"
+              },
+              {
+                "level": 17,
+                "skill": "Red: Irondrakes – Missile Damage",
+                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+              },
+              {
+                "level": 18,
+                "skill": "Yellow: Melee Defence II",
+                "note": "ยืนกลางกองได้จริง"
+              },
+              {
+                "level": 19,
+                "skill": "Red: Irondrakes – Reload",
+                "note": "เทกระสุนใส่แนวหน้าถี่ขึ้น"
+              },
+              {
+                "level": 20,
+                "skill": "Red: Thunderers – Reload",
+                "note": "แนวยิงหลักถี่ขึ้น"
+              },
+              {
+                "level": 21,
+                "skill": "Blue: Underway Movement",
+                "note": "ย้ายกองข้ามภูเขาได้ไว"
+              },
+              {
+                "level": 22,
+                "skill": "Yellow: Melee Attack I",
+                "note": "ให้ Belegar เก็บก้อนได้บ้าง"
+              },
+              {
+                "level": 23,
+                "skill": "Red: Cannon – Accuracy",
+                "note": "ลบมอนสเตอร์ก่อนถึงแนว"
+              },
+              {
+                "level": 24,
+                "skill": "Blue: Income / Mining",
+                "note": "ดันเศรษฐกิจใต้ภูเขา"
+              },
+              {
+                "level": 25,
+                "skill": "Red: Hammerers – Melee Attack",
+                "note": "ก้อน AP ไว้เจาะเกราะ"
+              },
+              {
+                "level": 26,
+                "skill": "Yellow: Ward Save",
+                "note": "กัน magic / missile"
+              },
+              {
+                "level": 27,
+                "skill": "Red: Irondrakes (Trollhammer) – Anti-Large",
+                "note": "คำตอบหลักต่อมอนสเตอร์ปลายเกม"
+              },
+              {
+                "level": 28,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 29,
+                "skill": "Red: Organ Gun – Reload",
+                "note": "กดกองราบใหญ่ ๆ"
+              },
+              {
+                "level": 30,
+                "skill": "Yellow: Missile Resistance",
+                "note": "กันกองยิงของศัตรู"
+              },
+              {
+                "level": 31,
+                "skill": "Red: Ironbreakers – Melee Attack",
+                "note": "elite แนวหน้าตีเจ็บขึ้น"
+              },
+              {
+                "level": 32,
+                "skill": "Yellow: Leadership Aura",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 33,
+                "skill": "Red: Longbeards – Leadership Aura",
+                "note": "ค้ำไลน์กลางอีกชั้น"
+              },
+              {
+                "level": 34,
+                "skill": "Blue: Upkeep II",
+                "note": "ปิดสายประหยัดงบ"
+              },
+              {
+                "level": 35,
+                "skill": "Red: Grudge Thrower – Range",
+                "note": "ตั้งไกลขึ้น ปลอดภัยขึ้น"
+              },
+              {
+                "level": 36,
+                "skill": "Yellow: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 37,
+                "skill": "Red: Gyrocopter – Missile Damage",
+                "note": "มีปีกไล่ปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 38,
+                "skill": "Yellow: Melee Attack II",
+                "note": "ต่อสายชน"
+              },
+              {
+                "level": 39,
+                "skill": "Red: Miners – Ambush",
+                "note": "เปิดทางไปเก็บหลังกองศัตรู"
+              },
+              {
+                "level": 40,
+                "skill": "Blue: Diplomacy / Grudges",
+                "note": "ปิดสายแคมเปญ"
+              },
+              {
+                "level": 41,
+                "skill": "Red: Cannon – Reload",
+                "note": "ยิงถี่ขึ้นช่วง late"
+              },
+              {
+                "level": 42,
+                "skill": "Yellow: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Slayers – Anti-Large",
+                "note": "ก้อนสำรองตอบตัวใหญ่"
+              },
+              {
+                "level": 44,
+                "skill": "Yellow: Melee Defence III",
+                "note": "ปิดสายยืนไฟต์"
+              },
+              {
+                "level": 45,
+                "skill": "Red: Hammerers – Armour",
+                "note": "ก้อน AP ยืนนานขึ้น"
+              },
+              {
+                "level": 46,
+                "skill": "Red: Thunderers – Range",
+                "note": "ยิงก่อนเข้าระยะศัตรู"
+              },
+              {
+                "level": 47,
+                "skill": "Blue: Public Order II",
+                "note": "ปิดสายคุมดินแดน"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "ironbreakers",
+            "irondrakes",
+            "irondrakes-trollhammer-torpedo",
+            "thunderers",
+            "cannon",
+            "longbeards"
+          ]
+        },
+        {
+          "id": "malakai",
+          "name": "Malakai Makaisson",
+          "tag": "สายปืน / Engineering",
+          "style": "Gunpowder + Gyro Air",
+          "portraitUrl": "assets/lords/dwarfs/chibi/malakai-lord.svg",
+          "summary": "สายวิศวกรรม: Thunderers กับ Irondrakes เป็นตัวทำ damage หลัก มี Gyrocopter และ Gyrobomber แก้จุดอ่อนเรื่องความเร็วของ Dwarfs และ Malakai buff สายปืนทั้งกองจากสกิลประจำตัว",
+          "bestFor": "คนชอบดินปืน ของบิน และเล่นแบบยิงให้ศัตรูละลายก่อนถึงแนว",
+          "armyGuidance": "Thunderers, Irondrakes, Gyrocopter, Gyrobomber, Organ Gun, Ironbreakers",
+          "skillBuild": {
+            "summary": "Red: Thunderers ก่อน → เปิดสายอากาศกลางต้นเกม → Blue sustain → ปิดด้วย Trollhammer และ Ironbreakers",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว ตามเก็บภารกิจ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3",
+                    "name": "Red: Thunderers – Reload",
+                    "points": "",
+                    "reason": "วางแกนดินปืนตั้งแต่ต้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "4–5",
+                    "name": "Blue: Replenishment I-II",
+                    "points": "",
+                    "reason": "ลด downtime",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Red: Thunderers – Missile Damage",
+                    "points": "",
+                    "reason": "ดัน damage ต่อชุดยิง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "points": "",
+                    "reason": "มีก้อนค้ำหน้าให้ปืน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "9",
+                    "name": "Red: Gyrocopter – Missile Damage",
+                    "points": "",
+                    "reason": "เปิดสายอากาศ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "10",
+                    "name": "Yellow: Melee Defence I",
+                    "points": "",
+                    "reason": "Malakai ไม่ตายง่ายตอนโดนบุก",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Red: Irondrakes – Missile Damage",
+                    "points": "",
+                    "reason": "ก้อน AP ระยะสั้นเจ็บมาก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Red: Organ Gun – Reload",
+                    "points": "",
+                    "reason": "กดกองราบใหญ่ ๆ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "14",
+                    "name": "Engineering Expertise (Ability)",
+                    "points": "",
+                    "reason": "buff สายปืนทั้งกอง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "15",
+                    "name": "Red: Gyrobomber – Bomb Damage",
+                    "points": "",
+                    "reason": "กดก้อนใหญ่จากฟ้า",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Yellow: Missile Resistance",
+                    "points": "",
+                    "reason": "กันแนวยิงที่ยิงสวนกลับ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "17",
+                    "name": "Red: Cannon – Accuracy",
+                    "points": "",
+                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "22",
+                    "name": "Red: Ironbreakers – Melee Defence",
+                    "points": "",
+                    "reason": "แกน elite ค้ำแนวให้ปืน",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Red: Flame Cannon – Reload",
+                    "points": "",
+                    "reason": "เผาก้อนที่ติดไลน์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "28",
+                    "name": "Red: Irondrakes (Trollhammer) – Anti-Large",
+                    "points": "",
+                    "reason": "ตอบมอนสเตอร์ปลายเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "32",
+                    "name": "Red: Gyrobomber – Health",
+                    "points": "",
+                    "reason": "เครื่องบินอยู่รอดจนจบไฟต์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "34",
+                    "name": "Red: Ironbreakers – Armour",
+                    "points": "",
+                    "reason": "แนวหน้าทนสุดในเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "42",
+                    "name": "Red: Organ Gun – Accuracy",
+                    "points": "",
+                    "reason": "กดกองราบแม่นขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไว ตามเก็บภารกิจสิ่งประดิษฐ์"
+              },
+              {
+                "level": 3,
+                "skill": "Red: Thunderers – Reload",
+                "note": "วางแกนดินปืนตั้งแต่ต้นเกม"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 5,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 6,
+                "skill": "Red: Thunderers – Missile Damage",
+                "note": "ดัน damage ต่อชุดยิง"
+              },
+              {
+                "level": 7,
+                "skill": "Red: Dwarf Warriors – Melee Defence",
+                "note": "มีก้อนราคาถูกค้ำหน้าให้ปืน"
+              },
+              {
+                "level": 8,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแล เอางบไปเพิ่มปืน"
+              },
+              {
+                "level": 9,
+                "skill": "Red: Gyrocopter – Missile Damage",
+                "note": "เปิดสายอากาศตั้งแต่กลางต้นเกม"
+              },
+              {
+                "level": 10,
+                "skill": "Yellow: Melee Defence I",
+                "note": "Malakai ไม่ตายง่ายตอนโดนบุกถึงตัว"
+              },
+              {
+                "level": 11,
+                "skill": "Red: Irondrakes – Missile Damage",
+                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+              },
+              {
+                "level": 12,
+                "skill": "Blue: Public Order",
+                "note": "กันกบฏช่วงขยายดินแดน"
+              },
+              {
+                "level": 13,
+                "skill": "Red: Organ Gun – Reload",
+                "note": "กดกองราบใหญ่ ๆ ได้ถี่ขึ้น"
+              },
+              {
+                "level": 14,
+                "skill": "Engineering Expertise (Ability)",
+                "note": "ปลดสกิลประจำตัว buff สายปืนทั้งกอง"
+              },
+              {
+                "level": 15,
+                "skill": "Red: Gyrobomber – Bomb Damage",
+                "note": "กดก้อนใหญ่จากฟ้า"
+              },
+              {
+                "level": 16,
+                "skill": "Yellow: Missile Resistance",
+                "note": "กันแนวยิงศัตรูที่ยิงสวนกลับ"
+              },
+              {
+                "level": 17,
+                "skill": "Red: Cannon – Accuracy",
+                "note": "ลบมอนสเตอร์ก่อนถึงแนว"
+              },
+              {
+                "level": 18,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 19,
+                "skill": "Red: Irondrakes – Reload",
+                "note": "เทกระสุนถี่ขึ้น"
+              },
+              {
+                "level": 20,
+                "skill": "Red: Thunderers – Range",
+                "note": "ยิงก่อนเข้าระยะศัตรู"
+              },
+              {
+                "level": 21,
+                "skill": "Yellow: Melee Attack I",
+                "note": "เก็บก้อนที่หลุดเข้ามาถึงแนวปืน"
+              },
+              {
+                "level": 22,
+                "skill": "Red: Ironbreakers – Melee Defence",
+                "note": "แกน elite ค้ำแนวให้ปืนยิงต่อ"
+              },
+              {
+                "level": 23,
+                "skill": "Blue: Income / Mining",
+                "note": "ดันเศรษฐกิจใต้ภูเขา"
+              },
+              {
+                "level": 24,
+                "skill": "Red: Gyrocopter – Reload",
+                "note": "กวนหลังกองศัตรูได้ถี่ขึ้น"
+              },
+              {
+                "level": 25,
+                "skill": "Yellow: Armour",
+                "note": "ทนขึ้นตอนโดนรุม"
+              },
+              {
+                "level": 26,
+                "skill": "Red: Flame Cannon – Reload",
+                "note": "เผาก้อนที่ติดไลน์แนวหน้า"
+              },
+              {
+                "level": 27,
+                "skill": "Blue: Underway Movement",
+                "note": "ย้ายกองข้ามภูเขาได้ไว"
+              },
+              {
+                "level": 28,
+                "skill": "Red: Irondrakes (Trollhammer) – Anti-Large",
+                "note": "ตอบมอนสเตอร์ปลายเกม"
+              },
+              {
+                "level": 29,
+                "skill": "Yellow: Ward Save",
+                "note": "กัน magic / missile"
+              },
+              {
+                "level": 30,
+                "skill": "Red: Cannon – Reload",
+                "note": "ยิงถี่ขึ้นช่วง late"
+              },
+              {
+                "level": 31,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Gyrobomber – Health",
+                "note": "เครื่องบินอยู่รอดจนจบไฟต์"
+              },
+              {
+                "level": 33,
+                "skill": "Yellow: Melee Defence II",
+                "note": "ยืนกลางกองได้จริง"
+              },
+              {
+                "level": 34,
+                "skill": "Red: Ironbreakers – Armour",
+                "note": "แนวหน้าทนสุดในเกม"
+              },
+              {
+                "level": 35,
+                "skill": "Yellow: Leadership Aura",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 36,
+                "skill": "Red: Miners – Ambush",
+                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 37,
+                "skill": "Blue: Upkeep II",
+                "note": "ปิดสายประหยัดงบ"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Grudge Thrower – Range",
+                "note": "เครื่องยิงหินตั้งไกลขึ้น"
+              },
+              {
+                "level": 39,
+                "skill": "Yellow: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 40,
+                "skill": "Red: Hammerers – Melee Attack",
+                "note": "ก้อน AP ไว้เจาะเกราะ"
+              },
+              {
+                "level": 41,
+                "skill": "Yellow: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 42,
+                "skill": "Red: Organ Gun – Accuracy",
+                "note": "กดกองราบได้แม่นขึ้น"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Slayers – Anti-Large",
+                "note": "ก้อนสำรองตอบตัวใหญ่"
+              },
+              {
+                "level": 44,
+                "skill": "Yellow: Melee Attack II",
+                "note": "ต่อสายชน"
+              },
+              {
+                "level": 45,
+                "skill": "Red: Gyrocopter – Health",
+                "note": "ปีกอยู่รอดนานขึ้น"
+              },
+              {
+                "level": 46,
+                "skill": "Blue: Diplomacy / Grudges",
+                "note": "ปิดสายแคมเปญ"
+              },
+              {
+                "level": 47,
+                "skill": "Red: Quarrellers – Reload",
+                "note": "ก้อนยิงสำรองราคาถูก"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "thunderers",
+            "irondrakes",
+            "gyrocopter",
+            "gyrobomber",
+            "organ-gun",
+            "ironbreakers"
+          ]
+        },
+        {
+          "id": "grombrindal",
+          "name": "Grombrindal, the White Dwarf",
+          "tag": "สาย All-round / Duelist",
+          "style": "White Dwarf Aura + Elite Line",
+          "portraitUrl": "assets/lords/dwarfs/chibi/grombrindal-lord.svg",
+          "summary": "lord ที่เก่งรอบด้านที่สุดของ Dwarfs: ตีเก่ง ยืนทน และมี aura ค้ำกองรอบตัวไปพร้อมกัน เอาไปยืนกลางไลน์แล้วให้ Hammerers กับ Thunderers ทำงานรอบ ๆ ได้เลย ไม่ต้องเลือกว่าจะเน้นบุกหรือเน้นรับ",
+          "bestFor": "คนอยากได้ lord ที่เข้าไฟต์เองได้และค้ำกองไปพร้อมกัน โดยไม่ต้องจัดกองแบบเฉพาะทาง",
+          "armyGuidance": "Longbeards, Hammerers, Thunderers, Ironbreakers, Slayers, Gyrocopter",
+          "skillBuild": {
+            "summary": "Yellow สายตัวเองก่อน → ปลด aura ที่ Lv 10 → Blue sustain → Red line ของ elite แนวหน้ากับแนวยิง",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว ไปช่วยแนวรบได้ทัน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3",
+                    "name": "Yellow: Melee Attack I",
+                    "points": "",
+                    "reason": "เข้าไฟต์เองได้ตั้งแต่ต้นเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "4–5",
+                    "name": "Blue: Replenishment I–II",
+                    "points": "",
+                    "reason": "ลด downtime หลังไฟต์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Yellow: Melee Defence I",
+                    "points": "",
+                    "reason": "ยืนแนวหน้าไม่ตายง่าย",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Red: Dwarf Warriors – Melee Defence",
+                    "points": "",
+                    "reason": "แนวหน้าราคาถูกยืนนานขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "9",
+                    "name": "Yellow: Armour",
+                    "points": "",
+                    "reason": "ทนยิงและทนชนขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "10",
+                    "name": "White Dwarf Aura (Ability)",
+                    "points": "",
+                    "reason": "ปลด aura ประจำตัว ค้ำกองรอบตัว",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Red: Longbeards – Leadership Aura",
+                    "points": "",
+                    "reason": "ซ้อน aura ล็อกไลน์กลาง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Yellow: Melee Attack II",
+                    "points": "",
+                    "reason": "ต่อสายชน เก็บก้อนที่จะแตกได้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "14–15",
+                    "name": "Red: Thunderers",
+                    "points": "",
+                    "reason": "เปลี่ยนแนวยิงหลักเป็นดินปืน AP",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Yellow: Ward Save",
+                    "points": "",
+                    "reason": "กัน magic / missile ตอนยืนกลางกอง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "17",
+                    "name": "Red: Hammerers – Melee Attack",
+                    "points": "",
+                    "reason": "ก้อน AP ไว้เจาะเกราะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "20",
+                    "name": "Red: Ironbreakers – Melee Defence",
+                    "points": "",
+                    "reason": "เริ่มวางแกน elite แนวหน้า",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "25",
+                    "name": "Red: Cannon – Accuracy",
+                    "points": "",
+                    "reason": "ลบมอนสเตอร์ก่อนถึงแนว",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Yellow: Leadership Aura",
+                    "points": "",
+                    "reason": "ซ้อนกับ aura ประจำตัว กองแทบไม่แตก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "27",
+                    "name": "Red: Ironbreakers – Armour",
+                    "points": "",
+                    "reason": "แนวหน้าทนสุดในเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "29",
+                    "name": "Yellow: Melee Attack III",
+                    "points": "",
+                    "reason": "ปิดสายดวล เก็บ lord ศัตรูได้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "30",
+                    "name": "Red: Slayers – Anti-Large",
+                    "points": "",
+                    "reason": "ก้อนตอบมอนสเตอร์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "35",
+                    "name": "Red: Gyrocopter",
+                    "points": "",
+                    "reason": "มีปีกไล่ปืนใหญ่ศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไกลขึ้น ไปช่วยแนวรบได้ทัน"
+              },
+              {
+                "level": 3,
+                "skill": "Yellow: Melee Attack I",
+                "note": "Grombrindal เข้าไฟต์เองได้ตั้งแต่ต้นเกม"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 5,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 6,
+                "skill": "Yellow: Melee Defence I",
+                "note": "ยืนแนวหน้าได้โดยไม่ตายง่าย"
+              },
+              {
+                "level": 7,
+                "skill": "Red: Dwarf Warriors – Melee Defence",
+                "note": "แนวหน้าราคาถูกยืนได้นานขึ้น"
+              },
+              {
+                "level": 8,
+                "skill": "Red: Quarrellers – Reload",
+                "note": "แนวยิงต้นเกมถี่ขึ้น"
+              },
+              {
+                "level": 9,
+                "skill": "Yellow: Armour",
+                "note": "ทนยิงและทนชนขึ้นชัดเจน"
+              },
+              {
+                "level": 10,
+                "skill": "White Dwarf Aura (Ability)",
+                "note": "ปลด aura ประจำตัว ค้ำกองรอบตัว"
+              },
+              {
+                "level": 11,
+                "skill": "Red: Longbeards – Leadership Aura",
+                "note": "ซ้อน aura ล็อกไลน์กลางให้แน่น"
+              },
+              {
+                "level": 12,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแล เอางบไปเพิ่ม elite"
+              },
+              {
+                "level": 13,
+                "skill": "Yellow: Melee Attack II",
+                "note": "ต่อสายชน เก็บก้อนที่กำลังจะแตกได้"
+              },
+              {
+                "level": 14,
+                "skill": "Red: Thunderers – Reload",
+                "note": "เปลี่ยนแนวยิงหลักเป็นดินปืน"
+              },
+              {
+                "level": 15,
+                "skill": "Red: Thunderers – Missile Damage",
+                "note": "ดัน damage ต่อชุดยิง"
+              },
+              {
+                "level": 16,
+                "skill": "Yellow: Ward Save",
+                "note": "กัน magic / missile ตอนยืนกลางกอง"
+              },
+              {
+                "level": 17,
+                "skill": "Red: Hammerers – Melee Attack",
+                "note": "ก้อน AP ไว้เจาะเกราะศัตรู"
+              },
+              {
+                "level": 18,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 19,
+                "skill": "Yellow: Melee Defence II",
+                "note": "ยืนกลางกองได้โดยไม่ต้องถอย"
+              },
+              {
+                "level": 20,
+                "skill": "Red: Ironbreakers – Melee Defence",
+                "note": "เริ่มวางแกน elite แนวหน้า"
+              },
+              {
+                "level": 21,
+                "skill": "Red: Grudge Thrower – Reload",
+                "note": "มีปืนกดก่อนปะทะ"
+              },
+              {
+                "level": 22,
+                "skill": "Blue: Public Order",
+                "note": "กันกบฏช่วงขยายดินแดน"
+              },
+              {
+                "level": 23,
+                "skill": "Yellow: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 24,
+                "skill": "Red: Hammerers – Armour",
+                "note": "ก้อน AP ยืนได้นานขึ้น"
+              },
+              {
+                "level": 25,
+                "skill": "Red: Cannon – Accuracy",
+                "note": "ลบมอนสเตอร์ก่อนถึงแนว"
+              },
+              {
+                "level": 26,
+                "skill": "Yellow: Leadership Aura",
+                "note": "ซ้อนกับ aura ประจำตัว กองแทบไม่แตก"
+              },
+              {
+                "level": 27,
+                "skill": "Red: Ironbreakers – Armour",
+                "note": "แนวหน้าทนที่สุดในเกม"
+              },
+              {
+                "level": 28,
+                "skill": "Blue: Income / Mining",
+                "note": "ดันเศรษฐกิจใต้ภูเขา"
+              },
+              {
+                "level": 29,
+                "skill": "Yellow: Melee Attack III",
+                "note": "ปิดสายดวลตัวต่อตัว เก็บ lord ศัตรูได้"
+              },
+              {
+                "level": 30,
+                "skill": "Red: Slayers – Anti-Large",
+                "note": "มีก้อนตอบมอนสเตอร์"
+              },
+              {
+                "level": 31,
+                "skill": "Blue: Underway Movement",
+                "note": "ย้ายกองข้ามภูเขาได้ไว"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Irondrakes – Missile Damage",
+                "note": "ก้อน AP ระยะสั้นเจ็บมาก"
+              },
+              {
+                "level": 33,
+                "skill": "Yellow: Missile Resistance",
+                "note": "กันกองยิงของศัตรู"
+              },
+              {
+                "level": 34,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 35,
+                "skill": "Red: Gyrocopter – Missile Damage",
+                "note": "มีปีกไว้ไล่ปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 36,
+                "skill": "Red: Longbeards – Melee Attack",
+                "note": "ไลน์กลางชนะการปะทะ"
+              },
+              {
+                "level": 37,
+                "skill": "Yellow: Melee Defence III",
+                "note": "ปิดสายยืนไฟต์"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Organ Gun – Reload",
+                "note": "กดกองราบใหญ่ ๆ ได้ถี่ขึ้น"
+              },
+              {
+                "level": 39,
+                "skill": "Blue: Upkeep II",
+                "note": "ปิดสายประหยัดงบ"
+              },
+              {
+                "level": 40,
+                "skill": "Red: Irondrakes – Reload",
+                "note": "เทกระสุนถี่ขึ้น"
+              },
+              {
+                "level": 41,
+                "skill": "Yellow: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 42,
+                "skill": "Red: Ironbreakers – Melee Attack",
+                "note": "elite แนวหน้าตีเจ็บขึ้น"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Miners – Ambush",
+                "note": "เปิดทางไปเก็บปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 44,
+                "skill": "Blue: Diplomacy / Grudges",
+                "note": "ปิดสายแคมเปญ"
+              },
+              {
+                "level": 45,
+                "skill": "Red: Thunderers – Range",
+                "note": "ยิงก่อนเข้าระยะศัตรู"
+              },
+              {
+                "level": 46,
+                "skill": "Red: Giant Slayers – Anti-Large",
+                "note": "ก้อนตอบตัวใหญ่ปลายเกม"
+              },
+              {
+                "level": 47,
+                "skill": "Yellow: Leadership II",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "longbeards",
+            "hammerers",
+            "thunderers",
+            "ironbreakers",
+            "slayers",
+            "gyrocopter"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "dwarf-warriors",
+          "name": "Dwarf Warriors",
+          "imageUrl": "assets/units/dwarfs/chibi/dwarf-warriors.svg",
+          "type": "Melee Infantry",
+          "role": "Line Holder / Cheap Anchor",
+          "description": "แนวหน้าพื้นฐานที่ถูกและทนเกินราคา ใช้ยืนล็อกไลน์ให้ปืนกับปืนใหญ่ทำงานได้เต็มที่",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,680"
+            },
+            {
+              "label": "Armour",
+              "value": "90"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "130"
+            },
+            {
+              "label": "MA",
+              "value": "26"
+            },
+            {
+              "label": "MD",
+              "value": "34"
+            },
+            {
+              "label": "WS",
+              "value": "24"
+            },
+            {
+              "label": "Charge",
+              "value": "18"
+            },
+            {
+              "label": "Cost",
+              "value": "550"
+            }
+          ],
+          "traits": [
+            "เกราะหนา",
+            "Leadership สูง",
+            "Upkeep ถูก",
+            "เดินช้า"
+          ]
+        },
+        {
+          "id": "dwarf-warriors-great-weapons",
+          "name": "Dwarf Warriors (Great Weapons)",
+          "imageUrl": "assets/units/dwarfs/chibi/dwarf-warriors-great-weapons.svg",
+          "type": "Melee Infantry",
+          "role": "Cheap Armour-Piercing",
+          "description": "เวอร์ชันขวานใหญ่ แลกโล่กับ damage เจาะเกราะ ใช้เป็นก้อนตีสวนราคาประหยัด",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,680"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "130"
+            },
+            {
+              "label": "MA",
+              "value": "30"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "28"
+            },
+            {
+              "label": "Charge",
+              "value": "24"
+            },
+            {
+              "label": "Cost",
+              "value": "650"
+            }
+          ],
+          "traits": [
+            "Armour-Piercing",
+            "Upkeep ถูก",
+            "ไม่มีโล่",
+            "เดินช้า"
+          ]
+        },
+        {
+          "id": "longbeards",
+          "name": "Longbeards",
+          "imageUrl": "assets/units/dwarfs/chibi/longbeards.svg",
+          "type": "Melee Infantry",
+          "role": "Line Holder + Leadership Aura",
+          "description": "รุ่นเก๋าที่มี aura ค้ำ leadership ให้ก้อนรอบตัว ควรวางไว้กลางไลน์เสมอ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "8,640"
+            },
+            {
+              "label": "Armour",
+              "value": "100"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "140"
+            },
+            {
+              "label": "MA",
+              "value": "32"
+            },
+            {
+              "label": "MD",
+              "value": "40"
+            },
+            {
+              "label": "WS",
+              "value": "28"
+            },
+            {
+              "label": "Charge",
+              "value": "20"
+            },
+            {
+              "label": "Cost",
+              "value": "900"
+            }
+          ],
+          "traits": [
+            "Leadership Aura",
+            "เกราะหนา",
+            "ค้ำไลน์กลาง",
+            "เดินช้า"
+          ]
+        },
+        {
+          "id": "longbeards-great-weapons",
+          "name": "Longbeards (Great Weapons)",
+          "imageUrl": "assets/units/dwarfs/chibi/longbeards-great-weapons.svg",
+          "type": "Melee Infantry",
+          "role": "Armour-Piercing Line",
+          "description": "รุ่นเก๋าถือขวานใหญ่ เจาะเกราะได้และยังมี aura ติดตัว ใช้ตอบแนวหน้าเกราะหนาของศัตรู",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "8,640"
+            },
+            {
+              "label": "Armour",
+              "value": "80"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "140"
+            },
+            {
+              "label": "MA",
+              "value": "36"
+            },
+            {
+              "label": "MD",
+              "value": "32"
+            },
+            {
+              "label": "WS",
+              "value": "32"
+            },
+            {
+              "label": "Charge",
+              "value": "26"
+            },
+            {
+              "label": "Cost",
+              "value": "1,000"
+            }
+          ],
+          "traits": [
+            "Armour-Piercing",
+            "Leadership Aura",
+            "ไม่มีโล่",
+            "เดินช้า"
+          ]
+        },
+        {
+          "id": "quarrellers",
+          "name": "Quarrellers",
+          "imageUrl": "assets/units/dwarfs/chibi/quarrellers.svg",
+          "type": "Missile Infantry",
+          "role": "Cheap Ranged / Early Game",
+          "description": "หน้าไม้ราคาประหยัดของต้นเกม ยิงไกลพอตัวและยืนแลกกับแนวยิงศัตรูได้เพราะมีเกราะ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "6,720"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "20"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "18"
+            },
+            {
+              "label": "Charge",
+              "value": "10"
+            },
+            {
+              "label": "Range",
+              "value": "180"
+            },
+            {
+              "label": "Missile",
+              "value": "25"
+            },
+            {
+              "label": "Cost",
+              "value": "650"
+            }
+          ],
+          "traits": [
+            "ราคาถูก",
+            "ต้นเกม",
+            "มีเกราะ",
+            "แนวยิงสำรอง"
+          ]
+        },
+        {
+          "id": "thunderers",
+          "name": "Thunderers",
+          "imageUrl": "assets/units/dwarfs/chibi/thunderers.svg",
+          "type": "Missile Infantry",
+          "role": "Armour-Piercing Gunline",
+          "description": "ปืนไฟหลักของกอง ยิงเจาะเกราะได้ทุกนัด เป็นตัวทำ damage หลักของสายตั้งรับ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "6,720"
+            },
+            {
+              "label": "Armour",
+              "value": "80"
+            },
+            {
+              "label": "Leadership",
+              "value": "72"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "22"
+            },
+            {
+              "label": "MD",
+              "value": "28"
+            },
+            {
+              "label": "WS",
+              "value": "18"
+            },
+            {
+              "label": "Charge",
+              "value": "10"
+            },
+            {
+              "label": "Range",
+              "value": "140"
+            },
+            {
+              "label": "Missile",
+              "value": "32"
+            },
+            {
+              "label": "Cost",
+              "value": "900"
+            }
+          ],
+          "traits": [
+            "Armour-Piercing",
+            "แนวยิงหลัก",
+            "มีเกราะ",
+            "ระยะกลาง"
+          ]
+        },
+        {
+          "id": "irondrakes",
+          "name": "Irondrakes",
+          "imageUrl": "assets/units/dwarfs/chibi/irondrakes.svg",
+          "type": "Missile Infantry",
+          "role": "Short-Range Burst / Anti-Infantry",
+          "description": "เครื่องพ่นไฟระยะสั้น เกราะหนามาก ยืนหน้าแนวแล้วเผาก้อนที่กำลังเดินเข้าได้เลย",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "90"
+            },
+            {
+              "label": "HP",
+              "value": "7,200"
+            },
+            {
+              "label": "Armour",
+              "value": "130"
+            },
+            {
+              "label": "Leadership",
+              "value": "78"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "130"
+            },
+            {
+              "label": "MA",
+              "value": "26"
+            },
+            {
+              "label": "MD",
+              "value": "32"
+            },
+            {
+              "label": "WS",
+              "value": "22"
+            },
+            {
+              "label": "Charge",
+              "value": "12"
+            },
+            {
+              "label": "Range",
+              "value": "80"
+            },
+            {
+              "label": "Missile",
+              "value": "38"
+            },
+            {
+              "label": "Cost",
+              "value": "1,250"
+            }
+          ],
+          "traits": [
+            "Armour-Piercing",
+            "เกราะหนามาก",
+            "ระยะสั้น",
+            "เผาแนวราบ"
+          ]
+        },
+        {
+          "id": "irondrakes-trollhammer-torpedo",
+          "name": "Irondrakes (Trollhammer Torpedo)",
+          "imageUrl": "assets/units/dwarfs/chibi/irondrakes-trollhammer-torpedo.svg",
+          "type": "Missile Infantry",
+          "role": "Anti-Large Ranged",
+          "description": "รุ่นตอร์ปิโด ใช้ลบมอนสเตอร์และตัวใหญ่จากระยะกลาง เป็นคำตอบหลักของ Dwarfs ต่อของบิน/ของยักษ์",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "60"
+            },
+            {
+              "label": "HP",
+              "value": "4,800"
+            },
+            {
+              "label": "Armour",
+              "value": "130"
+            },
+            {
+              "label": "Leadership",
+              "value": "78"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "130"
+            },
+            {
+              "label": "MA",
+              "value": "24"
+            },
+            {
+              "label": "MD",
+              "value": "30"
+            },
+            {
+              "label": "WS",
+              "value": "20"
+            },
+            {
+              "label": "Charge",
+              "value": "12"
+            },
+            {
+              "label": "Range",
+              "value": "130"
+            },
+            {
+              "label": "Missile",
+              "value": "44"
+            },
+            {
+              "label": "Cost",
+              "value": "1,400"
+            }
+          ],
+          "traits": [
+            "Anti-Large",
+            "Armour-Piercing",
+            "เกราะหนามาก",
+            "ลบมอนสเตอร์"
+          ]
+        },
+        {
+          "id": "ironbreakers",
+          "name": "Ironbreakers",
+          "imageUrl": "assets/units/dwarfs/chibi/ironbreakers.svg",
+          "type": "Melee Infantry",
+          "role": "Elite Anchor / Unbreakable Line",
+          "description": "แนวหน้าที่ทนที่สุดในเกม เกราะสูงและ leadership แทบไม่แตก ใช้ค้ำจุดที่ศัตรูทุ่มหนักที่สุด",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "9,600"
+            },
+            {
+              "label": "Armour",
+              "value": "150"
+            },
+            {
+              "label": "Leadership",
+              "value": "85"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "150"
+            },
+            {
+              "label": "MA",
+              "value": "34"
+            },
+            {
+              "label": "MD",
+              "value": "50"
+            },
+            {
+              "label": "WS",
+              "value": "28"
+            },
+            {
+              "label": "Charge",
+              "value": "22"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Elite",
+            "เกราะสูงสุด",
+            "ยืนไม่แตก",
+            "Shieldwall"
+          ]
+        },
+        {
+          "id": "hammerers",
+          "name": "Hammerers",
+          "imageUrl": "assets/units/dwarfs/chibi/hammerers.svg",
+          "type": "Melee Infantry",
+          "role": "Elite Armour-Piercing Damage",
+          "description": "ก้อนค้อนชั้น elite ตีเจาะเกราะแรงมาก ใช้เป็นตัวเปิดไลน์แทน Ironbreakers ที่เน้นทน",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "9,600"
+            },
+            {
+              "label": "Armour",
+              "value": "110"
+            },
+            {
+              "label": "Leadership",
+              "value": "85"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "150"
+            },
+            {
+              "label": "MA",
+              "value": "44"
+            },
+            {
+              "label": "MD",
+              "value": "38"
+            },
+            {
+              "label": "WS",
+              "value": "36"
+            },
+            {
+              "label": "Charge",
+              "value": "32"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Elite",
+            "Armour-Piercing",
+            "ตัวทำ damage",
+            "เดินช้า"
+          ]
+        },
+        {
+          "id": "slayers",
+          "name": "Slayers",
+          "imageUrl": "assets/units/dwarfs/chibi/slayers.svg",
+          "type": "Melee Infantry",
+          "role": "Unbreakable Anti-Large",
+          "description": "ก้อนไร้เกราะที่ไม่มีวันแตก ใช้กอด monster และ cavalry ไว้จนกว่าที่เหลือจะเก็บงาน",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,200"
+            },
+            {
+              "label": "Armour",
+              "value": "0"
+            },
+            {
+              "label": "Leadership",
+              "value": "100"
+            },
+            {
+              "label": "Speed",
+              "value": "30"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "38"
+            },
+            {
+              "label": "MD",
+              "value": "30"
+            },
+            {
+              "label": "WS",
+              "value": "32"
+            },
+            {
+              "label": "Charge",
+              "value": "26"
+            },
+            {
+              "label": "Cost",
+              "value": "800"
+            }
+          ],
+          "traits": [
+            "Unbreakable",
+            "Anti-Large",
+            "ไม่มีเกราะ",
+            "ราคาถูก"
+          ]
+        },
+        {
+          "id": "giant-slayers",
+          "name": "Giant Slayers",
+          "imageUrl": "assets/units/dwarfs/chibi/giant-slayers.svg",
+          "type": "Melee Infantry",
+          "role": "Elite Unbreakable Anti-Large",
+          "description": "รุ่นอัปเกรดของ Slayers ตีเจ็บกว่าเดิมมาก เป็นก้อนตอบมอนสเตอร์ปลายเกมที่คุ้มที่สุด",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "8,000"
+            },
+            {
+              "label": "Armour",
+              "value": "0"
+            },
+            {
+              "label": "Leadership",
+              "value": "100"
+            },
+            {
+              "label": "Speed",
+              "value": "30"
+            },
+            {
+              "label": "Mass",
+              "value": "130"
+            },
+            {
+              "label": "MA",
+              "value": "48"
+            },
+            {
+              "label": "MD",
+              "value": "36"
+            },
+            {
+              "label": "WS",
+              "value": "40"
+            },
+            {
+              "label": "Charge",
+              "value": "32"
+            },
+            {
+              "label": "Cost",
+              "value": "1,100"
+            }
+          ],
+          "traits": [
+            "Unbreakable",
+            "Anti-Large",
+            "Armour-Piercing",
+            "ไม่มีเกราะ"
+          ]
+        },
+        {
+          "id": "miners-blasting-charges",
+          "name": "Miners (Blasting Charges)",
+          "imageUrl": "assets/units/dwarfs/chibi/miners-blasting-charges.svg",
+          "type": "Melee Infantry",
+          "role": "Ambush / Anti-Artillery",
+          "description": "ก้อนซุ่มโจมตี พกระเบิดไว้เปิดหน้า ใช้โผล่หลังกองศัตรูไปเก็บปืนใหญ่กับ caster โดยตรง",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,680"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "30"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "28"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "26"
+            },
+            {
+              "label": "Charge",
+              "value": "22"
+            },
+            {
+              "label": "Cost",
+              "value": "800"
+            }
+          ],
+          "traits": [
+            "Ambush",
+            "Anti-Artillery",
+            "ระเบิดเปิดหน้า",
+            "Vanguard"
+          ]
+        },
+        {
+          "id": "rangers-great-weapons",
+          "name": "Rangers (Great Weapons)",
+          "imageUrl": "assets/units/dwarfs/chibi/rangers-great-weapons.svg",
+          "type": "Melee Infantry",
+          "role": "Vanguard Skirmish Line",
+          "description": "ก้อน vanguard ที่วางล่วงหน้าได้ ใช้กันปีกและกดปืนใหญ่ศัตรูก่อนไฟต์หลักจะเริ่ม",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,680"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "72"
+            },
+            {
+              "label": "Speed",
+              "value": "32"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "32"
+            },
+            {
+              "label": "MD",
+              "value": "28"
+            },
+            {
+              "label": "WS",
+              "value": "30"
+            },
+            {
+              "label": "Charge",
+              "value": "24"
+            },
+            {
+              "label": "Cost",
+              "value": "900"
+            }
+          ],
+          "traits": [
+            "Vanguard",
+            "Armour-Piercing",
+            "เดินป่าเก่ง",
+            "กันปีก"
+          ]
+        },
+        {
+          "id": "grudge-thrower",
+          "name": "Grudge Thrower",
+          "imageUrl": "assets/units/dwarfs/chibi/grudge-thrower.svg",
+          "type": "Artillery",
+          "role": "Area Denial / Anti-Infantry",
+          "description": "เครื่องยิงหินแบบพรมพื้นที่ เอาไว้กดกองราบใหญ่และไล่ศัตรูออกจากจุดตั้งรับ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "1,760"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "12"
+            },
+            {
+              "label": "MD",
+              "value": "20"
+            },
+            {
+              "label": "WS",
+              "value": "10"
+            },
+            {
+              "label": "Charge",
+              "value": "0"
+            },
+            {
+              "label": "Range",
+              "value": "400"
+            },
+            {
+              "label": "Missile",
+              "value": "-"
+            },
+            {
+              "label": "Cost",
+              "value": "1,000"
+            }
+          ],
+          "traits": [
+            "Artillery",
+            "AoE",
+            "ราคาถูก",
+            "ไล่แนวราบ"
+          ]
+        },
+        {
+          "id": "cannon",
+          "name": "Cannon",
+          "imageUrl": "assets/units/dwarfs/chibi/cannon.svg",
+          "type": "Artillery",
+          "role": "Long-Range Direct Fire",
+          "description": "ปืนใหญ่ยิงตรง ใช้ลบมอนสเตอร์และ lord ศัตรูตั้งแต่ก่อนเข้าปะทะ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "1,760"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "12"
+            },
+            {
+              "label": "MD",
+              "value": "20"
+            },
+            {
+              "label": "WS",
+              "value": "10"
+            },
+            {
+              "label": "Charge",
+              "value": "0"
+            },
+            {
+              "label": "Range",
+              "value": "450"
+            },
+            {
+              "label": "Missile",
+              "value": "-"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Artillery",
+            "Armour-Piercing",
+            "ยิงตรง",
+            "ลบตัวใหญ่"
+          ]
+        },
+        {
+          "id": "organ-gun",
+          "name": "Organ Gun",
+          "imageUrl": "assets/units/dwarfs/chibi/organ-gun.svg",
+          "type": "Artillery",
+          "role": "Close Support / Anti-Infantry",
+          "description": "ปืนกลหลายลำกล้อง ยิงพรมระยะกลางใส่ก้อนราบ ทำ damage รวมสูงมากถ้าตั้งมุมดี",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "1,760"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "12"
+            },
+            {
+              "label": "MD",
+              "value": "20"
+            },
+            {
+              "label": "WS",
+              "value": "10"
+            },
+            {
+              "label": "Charge",
+              "value": "0"
+            },
+            {
+              "label": "Range",
+              "value": "250"
+            },
+            {
+              "label": "Missile",
+              "value": "-"
+            },
+            {
+              "label": "Cost",
+              "value": "1,200"
+            }
+          ],
+          "traits": [
+            "Artillery",
+            "Armour-Piercing",
+            "ระยะกลาง",
+            "กดกองราบ"
+          ]
+        },
+        {
+          "id": "flame-cannon",
+          "name": "Flame Cannon",
+          "imageUrl": "assets/units/dwarfs/chibi/flame-cannon.svg",
+          "type": "Artillery",
+          "role": "Frontline Burn / Area Denial",
+          "description": "ปืนพ่นไฟระยะสั้น เอาไว้ตั้งหลังไลน์แล้วเผาก้อนที่กำลังปะทะอยู่กับแนวหน้าเรา",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "1,760"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "26"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "12"
+            },
+            {
+              "label": "MD",
+              "value": "20"
+            },
+            {
+              "label": "WS",
+              "value": "10"
+            },
+            {
+              "label": "Charge",
+              "value": "0"
+            },
+            {
+              "label": "Range",
+              "value": "130"
+            },
+            {
+              "label": "Missile",
+              "value": "-"
+            },
+            {
+              "label": "Cost",
+              "value": "1,100"
+            }
+          ],
+          "traits": [
+            "Artillery",
+            "ระยะสั้น",
+            "เผาแนวราบ",
+            "ทำลาย morale"
+          ]
+        },
+        {
+          "id": "gyrocopter",
+          "name": "Gyrocopter",
+          "imageUrl": "assets/units/dwarfs/chibi/gyrocopter.svg",
+          "type": "Flying War Machine",
+          "role": "Harass / Anti-Artillery",
+          "description": "เฮลิคอปเตอร์คนแคระ ใช้บินข้ามแนวไปกวนปืนใหญ่และแนวยิงศัตรู ชดเชยจุดอ่อนเรื่องความเร็ว",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "3,520"
+            },
+            {
+              "label": "Armour",
+              "value": "50"
+            },
+            {
+              "label": "Leadership",
+              "value": "75"
+            },
+            {
+              "label": "Speed",
+              "value": "78"
+            },
+            {
+              "label": "Mass",
+              "value": "600"
+            },
+            {
+              "label": "MA",
+              "value": "20"
+            },
+            {
+              "label": "MD",
+              "value": "28"
+            },
+            {
+              "label": "WS",
+              "value": "18"
+            },
+            {
+              "label": "Charge",
+              "value": "14"
+            },
+            {
+              "label": "Range",
+              "value": "100"
+            },
+            {
+              "label": "Missile",
+              "value": "24"
+            },
+            {
+              "label": "Cost",
+              "value": "900"
+            }
+          ],
+          "traits": [
+            "Flying",
+            "Anti-Artillery",
+            "Harass",
+            "ตัวเร็วตัวเดียวของกอง"
+          ]
+        },
+        {
+          "id": "gyrobomber",
+          "name": "Gyrobomber",
+          "imageUrl": "assets/units/dwarfs/chibi/gyrobomber.svg",
+          "type": "Flying War Machine",
+          "role": "Air Bomber / Anti-Infantry",
+          "description": "รุ่นทิ้งระเบิด ใช้บินผ่านก้อนราบใหญ่ ๆ แล้วโปรยระเบิดใส่ ทำ damage และ morale พร้อมกัน",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "3"
+            },
+            {
+              "label": "HP",
+              "value": "3,960"
+            },
+            {
+              "label": "Armour",
+              "value": "60"
+            },
+            {
+              "label": "Leadership",
+              "value": "78"
+            },
+            {
+              "label": "Speed",
+              "value": "72"
+            },
+            {
+              "label": "Mass",
+              "value": "700"
+            },
+            {
+              "label": "MA",
+              "value": "22"
+            },
+            {
+              "label": "MD",
+              "value": "30"
+            },
+            {
+              "label": "WS",
+              "value": "20"
+            },
+            {
+              "label": "Charge",
+              "value": "16"
+            },
+            {
+              "label": "Range",
+              "value": "80"
+            },
+            {
+              "label": "Missile",
+              "value": "40"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Flying",
+            "AoE",
+            "Armour-Piercing",
+            "กดจากฟ้า"
+          ]
+        }
+      ]
+    }
+  }
+}

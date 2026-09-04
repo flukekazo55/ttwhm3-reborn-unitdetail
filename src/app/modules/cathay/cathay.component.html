@@ -1,0 +1,23 @@
+<ng-container *ngIf="vm$ | async as vm">
+  <main class="faction-page container-xl py-4">
+    <div class="loading-box" *ngIf="vm.loading">
+      <p-progressSpinner strokeWidth="4"></p-progressSpinner>
+      <span>กำลังโหลดข้อมูล {{ pageTitle }}...</span>
+    </div>
+
+    <div class="alert alert-danger" role="alert" *ngIf="vm.error">
+      {{ vm.error }}
+    </div>
+
+    <ng-container *ngIf="vm.faction as faction">
+      <app-guide-lord-detail
+        *ngIf="(lordId$ | async) as lordId; else selectTpl"
+        [faction]="faction"
+        [lordId]="lordId">
+      </app-guide-lord-detail>
+      <ng-template #selectTpl>
+        <app-guide-lord-select [faction]="faction"></app-guide-lord-select>
+      </ng-template>
+    </ng-container>
+  </main>
+</ng-container>

@@ -38,7 +38,33 @@ export class HomeComponent {
       soft: '#e4f1fc',
       art: 'assets/lords/kislev/chibi/katarin-lord.png',
     },
+    {
+      id: 'cathay',
+      name: 'Grand Cathay',
+      subtitle: 'The Celestial Empire Endures',
+      blurb: 'สายตั้งรับ ยืนแนวค้ำหน้า แล้วให้ปืน เวท และ Harmony ทำงาน',
+      emoji: '🐉',
+      accent: '#2f9e78',
+      soft: '#e3f5ed',
+      art: 'assets/lords/cathay/chibi/miao-ying-lord.svg',
+    },
+    {
+      id: 'dwarfs',
+      name: 'Dwarfs',
+      subtitle: 'Grudges Are Never Forgotten',
+      blurb: 'ไม่มีเวทเลย แลกด้วยเกราะหนา ปืนแม่น และไลน์ที่ไม่แตก',
+      emoji: '🔨',
+      accent: '#b8762b',
+      soft: '#f7ecd9',
+      art: 'assets/lords/dwarfs/chibi/thorgrim-lord.svg',
+    },
   ];
+
+  failedArt = new Set<string>();
+
+  onArtError(id: string): void {
+    this.failedArt.add(id);
+  }
 
   trackFaction(_: number, faction: FactionChoice): string {
     return faction.id;

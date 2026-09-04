@@ -1,4 +1,4 @@
-export type FactionId = 'khorne' | 'kislev';
+export type FactionId = 'khorne' | 'kislev' | 'cathay' | 'dwarfs';
 
 export interface GuideTheme {
   accent: string;

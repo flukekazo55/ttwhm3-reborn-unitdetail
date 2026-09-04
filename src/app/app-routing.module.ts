@@ -12,6 +12,14 @@ const routes: Routes = [
     path: 'kislev',
     loadChildren: () => import('./modules/kislev/kislev.module').then((module) => module.KislevModule),
   },
+  {
+    path: 'cathay',
+    loadChildren: () => import('./modules/cathay/cathay.module').then((module) => module.CathayModule),
+  },
+  {
+    path: 'dwarfs',
+    loadChildren: () => import('./modules/dwarfs/dwarfs.module').then((module) => module.DwarfsModule),
+  },
   { path: '**', redirectTo: '' },
 ];
 

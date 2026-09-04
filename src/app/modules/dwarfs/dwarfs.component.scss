@@ -1,0 +1,8 @@
+@use '../../../styles/variables' as v;
+
+:host { display: block; min-height: 100vh; }
+.faction-page { min-height: 80vh; }
+.loading-box {
+  min-height: 55vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 1rem; color: v.$text-muted;
+}

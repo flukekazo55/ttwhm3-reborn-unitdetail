@@ -14,7 +14,13 @@
       [style.--soft]="faction.soft">
       <div class="card-art">
         <span class="card-emoji">{{ faction.emoji }}</span>
-        <img [src]="faction.art" [alt]="faction.name" loading="lazy">
+        <img
+          *ngIf="!failedArt.has(faction.id)"
+          [src]="faction.art"
+          [alt]="faction.name"
+          loading="lazy"
+          (error)="onArtError(faction.id)">
+        <div class="art-fallback" *ngIf="failedArt.has(faction.id)">{{ faction.name }}</div>
       </div>
       <div class="card-body">
         <span class="card-eyebrow">{{ faction.subtitle }}</span>

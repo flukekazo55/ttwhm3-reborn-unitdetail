@@ -14,6 +14,16 @@ Angular 18.1 project refactored to **one lazy-loaded feature module per faction*
   -> KislevModule (lazy)
   -> Kislev NgRx feature state/effect
   -> assets/data/kislev.json only
+
+/cathay
+  -> CathayModule (lazy)
+  -> Cathay NgRx feature state/effect
+  -> assets/data/cathay.json only
+
+/dwarfs
+  -> DwarfsModule (lazy)
+  -> Dwarfs NgRx feature state/effect
+  -> assets/data/dwarfs.json only
 ```
 
 Shared presentation components (`Lord`, `Skill Build`, `Unit Card`, faction renderer) live in `GuideSharedModule`. They contain no faction data and can be reused by future modules.
@@ -26,29 +36,43 @@ src/app/
 │   ├── khorne/
 │   │   ├── khorne.module.ts
 │   │   └── khorne.component.*
-│   └── kislev/
-│       ├── kislev.module.ts
-│       └── kislev.component.*
+│   ├── kislev/
+│   │   ├── kislev.module.ts
+│   │   └── kislev.component.*
+│   ├── cathay/
+│   │   ├── cathay.module.ts
+│   │   └── cathay.component.*
+│   └── dwarfs/
+│       ├── dwarfs.module.ts
+│       └── dwarfs.component.*
 ├── services/
 │   ├── khorne/khorne.service.ts
-│   └── kislev/kislev.service.ts
+│   ├── kislev/kislev.service.ts
+│   ├── cathay/cathay.service.ts
+│   └── dwarfs/dwarfs.service.ts
 └── shared/
     ├── models/guide.model.ts
     ├── modules/guide-shared/
     ├── stores/khorne/
     ├── stores/kislev/
+    ├── stores/cathay/
+    ├── stores/dwarfs/
     └── utils/guide-mapper.ts
 
 src/assets/data/
 ├── khorne.json
-└── kislev.json
+├── kislev.json
+├── cathay.json
+└── dwarfs.json
 ```
 
 ## Routes
 
 - `/khorne` — loads only Khorne feature + Khorne JSON
 - `/kislev` — loads only Kislev feature + Kislev JSON
-- `/` redirects to `/khorne`
+- `/cathay` — loads only Cathay feature + Cathay JSON
+- `/dwarfs` — loads only Dwarfs feature + Dwarfs JSON
+- `/` shows the faction picker (Home)
 
 ## Run
 
@@ -56,6 +80,22 @@ src/assets/data/
 npm install
 npm start
 ```
+
+## Chibi artwork
+
+Cathay, Dwarfs and Valkia use flat-vector chibi SVGs generated from a single
+parameterised script — each figure is assembled from shared parts (head, beard,
+helmet, torso, weapon, shield, mount, ...) so adding a unit only needs one row
+in `SPECS`.
+
+```bash
+python tools/gen-chibi.py
+```
+
+Writes `src/assets/units/<faction>/chibi/<unit-id>.svg` and
+`src/assets/lords/<faction>/chibi/<lord-id>-lord.svg`. Khorne and Kislev keep
+their existing hand-made PNGs; `imageUrl` / `portraitUrl` in the JSON just point
+at whichever file exists.
 
 ## Why this is lighter
 
@@ -76,5 +116,5 @@ Output:
 dist/warhammer3-faction-guide/browser
 ```
 
-SPA fallback is configured for lazy routes such as `/khorne` and `/kislev`.
+SPA fallback is configured for lazy routes such as `/khorne`, `/kislev`, `/cathay`, and `/dwarfs`.
 See `VERCEL_DEPLOY.md` for details.

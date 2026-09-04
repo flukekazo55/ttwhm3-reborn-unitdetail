@@ -1,0 +1,2261 @@
+{
+  "message": "ok",
+  "data": {
+    "versionLabel": "Grand Cathay guide data (chibi guide format)",
+    "faction": {
+      "id": "cathay",
+      "name": "Grand Cathay",
+      "subtitle": "The Celestial Empire Endures",
+      "description": "กองทัพตั้งรับที่แข็งที่สุดในเกม เน้นยืนแนว Jade Warriors ค้ำหน้า แล้วให้ปืน เวท และระบบ Harmony (Yin/Yang) ทำงานจากหลัง",
+      "theme": {
+        "accent": "#2f9e78",
+        "soft": "#e3f5ed",
+        "border": "#a8dcc6"
+      },
+      "lords": [
+        {
+          "id": "miao-ying",
+          "name": "Miao Ying, the Storm Dragon",
+          "tag": "มือใหม่สาย Hybrid / Magic",
+          "style": "Lore of Heavens + Jade Line",
+          "portraitUrl": "assets/lords/cathay/chibi/miao-ying-lord.svg",
+          "summary": "ตัวเริ่มต้นที่ง่ายที่สุดของ Cathay: ตั้งแนว Jade Warriors ค้ำหน้า, Crossbowmen ยิงหลัง แล้ว Miao Ying ใช้ Lore of Heavens ทั้งกด chaff และ snipe ตัวสำคัญ พอ late ค่อยแปลงร่างมังกรเข้าไปปิดไฟต์เอง",
+          "bestFor": "คนอยากได้กองตั้งรับ ยิง + เวท ที่เล่นง่ายและพลาดยาก",
+          "armyGuidance": "Jade Warriors, Jade Warrior Crossbowmen, Jade Lancers, Sky-Junk, Grand Cannon",
+          "skillBuild": {
+            "summary": "Blue sustain → Lore of Heavens ครบชุด → Red line ของ Jade/Crossbow → ปิดท้ายด้วยสายมังกร",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว เก็บดินแดนต้นเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3",
+                    "name": "Wind Blast",
+                    "points": "",
+                    "reason": "spell ถูก เบรกชาร์จได้",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "4–5",
+                    "name": "Blue: Replenishment I–II",
+                    "points": "",
+                    "reason": "ลด downtime หลังไฟต์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Chain Lightning",
+                    "points": "",
+                    "reason": "เคลียร์ chaff / แนวยิง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Harmony Adept",
+                    "points": "",
+                    "reason": "ลด upkeep + ดัน Yin/Yang",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8",
+                    "name": "Uranon's Thunderbolt",
+                    "points": "",
+                    "reason": "snipe hero และ monster",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "9–10",
+                    "name": "Comet of Casandora + Iceshard Blizzard",
+                    "points": "",
+                    "reason": "burst และ debuff ทั้งแนว",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Arcane Conduit",
+                    "points": "",
+                    "reason": "WoM เพิ่ม ร่ายต่อเนื่อง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "12–13",
+                    "name": "Red: Jade Warriors",
+                    "points": "",
+                    "reason": "แนวหน้ายืนนานและตีเจ็บขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "14",
+                    "name": "Harmonic Convergence",
+                    "points": "",
+                    "reason": "buff ก้อนที่กำลังปะทะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Storm Dragon Form",
+                    "points": "",
+                    "reason": "ปลดร่างมังกร",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "17–18",
+                    "name": "Lord: Melee Attack / Defence",
+                    "points": "",
+                    "reason": "ให้ร่างมังกรเข้าไฟต์ได้จริง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "19–20",
+                    "name": "Red: Crossbowmen",
+                    "points": "",
+                    "reason": "แนวยิงหลักถี่และเจ็บขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "21",
+                    "name": "Curse of the Midnight Wind",
+                    "points": "",
+                    "reason": "กัน cavalry / monster",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26–27",
+                    "name": "อัปสเปลหลัก (Wind Blast, Comet)",
+                    "points": "",
+                    "reason": "damage และ utility เพิ่ม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "29",
+                    "name": "Red: Jade Lancers – Charge",
+                    "points": "",
+                    "reason": "ปิดปีกแรงขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "32",
+                    "name": "Red: Dragon Guard",
+                    "points": "",
+                    "reason": "elite แนวหน้าใน late",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "33",
+                    "name": "Lord: Ward Save",
+                    "points": "",
+                    "reason": "กัน magic / missile ตอนเป็นมังกร",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "35",
+                    "name": "Red: Terracotta Sentinel",
+                    "points": "",
+                    "reason": "ตัวใหญ่ค้ำแนวกลาง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไกลขึ้น เก็บ settlement ต้นเกมได้ไว"
+              },
+              {
+                "level": 3,
+                "skill": "Wind Blast",
+                "note": "spell ราคาถูก ใช้ผลักแนวหน้าและเบรกชาร์จ"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 5,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 6,
+                "skill": "Chain Lightning",
+                "note": "เคลียร์แนวยิงและ chaff ได้คุ้มมานา"
+              },
+              {
+                "level": 7,
+                "skill": "Harmony Adept",
+                "note": "ลด upkeep และดัน bonus Yin/Yang"
+              },
+              {
+                "level": 8,
+                "skill": "Uranon's Thunderbolt",
+                "note": "sniper ใส่ hero และ monster"
+              },
+              {
+                "level": 9,
+                "skill": "Comet of Casandora",
+                "note": "burst ใส่ artillery และก้อนที่ยืนนิ่ง"
+              },
+              {
+                "level": 10,
+                "skill": "Iceshard Blizzard",
+                "note": "debuff ยิง + melee ทั้งแนวศัตรู"
+              },
+              {
+                "level": 11,
+                "skill": "Arcane Conduit",
+                "note": "Winds of Magic เพิ่ม ร่ายได้ต่อเนื่อง"
+              },
+              {
+                "level": 12,
+                "skill": "Red: Jade Warriors – Melee Defence",
+                "note": "แนวหน้ายืนได้นานขึ้นชัดเจน"
+              },
+              {
+                "level": 13,
+                "skill": "Red: Jade Warriors – Melee Attack",
+                "note": "เพิ่ม damage ให้แนวหน้า"
+              },
+              {
+                "level": 14,
+                "skill": "Harmonic Convergence",
+                "note": "buff ก้อนที่กำลังปะทะให้ชนะไลน์"
+              },
+              {
+                "level": 15,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแล เอางบไปเพิ่ม unit ดี ๆ"
+              },
+              {
+                "level": 16,
+                "skill": "Storm Dragon Form",
+                "note": "ปลดร่างมังกร เปลี่ยน Miao Ying เป็นตัวถือไฟต์"
+              },
+              {
+                "level": 17,
+                "skill": "Lord: Melee Attack I",
+                "note": "ให้ร่างมังกรเข้าชนได้คุ้ม"
+              },
+              {
+                "level": 18,
+                "skill": "Lord: Melee Defence I",
+                "note": "กันตัวตอนโดนรุมในร่างมังกร"
+              },
+              {
+                "level": 19,
+                "skill": "Red: Crossbowmen – Reload",
+                "note": "แนวยิงหลักถี่ขึ้น"
+              },
+              {
+                "level": 20,
+                "skill": "Red: Crossbowmen – Missile Damage",
+                "note": "ดัน damage ต่อชุดยิง"
+              },
+              {
+                "level": 21,
+                "skill": "Curse of the Midnight Wind",
+                "note": "กัน cavalry / monster ก่อนเข้าปะทะ"
+              },
+              {
+                "level": 22,
+                "skill": "Blue: Replenishment III",
+                "note": "ดัน sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 23,
+                "skill": "Lord: Melee Attack II",
+                "note": "ต่อสายชนให้ร่างมังกรเก็บก้อนได้"
+              },
+              {
+                "level": 24,
+                "skill": "Harmony Master",
+                "note": "ดัน bonus Yin/Yang เต็มระบบ"
+              },
+              {
+                "level": 25,
+                "skill": "Red: Sky-Junk – Reload",
+                "note": "ปืนบนฟ้ายิงถี่ขึ้น"
+              },
+              {
+                "level": 26,
+                "skill": "Wind Blast (Upgrade)",
+                "note": "overcast ผลักแรงขึ้น เบรกชาร์จได้จริง"
+              },
+              {
+                "level": 27,
+                "skill": "Comet of Casandora (Upgrade)",
+                "note": "damage เพิ่มชัดเจนในช่วง late"
+              },
+              {
+                "level": 28,
+                "skill": "Lord: Melee Defence II",
+                "note": "ยืนกลางกองได้โดยไม่ต้องถอย"
+              },
+              {
+                "level": 29,
+                "skill": "Red: Jade Lancers – Charge Bonus",
+                "note": "ปิดปีกแรงขึ้น"
+              },
+              {
+                "level": 30,
+                "skill": "Blue: Public Order / Growth",
+                "note": "ดันเศรษฐกิจฝั่งเหนือ"
+              },
+              {
+                "level": 31,
+                "skill": "Chain Lightning (Upgrade)",
+                "note": "เคลียร์กองใหญ่ได้ในร่างเดียว"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Dragon Guard – Melee Attack",
+                "note": "elite แนวหน้าเริ่มเป็นแกนหลัก"
+              },
+              {
+                "level": 33,
+                "skill": "Lord: Ward Save",
+                "note": "กัน magic / missile ตอนเป็นมังกร"
+              },
+              {
+                "level": 34,
+                "skill": "Iceshard Blizzard (Upgrade)",
+                "note": "debuff กว้างขึ้น กดกองยิงศัตรู"
+              },
+              {
+                "level": 35,
+                "skill": "Red: Terracotta Sentinel – Health",
+                "note": "ตัวใหญ่ยืนทนกลางแนว"
+              },
+              {
+                "level": 36,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 37,
+                "skill": "Uranon's Thunderbolt (Upgrade)",
+                "note": "ลบ hero ศัตรูได้ในร่างเดียว"
+              },
+              {
+                "level": 38,
+                "skill": "Lord: Physical Resistance",
+                "note": "ลด damage กายภาพ ยืนไฟต์นานขึ้น"
+              },
+              {
+                "level": 39,
+                "skill": "Red: Crossbowmen – Range",
+                "note": "ยิงก่อนเข้าระยะศัตรู"
+              },
+              {
+                "level": 40,
+                "skill": "Harmonic Convergence (Upgrade)",
+                "note": "buff แรงขึ้น กินไลน์ง่ายขึ้น"
+              },
+              {
+                "level": 41,
+                "skill": "Lord: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 42,
+                "skill": "Red: Sky Lantern – Missile Damage",
+                "note": "กดดันจากฟ้าแรงขึ้น"
+              },
+              {
+                "level": 43,
+                "skill": "Lord: Winds of Magic Reserve",
+                "note": "ร่ายชุดใหญ่ได้ตอนปลายไฟต์"
+              },
+              {
+                "level": 44,
+                "skill": "Red: Jade Warriors – Armour",
+                "note": "แนวหน้าทนยิงมากขึ้น"
+              },
+              {
+                "level": 45,
+                "skill": "Curse of the Midnight Wind (Upgrade)",
+                "note": "debuff ครอบคลุมทั้งกองศัตรู"
+              },
+              {
+                "level": 46,
+                "skill": "Lord: Leadership Aura",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 47,
+                "skill": "Red: Dragon Guard – Armour",
+                "note": "แนวหน้า elite ทนขึ้นอีกชั้น"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node สายเวทที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "jade-warriors",
+            "jade-warrior-crossbowmen",
+            "jade-lancers",
+            "sky-junk",
+            "grand-cannon",
+            "celestial-dragon-guard"
+          ]
+        },
+        {
+          "id": "zhao-ming",
+          "name": "Zhao Ming, the Iron Dragon",
+          "tag": "สายปืน / Artillery",
+          "style": "Lore of Metal + Gunpowder",
+          "portraitUrl": "assets/lords/cathay/chibi/zhao-ming-lord.svg",
+          "summary": "สายยิงเน้นดินปืนของ Cathay: Grand Cannon กับ Fire Rain Rocket เป็นตัวทำ damage หลัก มี Jade Warriors กับ Terracotta Sentinel ค้ำหน้า และ Zhao Ming ใช้ Lore of Metal buff แนวยิงให้เจาะเกราะได้ทั้งกอง",
+          "bestFor": "คนชอบตั้งรับ ยิงจากไกล และเล่นแคมเปญเน้นเงินจาก caravan",
+          "armyGuidance": "Grand Cannon, Fire Rain Rocket, Jade Warrior Crossbowmen, Jade Warriors, Terracotta Sentinel",
+          "skillBuild": {
+            "summary": "Enchanted Blades ก่อนทุกอย่าง → Blue sustain → Red line ของปืน → Lore of Metal ครบชุด",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว คุมชายแดนตะวันตก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3",
+                    "name": "Enchanted Blades of Aiban",
+                    "points": "",
+                    "reason": "buff AP ให้แนวยิง คุ้มสุดต้นเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "4–5",
+                    "name": "Blue: Replenishment I–II",
+                    "points": "",
+                    "reason": "ลด downtime",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Searing Doom",
+                    "points": "",
+                    "reason": "ลบ cavalry / เกราะหนัก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Harmony Adept",
+                    "points": "",
+                    "reason": "ลด upkeep กองผสม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8–9",
+                    "name": "Red: Crossbowmen + Glittering Robe",
+                    "points": "",
+                    "reason": "ยิงถี่ขึ้นและกันยิงสวน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "10",
+                    "name": "Red: Grand Cannon – Reload",
+                    "points": "",
+                    "reason": "ปืนใหญ่ยิงถี่ขึ้น",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Arcane Conduit",
+                    "points": "",
+                    "reason": "WoM เพิ่ม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "12",
+                    "name": "Plague of Rust",
+                    "points": "",
+                    "reason": "ลด armour ให้ปืนเจาะง่าย",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Red: Jade Warriors – Melee Defence",
+                    "points": "",
+                    "reason": "แนวหน้าค้ำปืน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "15",
+                    "name": "Red: Iron Hail Gunners",
+                    "points": "",
+                    "reason": "ก้อน AP ระยะสั้นเจ็บขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Iron Dragon Form",
+                    "points": "",
+                    "reason": "ปลดร่างมังกรเหล็ก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "18",
+                    "name": "Transmutation of Lead",
+                    "points": "",
+                    "reason": "debuff ก้อนหลักศัตรู",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "23–24",
+                    "name": "Red: Grand Cannon – Accuracy + Harmony Master",
+                    "points": "",
+                    "reason": "ปืนแม่นขึ้น + bonus เต็มระบบ",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Red: Fire Rain Rocket – Reload",
+                    "points": "",
+                    "reason": "พรมพื้นที่ถี่ขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "28",
+                    "name": "Blue: Trade / Caravan Income",
+                    "points": "",
+                    "reason": "ดันเงินจาก caravan",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "30",
+                    "name": "Final Transmutation",
+                    "points": "",
+                    "reason": "ลบก้อน elite ปลายไฟต์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "34",
+                    "name": "Red: Dragon Guard",
+                    "points": "",
+                    "reason": "elite แนวหน้า late game",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "38",
+                    "name": "Red: Grand Cannon – Range",
+                    "points": "",
+                    "reason": "ตั้งไกลขึ้น ปลอดภัยขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไกลขึ้น คุมชายแดนตะวันตกได้กว้าง"
+              },
+              {
+                "level": 3,
+                "skill": "Enchanted Blades of Aiban",
+                "note": "buff AP ให้แนวยิง คุ้มที่สุดของต้นเกม"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 5,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 6,
+                "skill": "Searing Doom",
+                "note": "ลบ cavalry และก้อนเกราะหนา"
+              },
+              {
+                "level": 7,
+                "skill": "Harmony Adept",
+                "note": "ลด upkeep ให้กองผสมปืน + แนวหน้า"
+              },
+              {
+                "level": 8,
+                "skill": "Red: Crossbowmen – Reload",
+                "note": "แนวยิงหลักถี่ขึ้น"
+              },
+              {
+                "level": 9,
+                "skill": "Glittering Robe",
+                "note": "กันยิงให้ก้อนแนวหน้าที่กำลังเดินเข้า"
+              },
+              {
+                "level": 10,
+                "skill": "Red: Grand Cannon – Reload",
+                "note": "ปืนใหญ่ยิงถี่ขึ้น"
+              },
+              {
+                "level": 11,
+                "skill": "Arcane Conduit",
+                "note": "Winds of Magic เพิ่ม"
+              },
+              {
+                "level": 12,
+                "skill": "Plague of Rust",
+                "note": "ลด armour ศัตรูให้ปืนเจาะง่าย"
+              },
+              {
+                "level": 13,
+                "skill": "Red: Jade Warriors – Melee Defence",
+                "note": "แนวหน้าค้ำปืนได้นานขึ้น"
+              },
+              {
+                "level": 14,
+                "skill": "Blue: Army Upkeep",
+                "note": "เอาที่ประหยัดไปเพิ่มปืนใหญ่"
+              },
+              {
+                "level": 15,
+                "skill": "Red: Iron Hail Gunners – Missile Damage",
+                "note": "ก้อน AP ระยะสั้นเจ็บขึ้น"
+              },
+              {
+                "level": 16,
+                "skill": "Iron Dragon Form",
+                "note": "ปลดร่างมังกรเหล็ก"
+              },
+              {
+                "level": 17,
+                "skill": "Lord: Melee Attack I",
+                "note": "ให้ร่างมังกรเข้าชนคุ้ม"
+              },
+              {
+                "level": 18,
+                "skill": "Transmutation of Lead",
+                "note": "debuff ก้อนหลักของศัตรูก่อนปะทะ"
+              },
+              {
+                "level": 19,
+                "skill": "Red: Terracotta Sentinel – Health",
+                "note": "ตัวทนไว้ค้ำแนวแทนแนวหน้า"
+              },
+              {
+                "level": 20,
+                "skill": "Enchanted Blades of Aiban (Upgrade)",
+                "note": "buff ครอบคลุมหลายก้อนขึ้น"
+              },
+              {
+                "level": 21,
+                "skill": "Lord: Melee Defence I",
+                "note": "กันตัวตอนโดนรุม"
+              },
+              {
+                "level": 22,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 23,
+                "skill": "Red: Grand Cannon – Accuracy",
+                "note": "ยิงเข้าเป้ามากขึ้น ไม่เสียกระสุน"
+              },
+              {
+                "level": 24,
+                "skill": "Harmony Master",
+                "note": "ดัน bonus Yin/Yang เต็มระบบ"
+              },
+              {
+                "level": 25,
+                "skill": "Searing Doom (Upgrade)",
+                "note": "ลบก้อนเกราะหนักได้ในร่างเดียว"
+              },
+              {
+                "level": 26,
+                "skill": "Red: Fire Rain Rocket – Reload",
+                "note": "ยิงพรมถี่ขึ้น"
+              },
+              {
+                "level": 27,
+                "skill": "Lord: Melee Attack II",
+                "note": "ต่อสายชนให้เก็บก้อนได้"
+              },
+              {
+                "level": 28,
+                "skill": "Blue: Trade / Caravan Income",
+                "note": "ดันเงินจากกองคาราวาน"
+              },
+              {
+                "level": 29,
+                "skill": "Red: Jade Lancers – Charge Bonus",
+                "note": "ปีกไว้ไล่ปืนใหญ่ศัตรู"
+              },
+              {
+                "level": 30,
+                "skill": "Final Transmutation",
+                "note": "ลบก้อน elite ปลายไฟต์"
+              },
+              {
+                "level": 31,
+                "skill": "Lord: Ward Save",
+                "note": "กัน magic / missile"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Crossbowmen – Missile Damage",
+                "note": "ดัน damage ต่อชุดยิง"
+              },
+              {
+                "level": 33,
+                "skill": "Plague of Rust (Upgrade)",
+                "note": "ลด armour ได้กว้างขึ้น"
+              },
+              {
+                "level": 34,
+                "skill": "Red: Dragon Guard – Melee Attack",
+                "note": "elite แนวหน้าสำหรับ late game"
+              },
+              {
+                "level": 35,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 36,
+                "skill": "Lord: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 37,
+                "skill": "Glittering Robe (Upgrade)",
+                "note": "กันยิงได้หลายก้อนพร้อมกัน"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Grand Cannon – Range",
+                "note": "ตั้งไกลขึ้น ปลอดภัยจากม้าศัตรู"
+              },
+              {
+                "level": 39,
+                "skill": "Lord: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 40,
+                "skill": "Red: Terracotta Sentinel – Melee",
+                "note": "ตัวใหญ่ตีเจ็บขึ้น"
+              },
+              {
+                "level": 41,
+                "skill": "Transmutation of Lead (Upgrade)",
+                "note": "กดก้อนหลักศัตรูแรงขึ้น"
+              },
+              {
+                "level": 42,
+                "skill": "Lord: Winds of Magic Reserve",
+                "note": "ร่ายชุดใหญ่ได้ตอนปลายไฟต์"
+              },
+              {
+                "level": 43,
+                "skill": "Red: Iron Hail Gunners – Reload",
+                "note": "เทกระสุนใส่ก้อนที่ปะทะได้ถี่ขึ้น"
+              },
+              {
+                "level": 44,
+                "skill": "Lord: Leadership Aura",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 45,
+                "skill": "Final Transmutation (Upgrade)",
+                "note": "เพิ่มโอกาสลบก้อน elite"
+              },
+              {
+                "level": 46,
+                "skill": "Red: Jade Warriors – Armour",
+                "note": "แนวหน้าทนยิงมากขึ้น"
+              },
+              {
+                "level": 47,
+                "skill": "Blue: Public Order",
+                "note": "กันกบฏช่วงขยายดินแดน"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node สายปืน/เวทที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "grand-cannon",
+            "fire-rain-rocket",
+            "jade-warrior-crossbowmen",
+            "jade-warriors",
+            "terracotta-sentinel",
+            "iron-hail-gunners"
+          ]
+        },
+        {
+          "id": "yuan-bo",
+          "name": "Yuan Bo, the Jade Dragon",
+          "tag": "สาย Support / Compass",
+          "style": "Lore of Yang + Wu Xing War Compass",
+          "portraitUrl": "assets/lords/cathay/chibi/yuan-bo-lord.svg",
+          "summary": "สายค้ำแนวรอบ Wu Xing War Compass: ลากรถศึกไปกลางสนาม ตั้ง Jade Warriors กับ Dragon Guard รอบ ๆ แล้วใช้ buff จาก compass บวก Lore of Yang ทำให้ทั้งกองแข็งกว่าศัตรูทุกก้อน",
+          "bestFor": "คนชอบไฟต์ยืด คุมตำแหน่ง และเล่นกองที่ buff กันเองทั้งกอง",
+          "armyGuidance": "Celestial Dragon Guard, Jade Warriors, Jade Warrior Crossbowmen, Terracotta Sentinel, Longma Riders",
+          "skillBuild": {
+            "summary": "ปลด Compass ก่อน → Blue sustain → Lore of Yang ตามบทบาท → Red line ของ elite แนวหน้า",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2–10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "เดินไว คุมพื้นที่เมืองหลวง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "3",
+                    "name": "Wu Xing War Compass: Deployment",
+                    "points": "",
+                    "reason": "ปลด compass ให้ไวที่สุด",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "4–5",
+                    "name": "Blue: Replenishment I–II",
+                    "points": "",
+                    "reason": "ลด downtime",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Lore of Yang – นุกแนวเส้น",
+                    "points": "",
+                    "reason": "เคลียร์ chaff และแนวยิง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "7",
+                    "name": "Harmony Adept",
+                    "points": "",
+                    "reason": "ลด upkeep + ดัน Yin/Yang",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8–9",
+                    "name": "Red: Jade Warriors + Yang buff",
+                    "points": "",
+                    "reason": "แนวหน้ารอบ compass แข็งขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "10",
+                    "name": "Wu Xing War Compass: Aura I",
+                    "points": "",
+                    "reason": "ขยายรัศมี buff",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11–25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Arcane Conduit",
+                    "points": "",
+                    "reason": "WoM เพิ่ม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "12",
+                    "name": "Lore of Yang – debuff ทั้งกอง",
+                    "points": "",
+                    "reason": "กดกองใหญ่ก่อนปะทะ",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "15",
+                    "name": "Wu Xing War Compass: Health",
+                    "points": "",
+                    "reason": "compass ไม่ตายกลางไฟต์",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Jade Dragon Form",
+                    "points": "",
+                    "reason": "ปลดร่างมังกรหยก",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "18",
+                    "name": "Red: Terracotta Sentinel – Health",
+                    "points": "",
+                    "reason": "ตัวใหญ่ค้ำแนวกลาง",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "19",
+                    "name": "Lore of Yang – สเปลฟื้น",
+                    "points": "",
+                    "reason": "ยืดไลน์ให้ชนะไฟต์ยืด",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "23–24",
+                    "name": "Compass Aura II + Harmony Master",
+                    "points": "",
+                    "reason": "buff ทั้งกองเต็มระบบ",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26–50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Red: Jade Lancers – Charge",
+                    "points": "",
+                    "reason": "ปีกไว้ปิดงาน",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "29",
+                    "name": "Lord: Ward Save",
+                    "points": "",
+                    "reason": "กัน magic / missile",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "32",
+                    "name": "Red: Dragon Guard – Armour",
+                    "points": "",
+                    "reason": "elite ทนยิงขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "39",
+                    "name": "Wu Xing War Compass: Reload",
+                    "points": "",
+                    "reason": "ปืนบน compass ถี่ขึ้น",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "46",
+                    "name": "Red: Dragon Guard (Halberds)",
+                    "points": "",
+                    "reason": "กันมอนสเตอร์ปลายเกม",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "48–50",
+                    "name": "Flex point",
+                    "points": "",
+                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "เดินไกลขึ้น คุมพื้นที่รอบเมืองหลวง"
+              },
+              {
+                "level": 3,
+                "skill": "Wu Xing War Compass: Deployment",
+                "note": "ปลด compass ให้ไว ใช้ค้ำแนวกลาง"
+              },
+              {
+                "level": 4,
+                "skill": "Blue: Replenishment I",
+                "note": "ลด downtime หลังไฟต์"
+              },
+              {
+                "level": 5,
+                "skill": "Blue: Replenishment II",
+                "note": "ต่อสายฟื้นกำลังพล"
+              },
+              {
+                "level": 6,
+                "skill": "Lore of Yang – สเปลนุกแนวเส้น",
+                "note": "เคลียร์ chaff และแนวยิงศัตรู"
+              },
+              {
+                "level": 7,
+                "skill": "Harmony Adept",
+                "note": "ลด upkeep และดัน bonus Yin/Yang"
+              },
+              {
+                "level": 8,
+                "skill": "Red: Jade Warriors – Melee Defence",
+                "note": "แนวหน้าค้ำรอบ compass"
+              },
+              {
+                "level": 9,
+                "skill": "Lore of Yang – สเปล buff ก้อนแนวหน้า",
+                "note": "ดันไลน์ที่กำลังปะทะให้ชนะ"
+              },
+              {
+                "level": 10,
+                "skill": "Wu Xing War Compass: Aura I",
+                "note": "ขยายรัศมี buff ให้ทั้งกอง"
+              },
+              {
+                "level": 11,
+                "skill": "Arcane Conduit",
+                "note": "Winds of Magic เพิ่ม ร่ายได้ต่อเนื่อง"
+              },
+              {
+                "level": 12,
+                "skill": "Lore of Yang – สเปล debuff ทั้งกอง",
+                "note": "กดกองใหญ่ศัตรูก่อนปะทะ"
+              },
+              {
+                "level": 13,
+                "skill": "Red: Crossbowmen – Reload",
+                "note": "ยิงคุ้มขึ้นระหว่างยืนรับ"
+              },
+              {
+                "level": 14,
+                "skill": "Blue: Army Upkeep",
+                "note": "ลดค่าดูแล เอางบไปเพิ่ม elite"
+              },
+              {
+                "level": 15,
+                "skill": "Wu Xing War Compass: Health",
+                "note": "compass ไม่ตายกลางไฟต์"
+              },
+              {
+                "level": 16,
+                "skill": "Jade Dragon Form",
+                "note": "ปลดร่างมังกรหยก"
+              },
+              {
+                "level": 17,
+                "skill": "Lord: Melee Attack I",
+                "note": "ให้ร่างมังกรเข้าชนคุ้ม"
+              },
+              {
+                "level": 18,
+                "skill": "Red: Terracotta Sentinel – Health",
+                "note": "ตัวใหญ่ค้ำแนวกลางแทนแนวหน้า"
+              },
+              {
+                "level": 19,
+                "skill": "Lore of Yang – สเปลฟื้น / sustain",
+                "note": "ยืดไลน์แนวหน้าให้ชนะไฟต์ยืด"
+              },
+              {
+                "level": 20,
+                "skill": "Lord: Melee Defence I",
+                "note": "กันตัวตอนโดนรุม"
+              },
+              {
+                "level": 21,
+                "skill": "Red: Dragon Guard – Melee Attack",
+                "note": "elite แนวหน้าเริ่มมีบทบาท"
+              },
+              {
+                "level": 22,
+                "skill": "Blue: Replenishment III",
+                "note": "sustain สำหรับแคมเปญยาว"
+              },
+              {
+                "level": 23,
+                "skill": "Wu Xing War Compass: Aura II",
+                "note": "buff แรงขึ้นทั้งกอง"
+              },
+              {
+                "level": 24,
+                "skill": "Harmony Master",
+                "note": "ดัน bonus Yin/Yang เต็มระบบ"
+              },
+              {
+                "level": 25,
+                "skill": "Lore of Yang – นุกแนวเส้น (Upgrade)",
+                "note": "damage เพิ่มชัดเจนช่วง late"
+              },
+              {
+                "level": 26,
+                "skill": "Red: Jade Lancers – Charge Bonus",
+                "note": "ปีกไว้ปิดงานหลังศัตรูเสียไลน์"
+              },
+              {
+                "level": 27,
+                "skill": "Lord: Melee Attack II",
+                "note": "ต่อสายชน"
+              },
+              {
+                "level": 28,
+                "skill": "Red: Sky Lantern – Missile Damage",
+                "note": "กดดันจากฟ้าแรงขึ้น"
+              },
+              {
+                "level": 29,
+                "skill": "Lord: Ward Save",
+                "note": "กัน magic / missile"
+              },
+              {
+                "level": 30,
+                "skill": "Lore of Yang – buff แนวหน้า (Upgrade)",
+                "note": "buff ครอบคลุมหลายก้อนขึ้น"
+              },
+              {
+                "level": 31,
+                "skill": "Blue: Public Order / Growth",
+                "note": "ดันเศรษฐกิจเมืองหลวง"
+              },
+              {
+                "level": 32,
+                "skill": "Red: Dragon Guard – Armour",
+                "note": "elite ทนยิงขึ้น"
+              },
+              {
+                "level": 33,
+                "skill": "Lord: Melee Defence II",
+                "note": "ยืนกลางกองได้จริง"
+              },
+              {
+                "level": 34,
+                "skill": "Red: Terracotta Sentinel – Melee",
+                "note": "ตัวใหญ่ตีเจ็บขึ้น"
+              },
+              {
+                "level": 35,
+                "skill": "Lore of Yang – debuff ทั้งกอง (Upgrade)",
+                "note": "กดก้อน elite ของศัตรู"
+              },
+              {
+                "level": 36,
+                "skill": "Blue: Replenishment IV",
+                "note": "ปิดสาย sustain"
+              },
+              {
+                "level": 37,
+                "skill": "Lord: Physical Resistance",
+                "note": "ลด damage กายภาพ"
+              },
+              {
+                "level": 38,
+                "skill": "Red: Crossbowmen – Range",
+                "note": "ยิงก่อนเข้าระยะศัตรู"
+              },
+              {
+                "level": 39,
+                "skill": "Wu Xing War Compass: Reload",
+                "note": "ปืนบน compass ยิงถี่ขึ้น"
+              },
+              {
+                "level": 40,
+                "skill": "Lord: Campaign Movement",
+                "note": "เดินเก็บแมพไวขึ้น"
+              },
+              {
+                "level": 41,
+                "skill": "Red: Jade Warriors – Armour",
+                "note": "แนวหน้าทนยิงมากขึ้น"
+              },
+              {
+                "level": 42,
+                "skill": "Lord: Winds of Magic Reserve",
+                "note": "ร่ายชุดใหญ่ได้ตอนปลายไฟต์"
+              },
+              {
+                "level": 43,
+                "skill": "Lore of Yang – สเปลฟื้น (Upgrade)",
+                "note": "ฟื้นกำลังพลได้เยอะขึ้น"
+              },
+              {
+                "level": 44,
+                "skill": "Lord: Leadership Aura",
+                "note": "กันกองแตกตอนไฟต์ยืด"
+              },
+              {
+                "level": 45,
+                "skill": "Red: Grand Cannon – Accuracy",
+                "note": "ถ้าพกปืนใหญ่คู่กับ compass"
+              },
+              {
+                "level": 46,
+                "skill": "Red: Dragon Guard (Halberds) – Anti-Large",
+                "note": "กันมอนสเตอร์ปลายเกม"
+              },
+              {
+                "level": 47,
+                "skill": "Blue: Diplomacy / Income",
+                "note": "ปิดสายแคมเปญ"
+              },
+              {
+                "level": 48,
+                "skill": "Flex point",
+                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
+              },
+              {
+                "level": 49,
+                "skill": "Flex point",
+                "note": "เก็บ node ที่ยังขาด"
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "celestial-dragon-guard",
+            "jade-warriors",
+            "jade-warrior-crossbowmen",
+            "terracotta-sentinel",
+            "longma-riders",
+            "celestial-dragon-guard-halberds"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "jade-warriors",
+          "name": "Jade Warriors",
+          "imageUrl": "assets/units/cathay/chibi/jade-warriors.svg",
+          "type": "Melee Infantry",
+          "role": "Line Holder / Shield Wall",
+          "description": "แนวหน้ามาตรฐานของ Cathay ถือโล่ ทนยิงดีมาก ใช้ยืนค้ำให้ปืนกับเวททำงาน",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,200"
+            },
+            {
+              "label": "Armour",
+              "value": "80"
+            },
+            {
+              "label": "Leadership",
+              "value": "65"
+            },
+            {
+              "label": "Speed",
+              "value": "32"
+            },
+            {
+              "label": "Mass",
+              "value": "100"
+            },
+            {
+              "label": "MA",
+              "value": "28"
+            },
+            {
+              "label": "MD",
+              "value": "38"
+            },
+            {
+              "label": "WS",
+              "value": "24"
+            },
+            {
+              "label": "Charge",
+              "value": "18"
+            },
+            {
+              "label": "Cost",
+              "value": "800"
+            }
+          ],
+          "traits": [
+            "Shieldwall",
+            "Yin",
+            "ทนยิง",
+            "Upkeep ถูก"
+          ]
+        },
+        {
+          "id": "jade-warriors-halberds",
+          "name": "Jade Warriors (Halberds)",
+          "imageUrl": "assets/units/cathay/chibi/jade-warriors-halberds.svg",
+          "type": "Melee Infantry",
+          "role": "Anti-Large Line",
+          "description": "เวอร์ชันง้าวของแนวหน้า ใช้รับ cavalry และ monster โดยไม่ต้องพึ่ง elite",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,200"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "65"
+            },
+            {
+              "label": "Speed",
+              "value": "32"
+            },
+            {
+              "label": "Mass",
+              "value": "100"
+            },
+            {
+              "label": "MA",
+              "value": "30"
+            },
+            {
+              "label": "MD",
+              "value": "34"
+            },
+            {
+              "label": "WS",
+              "value": "26"
+            },
+            {
+              "label": "Charge",
+              "value": "26"
+            },
+            {
+              "label": "Cost",
+              "value": "850"
+            }
+          ],
+          "traits": [
+            "Anti-Large",
+            "Yin",
+            "รับชาร์จ",
+            "Armour-Piercing"
+          ]
+        },
+        {
+          "id": "jade-warrior-crossbowmen",
+          "name": "Jade Warrior Crossbowmen",
+          "imageUrl": "assets/units/cathay/chibi/jade-warrior-crossbowmen.svg",
+          "type": "Missile Infantry",
+          "role": "Armour-Piercing Ranged",
+          "description": "แนวยิงหลักของกอง ยิงทะลุเกราะได้ และมีโล่พอจะยืนแลกกับแนวยิงศัตรู",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "7,200"
+            },
+            {
+              "label": "Armour",
+              "value": "60"
+            },
+            {
+              "label": "Leadership",
+              "value": "65"
+            },
+            {
+              "label": "Speed",
+              "value": "32"
+            },
+            {
+              "label": "Mass",
+              "value": "100"
+            },
+            {
+              "label": "MA",
+              "value": "22"
+            },
+            {
+              "label": "MD",
+              "value": "28"
+            },
+            {
+              "label": "WS",
+              "value": "20"
+            },
+            {
+              "label": "Charge",
+              "value": "10"
+            },
+            {
+              "label": "Range",
+              "value": "150"
+            },
+            {
+              "label": "Missile",
+              "value": "22"
+            },
+            {
+              "label": "Cost",
+              "value": "1,000"
+            }
+          ],
+          "traits": [
+            "Armour-Piercing",
+            "Yin",
+            "มีโล่",
+            "แนวยิงหลัก"
+          ]
+        },
+        {
+          "id": "peasant-longspearmen",
+          "name": "Peasant Long Spearmen",
+          "imageUrl": "assets/units/cathay/chibi/peasant-longspearmen.svg",
+          "type": "Melee Infantry",
+          "role": "Cheap Anti-Large Screen",
+          "description": "ก้อนราคาถูกไว้กันชาร์จช่วงต้นเกม เอาไว้ซื้อเวลาให้ปืนใหญ่กับเวท",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "160"
+            },
+            {
+              "label": "HP",
+              "value": "6,400"
+            },
+            {
+              "label": "Armour",
+              "value": "30"
+            },
+            {
+              "label": "Leadership",
+              "value": "50"
+            },
+            {
+              "label": "Speed",
+              "value": "34"
+            },
+            {
+              "label": "Mass",
+              "value": "80"
+            },
+            {
+              "label": "MA",
+              "value": "18"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "16"
+            },
+            {
+              "label": "Charge",
+              "value": "20"
+            },
+            {
+              "label": "Cost",
+              "value": "350"
+            }
+          ],
+          "traits": [
+            "Anti-Large",
+            "ราคาถูก",
+            "Yin",
+            "ต้นเกม"
+          ]
+        },
+        {
+          "id": "peasant-archers",
+          "name": "Peasant Archers",
+          "imageUrl": "assets/units/cathay/chibi/peasant-archers.svg",
+          "type": "Missile Infantry",
+          "role": "Cheap Chip Damage",
+          "description": "แนวยิงราคาถูก ใช้กด chaff และเติมความกดดันช่วงต้นเกมก่อนได้ Crossbowmen",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "120"
+            },
+            {
+              "label": "HP",
+              "value": "4,800"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "50"
+            },
+            {
+              "label": "Speed",
+              "value": "34"
+            },
+            {
+              "label": "Mass",
+              "value": "80"
+            },
+            {
+              "label": "MA",
+              "value": "14"
+            },
+            {
+              "label": "MD",
+              "value": "18"
+            },
+            {
+              "label": "WS",
+              "value": "12"
+            },
+            {
+              "label": "Charge",
+              "value": "8"
+            },
+            {
+              "label": "Range",
+              "value": "150"
+            },
+            {
+              "label": "Missile",
+              "value": "16"
+            },
+            {
+              "label": "Cost",
+              "value": "400"
+            }
+          ],
+          "traits": [
+            "ราคาถูก",
+            "Yang",
+            "ต้นเกม",
+            "กด chaff"
+          ]
+        },
+        {
+          "id": "iron-hail-gunners",
+          "name": "Iron Hail Gunners",
+          "imageUrl": "assets/units/cathay/chibi/iron-hail-gunners.svg",
+          "type": "Missile Infantry",
+          "role": "Short-Range Burst / AP",
+          "description": "ปืนลูกซองระยะสั้น ยิงทีเดียวหนักมาก เหมาะยืนหลังแนวหน้าแล้วเทใส่ก้อนที่ปะทะอยู่",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "90"
+            },
+            {
+              "label": "HP",
+              "value": "5,400"
+            },
+            {
+              "label": "Armour",
+              "value": "50"
+            },
+            {
+              "label": "Leadership",
+              "value": "65"
+            },
+            {
+              "label": "Speed",
+              "value": "32"
+            },
+            {
+              "label": "Mass",
+              "value": "100"
+            },
+            {
+              "label": "MA",
+              "value": "22"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "18"
+            },
+            {
+              "label": "Charge",
+              "value": "10"
+            },
+            {
+              "label": "Range",
+              "value": "80"
+            },
+            {
+              "label": "Missile",
+              "value": "30"
+            },
+            {
+              "label": "Cost",
+              "value": "1,100"
+            }
+          ],
+          "traits": [
+            "Armour-Piercing",
+            "Yang",
+            "Burst สูง",
+            "ระยะสั้น"
+          ]
+        },
+        {
+          "id": "jade-lancers",
+          "name": "Jade Lancers",
+          "imageUrl": "assets/units/cathay/chibi/jade-lancers.svg",
+          "type": "Shock Cavalry",
+          "role": "Flank / Charge Finisher",
+          "description": "ม้าชาร์จของ Cathay ใช้ปิดปีก ไล่ปืนใหญ่ และเก็บก้อนที่กำลังจะแตก",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "60"
+            },
+            {
+              "label": "HP",
+              "value": "6,600"
+            },
+            {
+              "label": "Armour",
+              "value": "75"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "68"
+            },
+            {
+              "label": "Mass",
+              "value": "300"
+            },
+            {
+              "label": "MA",
+              "value": "32"
+            },
+            {
+              "label": "MD",
+              "value": "34"
+            },
+            {
+              "label": "WS",
+              "value": "28"
+            },
+            {
+              "label": "Charge",
+              "value": "70"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Shock Cavalry",
+            "Yang",
+            "Charge แรง",
+            "ไล่ ranged"
+          ]
+        },
+        {
+          "id": "longma-riders",
+          "name": "Longma Riders",
+          "imageUrl": "assets/units/cathay/chibi/longma-riders.svg",
+          "type": "Flying Cavalry",
+          "role": "Flying Flanker / Skirmish",
+          "description": "ม้ามังกรบินได้ ใช้ข้ามแนวไปเก็บปืนใหญ่และ caster หลังกองศัตรูโดยตรง",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "32"
+            },
+            {
+              "label": "HP",
+              "value": "6,720"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "72"
+            },
+            {
+              "label": "Speed",
+              "value": "84"
+            },
+            {
+              "label": "Mass",
+              "value": "400"
+            },
+            {
+              "label": "MA",
+              "value": "34"
+            },
+            {
+              "label": "MD",
+              "value": "36"
+            },
+            {
+              "label": "WS",
+              "value": "30"
+            },
+            {
+              "label": "Charge",
+              "value": "62"
+            },
+            {
+              "label": "Cost",
+              "value": "1,500"
+            }
+          ],
+          "traits": [
+            "Flying",
+            "Yang",
+            "Anti-Artillery",
+            "Flank"
+          ]
+        },
+        {
+          "id": "celestial-dragon-guard",
+          "name": "Celestial Dragon Guard",
+          "imageUrl": "assets/units/cathay/chibi/celestial-dragon-guard.svg",
+          "type": "Melee Infantry",
+          "role": "Elite Line Holder",
+          "description": "แนวหน้าชั้น elite เกราะหนา ยืนได้นานกว่า Jade Warriors มาก ใช้เป็นแกนกลางไฟต์ late",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "9,600"
+            },
+            {
+              "label": "Armour",
+              "value": "100"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "34"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "38"
+            },
+            {
+              "label": "MD",
+              "value": "46"
+            },
+            {
+              "label": "WS",
+              "value": "32"
+            },
+            {
+              "label": "Charge",
+              "value": "30"
+            },
+            {
+              "label": "Cost",
+              "value": "1,600"
+            }
+          ],
+          "traits": [
+            "Elite",
+            "Yin",
+            "เกราะหนา",
+            "Armour-Piercing"
+          ]
+        },
+        {
+          "id": "celestial-dragon-guard-halberds",
+          "name": "Celestial Dragon Guard (Halberds)",
+          "imageUrl": "assets/units/cathay/chibi/celestial-dragon-guard-halberds.svg",
+          "type": "Melee Infantry",
+          "role": "Elite Anti-Large",
+          "description": "เวอร์ชันง้าวของ elite ใช้ตอบมอนสเตอร์และ cavalry หนักปลายเกมได้อยู่หมัด",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "100"
+            },
+            {
+              "label": "HP",
+              "value": "9,600"
+            },
+            {
+              "label": "Armour",
+              "value": "90"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "34"
+            },
+            {
+              "label": "Mass",
+              "value": "120"
+            },
+            {
+              "label": "MA",
+              "value": "40"
+            },
+            {
+              "label": "MD",
+              "value": "42"
+            },
+            {
+              "label": "WS",
+              "value": "34"
+            },
+            {
+              "label": "Charge",
+              "value": "36"
+            },
+            {
+              "label": "Cost",
+              "value": "1,700"
+            }
+          ],
+          "traits": [
+            "Elite",
+            "Anti-Large",
+            "Yin",
+            "Armour-Piercing"
+          ]
+        },
+        {
+          "id": "terracotta-sentinel",
+          "name": "Terracotta Sentinel",
+          "imageUrl": "assets/units/cathay/chibi/terracotta-sentinel.svg",
+          "type": "Monster",
+          "role": "Frontline Anchor / Damage Soak",
+          "description": "ยักษ์ดินเผาที่ทนมหาศาล ใช้ยืนกลางแนวดูดความเสียหายและกันไม่ให้ไลน์ถูกเจาะ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "1"
+            },
+            {
+              "label": "HP",
+              "value": "12,800"
+            },
+            {
+              "label": "Armour",
+              "value": "80"
+            },
+            {
+              "label": "Leadership",
+              "value": "90"
+            },
+            {
+              "label": "Speed",
+              "value": "38"
+            },
+            {
+              "label": "Mass",
+              "value": "1,600"
+            },
+            {
+              "label": "MA",
+              "value": "44"
+            },
+            {
+              "label": "MD",
+              "value": "40"
+            },
+            {
+              "label": "WS",
+              "value": "38"
+            },
+            {
+              "label": "Charge",
+              "value": "90"
+            },
+            {
+              "label": "Cost",
+              "value": "2,200"
+            }
+          ],
+          "traits": [
+            "Monster",
+            "Yin",
+            "อึดมาก",
+            "Terror"
+          ]
+        },
+        {
+          "id": "grand-cannon",
+          "name": "Grand Cannon",
+          "imageUrl": "assets/units/cathay/chibi/grand-cannon.svg",
+          "type": "Artillery",
+          "role": "Long-Range Direct Fire",
+          "description": "ปืนใหญ่ยิงตรง เอาไว้ลบมอนสเตอร์และก้อนใหญ่ตั้งแต่ก่อนปะทะ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "1,600"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "60"
+            },
+            {
+              "label": "Speed",
+              "value": "34"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "10"
+            },
+            {
+              "label": "MD",
+              "value": "20"
+            },
+            {
+              "label": "WS",
+              "value": "8"
+            },
+            {
+              "label": "Charge",
+              "value": "0"
+            },
+            {
+              "label": "Range",
+              "value": "500"
+            },
+            {
+              "label": "Missile",
+              "value": "-"
+            },
+            {
+              "label": "Cost",
+              "value": "1,400"
+            }
+          ],
+          "traits": [
+            "Artillery",
+            "Yang",
+            "Armour-Piercing",
+            "ยิงตรง"
+          ]
+        },
+        {
+          "id": "fire-rain-rocket",
+          "name": "Fire Rain Rocket",
+          "imageUrl": "assets/units/cathay/chibi/fire-rain-rocket.svg",
+          "type": "Artillery",
+          "role": "Area Denial / Anti-Infantry",
+          "description": "จรวดพรมพื้นที่ เหมาะกดกองราบใหญ่ ๆ และไล่ศัตรูออกจากจุดตั้งรับ",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "4"
+            },
+            {
+              "label": "HP",
+              "value": "1,600"
+            },
+            {
+              "label": "Armour",
+              "value": "20"
+            },
+            {
+              "label": "Leadership",
+              "value": "60"
+            },
+            {
+              "label": "Speed",
+              "value": "34"
+            },
+            {
+              "label": "Mass",
+              "value": "200"
+            },
+            {
+              "label": "MA",
+              "value": "10"
+            },
+            {
+              "label": "MD",
+              "value": "20"
+            },
+            {
+              "label": "WS",
+              "value": "8"
+            },
+            {
+              "label": "Charge",
+              "value": "0"
+            },
+            {
+              "label": "Range",
+              "value": "450"
+            },
+            {
+              "label": "Missile",
+              "value": "-"
+            },
+            {
+              "label": "Cost",
+              "value": "1,300"
+            }
+          ],
+          "traits": [
+            "Artillery",
+            "Yang",
+            "AoE",
+            "ไล่แนวราบ"
+          ]
+        },
+        {
+          "id": "sky-junk",
+          "name": "Sky-Junk",
+          "imageUrl": "assets/units/cathay/chibi/sky-junk.svg",
+          "type": "Flying War Machine",
+          "role": "Air Superiority / Mobile Guns",
+          "description": "เรือเหาะติดปืน ใช้ลอยเหนือไฟต์แล้วยิงลงมา ทั้งกดพื้นและกันฝูงบินศัตรู",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "1"
+            },
+            {
+              "label": "HP",
+              "value": "6,400"
+            },
+            {
+              "label": "Armour",
+              "value": "70"
+            },
+            {
+              "label": "Leadership",
+              "value": "80"
+            },
+            {
+              "label": "Speed",
+              "value": "60"
+            },
+            {
+              "label": "Mass",
+              "value": "1,200"
+            },
+            {
+              "label": "MA",
+              "value": "26"
+            },
+            {
+              "label": "MD",
+              "value": "34"
+            },
+            {
+              "label": "WS",
+              "value": "22"
+            },
+            {
+              "label": "Charge",
+              "value": "40"
+            },
+            {
+              "label": "Range",
+              "value": "300"
+            },
+            {
+              "label": "Missile",
+              "value": "40"
+            },
+            {
+              "label": "Cost",
+              "value": "1,900"
+            }
+          ],
+          "traits": [
+            "Flying",
+            "Yang",
+            "Armour-Piercing",
+            "กดจากฟ้า"
+          ]
+        },
+        {
+          "id": "sky-lantern",
+          "name": "Sky Lantern",
+          "imageUrl": "assets/units/cathay/chibi/sky-lantern.svg",
+          "type": "Flying Missile",
+          "role": "Harass / Anti-Chaff",
+          "description": "โคมบินราคาย่อมเยา ใช้กดดันแนวยิงศัตรูและกวนหลังกองโดยไม่เสี่ยงก้อนหลัก",
+          "stats": [
+            {
+              "label": "Models",
+              "value": "1"
+            },
+            {
+              "label": "HP",
+              "value": "3,200"
+            },
+            {
+              "label": "Armour",
+              "value": "40"
+            },
+            {
+              "label": "Leadership",
+              "value": "70"
+            },
+            {
+              "label": "Speed",
+              "value": "62"
+            },
+            {
+              "label": "Mass",
+              "value": "600"
+            },
+            {
+              "label": "MA",
+              "value": "18"
+            },
+            {
+              "label": "MD",
+              "value": "26"
+            },
+            {
+              "label": "WS",
+              "value": "14"
+            },
+            {
+              "label": "Charge",
+              "value": "20"
+            },
+            {
+              "label": "Range",
+              "value": "260"
+            },
+            {
+              "label": "Missile",
+              "value": "26"
+            },
+            {
+              "label": "Cost",
+              "value": "900"
+            }
+          ],
+          "traits": [
+            "Flying",
+            "Yang",
+            "Harass",
+            "ราคาถูก"
+          ]
+        }
+      ]
+    }
+  }
+}
