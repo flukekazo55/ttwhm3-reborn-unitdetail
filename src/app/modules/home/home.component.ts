@@ -5,10 +5,11 @@ interface FactionChoice {
   name: string;
   subtitle: string;
   blurb: string;
-  emoji: string;
+  emblem: string;
   accent: string;
   soft: string;
   art: string;
+  dark?: boolean;
 }
 
 @Component({
@@ -23,40 +24,41 @@ export class HomeComponent {
       name: 'Khorne',
       subtitle: 'Blood for the Blood God',
       blurb: 'สายบุกประชิด เน้น momentum ปิดไฟต์ไว ๆ มันส์สุด ๆ',
-      emoji: '🔥',
+      emblem: 'assets/emblems/khorne.svg',
       accent: '#ef6a48',
       soft: '#ffe7df',
-      art: 'assets/lords/khorne/chibi/skarbrand-lord.svg',
+      art: 'assets/shields/khorne.svg',
     },
     {
       id: 'kislev',
       name: 'Kislev',
       subtitle: 'The Motherland Endures',
       blurb: 'กองทัพ hybrid ยิง–รับ–เวท–ม้า–สัตว์ ยืดหยุ่นสุด',
-      emoji: '❄️',
+      emblem: 'assets/emblems/kislev.svg',
       accent: '#3f9be0',
       soft: '#e4f1fc',
-      art: 'assets/lords/kislev/chibi/katarin-lord.svg',
+      art: 'assets/shields/kislev.svg',
     },
     {
       id: 'cathay',
       name: 'Grand Cathay',
       subtitle: 'The Celestial Empire Endures',
       blurb: 'สายตั้งรับ ยืนแนวค้ำหน้า แล้วให้ปืน เวท และ Harmony ทำงาน',
-      emoji: '🐉',
+      emblem: 'assets/emblems/cathay.svg',
       accent: '#2f9e78',
       soft: '#e3f5ed',
-      art: 'assets/lords/cathay/chibi/miao-ying-lord.svg',
+      art: 'assets/shields/cathay.svg',
     },
     {
       id: 'dwarfs',
       name: 'Dwarfs',
       subtitle: 'Grudges Are Never Forgotten',
       blurb: 'ไม่มีเวทเลย แลกด้วยเกราะหนา ปืนแม่น และไลน์ที่ไม่แตก',
-      emoji: '🔨',
-      accent: '#b8762b',
-      soft: '#f7ecd9',
-      art: 'assets/lords/dwarfs/chibi/thorgrim-lord.svg',
+      emblem: 'assets/emblems/dwarfs.svg',
+      accent: '#d99a45',
+      soft: '#241d16',
+      art: 'assets/shields/dwarfs.svg',
+      dark: true,
     },
   ];
 

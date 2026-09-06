@@ -11,6 +11,7 @@
   <h2>{{ faction.name }}</h2>
   <strong>{{ faction.subtitle }}</strong>
   <p>{{ faction.description }}</p>
+  <img class="hero-emblem" [src]="'assets/emblems/' + faction.id + '.svg'" [alt]="faction.name + ' emblem'" loading="lazy">
 </section>
 
 <section class="lord-pick" [style.--accent]="faction.theme.accent" [style.--soft]="faction.theme.soft">

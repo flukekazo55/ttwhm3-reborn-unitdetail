@@ -16,7 +16,7 @@
 .brand-badge {
   width: 2.2rem; height: 2.2rem; border-radius: v.$radius-sm;
   display: grid; place-items: center; font-size: 1.15rem;
-  background: color-mix(in srgb, v.$secondary-gold 22%, white);
+  background: color-mix(in srgb, v.$secondary-gold 22%, v.$lift);
   border: 1px solid color-mix(in srgb, v.$secondary-gold 40%, transparent);
   box-shadow: v.$shadow-soft;
 }

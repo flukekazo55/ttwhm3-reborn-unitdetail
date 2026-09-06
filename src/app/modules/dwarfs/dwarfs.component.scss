@@ -1,6 +1,6 @@
 @use '../../../styles/variables' as v;
 
-:host { display: block; min-height: 100vh; }
+:host { display: block; min-height: 100vh; background: v.$primary-bg; }
 .faction-page { min-height: 80vh; }
 .loading-box {
   min-height: 55vh; display: flex; flex-direction: column;

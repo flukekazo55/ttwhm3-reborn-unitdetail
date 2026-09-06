@@ -8,9 +8,9 @@
       "subtitle": "Grudges Are Never Forgotten",
       "description": "กองทัพตั้งรับล้วน ไม่มีเวทมนตร์เลย แลกด้วยเกราะหนาสุด ปืนแม่นสุด และ leadership ที่แทบไม่แตก จุดอ่อนเดียวคือช้า",
       "theme": {
-        "accent": "#b8762b",
-        "soft": "#f7ecd9",
-        "border": "#e0c08a"
+        "accent": "#d99a45",
+        "soft": "#241d16",
+        "border": "#4a3d2a"
       },
       "lords": [
         {
@@ -18,7 +18,7 @@
           "name": "Thorgrim Grudgebearer",
           "tag": "มือใหม่สาย Balanced",
           "style": "Grudge Economy + Infantry Line",
-          "portraitUrl": "assets/lords/dwarfs/chibi/thorgrim-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2F065d02d58047d8fac9638db7fe83b774.jpg&w=640&output=png",
           "summary": "High King ที่เล่นง่ายและพลาดยากที่สุดของ Dwarfs: ตั้ง Dwarf Warriors กับ Longbeards ค้ำไลน์, Thunderers ยิงจากหลัง, ปืนใหญ่กดก่อนปะทะ แล้วค่อยอัปเป็น Ironbreakers กับ Hammerers ตอน late",
           "bestFor": "คนเพิ่งเริ่มเล่น Dwarfs อยากได้กองบาลานซ์และเศรษฐกิจดี",
           "armyGuidance": "Dwarf Warriors, Longbeards, Thunderers, Grudge Thrower, Cannon, Ironbreakers",
@@ -453,7 +453,7 @@
           "name": "Ungrim Ironfist, the Slayer King",
           "tag": "สายบุก / Melee",
           "style": "Slayers + Melee Brawl",
-          "portraitUrl": "assets/lords/dwarfs/chibi/ungrim-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fcdn.creative-assembly.com%2Ftotal-war%2Fcom.totalwar.www%2Fwp-content%2Fuploads%2F2017%2F03%2F27123211%2F700px-Ungrim-FINAL.jpg&w=640&output=png",
           "summary": "สายเดียวของ Dwarfs ที่เล่นบุกได้จริง: Slayers กับ Giant Slayers เป็นก้อนหลัก ไม่มีเกราะแต่ไม่มีวันแตก ใช้กอดมอนสเตอร์ไว้แล้วให้ Ungrim กับ Hammerers ตามเก็บ",
           "bestFor": "คนเบื่อ Dwarfs สายตั้งรับ อยากเดินเข้าไปชนเลย",
           "armyGuidance": "Slayers, Giant Slayers, Hammerers, Miners (Blasting Charges), Quarrellers",
@@ -888,7 +888,7 @@
           "name": "Belegar Ironhammer",
           "tag": "สายตั้งรับจัดหนัก",
           "style": "Ironbreakers + Irondrakes Gunline",
-          "portraitUrl": "assets/lords/dwarfs/chibi/belegar-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fmedias.community.creative-assembly.com%2Fforums%2Fdarkpagan-7044%2FWH1-vs-_WH3-5.jpg&w=640&output=png",
           "summary": "แคมเปญที่ยากที่สุดของ Dwarfs แต่กองแข็งที่สุด: Ironbreakers ยืนล็อกไลน์ Irondrakes เผาทุกอย่างที่เดินเข้ามา แล้วปืนใหญ่เก็บของใหญ่จากหลัง ถ้าตั้งแนวถูกแทบไม่มีอะไรเจาะเข้าได้",
           "bestFor": "คนชอบเล่นตั้งรับล้วน ๆ และไม่กลัวแคมเปญเปิดยาก",
           "armyGuidance": "Ironbreakers, Irondrakes, Irondrakes (Trollhammer Torpedo), Thunderers, Cannon",
@@ -1319,11 +1319,383 @@
           ]
         },
         {
+          "id": "thorek",
+          "name": "Thorek Ironbrow",
+          "tag": "Rune + Artillery",
+          "style": "Runic buffs + Quarreller line",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdwf_thorek_0.png&w=640&output=png",
+          "summary": "Master Runelord focused on a sturdy Dwarf gunline: hold with Longbeards and Ironbreakers, let Quarrellers and Grudge Throwers do early work, then add Organ Guns or Hammerers once the economy is stable.",
+          "bestFor": "Players who want a defensive Dwarf campaign with strong runic utility, simple formations, and reliable ranged damage.",
+          "armyGuidance": "Quarrellers, Longbeards, Grudge Thrower, Ironbreakers, Hammerers, Organ Gun",
+          "skillBuild": {
+            "summary": "Rune utility first -> ranged/artillery red line -> personal durability -> late-game elite infantry and artillery finish",
+            "stages": [
+              {
+                "key": "EARLY",
+                "title": "Lv 2-10",
+                "steps": [
+                  {
+                    "order": "2",
+                    "name": "Route Marcher",
+                    "points": "",
+                    "reason": "Campaign movement range keeps the slow Dwarf army active.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "5",
+                    "name": "Inspiring Presence",
+                    "points": "",
+                    "reason": "Opens the red line for the units carrying the early army.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "6",
+                    "name": "Thunderer",
+                    "points": "",
+                    "reason": "Buffs Quarrellers, Thunderers, and Rangers as the main damage base.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "8",
+                    "name": "Tactician",
+                    "points": "",
+                    "reason": "Improves Grudge Throwers, Cannons, Organ Guns, and other artillery.",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "MID",
+                "title": "Lv 11-25",
+                "steps": [
+                  {
+                    "order": "11",
+                    "name": "Morgrim's Favoured",
+                    "points": "",
+                    "reason": "More ammunition for the artillery core.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "13",
+                    "name": "Dawi Firepower",
+                    "points": "",
+                    "reason": "Pushes missile strength on the ranged core.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "16",
+                    "name": "Full Plate Armour",
+                    "points": "",
+                    "reason": "Personal armour so Thorek can anchor near the line.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "21",
+                    "name": "Wound-Maker",
+                    "points": "",
+                    "reason": "Adds personal damage when enemy lords reach the line.",
+                    "iconUrl": ""
+                  }
+                ]
+              },
+              {
+                "key": "LATE",
+                "title": "Lv 26-50",
+                "steps": [
+                  {
+                    "order": "26",
+                    "name": "Blessed by Grungni",
+                    "points": "",
+                    "reason": "More armour for ranked line holders.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "30",
+                    "name": "Grimnir's Heirs",
+                    "points": "",
+                    "reason": "Better melee attack for late infantry.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "34",
+                    "name": "Stand Your Ground!",
+                    "points": "",
+                    "reason": "Strong defensive active for the main battle line.",
+                    "iconUrl": ""
+                  },
+                  {
+                    "order": "38",
+                    "name": "Lightning Strike",
+                    "points": "",
+                    "reason": "Useful once campaign stacks start chaining into each other.",
+                    "iconUrl": ""
+                  }
+                ]
+              }
+            ],
+            "levelPlan": [
+              {
+                "level": 2,
+                "skill": "Route Marcher",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 3,
+                "skill": "Rune-Warded Armour",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 4,
+                "skill": "Full Plate Armour",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 5,
+                "skill": "Inspiring Presence",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 6,
+                "skill": "Thunderer",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 7,
+                "skill": "Tactician",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 8,
+                "skill": "Rune utility I",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 9,
+                "skill": "Rune utility II",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 10,
+                "skill": "Rune utility III",
+                "note": "Build the runic ranged core."
+              },
+              {
+                "level": 11,
+                "skill": "Morgrim's Favoured",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 12,
+                "skill": "Dawi Firepower I",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 13,
+                "skill": "Dawi Firepower II",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 14,
+                "skill": "Dawi Firepower III",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 15,
+                "skill": "Hard to Hit",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 16,
+                "skill": "Foe-Seeker",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 17,
+                "skill": "Scarred Veteran",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 18,
+                "skill": "Wound-Maker",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 19,
+                "skill": "Blade Shield",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 20,
+                "skill": "Axe Lord",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 21,
+                "skill": "Blessed by Grungni I",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 22,
+                "skill": "Blessed by Grungni II",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 23,
+                "skill": "Blessed by Grungni III",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 24,
+                "skill": "Grimnir's Heirs I",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 25,
+                "skill": "Grimnir's Heirs II",
+                "note": "Scale artillery, missile damage, and personal defence."
+              },
+              {
+                "level": 26,
+                "skill": "Grimnir's Heirs III",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 27,
+                "skill": "Stand Your Ground!",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 28,
+                "skill": "Deadly Onslaught",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 29,
+                "skill": "Lightning Strike",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 30,
+                "skill": "Reassuring Presence",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 31,
+                "skill": "Lord of the Deeps",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 32,
+                "skill": "Rune of Grimnir",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 33,
+                "skill": "Mastercrafted Weapon",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 34,
+                "skill": "Obstinacy",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 35,
+                "skill": "Rally!",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 36,
+                "skill": "Honoured by Grimnir",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 37,
+                "skill": "Fire & Fury",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 38,
+                "skill": "Tradition & Innovation",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 39,
+                "skill": "Ancestral Grudge",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 40,
+                "skill": "Relentless",
+                "note": "Finish elite infantry, battle abilities, and campaign control."
+              },
+              {
+                "level": 41,
+                "skill": "Wall Breaker",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 42,
+                "skill": "Alert",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 43,
+                "skill": "Brass-Lunged",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 44,
+                "skill": "Obdurate",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 45,
+                "skill": "Miner's Instinct",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 46,
+                "skill": "Mason",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 47,
+                "skill": "Pure-Beard",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 48,
+                "skill": "Enquiring Mind",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 49,
+                "skill": "Mentor",
+                "note": "Spend remaining points around current enemies and army."
+              },
+              {
+                "level": 50,
+                "skill": "Flex point",
+                "note": "Spend remaining points around current enemies and army."
+              }
+            ]
+          },
+          "coreUnitIds": [
+            "quarrellers",
+            "longbeards",
+            "grudge-thrower",
+            "ironbreakers",
+            "hammerers",
+            "organ-gun"
+          ]
+        },
+        {
           "id": "malakai",
           "name": "Malakai Makaisson",
           "tag": "สายปืน / Engineering",
           "style": "Gunpowder + Gyro Air",
-          "portraitUrl": "assets/lords/dwarfs/chibi/malakai-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdwf_malakai_makaisson_0.png&w=640&output=png",
           "summary": "สายวิศวกรรม: Thunderers กับ Irondrakes เป็นตัวทำ damage หลัก มี Gyrocopter และ Gyrobomber แก้จุดอ่อนเรื่องความเร็วของ Dwarfs และ Malakai buff สายปืนทั้งกองจากสกิลประจำตัว",
           "bestFor": "คนชอบดินปืน ของบิน และเล่นแบบยิงให้ศัตรูละลายก่อนถึงแนว",
           "armyGuidance": "Thunderers, Irondrakes, Gyrocopter, Gyrobomber, Organ Gun, Ironbreakers",
@@ -1751,7 +2123,7 @@
           "name": "Grombrindal, the White Dwarf",
           "tag": "สาย All-round / Duelist",
           "style": "White Dwarf Aura + Elite Line",
-          "portraitUrl": "assets/lords/dwarfs/chibi/grombrindal-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.dlh.net%2Fpublic%2Fdata%2FTexts%2F53274%2Fmaxresdefault.jpg&w=640&output=png",
           "summary": "lord ที่เก่งรอบด้านที่สุดของ Dwarfs: ตีเก่ง ยืนทน และมี aura ค้ำกองรอบตัวไปพร้อมกัน เอาไปยืนกลางไลน์แล้วให้ Hammerers กับ Thunderers ทำงานรอบ ๆ ได้เลย ไม่ต้องเลือกว่าจะเน้นบุกหรือเน้นรับ",
           "bestFor": "คนอยากได้ lord ที่เข้าไฟต์เองได้และค้ำกองไปพร้อมกัน โดยไม่ต้องจัดกองแบบเฉพาะทาง",
           "armyGuidance": "Longbeards, Hammerers, Thunderers, Ironbreakers, Slayers, Gyrocopter",
@@ -2186,7 +2558,7 @@
         {
           "id": "dwarf-warriors",
           "name": "Dwarf Warriors",
-          "imageUrl": "assets/units/dwarfs/chibi/dwarf-warriors.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_warriors.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Line Holder / Cheap Anchor",
           "description": "แนวหน้าพื้นฐานที่ถูกและทนเกินราคา ใช้ยืนล็อกไลน์ให้ปืนกับปืนใหญ่ทำงานได้เต็มที่",
@@ -2246,7 +2618,7 @@
         {
           "id": "dwarf-warriors-great-weapons",
           "name": "Dwarf Warriors (Great Weapons)",
-          "imageUrl": "assets/units/dwarfs/chibi/dwarf-warriors-great-weapons.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_warriors_great_weapons.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Cheap Armour-Piercing",
           "description": "เวอร์ชันขวานใหญ่ แลกโล่กับ damage เจาะเกราะ ใช้เป็นก้อนตีสวนราคาประหยัด",
@@ -2306,7 +2678,7 @@
         {
           "id": "longbeards",
           "name": "Longbeards",
-          "imageUrl": "assets/units/dwarfs/chibi/longbeards.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_longbeards.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Line Holder + Leadership Aura",
           "description": "รุ่นเก๋าที่มี aura ค้ำ leadership ให้ก้อนรอบตัว ควรวางไว้กลางไลน์เสมอ",
@@ -2366,7 +2738,7 @@
         {
           "id": "longbeards-great-weapons",
           "name": "Longbeards (Great Weapons)",
-          "imageUrl": "assets/units/dwarfs/chibi/longbeards-great-weapons.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_longbeards_great_weapons.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Armour-Piercing Line",
           "description": "รุ่นเก๋าถือขวานใหญ่ เจาะเกราะได้และยังมี aura ติดตัว ใช้ตอบแนวหน้าเกราะหนาของศัตรู",
@@ -2426,7 +2798,7 @@
         {
           "id": "quarrellers",
           "name": "Quarrellers",
-          "imageUrl": "assets/units/dwarfs/chibi/quarrellers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_quarrellers.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Cheap Ranged / Early Game",
           "description": "หน้าไม้ราคาประหยัดของต้นเกม ยิงไกลพอตัวและยืนแลกกับแนวยิงศัตรูได้เพราะมีเกราะ",
@@ -2494,7 +2866,7 @@
         {
           "id": "thunderers",
           "name": "Thunderers",
-          "imageUrl": "assets/units/dwarfs/chibi/thunderers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_thunderers.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Armour-Piercing Gunline",
           "description": "ปืนไฟหลักของกอง ยิงเจาะเกราะได้ทุกนัด เป็นตัวทำ damage หลักของสายตั้งรับ",
@@ -2562,7 +2934,7 @@
         {
           "id": "irondrakes",
           "name": "Irondrakes",
-          "imageUrl": "assets/units/dwarfs/chibi/irondrakes.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_irondrakes.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Short-Range Burst / Anti-Infantry",
           "description": "เครื่องพ่นไฟระยะสั้น เกราะหนามาก ยืนหน้าแนวแล้วเผาก้อนที่กำลังเดินเข้าได้เลย",
@@ -2630,7 +3002,7 @@
         {
           "id": "irondrakes-trollhammer-torpedo",
           "name": "Irondrakes (Trollhammer Torpedo)",
-          "imageUrl": "assets/units/dwarfs/chibi/irondrakes-trollhammer-torpedo.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_irondrakes.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Anti-Large Ranged",
           "description": "รุ่นตอร์ปิโด ใช้ลบมอนสเตอร์และตัวใหญ่จากระยะกลาง เป็นคำตอบหลักของ Dwarfs ต่อของบิน/ของยักษ์",
@@ -2698,7 +3070,7 @@
         {
           "id": "ironbreakers",
           "name": "Ironbreakers",
-          "imageUrl": "assets/units/dwarfs/chibi/ironbreakers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_ironbreakers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Anchor / Unbreakable Line",
           "description": "แนวหน้าที่ทนที่สุดในเกม เกราะสูงและ leadership แทบไม่แตก ใช้ค้ำจุดที่ศัตรูทุ่มหนักที่สุด",
@@ -2758,7 +3130,7 @@
         {
           "id": "hammerers",
           "name": "Hammerers",
-          "imageUrl": "assets/units/dwarfs/chibi/hammerers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_hammerers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Armour-Piercing Damage",
           "description": "ก้อนค้อนชั้น elite ตีเจาะเกราะแรงมาก ใช้เป็นตัวเปิดไลน์แทน Ironbreakers ที่เน้นทน",
@@ -2818,7 +3190,7 @@
         {
           "id": "slayers",
           "name": "Slayers",
-          "imageUrl": "assets/units/dwarfs/chibi/slayers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_slayers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Unbreakable Anti-Large",
           "description": "ก้อนไร้เกราะที่ไม่มีวันแตก ใช้กอด monster และ cavalry ไว้จนกว่าที่เหลือจะเก็บงาน",
@@ -2878,7 +3250,7 @@
         {
           "id": "giant-slayers",
           "name": "Giant Slayers",
-          "imageUrl": "assets/units/dwarfs/chibi/giant-slayers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh2_dlc10_dwf_giant_slayers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Unbreakable Anti-Large",
           "description": "รุ่นอัปเกรดของ Slayers ตีเจ็บกว่าเดิมมาก เป็นก้อนตอบมอนสเตอร์ปลายเกมที่คุ้มที่สุด",
@@ -2938,7 +3310,7 @@
         {
           "id": "miners-blasting-charges",
           "name": "Miners (Blasting Charges)",
-          "imageUrl": "assets/units/dwarfs/chibi/miners-blasting-charges.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_miners_blasting_charges.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Ambush / Anti-Artillery",
           "description": "ก้อนซุ่มโจมตี พกระเบิดไว้เปิดหน้า ใช้โผล่หลังกองศัตรูไปเก็บปืนใหญ่กับ caster โดยตรง",
@@ -2998,7 +3370,7 @@
         {
           "id": "rangers-great-weapons",
           "name": "Rangers (Great Weapons)",
-          "imageUrl": "assets/units/dwarfs/chibi/rangers-great-weapons.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_dlc06_dwf_rangers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Vanguard Skirmish Line",
           "description": "ก้อน vanguard ที่วางล่วงหน้าได้ ใช้กันปีกและกดปืนใหญ่ศัตรูก่อนไฟต์หลักจะเริ่ม",
@@ -3058,7 +3430,7 @@
         {
           "id": "grudge-thrower",
           "name": "Grudge Thrower",
-          "imageUrl": "assets/units/dwarfs/chibi/grudge-thrower.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_grudge_thrower.png&w=520&output=png",
           "type": "Artillery",
           "role": "Area Denial / Anti-Infantry",
           "description": "เครื่องยิงหินแบบพรมพื้นที่ เอาไว้กดกองราบใหญ่และไล่ศัตรูออกจากจุดตั้งรับ",
@@ -3126,7 +3498,7 @@
         {
           "id": "cannon",
           "name": "Cannon",
-          "imageUrl": "assets/units/dwarfs/chibi/cannon.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_cannon.png&w=520&output=png",
           "type": "Artillery",
           "role": "Long-Range Direct Fire",
           "description": "ปืนใหญ่ยิงตรง ใช้ลบมอนสเตอร์และ lord ศัตรูตั้งแต่ก่อนเข้าปะทะ",
@@ -3194,7 +3566,7 @@
         {
           "id": "organ-gun",
           "name": "Organ Gun",
-          "imageUrl": "assets/units/dwarfs/chibi/organ-gun.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_organ_gun.png&w=520&output=png",
           "type": "Artillery",
           "role": "Close Support / Anti-Infantry",
           "description": "ปืนกลหลายลำกล้อง ยิงพรมระยะกลางใส่ก้อนราบ ทำ damage รวมสูงมากถ้าตั้งมุมดี",
@@ -3262,7 +3634,7 @@
         {
           "id": "flame-cannon",
           "name": "Flame Cannon",
-          "imageUrl": "assets/units/dwarfs/chibi/flame-cannon.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_flame_cannon.png&w=520&output=png",
           "type": "Artillery",
           "role": "Frontline Burn / Area Denial",
           "description": "ปืนพ่นไฟระยะสั้น เอาไว้ตั้งหลังไลน์แล้วเผาก้อนที่กำลังปะทะอยู่กับแนวหน้าเรา",
@@ -3330,7 +3702,7 @@
         {
           "id": "gyrocopter",
           "name": "Gyrocopter",
-          "imageUrl": "assets/units/dwarfs/chibi/gyrocopter.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_gyrocopter.png&w=520&output=png",
           "type": "Flying War Machine",
           "role": "Harass / Anti-Artillery",
           "description": "เฮลิคอปเตอร์คนแคระ ใช้บินข้ามแนวไปกวนปืนใหญ่และแนวยิงศัตรู ชดเชยจุดอ่อนเรื่องความเร็ว",
@@ -3398,7 +3770,7 @@
         {
           "id": "gyrobomber",
           "name": "Gyrobomber",
-          "imageUrl": "assets/units/dwarfs/chibi/gyrobomber.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh_main_dwf_gyrobomber.png&w=520&output=png",
           "type": "Flying War Machine",
           "role": "Air Bomber / Anti-Infantry",
           "description": "รุ่นทิ้งระเบิด ใช้บินผ่านก้อนราบใหญ่ ๆ แล้วโปรยระเบิดใส่ ทำ damage และ morale พร้อมกัน",

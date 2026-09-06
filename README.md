@@ -108,6 +108,33 @@ Known limits:
 - Khorne's and Kislev's original three/four lords keep their existing
   hand-written plans; nothing in this pipeline touches them.
 
+## Faction shields
+
+The home faction-select cards show a big faction shield as their main art — our
+own flat-vector take on the Warhammer faction shield (riveted steel frame,
+glossy field, faction rune), one per faction:
+
+```bash
+python tools/gen-shields.py     # -> src/assets/shields/<faction>.svg
+```
+
+## Faction emblems & the Dwarfs dark theme
+
+Each faction card and faction hero shows a small heraldic **banner** — our own
+flat-vector take (skull, Ursun bear, jade dragon, anvil on a hanging flag), not game art:
+
+```bash
+python tools/gen-emblems.py     # -> src/assets/emblems/<faction>.svg
+```
+
+Design tokens are CSS custom properties (`--c-*`) defined on `:root` in
+`styles.scss`, with a dark override set under `.faction-dark`. The SCSS aliases
+in `styles/variables.scss` forward to them, so component styles pick up the
+theme automatically. Only the **Dwarfs** faction opts into the dark palette:
+its component host carries `class: 'faction-dark'` and its card on the home page
+gets `[class.faction-dark]`, so Dwarfs reads as an "under the mountain" faction
+while the other three stay light.
+
 ## Chibi artwork
 
 Every lord and unit across all four factions uses a flat-vector chibi SVG

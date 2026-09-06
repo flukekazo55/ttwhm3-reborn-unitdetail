@@ -22,7 +22,7 @@
   text-align:center; color:v.$text-muted; font-weight:800;
 }
 .lord-copy { padding: clamp(1.35rem, 3vw, 2.25rem); }
-.kicker { color: color-mix(in srgb, var(--accent) 55%, #4a3722); font-size: .74rem; letter-spacing: .16em; font-weight: 800; }
+.kicker { color: color-mix(in srgb, var(--accent) 55%, v.$ink); font-size: .74rem; letter-spacing: .16em; font-weight: 800; }
 .lord-copy h2 {
   margin: .3rem 0 .85rem; font-size: clamp(2rem, 5vw, 3.1rem); font-weight: 700; line-height: 1.05;
   color: color-mix(in srgb, var(--accent) 42%, v.$text-primary);
@@ -38,14 +38,14 @@
 .info-box {
   margin-top: .75rem; display: flex; gap: .5rem;
   border-radius: v.$radius-sm; padding: .8rem 1rem;
-  background: color-mix(in srgb, var(--accent) 10%, white);
+  background: color-mix(in srgb, var(--accent) 10%, v.$lift);
   border-left: 4px solid color-mix(in srgb, var(--accent) 55%, transparent);
   color: v.$text-secondary; font-size: .92rem; line-height: 1.55;
 }
 .info-box strong { color: v.$text-primary; white-space: nowrap; }
 
 .units-heading { margin: 2rem 0 1rem; }
-.units-heading .kicker { color: color-mix(in srgb, var(--accent) 55%, #4a3722); }
+.units-heading .kicker { color: color-mix(in srgb, var(--accent) 55%, v.$ink); }
 .units-heading h3 { margin: .3rem 0 0; font-size: 1.45rem; font-weight: 700; color: v.$text-primary; }
 
 .unit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }

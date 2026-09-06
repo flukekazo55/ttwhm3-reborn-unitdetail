@@ -9,11 +9,12 @@
     <a
       *ngFor="let faction of factions; trackBy: trackFaction"
       class="faction-card"
+      [class.faction-dark]="faction.dark"
       [routerLink]="['/', faction.id]"
       [style.--accent]="faction.accent"
       [style.--soft]="faction.soft">
       <div class="card-art">
-        <span class="card-emoji">{{ faction.emoji }}</span>
+        <img class="card-emblem" [src]="faction.emblem" [alt]="faction.name + ' emblem'" loading="lazy">
         <img
           *ngIf="!failedArt.has(faction.id)"
           [src]="faction.art"

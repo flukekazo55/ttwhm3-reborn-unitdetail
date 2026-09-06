@@ -8,12 +8,12 @@
   box-shadow: v.$shadow-soft;
 }
 .skill-head { display:flex; justify-content:space-between; gap:1.25rem; align-items:flex-end; flex-wrap: wrap; }
-.kicker { color:color-mix(in srgb, var(--accent) 55%, #4a3722); font-size:.72rem; letter-spacing:.16em; font-weight:800; }
+.kicker { color:color-mix(in srgb, var(--accent) 55%, v.$ink); font-size:.72rem; letter-spacing:.16em; font-weight:800; }
 .skill-head h3 { margin:.25rem 0 0; font-size: 1.4rem; font-weight: 700; color: v.$text-primary; }
 .summary {
   flex: 1 1 320px; max-width: 460px;
   border-radius:v.$radius-sm; padding:.75rem 1rem;
-  background: color-mix(in srgb, var(--accent) 10%, white);
+  background: color-mix(in srgb, var(--accent) 10%, v.$lift);
   border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
   color:v.$text-secondary; font-size:.9rem; line-height: 1.55;
 }
@@ -21,22 +21,22 @@
 .rank-note {
   margin-top:1rem; display:flex; gap:.6rem; align-items:flex-start;
   padding:.8rem 1rem; border-radius:v.$radius-sm;
-  background: color-mix(in srgb, v.$secondary-gold 12%, white);
+  background: color-mix(in srgb, v.$secondary-gold 12%, v.$lift);
   border: 1px solid color-mix(in srgb, v.$secondary-gold 30%, transparent);
   color:v.$text-secondary; font-size:.9rem; line-height: 1.55;
 }
 .rank-note-icon {
   flex-shrink: 0; width: 1.3rem; height: 1.3rem; border-radius: 50%;
   display: grid; place-items: center; font-size: .8rem; font-weight: 800; font-style: italic;
-  background: color-mix(in srgb, v.$secondary-gold 85%, white); color: #fff;
+  background: color-mix(in srgb, v.$secondary-gold 85%, v.$lift); color: #fff;
 }
 
 .skill-stage { margin-top:1.75rem; }
 .stage-head { display:flex; gap:.7rem; align-items:center; margin-bottom:.9rem; }
 .stage-key {
-  color:color-mix(in srgb, var(--accent) 50%, #4a3722); font-size:.72rem; font-weight:800; letter-spacing: .1em;
+  color:color-mix(in srgb, var(--accent) 50%, v.$ink); font-size:.72rem; font-weight:800; letter-spacing: .1em;
   padding: .2rem .7rem; border-radius: v.$radius-pill;
-  background: color-mix(in srgb, var(--accent) 16%, white);
+  background: color-mix(in srgb, var(--accent) 16%, v.$lift);
 }
 .stage-head strong { font-size:1.05rem; color: v.$text-primary; }
 
@@ -52,18 +52,18 @@
 .skill-step:hover { background: v.$primary-surface-raised; border-color: color-mix(in srgb, var(--accent) 40%, transparent); transform: translateY(-2px); }
 .order {
   position:absolute; top:-9px; left:1.1rem; min-width:22px; height:22px; padding: 0 .35rem;
-  border-radius:v.$radius-pill; background:color-mix(in srgb, var(--accent) 90%, white); color: #fff;
+  border-radius:v.$radius-pill; background:color-mix(in srgb, var(--accent) 90%, v.$lift); color: #fff;
   display:flex; align-items:center; justify-content:center; font-size:.68rem; font-weight:900;
   box-shadow: v.$shadow-soft;
 }
 .skill-icon {
   width:52px; height:52px; border-radius:v.$radius-sm; overflow:hidden;
   display:flex; align-items:center; justify-content:center;
-  background:color-mix(in srgb, var(--accent) 10%, white);
+  background:color-mix(in srgb, var(--accent) 10%, v.$lift);
   border: 1px solid v.$primary-border;
 }
 .skill-icon img { width:100%; height:100%; object-fit:cover; }
-.skill-icon.fallback { color:color-mix(in srgb, var(--accent) 50%, #4a3722); font-size:.85rem; font-weight:900; }
+.skill-icon.fallback { color:color-mix(in srgb, var(--accent) 50%, v.$ink); font-size:.85rem; font-weight:900; }
 .step-copy { min-width:0; align-self: center; }
 .step-copy strong { display:block; font-size:.9rem; color: v.$text-primary; }
 .step-copy small {
@@ -97,7 +97,7 @@
 }
 .level-table th {
   position:sticky; top:0; z-index:2;
-  background:v.$primary-surface-raised; color:color-mix(in srgb, var(--accent) 50%, #4a3722); font-size:.8rem; padding: .7rem .9rem;
+  background:v.$primary-surface-raised; color:color-mix(in srgb, var(--accent) 50%, v.$ink); font-size:.8rem; padding: .7rem .9rem;
   border-bottom: 1px solid v.$primary-border-strong;
 }
 .level-table td { font-size:.85rem; padding: .6rem .9rem; vertical-align: middle; }

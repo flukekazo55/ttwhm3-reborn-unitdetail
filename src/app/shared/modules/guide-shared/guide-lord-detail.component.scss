@@ -8,20 +8,20 @@
   gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;
 }
 .crumbs { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: v.$text-muted; }
-.crumbs a { color: color-mix(in srgb, var(--accent) 55%, #4a3722); text-decoration: none; font-weight: 600; }
+.crumbs a { color: color-mix(in srgb, var(--accent) 55%, v.$ink); text-decoration: none; font-weight: 600; }
 .crumbs a:hover { text-decoration: underline; }
 .crumbs b { color: v.$text-secondary; }
 
 .back-btn {
   display: inline-flex; align-items: center;
   padding: .45rem 1rem; border-radius: v.$radius-pill;
-  background: color-mix(in srgb, var(--accent) 14%, white);
+  background: color-mix(in srgb, var(--accent) 14%, v.$lift);
   border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
-  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  color: color-mix(in srgb, var(--accent) 55%, v.$ink);
   text-decoration: none; font-weight: 700; font-size: .88rem;
   transition: background .16s ease;
 }
-.back-btn:hover { background: color-mix(in srgb, var(--accent) 24%, white); }
+.back-btn:hover { background: color-mix(in srgb, var(--accent) 24%, v.$lift); }
 
 .lord-switch {
   --accent: #ccc;
@@ -46,9 +46,9 @@
 .switch-tab:hover { color: v.$text-secondary; background: v.$primary-surface-soft; }
 .switch-tab.active {
   color: color-mix(in srgb, var(--accent) 45%, v.$text-primary);
-  background: color-mix(in srgb, var(--accent) 14%, white);
+  background: color-mix(in srgb, var(--accent) 14%, v.$lift);
   border-color: color-mix(in srgb, var(--accent) 50%, transparent);
 }
 .switch-name { font-weight: 700; font-size: .95rem; }
 .switch-tag { font-size: .72rem; color: v.$text-muted; }
-.switch-tab.active .switch-tag { color: color-mix(in srgb, var(--accent) 60%, #4a3722); }
+.switch-tab.active .switch-tag { color: color-mix(in srgb, var(--accent) 60%, v.$ink); }

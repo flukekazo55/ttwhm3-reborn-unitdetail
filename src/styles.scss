@@ -1,13 +1,51 @@
 @use './styles/variables' as v;
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@500;600;700&family=Sarabun:wght@400;500;600;700;800&display=swap');
 
+/* ---- Design tokens: light default ------------------------------------ */
+:root {
+  --c-bg: #fbf1df;
+  --c-surface: #ffffff;
+  --c-surface-soft: #fdf6ea;
+  --c-surface-raised: #fffaf1;
+  --c-panel: #fff4e2;
+  --c-border: rgba(150, 105, 60, 0.16);
+  --c-border-strong: rgba(150, 105, 60, 0.28);
+  --c-gold: #e2952a;
+  --c-text: #4b3a29;
+  --c-text-2: #6d5a44;
+  --c-text-muted: #9c8770;
+  --c-lift: #ffffff;   /* translucent accent fills mix toward this */
+  --c-ink: #4a3722;    /* text that sits on an accent-tinted fill */
+  --page-glow-1: #fff6e6;
+  --page-glow-2: #fdeede;
+}
+
+/* ---- Dwarfs: an always-dark "under the mountain" faction ------------- */
+.faction-dark {
+  --c-bg: #1b1613;
+  --c-surface: #272019;
+  --c-surface-soft: #221c16;
+  --c-surface-raised: #2f2720;
+  --c-panel: #241d16;
+  --c-border: rgba(232, 205, 150, 0.16);
+  --c-border-strong: rgba(232, 205, 150, 0.32);
+  --c-gold: #e6b25a;
+  --c-text: #f1e7d6;
+  --c-text-2: #cebfa5;
+  --c-text-muted: #9d8f78;
+  --c-lift: #2c241c;   /* fills now mix toward a dark surface */
+  --c-ink: #f3e8d5;    /* on-accent text becomes light */
+  --page-glow-1: #2a2016;
+  --page-glow-2: #241a14;
+}
+
 html { scroll-behavior: smooth; background: v.$primary-bg; }
 body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(115% 90% at 100% 0%, #fff6e6 0%, transparent 55%),
-    radial-gradient(120% 90% at 0% 100%, #fdeede 0%, transparent 55%),
+    radial-gradient(115% 90% at 100% 0%, var(--page-glow-1) 0%, transparent 55%),
+    radial-gradient(120% 90% at 0% 100%, var(--page-glow-2) 0%, transparent 55%),
     v.$primary-bg;
   background-attachment: fixed;
   color: v.$text-primary;
@@ -28,8 +66,8 @@ h1, h2, h3, h4, .display-font {
 :focus-visible { outline: 3px solid v.$secondary-gold; outline-offset: 2px; border-radius: 6px; }
 
 .p-tag {
-  background: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 18%, white);
-  color: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 62%, #3a2c1c);
+  background: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 18%, v.$lift);
+  color: color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 62%, v.$ink);
   border: 1px solid color-mix(in srgb, var(--accent, #{v.$secondary-gold}) 40%, transparent);
   border-radius: v.$radius-pill;
   font-size: .78rem;

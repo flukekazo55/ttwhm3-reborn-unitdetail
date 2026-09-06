@@ -15,15 +15,22 @@
   box-shadow: v.$shadow-card;
   overflow: hidden;
 }
+.hero-emblem {
+  position: absolute; top: clamp(.6rem, 2vw, 1.1rem); right: clamp(1.1rem, 3vw, 2.2rem);
+  width: clamp(3.2rem, 6vw, 4.6rem); height: auto;
+  filter: drop-shadow(0 6px 10px rgba(90, 60, 30, .28));
+  pointer-events: none;
+}
+@media (max-width: 620px) { .hero-emblem { width: 2.8rem; top: .6rem; right: .9rem; } }
 .crumbs {
   display: flex; align-items: center; gap: .5rem;
   font-size: .85rem; color: v.$text-muted; margin-bottom: 1rem;
 }
-.crumbs a { color: color-mix(in srgb, var(--accent) 55%, #4a3722); text-decoration: none; font-weight: 600; }
+.crumbs a { color: color-mix(in srgb, var(--accent) 55%, v.$ink); text-decoration: none; font-weight: 600; }
 .crumbs a:hover { text-decoration: underline; }
 .crumbs b { color: v.$text-secondary; }
 .faction-label {
-  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  color: color-mix(in srgb, var(--accent) 55%, v.$ink);
   font-size: .78rem; letter-spacing: .18em; font-weight: 800;
 }
 .faction-hero h2 {
@@ -38,9 +45,9 @@
 .step-pill {
   display: inline-block; margin-bottom: .7rem;
   padding: .35rem .9rem; border-radius: v.$radius-pill;
-  background: color-mix(in srgb, var(--accent) 16%, white);
+  background: color-mix(in srgb, var(--accent) 16%, v.$lift);
   border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
-  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  color: color-mix(in srgb, var(--accent) 55%, v.$ink);
   font-size: .76rem; font-weight: 700; letter-spacing: .04em;
 }
 .section-heading h3 { margin: 0 0 .25rem; font-size: 1.7rem; font-weight: 700; color: v.$text-primary; }
@@ -78,7 +85,7 @@
 .lord-tag {
   position: absolute; top: .8rem; right: .8rem;
   padding: .28rem .7rem; border-radius: v.$radius-pill;
-  background: color-mix(in srgb, var(--accent) 88%, white);
+  background: color-mix(in srgb, var(--accent) 88%, v.$lift);
   color: #fff; font-size: .72rem; font-weight: 700;
   box-shadow: v.$shadow-soft;
 }
@@ -91,7 +98,7 @@
 .lord-meta { margin: 0; display: grid; gap: .5rem; }
 .lord-meta > div { display: grid; gap: .1rem; }
 .lord-meta dt {
-  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  color: color-mix(in srgb, var(--accent) 55%, v.$ink);
   font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; font-weight: 700;
 }
 .lord-meta dd { margin: 0; color: v.$text-secondary; font-size: .9rem; line-height: 1.45; }
@@ -99,10 +106,10 @@
   margin-top: auto; display: inline-flex; align-items: center; gap: .35rem;
   align-self: flex-start;
   padding: .5rem 1rem; border-radius: v.$radius-pill;
-  background: color-mix(in srgb, var(--accent) 16%, white);
+  background: color-mix(in srgb, var(--accent) 16%, v.$lift);
   border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
-  color: color-mix(in srgb, var(--accent) 55%, #4a3722);
+  color: color-mix(in srgb, var(--accent) 55%, v.$ink);
   font-weight: 700; font-size: .9rem;
   transition: background .18s ease, gap .18s ease;
 }
-.lord-card:hover .lord-cta { background: color-mix(in srgb, var(--accent) 26%, white); gap: .6rem; }
+.lord-card:hover .lord-cta { background: color-mix(in srgb, var(--accent) 26%, v.$lift); gap: .6rem; }

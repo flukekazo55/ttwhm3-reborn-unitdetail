@@ -18,7 +18,7 @@
           "name": "Miao Ying, the Storm Dragon",
           "tag": "มือใหม่สาย Hybrid / Magic",
           "style": "Lore of Life + Yin",
-          "portraitUrl": "assets/lords/cathay/chibi/miao-ying-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fwh3_main_cth_cha_storm_dragon_1.png&w=640&output=png",
           "summary": "ตัวเริ่มต้นที่ง่ายที่สุดของ Cathay: ตั้งแนว Jade Warriors ค้ำหน้า, Crossbowmen ยิงหลัง แล้ว Miao Ying ใช้สเปลสาย Lore of Life กับ Yin (Earth Blood, Flesh to Stone, Talons of Night) ทั้งฟื้นกำลังพลและกดกองศัตรู พอ late ค่อยแปลงร่างมังกรเข้าไปปิดไฟต์เอง",
           "bestFor": "คนอยากได้กองตั้งรับ ยิง + เวท ที่เล่นง่ายและพลาดยาก",
           "armyGuidance": "Jade Warriors, Jade Warrior Crossbowmen, Jade Lancers, Sky-Junk, Grand Cannon",
@@ -453,7 +453,7 @@
           "name": "Zhao Ming, the Iron Dragon",
           "tag": "สายปืน / Artillery",
           "style": "Lore of Metal + Gunpowder",
-          "portraitUrl": "assets/lords/cathay/chibi/zhao-ming-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fwh3_main_cth_cha_iron_dragon_1.png&w=640&output=png",
           "summary": "สายยิงเน้นดินปืนของ Cathay: Grand Cannon กับ Fire Rain Rocket เป็นตัวทำ damage หลัก มี Jade Warriors กับ Terracotta Sentinel ค้ำหน้า และ Zhao Ming ใช้ Lore of Metal buff แนวยิงให้เจาะเกราะได้ทั้งกอง",
           "bestFor": "คนชอบตั้งรับ ยิงจากไกล และเล่นแคมเปญเน้นเงินจาก caravan",
           "armyGuidance": "Grand Cannon, Fire Rain Rocket, Jade Warrior Crossbowmen, Jade Warriors, Terracotta Sentinel",
@@ -888,7 +888,7 @@
           "name": "Yuan Bo, the Jade Dragon",
           "tag": "สาย Support / Compass",
           "style": "Wu Xing War Compass + Support Magic",
-          "portraitUrl": "assets/lords/cathay/chibi/yuan-bo-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fwh3_dlc24_cth_cha_yuan_bo_dragon.png&w=640&output=png",
           "summary": "สายค้ำแนวรอบ Wu Xing War Compass: ลากรถศึกไปกลางสนาม ตั้ง Jade Warriors กับ Dragon Guard รอบ ๆ แล้วใช้ buff จาก compass บวกสเปลซัพพอร์ต (Net of Amyntok, Blossom Wind, Comet of Casandora) ทำให้ทั้งกองแข็งกว่าศัตรูทุกก้อน",
           "bestFor": "คนชอบไฟต์ยืด คุมตำแหน่ง และเล่นกองที่ buff กันเองทั้งกอง",
           "armyGuidance": "Celestial Dragon Guard, Jade Warriors, Jade Warrior Crossbowmen, Terracotta Sentinel, Longma Riders",
@@ -1323,7 +1323,7 @@
         {
           "id": "jade-warriors",
           "name": "Jade Warriors",
-          "imageUrl": "assets/units/cathay/chibi/jade-warriors.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_jade_warriors_0.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Line Holder / Shield Wall",
           "description": "แนวหน้ามาตรฐานของ Cathay ถือโล่ ทนยิงดีมาก ใช้ยืนค้ำให้ปืนกับเวททำงาน",
@@ -1383,7 +1383,7 @@
         {
           "id": "jade-warriors-halberds",
           "name": "Jade Warriors (Halberds)",
-          "imageUrl": "assets/units/cathay/chibi/jade-warriors-halberds.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_jade_warriors_1.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Anti-Large Line",
           "description": "เวอร์ชันง้าวของแนวหน้า ใช้รับ cavalry และ monster โดยไม่ต้องพึ่ง elite",
@@ -1443,7 +1443,7 @@
         {
           "id": "jade-warrior-crossbowmen",
           "name": "Jade Warrior Crossbowmen",
-          "imageUrl": "assets/units/cathay/chibi/jade-warrior-crossbowmen.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_jade_warrior_crossbowmen_0.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Armour-Piercing Ranged",
           "description": "แนวยิงหลักของกอง ยิงทะลุเกราะได้ และมีโล่พอจะยืนแลกกับแนวยิงศัตรู",
@@ -1511,7 +1511,7 @@
         {
           "id": "peasant-longspearmen",
           "name": "Peasant Long Spearmen",
-          "imageUrl": "assets/units/cathay/chibi/peasant-longspearmen.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_peasant_spearmen_1.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Cheap Anti-Large Screen",
           "description": "ก้อนราคาถูกไว้กันชาร์จช่วงต้นเกม เอาไว้ซื้อเวลาให้ปืนใหญ่กับเวท",
@@ -1571,7 +1571,7 @@
         {
           "id": "peasant-archers",
           "name": "Peasant Archers",
-          "imageUrl": "assets/units/cathay/chibi/peasant-archers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_peasant_archers_0.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Cheap Chip Damage",
           "description": "แนวยิงราคาถูก ใช้กด chaff และเติมความกดดันช่วงต้นเกมก่อนได้ Crossbowmen",
@@ -1639,7 +1639,7 @@
         {
           "id": "iron-hail-gunners",
           "name": "Iron Hail Gunners",
-          "imageUrl": "assets/units/cathay/chibi/iron-hail-gunners.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_iron_hail_gunners_0.png&w=520&output=png",
           "type": "Missile Infantry",
           "role": "Short-Range Burst / AP",
           "description": "ปืนลูกซองระยะสั้น ยิงทีเดียวหนักมาก เหมาะยืนหลังแนวหน้าแล้วเทใส่ก้อนที่ปะทะอยู่",
@@ -1707,7 +1707,7 @@
         {
           "id": "jade-lancers",
           "name": "Jade Lancers",
-          "imageUrl": "assets/units/cathay/chibi/jade-lancers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_cav_jade_lancers_0.png&w=520&output=png",
           "type": "Shock Cavalry",
           "role": "Flank / Charge Finisher",
           "description": "ม้าชาร์จของ Cathay ใช้ปิดปีก ไล่ปืนใหญ่ และเก็บก้อนที่กำลังจะแตก",
@@ -1767,7 +1767,7 @@
         {
           "id": "longma-riders",
           "name": "Longma Riders",
-          "imageUrl": "assets/units/cathay/chibi/longma-riders.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_cav_great_longma_riders_0.png&w=520&output=png",
           "type": "Flying Cavalry",
           "role": "Flying Flanker / Skirmish",
           "description": "ม้ามังกรบินได้ ใช้ข้ามแนวไปเก็บปืนใหญ่และ caster หลังกองศัตรูโดยตรง",
@@ -1827,7 +1827,7 @@
         {
           "id": "celestial-dragon-guard",
           "name": "Celestial Dragon Guard",
-          "imageUrl": "assets/units/cathay/chibi/celestial-dragon-guard.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_dragon_guard_0.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Line Holder",
           "description": "แนวหน้าชั้น elite เกราะหนา ยืนได้นานกว่า Jade Warriors มาก ใช้เป็นแกนกลางไฟต์ late",
@@ -1887,7 +1887,7 @@
         {
           "id": "celestial-dragon-guard-halberds",
           "name": "Celestial Dragon Guard (Halberds)",
-          "imageUrl": "assets/units/cathay/chibi/celestial-dragon-guard-halberds.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_inf_dragon_guard_crossbowmen_0.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Anti-Large",
           "description": "เวอร์ชันง้าวของ elite ใช้ตอบมอนสเตอร์และ cavalry หนักปลายเกมได้อยู่หมัด",
@@ -1947,7 +1947,7 @@
         {
           "id": "terracotta-sentinel",
           "name": "Terracotta Sentinel",
-          "imageUrl": "assets/units/cathay/chibi/terracotta-sentinel.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_mon_terracotta_sentinel_0.png&w=520&output=png",
           "type": "Monster",
           "role": "Frontline Anchor / Damage Soak",
           "description": "ยักษ์ดินเผาที่ทนมหาศาล ใช้ยืนกลางแนวดูดความเสียหายและกันไม่ให้ไลน์ถูกเจาะ",
@@ -2007,7 +2007,7 @@
         {
           "id": "grand-cannon",
           "name": "Grand Cannon",
-          "imageUrl": "assets/units/cathay/chibi/grand-cannon.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_art_grand_cannon_0.png&w=520&output=png",
           "type": "Artillery",
           "role": "Long-Range Direct Fire",
           "description": "ปืนใหญ่ยิงตรง เอาไว้ลบมอนสเตอร์และก้อนใหญ่ตั้งแต่ก่อนปะทะ",
@@ -2075,7 +2075,7 @@
         {
           "id": "fire-rain-rocket",
           "name": "Fire Rain Rocket",
-          "imageUrl": "assets/units/cathay/chibi/fire-rain-rocket.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_art_fire_rain_rocket_battery_0.png&w=520&output=png",
           "type": "Artillery",
           "role": "Area Denial / Anti-Infantry",
           "description": "จรวดพรมพื้นที่ เหมาะกดกองราบใหญ่ ๆ และไล่ศัตรูออกจากจุดตั้งรับ",
@@ -2143,7 +2143,7 @@
         {
           "id": "sky-junk",
           "name": "Sky-Junk",
-          "imageUrl": "assets/units/cathay/chibi/sky-junk.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_veh_sky_junk_0.png&w=520&output=png",
           "type": "Flying War Machine",
           "role": "Air Superiority / Mobile Guns",
           "description": "เรือเหาะติดปืน ใช้ลอยเหนือไฟต์แล้วยิงลงมา ทั้งกดพื้นและกันฝูงบินศัตรู",
@@ -2211,7 +2211,7 @@
         {
           "id": "sky-lantern",
           "name": "Sky Lantern",
-          "imageUrl": "assets/units/cathay/chibi/sky-lantern.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_cth_veh_sky_lantern_0.png&w=520&output=png",
           "type": "Flying Missile",
           "role": "Harass / Anti-Chaff",
           "description": "โคมบินราคาย่อมเยา ใช้กดดันแนวยิงศัตรูและกวนหลังกองโดยไม่เสี่ยงก้อนหลัก",

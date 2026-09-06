@@ -18,7 +18,7 @@
           "name": "Skulltaker",
           "tag": "มือใหม่สุด",
           "style": "ง่าย จำกองง่าย",
-          "portraitUrl": "assets/lords/khorne/chibi/skulltaker-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skulltaker_0.png&w=640&output=png",
           "summary": "เริ่มต้นดีที่สุดถ้าคุณยังไม่รู้ roster มากนัก เพราะ core unit มีหน้าที่ชัดเจนมาก",
           "bestFor": "ผู้เล่นใหม่ / อยากเล่นแบบเข้าใจเร็ว",
           "armyGuidance": "เล่น Daemon core: Bloodletters เป็นแกน แล้วเติม Minotaurs กับตัวอ้อม",
@@ -383,7 +383,7 @@
           "name": "Skarbrand",
           "tag": "สายบวก",
           "style": "Lord แบกเกม",
-          "portraitUrl": "assets/lords/khorne/chibi/skarbrand-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_skarbrand_0.png&w=640&output=png",
           "summary": "เหมาะกับคนที่อยากให้ Lord เข้าไปทุบเอง และมีกองคอย support การเปิดไฟต์",
           "bestFor": "คนชอบ aggressive / บุกตรง / ตัวใหญ่",
           "armyGuidance": "ใช้ Skarbrand เป็นตัวเปิด แล้วให้ armour line กับ monster ตามซ้ำ",
@@ -748,7 +748,7 @@
           "name": "Arbaal the Undefeated",
           "tag": "สายทหารเกราะ",
           "style": "Mortal synergy",
-          "portraitUrl": "assets/lords/khorne/chibi/arbaal-lord.svg",
+          "portraitUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Fportraits%2Funits%2Fno_culture%2Fdae_arbaal_0.png&w=640&output=png",
           "summary": "เหมาะกับคนที่ชอบกองดูเป็นระเบียบ ใช้ทหารเกราะและ elite infantry เป็นแกน",
           "bestFor": "คนชอบ Mortal roster / ชอบกองทหารหนัก",
           "armyGuidance": "ใช้ Chosen เป็นกำแพง แล้วให้ Wrathmongers / Skullreapers / Chariot ปิดไฟต์",
@@ -1114,385 +1114,13 @@
             "minotaurs-great-weapons",
             "gorebeast-chariots"
           ]
-        },
-        {
-          "id": "valkia",
-          "name": "Valkia the Bloody",
-          "tag": "สายบินเข้าปะทะ",
-          "style": "Flying duelist",
-          "portraitUrl": "assets/lords/khorne/chibi/valkia-lord.svg",
-          "summary": "ตัวที่เร็วที่สุดของ Khorne: Valkia บินได้และดวลเก่งมาก ใช้บินข้ามไลน์ไปเก็บ caster กับปืนใหญ่ก่อน แล้ววนกลับมาช่วยแนวหน้า กองที่เข้าคู่กันคือของเร็วอย่าง Flesh Hounds กับ Skullcrushers",
-          "bestFor": "คนชอบเล่นเร็ว ชอบบินไปเก็บตัวสำคัญของศัตรูด้วยตัวเอง",
-          "armyGuidance": "Flesh Hounds, Skullcrushers, Gorebeast Chariots, Bloodletters, Chaos Warriors (Halberds)",
-          "skillBuild": {
-            "summary": "Blood Feast → Personal combat → Red line ของก้อนเร็ว → ปิดด้วย elite ประชิด",
-            "stages": [
-              {
-                "key": "EARLY",
-                "title": "ช่วงต้น",
-                "steps": [
-                  {
-                    "order": "2",
-                    "name": "Route Marcher",
-                    "points": "1 แต้ม",
-                    "reason": "บินไล่เป้าหมายได้ไกลขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "3–4",
-                    "name": "Blood Feast",
-                    "points": "อัปเต็มเร็ว",
-                    "reason": "replenishment ต้องมาก่อนเสมอ",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "5–6",
-                    "name": "Melee Attack / Defence I",
-                    "points": "อย่างละ 1 แต้ม",
-                    "reason": "Valkia ทำ damage จากการดวลเป็นหลัก",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "7",
-                    "name": "Red: Flesh Hounds – Speed",
-                    "points": "1 แต้ม",
-                    "reason": "ก้อนเร็วไว้ไล่แนวยิงศัตรู",
-                    "iconUrl": ""
-                  }
-                ]
-              },
-              {
-                "key": "MID",
-                "title": "ช่วงกลาง",
-                "steps": [
-                  {
-                    "order": "10",
-                    "name": "Spear of Slaughter",
-                    "points": "1 แต้ม",
-                    "reason": "สกิลประจำตัว ใช้เปิดการปะทะ",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "14",
-                    "name": "Red: Skullcrushers – Charge Bonus",
-                    "points": "อัปเต็ม",
-                    "reason": "ชาร์จเปิดไลน์ให้แรงขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "15",
-                    "name": "Ward Save",
-                    "points": "1–2 แต้ม",
-                    "reason": "กัน magic / missile ตอนลอยกลางสนาม",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "20",
-                    "name": "Melee Attack III",
-                    "points": "อัปเต็ม",
-                    "reason": "ดวลชนะ lord ศัตรูได้",
-                    "iconUrl": ""
-                  }
-                ]
-              },
-              {
-                "key": "LATE",
-                "title": "ช่วงท้าย",
-                "steps": [
-                  {
-                    "order": "30",
-                    "name": "Spear of Slaughter (Upgrade)",
-                    "points": "1 แต้ม",
-                    "reason": "สกิลประจำตัวแรงขึ้น",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "32",
-                    "name": "Red: Exalted Bloodletters",
-                    "points": "อัปเต็ม",
-                    "reason": "อัปก้อนหลักขึ้นชั้น elite",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "36",
-                    "name": "Red: Wrathmongers – Aura",
-                    "points": "อัปเต็ม",
-                    "reason": "buff ก้อนรอบตัวตอนปะทะ",
-                    "iconUrl": ""
-                  },
-                  {
-                    "order": "48–50",
-                    "name": "Flex point",
-                    "points": "3 แต้ม",
-                    "reason": "เก็บ node ตามศัตรูที่เจอบ่อย",
-                    "iconUrl": ""
-                  }
-                ]
-              }
-            ],
-            "levelPlan": [
-              {
-                "level": 2,
-                "skill": "Route Marcher",
-                "note": "บินไล่เป้าหมายได้ไกลขึ้น"
-              },
-              {
-                "level": 3,
-                "skill": "Blood Feast I",
-                "note": "replenishment ต้องมาก่อนเสมอ"
-              },
-              {
-                "level": 4,
-                "skill": "Blood Feast II",
-                "note": "ลดเวลาพักกองหลังไฟต์"
-              },
-              {
-                "level": 5,
-                "skill": "Melee Attack I",
-                "note": "Valkia ทำ damage จากการดวลเป็นหลัก"
-              },
-              {
-                "level": 6,
-                "skill": "Melee Defence I",
-                "note": "กันตัวตอนโดนรุมหลังลงพื้น"
-              },
-              {
-                "level": 7,
-                "skill": "Red: Flesh Hounds – Speed",
-                "note": "ก้อนเร็วไว้ไล่แนวยิงศัตรู"
-              },
-              {
-                "level": 8,
-                "skill": "Blood Feast III",
-                "note": "ปิดสาย replenishment ต้นเกม"
-              },
-              {
-                "level": 9,
-                "skill": "Melee Attack II",
-                "note": "ต่อสายดวล"
-              },
-              {
-                "level": 10,
-                "skill": "Spear of Slaughter",
-                "note": "สกิลประจำตัว ใช้เปิดการปะทะ"
-              },
-              {
-                "level": 11,
-                "skill": "Red: Bloodletters – Melee Attack",
-                "note": "ก้อนหลักต้น–กลางเกมตีเจ็บขึ้น"
-              },
-              {
-                "level": 12,
-                "skill": "Upkeep: Khorne Army",
-                "note": "ลดค่าดูแล เอางบไปเพิ่มม้า"
-              },
-              {
-                "level": 13,
-                "skill": "Armour",
-                "note": "ทนยิงตอนบินเข้าหาเป้าหมาย"
-              },
-              {
-                "level": 14,
-                "skill": "Red: Skullcrushers – Charge Bonus",
-                "note": "ชาร์จเปิดไลน์ให้แรงขึ้น"
-              },
-              {
-                "level": 15,
-                "skill": "Ward Save",
-                "note": "กัน magic / missile ตอนลอยกลางสนาม"
-              },
-              {
-                "level": 16,
-                "skill": "Red: Chaos Warriors (Halberds) – Melee Defence",
-                "note": "มีก้อนค้ำไลน์ให้ Valkia วนออกได้"
-              },
-              {
-                "level": 17,
-                "skill": "Melee Defence II",
-                "note": "ยืนดวลได้นานขึ้น"
-              },
-              {
-                "level": 18,
-                "skill": "Blue: Public Order",
-                "note": "กันกบฏช่วงขยายดินแดน"
-              },
-              {
-                "level": 19,
-                "skill": "Red: Gorebeast Chariots – Charge",
-                "note": "เปิดไลน์ศัตรูให้แตกก่อน"
-              },
-              {
-                "level": 20,
-                "skill": "Melee Attack III",
-                "note": "ดวลชนะ lord ศัตรูได้"
-              },
-              {
-                "level": 21,
-                "skill": "Red: Flesh Hounds – Anti-Large",
-                "note": "ตอบ cavalry ของศัตรู"
-              },
-              {
-                "level": 22,
-                "skill": "Blue: Replenishment IV",
-                "note": "sustain สำหรับแคมเปญยาว"
-              },
-              {
-                "level": 23,
-                "skill": "Physical Resistance",
-                "note": "ลด damage กายภาพ"
-              },
-              {
-                "level": 24,
-                "skill": "Red: Bloodletters – Armour-Piercing",
-                "note": "เจาะเกราะแนวหน้าได้ดีขึ้น"
-              },
-              {
-                "level": 25,
-                "skill": "Leadership Aura",
-                "note": "กองรอบตัวไม่แตกง่าย"
-              },
-              {
-                "level": 26,
-                "skill": "Red: Skullcrushers – Armour",
-                "note": "ม้าหนักยืนได้นานขึ้น"
-              },
-              {
-                "level": 27,
-                "skill": "Missile Resistance",
-                "note": "กันกองยิงตอนบินเข้า"
-              },
-              {
-                "level": 28,
-                "skill": "Blue: Income",
-                "note": "ดันเศรษฐกิจจากการปล้น"
-              },
-              {
-                "level": 29,
-                "skill": "Red: Minotaurs (Great Weapons) – Melee Attack",
-                "note": "ก้อนใหญ่ตีเจ็บขึ้น"
-              },
-              {
-                "level": 30,
-                "skill": "Spear of Slaughter (Upgrade)",
-                "note": "สกิลประจำตัวแรงขึ้น"
-              },
-              {
-                "level": 31,
-                "skill": "Melee Defence III",
-                "note": "ปิดสายยืนดวล"
-              },
-              {
-                "level": 32,
-                "skill": "Red: Exalted Bloodletters – Melee Attack",
-                "note": "อัปก้อนหลักขึ้นชั้น elite"
-              },
-              {
-                "level": 33,
-                "skill": "Campaign Movement",
-                "note": "เดินเก็บแมพไวขึ้น"
-              },
-              {
-                "level": 34,
-                "skill": "Red: Chosen of Khorne – Armour",
-                "note": "แนวหน้า elite ทนขึ้น"
-              },
-              {
-                "level": 35,
-                "skill": "Blue: Upkeep II",
-                "note": "ปิดสายประหยัดงบ"
-              },
-              {
-                "level": 36,
-                "skill": "Red: Wrathmongers – Aura",
-                "note": "buff ก้อนรอบตัวตอนปะทะ"
-              },
-              {
-                "level": 37,
-                "skill": "Ward Save II",
-                "note": "กัน magic เพิ่มอีกชั้น"
-              },
-              {
-                "level": 38,
-                "skill": "Red: Skullreapers – Armour-Piercing",
-                "note": "เจาะแนวหน้าเกราะหนา"
-              },
-              {
-                "level": 39,
-                "skill": "Leadership II",
-                "note": "กันกองแตกตอนไฟต์ยืด"
-              },
-              {
-                "level": 40,
-                "skill": "Red: Bloodthirster – Melee Attack",
-                "note": "ตัวใหญ่ปลายเกมตีเจ็บขึ้น"
-              },
-              {
-                "level": 41,
-                "skill": "Red: Flesh Hounds – Health",
-                "note": "ก้อนเร็วอยู่รอดนานขึ้น"
-              },
-              {
-                "level": 42,
-                "skill": "Physical Resistance II",
-                "note": "ปิดสายอึด"
-              },
-              {
-                "level": 43,
-                "skill": "Red: Slaughterbrute – Health",
-                "note": "ตัวใหญ่ยืนทนกลางแนว"
-              },
-              {
-                "level": 44,
-                "skill": "Red: Gorebeast Chariots – Health",
-                "note": "รถศึกไม่ตายกลางทาง"
-              },
-              {
-                "level": 45,
-                "skill": "Blue: Diplomacy",
-                "note": "ปิดสายแคมเปญ"
-              },
-              {
-                "level": 46,
-                "skill": "Red: Chaos Warriors (Halberds) – Anti-Large",
-                "note": "กันมอนสเตอร์ปลายเกม"
-              },
-              {
-                "level": 47,
-                "skill": "Red: Exalted Bloodletters – Armour",
-                "note": "elite ทนขึ้น"
-              },
-              {
-                "level": 48,
-                "skill": "Flex point",
-                "note": "เลือกตามศัตรูที่เจอบ่อยในแคมเปญ"
-              },
-              {
-                "level": 49,
-                "skill": "Flex point",
-                "note": "เก็บ node ที่ยังขาด"
-              },
-              {
-                "level": 50,
-                "skill": "Flex point",
-                "note": "ปิด build ตามกองจริงที่ใช้อยู่"
-              }
-            ]
-          },
-          "coreUnitIds": [
-            "flesh-hounds",
-            "skullcrushers",
-            "gorebeast-chariots",
-            "bloodletters",
-            "chaos-warriors-halberds",
-            "minotaurs-great-weapons"
-          ]
         }
       ],
       "units": [
         {
           "id": "bloodletters",
           "name": "Bloodletters",
-          "imageUrl": "assets/units/khorne/chibi/bloodletters.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_inf_bloodletters_0.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Frontline AP Infantry",
           "description": "แกน Daemon สายชนหน้า ฆ่า infantry ได้ดี",
@@ -1552,7 +1180,7 @@
         {
           "id": "exalted-bloodletters",
           "name": "Exalted Bloodletters",
-          "imageUrl": "assets/units/khorne/chibi/exalted-bloodletters.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_inf_bloodletters_1.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite AP Infantry",
           "description": "Bloodletters รุ่นอัปเกรด เก่งขึ้นรอบด้าน",
@@ -1612,7 +1240,7 @@
         {
           "id": "minotaurs-great-weapons",
           "name": "Minotaurs (Great Weapons)",
-          "imageUrl": "assets/units/khorne/chibi/minotaurs-great-weapons.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_mon_khornataurs_1.png&w=520&output=png",
           "type": "Monstrous Infantry",
           "role": "AP Anti-Large",
           "description": "ตัวแก้ monster/cavalry ที่มือใหม่ควรจำ",
@@ -1672,7 +1300,7 @@
         {
           "id": "flesh-hounds",
           "name": "Flesh Hounds",
-          "imageUrl": "assets/units/khorne/chibi/flesh-hounds.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_inf_flesh_hounds_of_khorne_0.png&w=520&output=png",
           "type": "War Beasts",
           "role": "Fast Ranged Hunter",
           "description": "วิ่งเร็วมาก ใช้ไล่ธนู ปืน ปืนใหญ่",
@@ -1731,7 +1359,7 @@
         {
           "id": "skullcrushers",
           "name": "Skullcrushers",
-          "imageUrl": "assets/units/khorne/chibi/skullcrushers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_cav_skullcrushers_0.png&w=520&output=png",
           "type": "Monstrous Cavalry",
           "role": "Heavy Shock Cavalry",
           "description": "ตัวอ้อมตีข้างระดับท็อป ทั้งเร็วและแข็ง",
@@ -1790,7 +1418,7 @@
         {
           "id": "chaos-warriors-halberds",
           "name": "Chaos Warriors (Halberds)",
-          "imageUrl": "assets/units/khorne/chibi/chaos-warriors-halberds.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_inf_chaos_warriors_1.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Armoured Anti-Large",
           "description": "ตัวค้ำแนวและรับมือ monster/cavalry",
@@ -1849,7 +1477,7 @@
         {
           "id": "bloodthirster",
           "name": "Bloodthirster",
-          "imageUrl": "assets/units/khorne/chibi/bloodthirster.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_mon_bloodthirster_0.png&w=520&output=png",
           "type": "Monster",
           "role": "Flying Terror Monster",
           "description": "บินได้ ล่า lord, monster และแนวหลัง",
@@ -1909,7 +1537,7 @@
         {
           "id": "slaughterbrute",
           "name": "Slaughterbrute",
-          "imageUrl": "assets/units/khorne/chibi/slaughterbrute.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_dlc26_kho_mon_slaughterbrute.png&w=520&output=png",
           "type": "Monster",
           "role": "AP Terror Monster",
           "description": "สัตว์ประหลาดสายชนแรง ใช้กดดันปลายเกม",
@@ -1969,7 +1597,7 @@
         {
           "id": "chosen-of-khorne",
           "name": "Chosen of Khorne",
-          "imageUrl": "assets/units/khorne/chibi/chosen-of-khorne.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_dlc20_chs_inf_chosen_mkho.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Armoured Frontline",
           "description": "แนวหน้าหนักมากสำหรับกอง Mortal",
@@ -2028,7 +1656,7 @@
         {
           "id": "wrathmongers",
           "name": "Wrathmongers",
-          "imageUrl": "assets/units/khorne/chibi/wrathmongers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_dlc26_kho_inf_wrathmongers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Shock Infantry",
           "description": "ดาเมจแรงมาก เหมาะส่งเข้าซ้ำ",
@@ -2087,7 +1715,7 @@
         {
           "id": "skullreapers",
           "name": "Skullreapers",
-          "imageUrl": "assets/units/khorne/chibi/skullreapers.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_dlc26_kho_inf_skullreapers.png&w=520&output=png",
           "type": "Melee Infantry",
           "role": "Elite Anti-Infantry",
           "description": "elite infantry ตี infantry ได้แรงและตรงจุด",
@@ -2146,7 +1774,7 @@
         {
           "id": "gorebeast-chariots",
           "name": "Gorebeast Chariots",
-          "imageUrl": "assets/units/khorne/chibi/gorebeast-chariots.svg",
+          "imageUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fimg.honga.net%2Fwarhammer3%2Fimages%2Fwarhammer3%2Funits%2Ficons%2Fwh3_main_kho_gorebeast_chariot.png&w=520&output=png",
           "type": "Chariots",
           "role": "Heavy Chariot",
           "description": "ใช้บด infantry ที่รวมกลุ่มและชนซ้ำ",

@@ -1,29 +1,39 @@
-// --- Base surfaces (cream storybook, warm & bright) ---
-$primary-bg: #fbf1df;
-$primary-surface: #ffffff;
-$primary-surface-soft: #fdf6ea;
-$primary-surface-raised: #fffaf1;
+// Design tokens are CSS custom properties (see styles.scss :root and
+// .faction-dark) so a faction subtree can switch to a dark palette at runtime.
+// These SCSS aliases just forward to them, so existing component styles that
+// reference v.$… keep working and respond to the theme automatically.
 
-// Pastel panel behind chibi art (transparent PNGs sit on this)
-$panel-tint: #fff4e2;
+// --- Base surfaces ---
+$primary-bg: var(--c-bg);
+$primary-surface: var(--c-surface);
+$primary-surface-soft: var(--c-surface-soft);
+$primary-surface-raised: var(--c-surface-raised);
 
-// --- Borders: soft warm hairlines ---
-$primary-border: rgba(150, 105, 60, 0.16);
-$primary-border-strong: rgba(150, 105, 60, 0.28);
+// Pastel panel behind chibi art
+$panel-tint: var(--c-panel);
+
+// --- Borders ---
+$primary-border: var(--c-border);
+$primary-border-strong: var(--c-border-strong);
 
 // --- Accent / text ---
-$secondary-gold: #e2952a;
-$text-primary: #4b3a29;
-$text-secondary: #6d5a44;
-$text-muted: #9c8770;
+$secondary-gold: var(--c-gold);
+$text-primary: var(--c-text);
+$text-secondary: var(--c-text-2);
+$text-muted: var(--c-text-muted);
 
-// --- Shape (chunky, rounded, storybook) ---
+// Base a translucent accent fill mixes toward ($lift), and the ink colour that
+// sits on top of an accent-tinted fill. Both flip in dark mode.
+$lift: var(--c-lift);
+$ink: var(--c-ink);
+
+// --- Shape (chunky, rounded, storybook) — static ---
 $radius-sm: 0.85rem;
 $radius: 1.15rem;
 $radius-lg: 1.75rem;
 $radius-pill: 999px;
 
-// --- Depth (soft warm shadows) ---
+// --- Depth (soft warm shadows) — static ---
 $shadow-soft: 0 2px 6px rgba(150, 100, 50, 0.12);
 $shadow-card: 0 14px 30px -14px rgba(150, 100, 50, 0.32);
 $shadow-pop: 0 22px 48px -18px rgba(150, 100, 50, 0.4);

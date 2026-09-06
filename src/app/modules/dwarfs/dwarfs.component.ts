@@ -10,6 +10,7 @@ import { selectDwarfsVm } from '../../shared/stores/dwarfs/dwarfs.selector';
   selector: 'app-dwarfs',
   templateUrl: './dwarfs.component.html',
   styleUrl: './dwarfs.component.scss',
+  host: { class: 'faction-dark' },
 })
 export class DwarfsComponent implements OnInit {
   private store = inject(Store);
